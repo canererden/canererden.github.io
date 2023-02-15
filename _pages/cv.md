@@ -19,10 +19,11 @@ Education
 Work experience
 ======
 * 2012-2019: Research Assistant
-  * SAKARYA ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ ENDÜSTRİ MÜHENDİSLİĞİ BÖLÜMÜ
+  * Industrial Engineering Department, Faculty of Engineering, Sakarya University, Sakarya, Türkiye
 
-* 2020- : Assistant Prof. Dr.
-  * SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ UYGULAMALI BİLİMLER FAKÜLTESİ ULUSLARARASI TİCARET VE FİNANSMAN BÖLÜMÜ
+* 2020- : Asst. Prof. Dr.
+  * Department of International Trade and Finance, Faculty of Applied Science, Sakarya University of Applied Science, Sakarya, Türkiye
+  * AI Research and Application Center, Sakarya University of Applied Sciences, Sakarya, Türkiye
   
 Interests
 ======
