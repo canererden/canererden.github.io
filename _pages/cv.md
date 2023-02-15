@@ -11,30 +11,29 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. Banking and Insurance Department, 2008-2010. Anadolu University, Turkey.
+* B.S. in Industrial Engineering, 2006-2010 – Industrial Engineering, Istanbul Commerce University, Turkey.
+* M.S. in Industrial Engineering, 2010-2013 – Industrial Engineering, Istanbul University, TURKEY. Dissertation: Rough Set Theory and an Application on Traffic Accidents.
+* Ph.D 2014-2019 – Industrial Engineering, Sakarya University, TURKEY. Dissertation: Integrated Process Planning, Scheduling And Due Date Assignment in a Dynamic Environment.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2012-2019: Research Assistant
+  * SAKARYA ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ ENDÜSTRİ MÜHENDİSLİĞİ BÖLÜMÜ
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2020- : Assistant Prof. Dr.
+  * SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ UYGULAMALI BİLİMLER FAKÜLTESİ ULUSLARARASI TİCARET VE FİNANSMAN BÖLÜMÜ
   
-Skills
+Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Industrial Engineering
+* Operations Research
+  * Optimization
+  * Metaheuristic Algorithms
+  * Machine Scheduling
+* Artificial Intelligence
+  * Machine Learning
+  * Data Science & Data Mining
 
 Publications
 ======
