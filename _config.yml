@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Dr. Caner Erden"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Asst. Prof. Dr. "
   location         : "Sakarya, Türkiye"
-  employer         : "Sakarya University of Applied Sciences, Sakarya, Türkiye"
+  employer         : "SUBÜ"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=W4EALHAAAAAJ&hl=tr&oi=ao"
   email            : "cerden@subu.edu.tr"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "canererden"
   vine             :
   weibo            :
   xing             :
