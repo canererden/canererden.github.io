@@ -1,14 +1,16 @@
 ---
-title: "Benzetim (Bahar-23)"
+title: "Benzetim Bahar 23"
 collection: teaching
-type: "Lisans"
-permalink: /teaching/22_23_BAHAR_BZT
+type: "Undergraduate course"
+permalink: /teaching/23-benzetim
 venue: "Sakarya Uygulamalı Bilimler Üniversitesi"
-date: 2023
-location: "City, Country"
+date: 2023-01-01
+location: "Sakarya, Türkiye"
+
+---
+
 Google Class: "qqvsvd6"
 Kodu: "UTL 306"
----
 
 Amaç
 ======

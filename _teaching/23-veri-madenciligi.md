@@ -1,16 +1,16 @@
 ---
-title: "Veri Madenciliği (Bahar-23)"
+title: "Veri Madenciliği 23"
 collection: teaching
-type: "Lisans"
-permalink: /teaching/22_23_BAHAR_VM
+type: "Undergraduate course"
+permalink: /teaching/23-veri-madenciligi
 venue: "Sakarya Üniversitesi"
 date: 2023-01-01
 location: "Sakarya, Türkiye"
-Google Class: "orlap6f"
-Kodu: "ENM424"
+
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Google Class: "orlap6f"
+Kodu: "ENM424"
 
 Amaç
 ======
