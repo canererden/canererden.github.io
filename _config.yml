@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr. Caner Erden"
+  name             : "Caner Erden"
   avatar           : "profile.png"
   bio              : "Asst. Prof. Dr. "
   location         : "Sakarya, Türkiye"
-  employer         : "SUBÜ"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=W4EALHAAAAAJ&hl=tr&oi=ao"
   email            : "cerden@subu.edu.tr"

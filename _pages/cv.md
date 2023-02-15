@@ -56,8 +56,9 @@ Teaching
   
 Service
 ======
+
 Editor
-------
+----
 * Sakarya University Journal of Science
 * Journal of Intelligent Systems: Theory and Applications
 * Academic Platform Journal of Engineering and Smart Systems
