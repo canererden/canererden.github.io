@@ -1,5 +1,5 @@
 ---
-title: "Benzetim Bahar (Bahar-23)"
+title: "Benzetim (Bahar-23)"
 collection: teaching
 type: "Lisans"
 permalink: /teaching/benzetim-23
