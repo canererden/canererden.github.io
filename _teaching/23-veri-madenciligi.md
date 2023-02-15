@@ -1,16 +1,16 @@
 ---
-title: "Veri Madenciliği 23"
+title: "Veri Madenciliği (Bahar-23)"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/23-veri-madenciligi
+type: "Lisans"
+permalink: /teaching/veri-madenciligi-23
 venue: "Sakarya Üniversitesi"
 date: 2023-01-01
 location: "Sakarya, Türkiye"
 
 ---
 
-Google Class: "orlap6f"
-Kodu: "ENM424"
+Kodu: "[ENM424](https://ebs.sakarya.edu.tr/Ders/Detay/573483)"
+Google Class: [orlap6f](https://classroom.google.com/c/NTQyMjIzMjc1MDU3?cjc=orlap6f)
 
 Amaç
 ======
@@ -20,11 +20,15 @@ Veri Madenciliği veri tabanlarından bilgi keşfi süreci olarak tanımlanır. 
 3.	Veri madenciliği uygulamaları ve popüler konuları hakkında bilgi ve yeterlilik kazandırılması
 4.	Veri madenciliği uygulamaları geliştirmeye yönelik yeterlilik kazandırılması
 5.	Veriyi anlama, yorumlama, analiz etme ve görselleştirme gibi yeteneklerin kazandırılması
+
 Ders Kitapları
 ======
 Ana Kitap
+-----
 1.	Tan, Pang, et al., Introduction to Data Mining, Pearson, 2018, [link].
+
 Yardımcı Kaynaklar
+-----
 1.	Han, Jiawei, et al., Data Mining: Concepts and Techniques, Morgan Kaufmann [link].
 2.	Kantardzic, Mehmed, Data Mining: Concepts, Models, Methods, and Algorithms, Wiley-IEEE Press, 2019 [link].
 3.	Leskovec, Jure, et al., Mining of Massive Datasets, Cambridge Uni Press, 2014 [link].
