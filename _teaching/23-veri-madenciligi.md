@@ -23,6 +23,7 @@ Veri Madenciliği veri tabanlarından bilgi keşfi süreci olarak tanımlanır. 
 
 Ders Kitapları
 ======
+
 Ana Kitap
 ---
 1.	Tan, Pang, et al., Introduction to Data Mining, Pearson, 2018, [link](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php).
@@ -43,7 +44,6 @@ Bu dersi programlama bilgisi olmayanların tercih etmesi önerilmemektedir.
 Bağlantılar
 =====
 
-
 Bu dersin diğer üniversitelerdeki bağlantıları;
 * [Arizona State University](http://www.public.asu.edu/~huanliu/DM06F/cse572.html), USA
 * [Australian National University](http://cs.anu.edu.au/courses/info/comp8400), Australia
@@ -57,8 +57,6 @@ Bu dersin diğer üniversitelerdeki bağlantıları;
 * [Indian Institute of Technology Bombay](http://www.it.iitb.ac.in/~sunita/cs636/), Indian
 * [Massachusetts Institute of Technology](http://ocw.mit.edu/courses/sloan-school-of-management/15-062-data-mining-spring-2003/), USA
 * [McMaster University](http://www.cas.mcmaster.ca/~cs4tf3/), Canada
-
-  
 
 Yayınlar
 =====
