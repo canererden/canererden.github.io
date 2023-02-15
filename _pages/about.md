@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a senior researcher at [AI Research and Application Center](https://yapayzeka.subu.edu.tr/en), Sakarya University of Applied Sciences ([SUBÜ](https://www.subu.edu.tr/en)), Sakarya, Türkiye and currently working as assistant professor in the [Faculty of Applied Sciences](https://ubf.subu.edu.tr/en), SUBÜ.  Previously, I received my B.S. in industrial engineering from Istanbul Commerce University in 2010, M.S. in industrial engineering from Istanbul University in 2013. From 2013-2019 I worked as resarch assistant at [industrial engineering department](https://ie.sakarya.edu.tr/en) in Sakarya University and completed my Ph.D. there advised by [H. İbrahim Demir](https://hidemir.sakarya.edu.tr/en). My thesis integrated process planning, dynamic scheduling and due date assignment functions in a job shop.
+
+My research interests include data science & data mining, machine learning, operations research, meta-heuristic algorithms.
 
 A data-driven personal website
 ======
