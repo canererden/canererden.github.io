@@ -53,7 +53,7 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 
 - Onenote Defterleri
 
-![](../images/Code_lGqzWM2gSq.png)
+![](https://i.imgur.com/8BdH5Qb.png)
 
 - TickTick Etiketleri
 
