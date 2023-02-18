@@ -51,7 +51,23 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 
 ## Sonuç Ekran Görüntüleri
 
-Onenote
+- Onenote Defterleri
 
-![](https://www.hizliresim.com/m9nk7vb)
+![](../images/Code_lGqzWM2gSq.png)
 
+- TickTick Etiketleri
+
+![](../images/TickTick_zQNtj3Wmef.png)
+
+- Drive Klasörleri
+
+![](../images/firefox_MKjrSLWNbM.png)
+
+
+- Obsidian Notları
+
+![](../images/Obsidian_yuYwcjmECx.png)
+
+- Tarayıcı Yerimleri
+
+![](../images/firefox_x79emCP5Eg.png)
