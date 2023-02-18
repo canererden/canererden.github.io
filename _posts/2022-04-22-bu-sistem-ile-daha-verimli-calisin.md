@@ -57,17 +57,17 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 
 - TickTick Etiketleri
 
-![](../images/TickTick_zQNtj3Wmef.png)
+![](https://i.imgur.com/BC8MUYE.png)
 
 - Drive Klasörleri
 
-![](../images/firefox_MKjrSLWNbM.png)
+![](https://i.imgur.com/sGuVP6H.png)
 
 
 - Obsidian Notları
 
-![](../images/Obsidian_yuYwcjmECx.png)
+![](https://i.imgur.com/G4aWhl2.png)
 
 - Tarayıcı Yerimleri
 
-![](../images/firefox_x79emCP5Eg.png)
+![](https://i.imgur.com/ukgyCnF.png)
