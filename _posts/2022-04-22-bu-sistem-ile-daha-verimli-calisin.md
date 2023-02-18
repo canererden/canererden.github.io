@@ -53,4 +53,5 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 
 Onenote
 
+![](https://www.hizliresim.com/m9nk7vb)
 
