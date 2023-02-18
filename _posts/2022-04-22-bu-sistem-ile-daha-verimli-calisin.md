@@ -51,6 +51,10 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 
 ## Sonuç Ekran Görüntüleri
 
+- Excelde tutulan kategoriler ve renkleri
+
+![](https://i.imgur.com/TVXMfBP.png)
+
 - Onenote Defterleri
 
 ![](https://i.imgur.com/8BdH5Qb.png)
