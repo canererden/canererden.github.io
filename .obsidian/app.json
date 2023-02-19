@@ -1,6 +1,7 @@
 {
   "newFileLocation": "current",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "shortest",
   "attachmentFolderPath": "./attachments",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true
 }
