@@ -64,22 +64,6 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 ![](https://i.imgur.com/BC8MUYE.png)
 
 - Drive Klasörleri
-- Relative
-![gdrive](attachments/explorer1.png)
-- Absolute
-![gdrive](_posts/attachments/explorer2.png)
-
-- Github
-- Short
-![gdrive](explorer3.png)
-- images klasör
-![gdrive](../images/explorer4.png)
-
-- assets klasörü
-
-![gdrive](../assets/explorer5.png)
-
-- Full path
 ![gdrive](https://canererden.com/assets/explorer5.png)
 
 - Drive web
