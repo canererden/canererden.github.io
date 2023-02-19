@@ -68,8 +68,12 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 ![](attachments/explorer1.png)
 - Absolute
 ![](_posts/attachments/explorer2.png)
+
+- Github
 - Short
 ![](explorer3.png)
+- images klasörü
+![](../images/explorer4.png)
 
 - Drive web
 

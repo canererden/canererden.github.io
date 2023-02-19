@@ -1,7 +1,7 @@
 {
-  "newFileLocation": "current",
-  "newLinkFormat": "shortest",
-  "attachmentFolderPath": "./attachments",
+  "newFileLocation": "root",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "images",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true
 }
