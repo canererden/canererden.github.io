@@ -1,7 +1,7 @@
 ---
 title: 'Bu Sistem ile Daha Verimli Çalışın'
 date: 2022-04-22
-permalink: /posts/2022/04/bu-sistem-ile-daha-verimli-calisin/
+permalink: 
 tags:
   - blog
   - verimlilik

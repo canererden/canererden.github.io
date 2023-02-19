@@ -15,3 +15,5 @@ Plastikten yapilmis suluklardan su ictik biz. Eve geldigimizde dahi suyu sulukta
 Ya beslenmeler? O da plastiktendi. Renk renk.. icerisinde peynir ve zeytin her zaman sabit menuydu. Sarma varsa, mutlaka ogretmene ikram edilirdi. Muz mesela beslenmeye konmazdi. Ayipti alamayanlar olabilirdi. Muz gercekten muzdu o zamanlar. Selpakti, islak mendildi falan sonradan cikti. Kumas bez kullanirdik biz. Bir defa kullanip atilan urunleri kullanmazdik fazla. Karnelerimizi de kesinlikle atmazdik.
 
 Biz guzel bir nesildik kim ne derse desin...
+
+![](../images/Pasted%20image%2020230219154641.png)

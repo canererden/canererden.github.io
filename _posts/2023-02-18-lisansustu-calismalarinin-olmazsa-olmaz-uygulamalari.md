@@ -1,7 +1,7 @@
 ---
 title: 'Lisansüstü çalışmalarının olmazsa olmaz uygulamaları'
 date: 2023-02-18
-permalink: /posts/2023/02/lisansustu-calismalarinin-olmazsa-olmaz-uygulamalari/
+permalink: 
 tags:
   - blog
   - verimlilik
