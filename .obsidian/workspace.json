@@ -11,10 +11,8 @@
             "id": "9a19d9be45096f28",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Pasted image 20230219152946.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20230219152946.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20230219152946.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "images/Pasted image 20230219152946.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a19d9be45096f28",
+  "active": "61b8d92534da4feb",
   "lastOpenFiles": [
     "_posts/2022-04-22-bu-sistem-ile-daha-verimli-calisin.md",
     "CHANGELOG.md",
