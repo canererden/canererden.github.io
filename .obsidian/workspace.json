@@ -11,8 +11,12 @@
             "id": "9a19d9be45096f28",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2012-11-27-bizim-nesil.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2012-11-27-bizim-nesil.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2012-11-27-bizim-nesil.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2012-11-27-bizim-nesil.md"
+              }
             }
           }
         ]
@@ -138,15 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61b8d92534da4feb",
+  "active": "9a19d9be45096f28",
   "lastOpenFiles": [
+    "_posts/2023-02-18-lisansustu-calismalarinin-olmazsa-olmaz-uygulamalari.md",
+    "_posts/2012-11-27-bizim-nesil.md",
     "_posts/2022-04-22-bu-sistem-ile-daha-verimli-calisin.md",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
     "README.md",
     "_posts/attachments/Pasted.md",
     "_posts/attachments/explorer_ZKHDbT4q1D.png",
-    "_posts/attachments/Pasted image 20230219132200.png",
-    "_posts/2023-02-18-lisansustu-calismalarinin-olmazsa-olmaz-uygulamalari.md"
+    "_posts/attachments/Pasted image 20230219132200.png"
   ]
 }

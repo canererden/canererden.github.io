@@ -1,7 +1,7 @@
 ---
 title: 'Biz oyle bi nesildik ki!'
 date: 2012-11-27
-permalink: /posts/2012/11/bizim-nesil/
+permalink: 
 tags:
   - blog
 ---
