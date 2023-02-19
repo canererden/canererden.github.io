@@ -79,6 +79,9 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 
 ![gdrive](../assets/explorer5.png)
 
+- Full path
+![gdrive](https://canererden.com/assets/explorer5.png)
+
 - Drive web
 
 ![](https://i.imgur.com/sGuVP6H.png)
