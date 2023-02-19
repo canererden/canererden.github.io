@@ -65,7 +65,7 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 
 - Drive Klasörleri
 - ..
-![](attachments/explorer_ZKHDbT4q1D.png)
+![](../attachments/explorer_ZKHDbT4q1D.png)
 ..
 
 ![](attachments/Pasted%20image%2020230219132943.png)
