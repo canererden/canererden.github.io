@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-04-22-bu-sistem-ile-daha-verimli-calisin.md",
+                "file": "CHANGELOG.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-04-22-bu-sistem-ile-daha-verimli-calisin.md",
+                "file": "CHANGELOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-04-22-bu-sistem-ile-daha-verimli-calisin.md",
+                "file": "CHANGELOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-04-22-bu-sistem-ile-daha-verimli-calisin.md"
+                "file": "CHANGELOG.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "9a19d9be45096f28",
   "lastOpenFiles": [
-    "_posts/attachments/Pasted.md",
+    "CONTRIBUTING.md",
+    "README.md",
     "_posts/2022-04-22-bu-sistem-ile-daha-verimli-calisin.md",
+    "_posts/attachments/Pasted.md",
     "_posts/attachments/explorer_ZKHDbT4q1D.png",
     "_posts/attachments/Pasted image 20230219132200.png",
-    "README.md",
     "_posts/2023-02-18-lisansustu-calismalarinin-olmazsa-olmaz-uygulamalari.md"
   ]
 }
