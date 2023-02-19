@@ -67,6 +67,7 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 ![](_posts/attachments/Pasted%20image%2020230219132200.png)
 
 - Drive web
+
 ![](https://i.imgur.com/sGuVP6H.png)
 
 
