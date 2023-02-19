@@ -1,5 +1,5 @@
 {
   "newFileLocation": "current",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "attachmentFolderPath": "./attachments"
 }
