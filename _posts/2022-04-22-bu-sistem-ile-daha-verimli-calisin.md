@@ -75,6 +75,10 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 - images klasör
 ![gdrive](../images/explorer4.png)
 
+- assets klasörü
+
+![gdrive](../assets/explorer5.png)
+
 - Drive web
 
 ![](https://i.imgur.com/sGuVP6H.png)
