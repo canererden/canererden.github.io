@@ -64,7 +64,7 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 ![](https://i.imgur.com/BC8MUYE.png)
 
 - Drive Klasörleri
-
+![[attachments/Pasted image 20230219131738.png]]
 ![](https://i.imgur.com/sGuVP6H.png)
 
 
@@ -75,3 +75,4 @@ Bu anlatımı yaptığım [videoyu](https://www.youtube.com/watch?v=w8v-kkbe1xI)
 - Tarayıcı Yerimleri
 
 ![](https://i.imgur.com/ukgyCnF.png)
+
