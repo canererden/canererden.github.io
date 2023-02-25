@@ -1,4 +1,10 @@
-# Publications 
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
 - 👉 ORCID page: [`orcid.org/0000-0002-2391-0678`](https://orcid.org/0000-0002-2391-0678)
 - 👉 [Google Scholar page](https://scholar.google.com/citations?user=W4EALHAAAAAJ&hl=en&oi=ao)
 
