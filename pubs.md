@@ -9,6 +9,8 @@ author_profile: true
 - 👉 Google Scholar page: [`user=W4EALHAAAAAJ&hl`](https://scholar.google.com/citations?user=W4EALHAAAAAJ&hl=en&oi=ao)
 
 ## 2023
+Erden, C., Demir, H., Kökçam, A. (2023). **Enhancing Machine Learning Model Performance with Hyper Parameter Optimization: A Comparative Study**. arXiv. [arxiv.org/abs/2302.11406](https://arxiv.org/abs/2302.11406)
+
 [Erden, C.](http://orcid.org/0000-0002-7311-862X) (2023). **Genetic algorithm-based hyperparameter optimization of deep learning models for PM2.5 time-series prediction**. Springer Science and Business Media LLC. [dx.doi.org/10.1007/S13762-023-04763-6](http://dx.doi.org/10.1007/S13762-023-04763-6)
 
 Eren, B., Aksangür, İ., Erden, C. (2023). **Predicting next hour fine particulate matter (PM2.5) in the Istanbul Metropolitan City using deep learning algorithms with time windowing strategy**. Elsevier BV. [dx.doi.org/10.1016/J.UCLIM.2023.101418](http://dx.doi.org/10.1016/J.UCLIM.2023.101418)
