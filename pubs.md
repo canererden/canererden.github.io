@@ -4,6 +4,11 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+## Research Areas
+- Veri Madenciliği (Data Science) [link](https://canererden.com/veri-madenciligi)
+- Yöneylem Araştırması (Operations Research)
+- Benzetim (Simulation)
+
 
 # Profiles
 - 👉 ORCID page: [`orcid.org/0000-0002-7311-862X`](https://orcid.org/0000-0002-7311-862X)

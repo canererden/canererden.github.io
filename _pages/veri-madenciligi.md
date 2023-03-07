@@ -4,6 +4,10 @@ permalink: /veri-madenciligi
 
 ---
 
+## Veri Madenciliği Ders Sayfaları
+ENM424 - Veri Madenciliği - Sakarya Üniversitesi, Endüstri Mühendisliği Bölümü
+- Bahar-23 [link](https://canererden.com/teaching/veri-madenciligi-23)
+
 ## Veri Madenciliği Nedir?
 
 Kısa ve genel tanım olarak; veri madenciliği veri üzerinde madencilik yapmak demektir. Veri madenciliğinde veri setleri içerisinde bulunan ve genellikle hemen görülemeyen bilgilerin ortaya çıkarılarak veriye dayalı karar verme ve gelecekteki olayları tahmin etme çalışmaları gerçekleştirilir. Karar verme ve tahmin çalışmaları için geliştirilmiş birçok teknik vardır. Bu teknikler kullanılarak geliştirilen modeller veri madenciliğinin bir çıktısıdır. Veri madenciliği modelleri ekonomi, sağlık, eğitim, psikoloji, yönetim ve organizasyon gibi birçok disiplinde daha iyi kararlar vermek ve daha iyi tahminler yapabilmek amacıyla kullanılmaktadır. Veri madenciliği günümüzde verilerin çok hızlı bir şekilde üretilmesi, depolanması ve tüketilmesi nedeniyle şirketlerin başarısı için hayati bir noktaya gelmiştir. Üretilen bu veriler genellikle sensörler, bilgisayar sistemleri gibi otomatik sistemler vasıtasıyla alınır. Alınan veriler genellikle ilk haliyle bir anlam ifade etmez. Verilerin anlamlı bilgilere dönüştürülmesi için bazı süreçlere ihtiyaç vardır. Verilerin işlenmesi ve bilgiye dönüştürülmesi için yüksek işlemci gücüne sahip bilgisayarların kullanılması gereklidir. Ancak bu durum günümüzde önemli bir sorun teşkil etmemektedir. Çünkü şimdiki günlük bilgisayarlarda dahi yeterli güce sahip işlemcilere sahip olunabilmektedir. İşte verilerden anlamlı bilgiler çıkarılması süreçlerinin tamamı yine veri madenciliğinin bir başka tanımı olarak söylenebilir. Şirketler bu anlamlı bilgileri veri madenciliği modellerini kullanarak üretirler. Aldıkları kararları ve gerçek dünyadaki problemlerini çözüm yöntemlerini ürettikleri bilgiler ışında araştırarak daha sağlıklı bir yönetim gerçekleştirmiş olurlar. 
