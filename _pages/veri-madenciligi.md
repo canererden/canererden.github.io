@@ -4,7 +4,21 @@ permalink: /veri-madenciligi
 
 ---
 
-## İçerik Hakkında
+## Veri Madenciliği Nedir?
+
+Kısa ve genel tanım olarak; veri madenciliği veri üzerinde madencilik yapmak demektir. Veri madenciliğinde veri setleri içerisinde bulunan ve genellikle hemen görülemeyen bilgilerin ortaya çıkarılarak veriye dayalı karar verme ve gelecekteki olayları tahmin etme çalışmaları gerçekleştirilir. Karar verme ve tahmin çalışmaları için geliştirilmiş birçok teknik vardır. Bu teknikler kullanılarak geliştirilen modeller veri madenciliğinin bir çıktısıdır. Veri madenciliği modelleri ekonomi, sağlık, eğitim, psikoloji, yönetim ve organizasyon gibi birçok disiplinde daha iyi kararlar vermek ve daha iyi tahminler yapabilmek amacıyla kullanılmaktadır. Veri madenciliği günümüzde verilerin çok hızlı bir şekilde üretilmesi, depolanması ve tüketilmesi nedeniyle şirketlerin başarısı için hayati bir noktaya gelmiştir. Üretilen bu veriler genellikle sensörler, bilgisayar sistemleri gibi otomatik sistemler vasıtasıyla alınır. Alınan veriler genellikle ilk haliyle bir anlam ifade etmez. Verilerin anlamlı bilgilere dönüştürülmesi için bazı süreçlere ihtiyaç vardır. Verilerin işlenmesi ve bilgiye dönüştürülmesi için yüksek işlemci gücüne sahip bilgisayarların kullanılması gereklidir. Ancak bu durum günümüzde önemli bir sorun teşkil etmemektedir. Çünkü şimdiki günlük bilgisayarlarda dahi yeterli güce sahip işlemcilere sahip olunabilmektedir. İşte verilerden anlamlı bilgiler çıkarılması süreçlerinin tamamı yine veri madenciliğinin bir başka tanımı olarak söylenebilir. Şirketler bu anlamlı bilgileri veri madenciliği modellerini kullanarak üretirler. Aldıkları kararları ve gerçek dünyadaki problemlerini çözüm yöntemlerini ürettikleri bilgiler ışında araştırarak daha sağlıklı bir yönetim gerçekleştirmiş olurlar. 
+
+Veriden anlamlı bilgi üretebilmek için neler nasıl yapılmalıdır sorusunun cevabı veri madenciliğinin temel sorularındandır. Bu sorunun cevabı için öncelikle eldeki problemin iyi tanımlanmış olması gerekir. Problemin tanımında eldeki verilerden çıkarımlar ile gelecekte olabilecek durumları nasıl tahmin edebiliriz sorusunun nedenleri verilmelidir. Yine problem tanımında kurulan modelin varsayımları nelerdir, sınırlılıkları, avantajları ve dezavantajları nelerdir gibi soruların da cevapları verilmelidir. Sonuç olarak veri madenciliği modelini uyguladıktan sonra nasıl bir çıktı almanın hedeflendiği yine problemin tanımlaması aşamasında belirtilmelidir. Veri madenciliği modellerinde çıktı genellikle bir tahmin sonucu ya da modellenmiş bir veri setidir. Tahmin probleminde mevcut veriler içerisinde nasıl bir ilişki kurulabilir, bu ilişkiden faydalanılarak gelecekteki veriler nasıl tahmin edilebilir ve tahmin edilen veriler ne kadar kalitelidir gibi sorulara cevap aranır. Örneğin bir sağlık kuruluşunda bir hastaya uygulanan tedavi, sonra gelecek aynı şikayet sahibi hastalara da uygulanırsa aynı sonuçlar alınabilir mi diye bakıldığında bir tahmin problemi ele alınmış olunur. İlgili sağlık kuruluşunda hastaların durumlarını gösteren veriler bir yerde saklanırsa bu veriler kullanılarak bir veri madenciliği çalışması yapılabilir. Çalışma sonucunda çıktıların ne kadar kaliteli olduğunu göstermek için modelin test edilmesi gereklidir. Bu aşamada, model verilen verileri ne kadar açıklayabiliyor ve gelecekteki verileri ne kadar doğru tahmin edebiliyor diye bakılır. Modelin testi ise modele verilen ilk verilerden farklı olmalıdır. Böylece iki adet veri seti ile çalışmak gerektiği ortaya çıkmaktadır. Bu iki veri setinden modelin eğitimi için kullanılan sete eğitim, modelin testi için kullanılan sete ise test veri seti denilir. 
+
+Veri madenciliğinde diğer önemli kavram ise yapay öğrenme kavramıdır. Makine öğrenmesi olarak da bilinen bu kavram ile önceki verilerden gelecekteki veriler tahmin edilir. Yapay öğrenmenin temel olarak üç çeşidi bulunmaktadır. Bunlar şekilde de gösterildiği gibi gözetimli öğrenme (supervised learning), gözetimsiz öğrenme (unsupervised learning) ve takviyeli öğrenme (reinforcement learning) çeşitleridir. 
+
+Gözetimli öğrenmeye verilebilecek en güzel örneklerden birisi spam e-posta örneğidir. Daha önceden gelen e-postalar veri madenciliği algoritmasına verilir. Algoritmanın görevi yeni gelecek e-mailin spam olup olmadığını belirlemektir. Bunun için geçmişteki e-maillerden hangilerinin spam olduğunun veya spam olmadığının belirtilmesi gereklidir. Algoritma, mevcut veriler içerisindeki ilişkileri çözerek yeni gelecek e-postanın sınıfına karar verecektir. Bu problem literatürde sınıflandırma problemi olarak geçer. Sınıflandırma problemlerinde bir durumun hangi sınıfa ait olduğuna karar verilir. Spam e-posta örneğinde 2 adet sınıf bulunur ve bu tip problemler ikili çıktıya sahip problemler olarak isimlendirilirler. İkiden fazla sınıf olması durumunda çok çıktılı sınıflandırma problemleri söz konusu olur. Eğer çıktı değişkeni örnekteki gibi kesikli verilerden değil de sürekli verilerden oluşursa problem regresyon problemine dönüşür. Regresyon problemlerinde sürekli verilerin tahmini yapılır. Örneğin bir evin satış fiyatının tahmini için bir regresyon modeli kurulabilir. Çünkü evin satış fiyatı sürekli bir veridir. Veri tipleri konusunda daha detaylı bilgi üçüncü bölümde verilecektir.
+ 
+Diğer yapay öğrenme çeşidi de gözetimsiz öğrenmedir. Bu öğrenme çeşidinde, algoritma önceki verilerin sınıflarını bilmeden çalışır. Yani başlangıçta algoritmaya verilen bir hedef değişken yoktur. Algoritma, veri seti içerisindeki örüntülerden, bağlantılardan veya çeşitli ilişkilerden yola çıkarak bir süreç çalıştırır. Gözetimsiz öğrenme tipine örnek olarak kümeleme ve boyut azaltma çalışmaları verilebilir. Kümelemede benzer veriler bir araya getirilerek bir grup oluşturulur ve etiketler belirlenmeye çalışılır. Makine öğrenmesi bölümünde bu alanlarda daha detaylı bilgiler verilecektir.
+Genel anlamda veri madenciliği bu şekilde özetlenebilir.
+
+
+## İçerik
 
 Bu ders, öncelikle veri madenciliği alanında eğitim gören lisans öğrencileri için oluşturulmuştur. Ders kapsamında Python kodları ile çalışılarak verilerin temizlenmesi, görselleştirilmesi ve verilerden anlamlı bilgilerin çıkarılması gibi veri madenciliğinin uygulamalar geliştirilecektir. Bu anlamda, veri madenciliği ile ilgilenen öğrenciler veya araştırmacılar bu içeriklerden faydalanabilir. Veri madenciliği alanında kullanılacak araçların, paketlerin ve örneklerin gösterileceği bu adres gerekli görülmesi halinde güncellenecektir.
 
@@ -40,14 +54,14 @@ Python ile ilgili eğitim içeriklerini şu şekilde sıralayabiliriz:
   3. Python.org [link](https://www.python.org/)
 
 - Oynatma Listeleri
-  1. Python Full Course - 2023 | Python Tutorial for Beginners [link](https://www.youtube.com/playlist?list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6)
+  1. Python Full Course - 2023 Python Tutorial for Beginners [link](https://www.youtube.com/playlist?list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6)
   2. CS50's Introduction to Programming with Python [link](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
   3. Introduction to Computer Science and Programming [link](https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA)
 
 - Takip edilecek bloglar
   1. Medium [link](https://medium.com/tag/python)
   2. Planet Python [link](https://planetpython.org/)
-  3. Full Stack Python [https://www.fullstackpython.com/blog.html]
+  3. Full Stack Python [link](https://www.fullstackpython.com/blog.html)
 
 - Soru, Cevap ve Tartışma Sayfaları
   1. Stack Overflow [link](https://stackoverflow.com/)
@@ -84,8 +98,21 @@ Bu derste kullanılan tüm kodlar Python 3 programlama diliyle Jupyter ortamınd
 Jupyter Notebook Klavuzları
 1. Arayüz Klavuzu [link](https://res.cloudinary.com/dyd911kmh/image/upload/v1676302533/Marketing/Blog/Jupyterlab_Cheat_Sheet.pdf)
 2. 28 Jupyter Notebook ipuçları, [link](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
-3. Gelişmiş Jupyter not defteri püf noktaları [link](https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/) [link 2] (https://blog.dominodatalab.com/interactive-dashboards-in-jupyter/)
+3. Gelişmiş Jupyter not defteri püf noktaları [link](https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/) [link 2](https://blog.dominodatalab.com/interactive-dashboards-in-jupyter/)
 4. Markdown ipuçları sayfası [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 5. Ten Simple Rules for Reproducible Research in Jupyter Notebooks [link](https://arxiv.org/abs/1810.08055)
 
 ### Veri Madenciliği Kütüphaneleri
+- NumPy: herhangi bir bilimsel bilgi işlem için kullanılan temel bir kütüphanedir. 
+- pandas: Excel benzeri tablolar ile veri analizi yapmak için kullanılan bir kütüphanedir.
+- Statsmodel: istatistiksel analiz için bir kütüphanedir. 
+- scikit-learn: makine öğrenimi için bir kütüphanedir. 
+- Keras: sinir ağları için bir pakettir (derin öğrenme)
+- TensorFlow: bir makine öğrenimi/derin öğrenme kütüphanedir
+- NLTK(Natural Language Toolkit): Doğal Dil İşleme için bir kütüphanedir.
+- matplotlib: temel bir veri görselleştirme kütüphanesidir.
+- Seaborn, matplotlib'e dayalı bir istatistiksel veri görselleştirme kütüphanesidir.
+- Bokeh: etkileşimli çizimler/grafikler yapmak için kullanılır.
+- Scrapy: web kazıma ve tarama web siteleri için bir pakettir.
+
+Yukarıda verilen kütüphanelerin incelemeleri için [bu sayfa](https://opensource.com/article/18/11/python-libraries-data-science) ziyaret edilebilir.
