@@ -5,10 +5,11 @@ permalink: /research/
 author_profile: true
 ---
 
-## Selected Papers
-
+# Profiles
 - 👉 ORCID page: [`orcid.org/0000-0002-7311-862X`](https://orcid.org/0000-0002-7311-862X)
 - 👉 Google Scholar page: [`user=W4EALHAAAAAJ&hl`](https://scholar.google.com/citations?user=W4EALHAAAAAJ&hl=en&oi=ao)
+
+# Selected Papers
 
 ## 2023
 Erden, C., Demir, H., Kökçam, A. (2023). **Enhancing Machine Learning Model Performance with Hyper Parameter Optimization: A Comparative Study**. arXiv. [arxiv.org/abs/2302.11406](https://arxiv.org/abs/2302.11406)
