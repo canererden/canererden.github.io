@@ -52,18 +52,5 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service
-======
-
-Editor
-----
-* Sakarya University Journal of Science
-* Journal of Intelligent Systems: Theory and Applications
-* Academic Platform Journal of Engineering and Smart Systems
-* International Journal Of Engineering Technologies And Management Research
-* International Conference on Machine Learning
-* International Joint Conferences on Artificial Intelligence Organization
-* Neural Information Processing Systems
-* International Journal of Data Science
 
 
