@@ -1,6 +1,6 @@
 ---
 title: 'Numpy kütüphanesi kullanımı (Jupyter Notebook ile)'
-date: 2023-04-11
+date: 2023-04-10
 permalink: 
 tags:
   - blog
