@@ -1,5 +1,6 @@
 ---
-title: 'Lisansüstü çalışmalarının olmazsa olmaz uygulamaları'
+layout: post
+title: Lisansüstü çalışmalarının olmazsa olmaz uygulamaları
 date: 2023-02-18
 permalink: 
 tags:

@@ -1,5 +1,6 @@
 ---
-title: 'Pandas Kütüphanesine Giriş Eğitimi Jupyter Notebook ile'
+layout: post
+title: Pandas Kütüphanesine Giriş Eğitimi Jupyter Notebook ile
 date: 2023-04-17
 permalink: 
 tags:
