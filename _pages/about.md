@@ -19,8 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a senior researcher at [AI Research and Application Center](https://yapayzeka.subu.edu.tr/en), Sakarya University of Applied Sciences ([SUBÜ](https://www.subu.edu.tr/en)), Sakarya, Türkiye and currently working as assistant professor in the [Faculty of Applied Sciences](https://ubf.subu.edu.tr/en), SUBÜ.  Previously, I received my B.S. in industrial engineering from Istanbul Commerce University in 2010, M.S. in industrial engineering from Istanbul University in 2013. From 2013-2019 I worked as resarch assistant at [industrial engineering department](https://ie.sakarya.edu.tr/en) in Sakarya University and completed my Ph.D. there advised by [H. İbrahim Demir](https://hidemir.sakarya.edu.tr/en). My thesis integrated process planning, dynamic scheduling and due date assignment functions in a job shop.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include:
+* data science & data mining, 
+* machine learning, 
+* operations research,
+* meta-heuristic algorithms.
