@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://yapayzeka.subu.edu.tr/en/home'>Affiliations</a>. AI Research and Application Center, Sakarya University of Applied Sciences, Sakarya, Türkiye.
 
 profile:
   align: right
