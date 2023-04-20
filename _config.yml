@@ -71,21 +71,21 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username:  # your GitHub user name
+github_username:  canererden # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username:  # your Twitter handle
+twitter_username: canererden # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: canererden # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: W4EALHAAAAAJ&hl # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
+orcid_id: 0000-0002-7311-862X # your ORCID ID
+medium_username: cerden # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: https://www.researchgate.net/profile/Caner-Erden # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
@@ -104,7 +104,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please do not hesitate to reach out to me: cerden at subu.edu.tr
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
