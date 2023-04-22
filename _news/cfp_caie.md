@@ -2,11 +2,11 @@
 layout: post
 title: CFP in Computers & Industrial Engineering
 date: 2023-04-22 15:59:00-0400
-inline: true
+inline: fakse
 related_posts: false
 ---
 
-## Intelligent Manufacturing & Service Systems: The conflict between technology and humanity
+Intelligent Manufacturing & Service Systems: The conflict between technology and humanity :sparkles:
 
 This Special Issue intends to advance the manufacturing and service systems field by expanding the understanding of digital transformation with industry 4.0/5.0 technologies’ disruption on future minds and future social evolution and revolution.
 
