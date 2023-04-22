@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Materials for courses I taught.
 nav: true
-display_categories: [Lisans, Yuksek Lisans]
+display_categories: [Lisans, Yüksek Lisans]
 nav_order: 3
 horizontal: false
 ---
