@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://yapayzeka.subu.edu.tr/en/home'>Affiliations</a>. AI Research and Application Center, Sakarya University of Applied Sciences, Sakarya, Türkiye.
+subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliations</a>. AI Research and Application Center, Sakarya University of Applied Sciences, Sakarya, Türkiye.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: false
 
 news: true  # includes a list of news items
