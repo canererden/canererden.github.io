@@ -5,7 +5,7 @@ title: teaching
 description: Materials for courses I taught.
 nav: true
 display_categories: [Lisans, Yuksek Lisans]
-nav_order: 5
+nav_order: 3
 horizontal: false
 ---
 
