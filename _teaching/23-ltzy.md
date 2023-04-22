@@ -1,12 +1,12 @@
 ---
-title: "Lojistik ve Tedarik Zinciri Yönetimi (Bahar-23)"
-collection: teaching
-type: "Lisans"
+layout: page
+title: Lojistik ve Tedarik Zinciri Yönetimi (Bahar-23)
+description: 
+category: Lisans
 permalink: /teaching/ltzy-23
-venue: "Sakarya Uygulamalı Bilimler Üniversitesi"
+university: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
-location: "Sakarya, Türkiye"
-
+location: Sakarya, Türkiye
 ---
 
 Kodu: "[UTL 204](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32445/71650?Disaridan=)"

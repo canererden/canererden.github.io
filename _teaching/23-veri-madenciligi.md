@@ -1,12 +1,12 @@
 ---
-title: "Veri Madenciliği (Bahar-23)"
-collection: teaching
-type: "Lisans"
+layout: page
+title: Veri Madenciliği (Bahar-23)
+description:
+category: Lisans
 permalink: /teaching/veri-madenciligi-23
-venue: "Sakarya Üniversitesi"
+venue: Sakarya Üniversitesi
 date: 2023-01-01
-location: "Sakarya, Türkiye"
-
+location: Sakarya, Türkiye
 ---
 
 Kodu: "[ENM424](https://ebs.sakarya.edu.tr/Ders/Detay/573483)"

@@ -1,12 +1,12 @@
 ---
-title: "Uluslararasi Tedarik Zinciri Yönetimi (Bahar-23)"
-collection: teaching
-type: "Yüksek Lisans"
+layout: page
+title: Uluslararası Tedarik Zinciri Yönetimi (Bahar-23)
+description: 
+category: Yüksek Lisans
 permalink: /teaching/utyz-23
-venue: "Sakarya Uygulamalı Bilimler Üniversitesi"
+university: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
-location: "Sakarya, Türkiye"
-
+location: Sakarya, Türkiye
 ---
 
 Kodu: "[UTL506](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32539/96817?Disaridan=)"
