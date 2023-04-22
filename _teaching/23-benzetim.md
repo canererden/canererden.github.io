@@ -1,12 +1,12 @@
 ---
-title: "Benzetim (Bahar-23)"
-collection: teaching
-type: "Lisans"
+layout: page
+title: Benzetim (Bahar-23)
+description: 
+category: Lisans
 permalink: /teaching/benzetim-23
-venue: "Sakarya Uygulamalı Bilimler Üniversitesi"
+venue: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
-location: "Sakarya, Türkiye"
-
+location: Sakarya, Türkiye
 ---
 
 Kodu: "[UTL 306](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/31976/97662?Disaridan=)"
