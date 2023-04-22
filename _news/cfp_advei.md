@@ -1,12 +1,12 @@
 ---
 layout: post
 title: CFP in Advanced Engineering Informatics
-date: 2023-04-01
+date: 2023-04-01 15:59:00-0400
 inline: false
 related_posts: false
 ---
 
-Emerging Advances and Applications in Intelligent Manufacturing and Service Systems
+Emerging Advances and Applications in Intelligent Manufacturing and Service Systems :sparkles:
 
 
 In modern industry, intelligent manufacturing and service systems have emerged as key technologies for improving productivity, efficiency, and quality. Advanced technologies such as artificial intelligence, machine learning, Internet of Things (IoT), cloud computing, additive manufacturing, cloud manufacturing, digital twin, blockchain, and big data analytics integrate intelligent systems to create smarter, more agile manufacturing and service systems (Aheleroff et al., 2021). As a result, they are revolutionizing how products are designed, produced, and delivered while enhancing the customer experience and improving the overall business performance. Many theoretical and practical approaches, including smart sensors (Meijer et al., 2018), smart buildings (Majeed et al., 2021), smart cities (Dey et al., 2018), and governance to facilitate the development of human-to-human, human-to-machine, machine-to-machine systems with high quality and integration level have been developed in the literature (Aheleroff et al., 2020). The most important challenges of recent AI studies are the applications that have better scalability, security, privacy, context awareness, adaption, extensibility, sustainability, availability, and configurability features (Osman, 2019).
