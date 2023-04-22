@@ -12,8 +12,7 @@ location: Sakarya, Türkiye
 Kodu: "[UTL 204](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32445/71650?Disaridan=)"
 Google Class: [yj2z4qx](https://classroom.google.com/c/NTQyMjIzMjc1MDU3?cjc=yj2z4qx)
 
-Amaç
-======
+## Amaç
 
 Bu dersin amacı, lojistik ve tedarik zinciri kavramlarını, önemini ve bunlara ait temel sorunları çözebilmek için yöntemleri öğretmek ve bu alandaki kararları analiz etmektir. Tedarik zinciri ham maddeden tüketiciye kadar gerçekleşen tüm süreçlerin yönetimi ile ilgilenir. Bu derste, öğrencilere tedarik zinciri süreçlerinden ve lojistiğin tedarik zinciri yönetimi içerisindeki öneminden bahsedilecektir. Ardından lojistik ve tedarik zinciri yönetiminin teorik ve pratik bilgileri konuları işlenecektir.
 Öğrenciler,
@@ -23,13 +22,11 @@ Bu dersin amacı, lojistik ve tedarik zinciri kavramlarını, önemini ve bunlar
 4.	Başarılı bir lojistik ve tedarik zinciri yönetiminin nasıl yapılabileceğini,
 
 
-Ders Kitapları
-======
-**Ana Kitap**
+## Ana Kitap
 
 1.      Yavuz Günalay, **Lojistik Planlama ve Modelleme**, Anadolu Üniversitesi \[[**link**](https://ets.anadolu.edu.tr/storage/nfs/LOJ402U/ebook/LOJ402U-16V1S1-8-0-1-SV1-ebook.pdf)\].
 
-**Yardımcı Kaynaklar**
+## Yardımcı Kaynaklar
 
 1.  Avni Zafer Acar, **Lojistik Yönetimi,** Anadolu Üniversitesi \[[**link**](https://ets.anadolu.edu.tr/storage/nfs/LOJ104U/ebook/LOJ104U-13V2S1-8-0-1-SV1-ebook.pdf)\].
 2.  İbrahim Zeki Akyurt, **Lojistik Yönetimi**, İstanbul Üniversitesi \[[**link**](http://auzefkitap.istanbul.edu.tr/kitap/kok/lojistikyonetimi.pdf)\].
