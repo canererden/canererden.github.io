@@ -2,6 +2,7 @@
 layout: page
 title: Benzetim (Bahar-23)
 description: 
+img: assets/img/benzetim.jpg
 category: Lisans
 permalink: /teaching/benzetim-23
 venue: Sakarya Uygulamalı Bilimler Üniversitesi

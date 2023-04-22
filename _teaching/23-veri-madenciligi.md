@@ -2,6 +2,7 @@
 layout: page
 title: Veri Madenciliği (Bahar-23)
 description:
+img: assets/img/veri_madenciligi.jpg
 category: Lisans
 permalink: /teaching/veri-madenciligi-23
 venue: Sakarya Üniversitesi

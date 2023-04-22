@@ -2,6 +2,7 @@
 layout: page
 title: Uluslararası Tedarik Zinciri Yönetimi (Bahar-23)
 description: 
+img: assets/img/uluslararasi_tzy.jpg
 category: Yüksek Lisans
 permalink: /teaching/utyz-23
 university: Sakarya Uygulamalı Bilimler Üniversitesi

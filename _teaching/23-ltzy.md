@@ -2,6 +2,7 @@
 layout: page
 title: Lojistik ve Tedarik Zinciri Yönetimi (Bahar-23)
 description: 
+img: assets/img/lojistik_ve_tzy.jpg
 category: Lisans
 permalink: /teaching/ltzy-23
 university: Sakarya Uygulamalı Bilimler Üniversitesi
