@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses I taught.
+title: Teaching
+description: 
 nav: true
 display_categories: [Lisans, Yüksek Lisans]
 nav_order: 3

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Benzetim (Bahar-23)
-description: 
+description: [UTL 306]
 img: assets/img/benzetim.jpg
 category: Lisans
 permalink: /teaching/benzetim-23

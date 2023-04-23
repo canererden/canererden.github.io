@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lojistik ve Tedarik Zinciri Yönetimi (Bahar-23)
-description: 
+description: [UTL 204]
 img: assets/img/lojistik_ve_tzy.jpg
 category: Lisans
 permalink: /teaching/ltzy-23
