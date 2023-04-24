@@ -9,12 +9,14 @@ tags:
   - veri madenciliği
 ---
 
-Matplotlib, Python programlama dili için bir grafik çizme kütüphanesidir ve verilerinizi görsel olarak temsil etmek için kullanılır. Bu kütüphane, doğrusal grafikler, dağılım grafikleri, pasta grafikleri, çubuk grafikleri ve daha birçok grafik türü oluşturmanızı sağlar. Matplotlib, ücretsiz ve açık kaynaklı bir yazılımdır ve Python'da veri analizi, makine öğrenimi, yapay zeka ve daha birçok alanda sıklıkla kullanılır. Bu eğitimde, Matplotlib kütüphanesinin temellerini öğreneceksiniz ve verilerinizi nasıl etkileyici grafiklere dönüştürebileceğinizi öğreneceksiniz.
+# Görsel Veri Analizine Giriş
+
+Bu bölümde, Python'da en yaygın kullanılan ve güçlü veri görselleştirme kitaplıklarından biri olan Matplotlibkullanarak veri görselleştirme dünyasına giriş yapacağız. Matplotlib, Python programlama dili için bir grafik çizme kütüphanesidir ve verilerinizi görsel olarak temsil etmek için kullanılır. Bu kütüphane, doğrusal grafikler, dağılım grafikleri, pasta grafikleri, çubuk grafikleri ve daha birçok grafik türü oluşturmanızı sağlar. Matplotlib, ücretsiz ve açık kaynaklı bir yazılımdır ve Python'da veri analizi, makine öğrenimi, yapay zeka ve daha birçok alanda sıklıkla kullanılır. Bu eğitimde, Matplotlib kütüphanesinin temellerini öğreneceksiniz ve verilerinizi nasıl etkileyici grafiklere dönüştürebileceğinizi öğreneceksiniz.
 
 ## Matplotlib Kütüphanesi
 Matplotlib, 2 ve 3 boyutlu grafiklerin çizilmesi için geliştirilmiş, anasayfası (http://matplotlib.org) adresinde bulunan, özellikle bilimsel ve mühendislik alanlarındaki veri görselleştirmelerinde sıklıkla kullanılan bir kütüphanedir. Veri görselleştirme ihtiyacı verinin olduğu her alanda geçerlidir. Çünkü büyük veri kümelerindeki veriyi nitelendiren özelliklere ve ölçülere genel çerçeveden bakılmak istendiğinde görsel araçlara ihtiyaç duyulur. Örneğin bir veri setinin dağılımı ile ilgili histogram grafikleri hızlı bir izlenim imkanı sunar. Aşağıdaki görselde tablo ile sunulamayacak bilgilerin veri görselleştirme ile göze hitap edecek şekilde sunulması için araçlar gösterilmiştir. 
 
-<img src="https://uploads-ssl.webflow.com/61488f4f65be16b5ebbd450b/61b74ab1d55fa17b82d7ed89_Data%20Visualization.jpg"  width = "75%" height = "75%">
+![](https://uploads-ssl.webflow.com/61488f4f65be16b5ebbd450b/61b74ab1d55fa17b82d7ed89_Data%20Visualization.jpg)
 
 Matplotlib kütüphanesi [NumPy](https://numpy.org/) üzerine kurulmuş bir kütüphanedir. Bu nedenle Matplotlib kütüphanesinin çağrılmasından önce NumPy kütüphanesinin de yüklü kütüphaneler arasında olması gereklidir. Matplotlib, verileri görselleştirmek için kullanılan güçlü bir kütüphanedir. Bu nedenle, Matplotlib'ın sunduğu avantajları kullanarak, verilerinizi etkileyici grafiklere dönüştürebilir ve daha kolay bir şekilde analiz edebilirsiniz. Kısaca Matplotlib kütüphanesinin önemli avantajlarını şu şekilde sunabiliriz:
 
@@ -47,7 +49,7 @@ Matplotlib'deki bu katmanlar, grafik oluşturma ve özelleştirme sürecinde kul
 
 Matplotlib'de bir grafik oluşturmak için ilk adım, bir "Figure" oluşturmaktır. "Figure", en üst düzey çizim katmanıdır ve grafikteki her şeyin (eksenler, etiketler, veriler vb.) bulunduğu alanı tanımlar. Aşağıda bir "Figure" anatomisi anlatılmaktadır:
 
-<img src="https://matplotlib.org/stable/_images/anatomy.png"  width = "75%" height = "75%">
+![](https://matplotlib.org/stable/_images/anatomy.png)
 
 1. Figure: Figure, en üst düzey grafik alanıdır. Eksenler, metin, çizgiler ve diğer tüm öğeler bu alan içinde bulunur.
 2. Axes: Axes, Figure içindeki verilerin çizildiği alandır. Her "Figure" bir veya daha fazla "Axes" içerebilir.
@@ -98,6 +100,8 @@ plt.ylabel("Y Ekseni")
 plt.show()
 ```
 
+<img src="https://i.vgy.me/2pVPDQ.png" withd = "75%" height = "75%">
+
 Bu örnekte, öncelikle `matplotlib.pyplot` modülü import edilir. Daha sonra, "x" ve "y" verileri tanımlanır. `plt.plot(x, y)` çağrısı ile, bu verileri içeren bir grafik oluşturulur.
 
 Daha sonra, `plt.title()`, `plt.xlabel()` ve `plt.ylabel()` çağrıları ile grafik başlığı ve eksen etiketleri belirtilir. Son olarak, `plt.show()` çağrısı ile, oluşturulan grafik ekranda gösterilir.
@@ -109,10 +113,14 @@ Bu örnek, Matplotlib'in temel kullanımını göstermektedir. Grafik oluşturma
 plt.plot([1,2,3],[7,3,9]) # (1,7), (2,3), (3,9) noktalarını birleştirir
 ```
 
+<img src="https://i.vgy.me/BByAQm.png">
+
 
 ```python
 plt.plot([3, 5, 2])  # x ekseni verilmez ise varsayılan olarak 0-1-2... gelir
 ```
+
+<img src="https://i.vgy.me/moQFrc.png">
 
 
 ```python
@@ -120,10 +128,7 @@ x = np.linspace(-np.pi, np.pi, 20)  # -pi ile +pi arasında 20 adet değer
 plt.plot(x, np.sin(x))
 ```
 
-
-```python
-x
-```
+<img src="https://i.vgy.me/90ygnH.png">
 
 ## Grafiklere Özellik Ekleme
 
@@ -139,6 +144,8 @@ plt.plot(x,np.sin(x), label = 'sin(x)')
 plt.plot(x,np.cos(x), label = 'cos(x)')
 plt.legend()
 ```
+
+<img src="https://i.vgy.me/0gM4Ig.png">
 
 
 ```python
@@ -163,10 +170,12 @@ Grafiklerin üzerine başlık eklemek, grafiğin içeriği hakkında daha fazla 
 ```python
 plt.plot(x,np.sin(x), label = 'sin(x)')
 plt.plot(x,np.cos(x), label = 'cos(x)')
-plt.legend(loc='best'); # upper left upper right
+plt.legend(loc=7); # upper left upper right
 plt.title('Sinüs Fonksiyonu')
 plt.show()
 ```
+
+<img src="https://i.vgy.me/Qh7xP4.png">
 
 ### Etiket fontlarını değiştirme
 
@@ -179,6 +188,8 @@ Renk kullanımında `plot()` işlevi, color parametresi ile çizgi rengini belir
 # Ya da aynı figür üzerinde şekil çizmek istersek
 plt.plot(x, np.sin(x), x, np.cos(x), x, x**2);  # ; fonksiyon yazmak istemezsek
 ```
+
+<img src="https://i.vgy.me/6Jj6jT.png">
 
 
 ```python
@@ -195,6 +206,8 @@ plt.title("x, y grafiği",
           loc='right')
 ```
 
+<img src="https://i.vgy.me/aswWtT.png">
+
 Fontlarla ilgili daha detaylı bilgi [şu adresten](https://matplotlib.org/stable/gallery/text_labels_and_annotations/fonts_demo_kw.html) alınabilir.
 
 ### Izgaraları gösterme
@@ -204,6 +217,8 @@ Fontlarla ilgili daha detaylı bilgi [şu adresten](https://matplotlib.org/stabl
 plt.plot(x, np.sin(x), x, np.cos(x), x, x**2)
 plt.grid(True, axis='y') # axis='x' sadece x ekseninde ızgaralar gösterir
 ```
+
+<img src="https://i.vgy.me/6JSlb2.png">
 
 ### Renk ve çizgi stillerini değiştirme
 
@@ -216,6 +231,8 @@ plt.plot(x, np.sin(x), x, np.cos(x), x, x**2, linewidth=5);
 plt.grid()
 ```
 
+<img src="https://i.vgy.me/iYjbfd.png">
+
 
 ```python
 # çizgi stilleri
@@ -226,7 +243,9 @@ plt.grid()
 plt.legend()
 ```
 
-![image.png](https://matplotlib.org/stable/_images/sphx_glr_linestyles_001.png"  width = "75%" height = "75%">
+<img src="https://i.vgy.me/3lgUGM.png">
+
+![image.png](https://matplotlib.org/stable/_images/sphx_glr_linestyles_001.png)
 
 Diğer diğer parametreler için [şu adresten](https://matplotlib.org/devdocs/api/_as_gen/matplotlib.pyplot.plot.html) bilgi alınabilir.
 
@@ -252,6 +271,8 @@ plt.ylabel("Y Ekseni")
 plt.show()
 ```
 
+<img src="https://i.vgy.me/v47PXv.png">
+
 Matplotlib, çizgi komutlarının marker parametresi kullanılarak seçilen birden fazla kategoriye sahip markerları destekler:
 
 - Doldurulmamış markerlar
@@ -261,24 +282,62 @@ Matplotlib, çizgi komutlarının marker parametresi kullanılarak seçilen bird
 
 
 **Doldurulmamış markerlar (Unfilled markers)**
-
-<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_001.png"  width = "75%" height = "75%">
-
+![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_001.png)
 **Doldurulmuş markerlar (Filled)**
-
-<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_002.png"  width = "75%" height = "75%">
-
+![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_002.png)
 **Marker fill styles**
-
-<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_003.png"  width = "75%" height = "75%">
-
+![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_003.png)
 **TeX sembollerinden oluşturulan markerlar**
-
-<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_004.png"  width = "75%" height = "75%">
-
+![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_004.png)
 **Yollardan oluşturulan markerlar**
+![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_005.png)
 
-<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_005.png"  width = "75%" height = "75%">
+### Eksenleri sınırlandırma ve işaretleme
+
+`xlim` ve `ylim`, bir grafikte gösterilen x ve y eksenlerinin sınırlarını belirlemek için kullanılan fonksiyonlardır.
+
+`xlim` ve `ylim` fonksiyonlarına verilen değerler, belirtilen eksenin en küçük ve en büyük değerlerini belirler. Örneğin, aşağıdaki kod bloğunda, xlim ve ylim kullanarak bir çizgi grafiğinin x ve y eksenlerinin sınırlarını ayarladık:
+
+
+```python
+# x ve y verileri
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# çizgi grafiği çizdirme
+plt.plot(x, y)
+
+# x ve y eksenlerinin sınırlarını belirleme
+plt.xlim([2, 8])
+plt.ylim([-1.2, 1.2])
+
+# grafiği gösterme
+plt.show()
+```
+
+<img src="https://i.vgy.me/uFqMxO.png">
+
+Bu örnekte, xlim([2, 8]) fonksiyonuyla x ekseni sınırları 2 ve 8 arasına, ylim([-1.2, 1.2]) fonksiyonuyla y ekseni sınırları -1.2 ve 1.2 arasına ayarlandı.
+
+`xticks` ve `yticks`, bir grafikteki x ve y eksenlerinin işaretlenmesini (tick) kontrol etmek için kullanılan fonksiyonlardır.
+
+`xticks` ve `yticks` fonksiyonları, aşağıdaki gibi kullanılabilir:
+
+
+```python
+plt.plot(x, y)
+
+# x ve y ekseni işaretlerini ayarlama
+plt.xticks(np.arange(0, 11, step=2))
+plt.yticks([-1, 0, 1])
+
+# grafiği gösterme
+plt.show()
+```
+
+<img src="https://i.vgy.me/KLgh8s.png">
+
+Bu örnekte, xticks fonksiyonu ile x ekseni işaretlerinin aralıklarını belirliyoruz. np.arange(0, 11, step=2) ifadesi, x ekseni işaretlerinin 0'dan başlayarak 2'şer arttırılarak 10'a kadar olan sayılar olduğunu belirtir. yticks fonksiyonu ise, y ekseni işaretlerini belirliyoruz. [-1, 0, 1] ifadesi ile y ekseni işaretlerinin -1, 0 ve 1 olduğunu belirtiyoruz.
 
 ### Renk Haritası (Colormap) Özellikleri
 
@@ -331,6 +390,8 @@ plt.title('Bölgelere Göre Aylık Ortalama Sıcaklıklar')
 plt.show()
 ```
 
+<img src="https://i.vgy.me/vDCJ9E.png">
+
 Bu kod, `imshow()` işlevi kullanarak veri dizisini bir ısı haritası olarak gösterir. Veriler, coolwarm renk haritasına göre renklendirilir. `Normalize()` işlevi, verilerin minimum ve maksimum değerlerine göre normalleştirir. `colorbar()` işlevi, renk skalasını resmin yanına ekler. Sonuç olarak, verilerin özelliklerine ve sıcaklık değişimlerine göre vurgulanarak görsel olarak daha anlaşılır bir şekilde sunulur.
 
 ## Çoklu Figürler Çoklu Matplotlib Grafikleri
@@ -359,6 +420,8 @@ fig, ax = plt.subplots()  # Tek eksenden oluşan bir figür oluşturmak için
 ax.plot([1, 2, 3, 4], [1, 4, 2, 3])  # Eksen içerisine bir grafik çizdirmek için
 ```
 
+<img src="https://i.vgy.me/FSwmci.png">
+
 
 ```python
 print(type(fig))
@@ -376,10 +439,14 @@ fig, ax = plt.subplots()  # Tek eksenden oluşan bir figür
 fig, axs = plt.subplots(2, 2, sharex= True, sharey=True)  # 2x2 li bir grafik
 ```
 
+<img src="https://i.vgy.me/6Y6MkD.png">
+
 
 ```python
 fig, axs = plt.subplots(nrows= 3, ncols=2, sharex=True)  # 2x1 li bir grafik ve ortak x axis i
 ```
+
+<img src="https://i.vgy.me/RU7JKp.png">
 
 
 ```python
@@ -393,6 +460,8 @@ ax.set_ylabel('y aksisi')  # set_ylabel.
 ax.set_title("x ve y Grafiği")  # Grafiğe başlık eklemek için.
 ax.legend()  # Etiketleri göstermek için.
 ```
+
+<img src="https://i.vgy.me/wk9c8J.png">
 
 
 ```python
@@ -414,6 +483,8 @@ ax[0].plot(x, np.sin(x)) # ilk eksene grafik çizdirmek için
 ax[1].plot(x, np.cos(x)) # ikinci eksene grafik çizdirdik.
 ```
 
+<img src="https://i.vgy.me/F0XUfP.png">
+
 
 ```python
 type(ax)
@@ -427,6 +498,8 @@ ax[0][1].plot(x, np.cos(x)) # ikinci eksene grafik çizdirdik.
 ax[1][0].plot(x, x**2)
 ax[1][1].plot(x, x**3)
 ```
+
+<img src="https://i.vgy.me/f9libC.png">
 
 
 ```python
@@ -477,6 +550,8 @@ ax3.set_title("Tanjant")
 plt.show()
 ```
 
+<img src="https://i.vgy.me/sxFnK3.png">
+
 Başka bir örnekte MATLAB stili pyplot grafik çizdirmede birden fazla eksende grafik çizdirilmek istenirse aşağıdaki yapı kullanılabilir.
 
 
@@ -486,6 +561,8 @@ plt.plot(x, np.sin(x))
 plt.subplot(122) # İkinci grafik
 plt.plot(x, np.cos(x))
 ```
+
+<img src="https://i.vgy.me/U3If1L.png">
 
 ### Izgaralar ile Subplot çizdirme
 
@@ -498,6 +575,8 @@ for i in range(1,5):
     plt.subplot(2,2,i) # 2 satır 2 sütun eksenlerin i. ekseni
     plt.text(0.5, 0.5, str(i))
 ```
+
+<img src="https://i.vgy.me/IFliaG.png">
 
 Birden fazla subplot çizdirmek için `plt.subplots()` fonksiyonu kullanılır. Bu durumda ızgara içerisindeki tüm konumlar kullanılabilir hale gelir. Yukarıdaki örneği ortak x ve y için yapmak istersek aşağıdaki yapıyı kullanabiliriz.
 
@@ -525,7 +604,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-## Grafiklere Daha Farklı Elemanlar Ekleme
+<img src="https://i.vgy.me/6n0FsN.png">
+
+## Grafiklere Farklı Elemanlar Ekleme
 
 Grafikler içerisinde işaretleyici, metin, şekil gibi elemanlar eklenmek istenirse aşağıdaki yapılar kullanılabilir.
 
@@ -551,6 +632,8 @@ plt.text(1,2,"x=1, y=2", bbox={'facecolor': 'red', 'alpha': 0.1})
 plt.grid() # Konumları daha rahat görebilmek için
 ```
 
+<img src="https://i.vgy.me/AMB7jw.png">
+
 
 ```python
 # Örnek veri
@@ -573,6 +656,8 @@ ax.annotate("Maksimum", xy=(np.pi/2, 1), xytext=(np.pi/2, 1.5),
 plt.show()
 ```
 
+<img src="https://i.vgy.me/dTUChI.png">
+
 Bu örnek, bir sinüs grafiğine metin eklemeyi göstermektedir. `text()` fonksiyonu, Sinüs Grafiği metnini belirtilen koordinatlarda eklerken, annotate() fonksiyonu, maksimum noktaya işaretçi ile birlikte bir metin ekler.
 
 ### Legend() fonksiyonu
@@ -586,6 +671,8 @@ plt.plot(x, np.cos(x))
 plt.plot(x, x**2) 
 plt.legend(['sinüs', 'cosinüs', 'kare'], loc = 'upper left')
 ```
+
+<img src="https://i.vgy.me/CHFxUw.png">
 
 ## Bazı Sihirli Fonksiyonlar
 
@@ -664,7 +751,7 @@ plt.legend(['sinüs', 'cosinüs', 'kare'], loc = 'upper left')
 
 Matplotlib kütüphanesinde grafikleri resim olarak kaydetmek, grafikleri göstermek kadar kolaydır. Grafikleri jpeg, png gibi formatlarda kaydetmek için savefig() fonksiyonu kullanılabilir. savefig() fonksiyonu içerisine parametre olarak grafiğin yolu ve ismi verilmelidir, bu parametre fname olarak verilir. fname dışında kullanılabilecek diğer bazı parametreler aşağıda verilmiştir.
 
-- dpi=None: Görüntünün çözünürlüğü, örneğin 300 dpi(inç başına düşen nokta sayısı)
+- dpi=None: Görüntünün çözünürlüğü, örneğin 300 dpi(inç başına düşen nokta sayısı) <img src="https://i.vgy.me/Ty1ESY.png">
 - transparent=False: True değeri verildiğinde grafiğin arka planı transparan hale getirilir.
 - bbox_inches=None, grafik çevresindeki sınırlar ile ilgilidir. bbox_inches='tight' genellikle ideal sonuçlar verir.
 
@@ -706,11 +793,21 @@ plt.legend(['sinüs', 'cosinüs', 'kare'], loc = 'upper left')
 plt.savefig('sin_cos_grafigi_transparent.png', dpi=300, transparent=True, facecolor='b') # ön renk mavi
 ```
 
-## Grafik Çeşitleri
+## Grafik Çeşitleri ve Stiller
 
-Matplotlib'de birkaç grafik çeşidi fonksiyonu vardır. Bu fonksiyonlar, çeşitli grafik türlerini veya özellikleri oluşturmak için birkaç satır kodla çağrılabilen önceden tanımlanmış işlevlerdir. Bu fonksiyonlar, hızlı bir şekilde grafikler oluşturmak için yararlıdır.
+Matplotlib kütüphanesi, birçok farklı grafik türü için çeşitli çizim fonksiyonları içerir. Bazı popüler grafik türleri şunlardır:
 
-Bunlardan bazıları şunlardır:
+1. Çizgi grafikleri (Line plots): Değişkenler arasındaki ilişkiyi göstermek için kullanılır.
+2. Dağılım grafikleri (Scatter plots): İki değişken arasındaki ilişkiyi göstermek için kullanılır.
+3. Histogramlar: Değişkenlerin dağılımını göstermek için kullanılır.
+4. Kutu grafikleri (Box plots): Değişkenlerin istatistiksel özelliklerini göstermek için kullanılır.
+5. Alan grafikleri (Area plots): Değişkenlerin zamana bağlı olarak değişimini göstermek için kullanılır.
+6. Pasta grafikleri (Pie charts): Kategorik verilerin oranlarını göstermek için kullanılır.
+7. Çubuk grafikleri (Bar charts): Kategorik verilerin karşılaştırılması için kullanılır.
+
+Matplotlib'de birkaç grafik çeşidi özel tanımlı fonksiyonlar vardır. Bu fonksiyonlar, çeşitli grafik türlerini veya özellikleri oluşturmak için birkaç satır kodla çağrılabilen önceden tanımlanmış işlevlerdir. Bu fonksiyonlar, hızlı bir şekilde grafikler oluşturmak için yararlıdır.
+
+Bu fonksiyonlardan bazıları şunlardır:
 
 - `subplots()`: Bu fonksiyon, birden fazla grafik içeren bir figür oluşturmak için kullanılır. Belirtilen sayıda alt grafik oluşturur ve her alt grafik, figürün bir parçasıdır. Örneğin, fig, axs = plt.subplots(2, 3) kodu, 2 satır ve 3 sütundan oluşan bir alt grafik düzeni oluşturur.
 - `scatter()`: Bu fonksiyon, nokta bulutu grafikleri oluşturmak için kullanılır. Her bir nokta, verilerdeki iki boyutlu bir noktayı temsil eder. Örneğin, plt.scatter(x, y) kodu, x ve y verilerine dayalı bir nokta bulutu grafik oluşturur.
@@ -718,7 +815,48 @@ Bunlardan bazıları şunlardır:
 - `hist()`: Bu fonksiyon, histogramlar oluşturmak için kullanılır. Histogram, verilerin dağılımını göstermek için kullanılan bir grafik türüdür. Örneğin, plt.hist(x, bins=10) kodu, x verilerine dayalı 10 bölümlü bir histogram oluşturur.
 - `pie()`: Bu fonksiyon, pasta grafikleri oluşturmak için kullanılır. Her bir dilim, verilerdeki bir değeri temsil eder. Örneğin, plt.pie(x, labels=labels) kodu, x değerlerine göre etiketlenmiş bir pasta grafiği oluşturur.
 
-Sihirli fonksiyonlar, belirli grafik türlerini veya özellikleri oluşturmak için tasarlanmıştır, ancak esneklikleri nedeniyle bu işlevlerin çıktıları da özelleştirilebilir.
+### Çizgi grafikleri
+
+Çizgi grafikleri veri setlerindeki değişimleri zaman içinde izlemek ve trendleri belirlemek için kullanılır. İşletme verilerinde, finansal verilerde ve ekonomik verilerde sıklıkla kullanılırlar. Ayrıca, çok sayıda veri noktası arasındaki ilişkiyi göstermek için de yararlıdırlar.
+
+Çizgi grafiklerinin avantajları şunlardır:
+
+- Verilerin zaman içindeki değişimini net bir şekilde gösterirler.
+- Birden fazla veri seti arasındaki ilişkiyi kolayca anlamamızı sağlar.
+- Verilerin trendlerini ve değişimlerini hızlı bir şekilde anlayabiliriz.
+- Basit ve anlaşılır bir grafik türüdür.
+- Bu nedenlerle, işletmelerde, finansal kurumlarda ve ekonomi alanında sıklıkla kullanılan bir grafik türüdür.
+
+Tablo verilerinin belirli bir zaman aralığındaki değişimini görselleştirmek için çizgi grafikleri sıkça kullanılır. Örnek olarak, aylık gelirleri gösteren bir veri seti üzerinden bir çizgi grafiği çizelim.
+
+
+```python
+aylar = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran']
+gelirler = [20000, 25000, 30000, 28000, 32000, 35000]
+plt.plot(aylar, gelirler, marker='o')
+plt.title('Aylık Gelirler')
+plt.xlabel('Aylar')
+plt.ylabel('Gelirler')
+plt.ylim(0, 40000)
+```
+
+<img src="https://i.vgy.me/SqZn9t.png">
+
+Bu kodları çalıştırdığımızda, aylık gelirlerimizi gösteren bir çizgi grafiği elde ederiz. Grafikte her ay için bir nokta ve bu noktaları birleştiren bir çizgi görüntülenir. Ayrıca grafiğimizde başlık, etiketler ve y-ekseni sınırları da vardır.
+
+### Dağılım grafikleri
+
+Dağılım grafikleri, verilerin dağılımını görselleştirmek için kullanılır. Bu grafik türü, verilerin merkezi eğilimlerini, dağılımını ve aykırı değerlerini göstermek için kullanışlıdır. Dağılım grafikleri, veri setlerindeki değişkenlikleri ve dağılımları anlamak için özellikle yararlıdır.
+
+### Histogram grafikleri
+
+Histogramlar, veri dağılımını görselleştirmek için kullanılan bir grafik türüdür. Özellikle büyük veri kümelerinde kullanılmaktadır. Histogramlar, verilerin belirli bir aralıktaki sıklığını ve yoğunluğunu gösterir.
+
+Histogramlar, birçok alanda kullanılabilir. Örneğin, finansal verileri incelemek için, hisse senedi fiyatlarının belirli bir aralıktaki dağılımını analiz etmek için kullanılabilirler. Ayrıca, tıp alanında, hastaların belirli bir özelliklerinin (örneğin, yaş veya kan basıncı) dağılımını incelemek için de kullanılabilirler.
+
+Histogramlar, veri dağılımını anlamak için oldukça yararlıdır. Verilerin nasıl dağıldığı, hangi aralıklarda yoğunlaştığı veya dağıldığı, hangi değerlerin daha yaygın olduğu gibi bilgileri görselleştirerek anlamak kolaylaşır. Ayrıca, histogramlar, veri setindeki aykırı değerleri de tespit etmek için kullanılabilir.
+
+Histogramların bir diğer avantajı, veri kümesinin şekil ve boyutuna göre özelleştirilebilmesidir. Böylece, verilerin daha iyi anlaşılmasını sağlayacak bir histogram oluşturulabilir.
 
 
 ```python
@@ -727,19 +865,26 @@ plt.hist(kadin_yaslar,label='kadın yaşları')
 plt.legend()
 ```
 
+<img src="https://i.vgy.me/l8GVeP.png">
+
+Bu örnekte histogram, `plt.hist()` fonksiyonu ile çizildi. Histogramda kullanılan parametreler arasında, `density=True` seçeneği histogramın yoğunluk çizimini gösterirken, facecolor parametresi histogramın dolgu rengini belirler. 
+
 
 ```python
-erkek_yaslar = np.random.randint(low=1,high=75,size=100)
 plt.hist(kadin_yaslar,label='kadın yaşları', alpha=0.5)
 plt.hist(erkek_yaslar,label='erkek yaşları', alpha=0.5)
 plt.legend()
 ```
+
+<img src="https://i.vgy.me/p4itVz.png">
 
 
 ```python
 plt.hist([erkek_yaslar, kadin_yaslar], label=['erkek', 'kadin'])
 plt.legend()
 ```
+
+<img src="https://i.vgy.me/BLU1r1.png">
 
 Aynı şekilde histogram grafikleri olasılık yoğunluk fonksiyonlarının çizdirilmesinde de kullanılabilir. Örneğin normal dağılıma uyan bir veri dizisinin grafiği aşağıdaki çizdirilebilir.
 
@@ -752,6 +897,8 @@ plt.ylabel('Olasılıklar')
 plt.xlabel('Veriler');
 ```
 
+<img src="https://i.vgy.me/QELnA3.png">
+
 
 ```python
 np.random.seed(12345)
@@ -761,7 +908,115 @@ plt.ylabel('Olasılıklar')
 plt.xlabel('Veriler');
 ```
 
-- Çubuk grafikleri: Yaygın bir kullanıma sahiptir. Histogram grafiklerinden farklı yanı x aksisindeki değerlerin kategorik değil nümerik değerler almasıdır. bar() fonksiyonu ile çizim yapılabilir. Diğer grafiklerdeki benzer parametreler burada da geçerlidir. Örneğin align parametresi ile verinin çubuğun ortasından geçmesi istendiği durumda kullanılabilir. Ya da orientation parametresi ile çubuklar dikey eksende mi olsun yatay eksende mi bununla ilgili ayarlama için kullanılabilir. Genellikle ölçüm değerinin nasıl değiştiği görülmek için kullanılır. x değerlerine karşılık gelen y değerlerine kadar bir çubuk çizilir. 
+<img src="https://i.vgy.me/C878WF.png">
+
+### Kutu grafikleri
+
+Kutu grafiği, verilerin dağılımını ve değişkenliğini görselleştirmek için kullanılan bir grafik türüdür. En yaygın kullanımı, farklı kategoriler veya gruplar arasındaki sayısal verilerin karşılaştırılmasıdır. Ayrıca, verilerin aykırı (outlier) değerlerini belirlemek ve ortalamadan sapmaları görselleştirmek için de kullanılabilir.
+
+Kutu grafikleri, aşağıdaki avantajlara sahiptir:
+
+- Görselleştirme açısından kolaydır ve verilerin dağılımını hızlı bir şekilde anlamamızı sağlar.
+- Aykırı değerleri (outlier) belirlemede ve veriler arasındaki değişkenliği göstermede etkilidir.
+- Farklı gruplar veya kategoriler arasındaki sayısal verilerin karşılaştırılması için idealdir.
+
+Kullanım örneği olarak, bir şirketin farklı bölümlerinin aylık satış verilerini karşılaştırmak istediğimizi düşünelim. Kutu grafiği, farklı bölümlerin satış verilerinin ortalamasını, medyanını, minimum ve maksimum değerlerini, ayrık değerlerini ve verilerin dağılımını göstererek kolayca karşılaştırmamıza olanak sağlayacaktır.
+
+
+```python
+# Verileri oluşturma
+bolumler = ['Finans', 'Satış', 'Pazarlama', 'Muhasebe']
+veriler = [[25000, 35000, 40000, 45000, 50000], 
+           [30000, 35000, 40000, 45000, 55000],
+           [20000, 25000, 35000, 40000, 45000],
+           [15000, 20000, 25000, 30000, 35000]]
+
+# Kutu grafiği oluşturma
+plt.boxplot(veriler)
+plt.xticks(range(len(bolumler)), bolumler)
+plt.xlabel('Bölümler')
+plt.ylabel('Aylık Satış')
+plt.title('Bölümler Arasındaki Aylık Satış Farklılıkları')
+plt.show()
+
+```
+
+<img src="https://i.vgy.me/vQWXGI.png">
+
+Bu kod, farklı bölümlerin aylık satış verilerinin kutu grafiğini oluşturacak ve her bir bölüm için ayrı bir kutu oluşturarak verilerin karşılaştırılmasına olanak sağlayacaktır.
+
+### Alan grafikleri
+
+Alan grafiği, verilerin belirli bir aralıktaki değişimlerini göstermek için kullanılan bir grafik türüdür. Genellikle zamana bağlı değişimlerin gösterilmesinde tercih edilir ve verilerin toplamını veya yüzdesini de gösterir.
+
+Alan grafiklerinin avantajları şunlardır:
+
+- Zamanla değişen verilerin görselleştirilmesi için idealdir.
+- Verilerin toplamını veya yüzdesini göstererek, toplamın ne kadarını hangi kategoride harcadığımızı anlamamızı sağlar.
+- Birden fazla veri seti arasındaki ilişkiyi göstermek için kullanılabilir.
+- Verilerin dağılımını gösterirken, grafikteki renkler ve gölgelendirme yardımıyla görsel olarak daha çekici hale getirilebilir.
+
+Örnek kullanımı aşağıdaki gibi olabilir:
+
+
+```python
+# Verileri oluşturma
+yil = [2016, 2017, 2018, 2019, 2020]
+gelir = [10000, 15000, 20000, 25000, 30000]
+gider = [5000, 8000, 10000, 15000, 20000]
+
+# Alan grafiği oluşturma
+plt.stackplot(yil, gelir, gider, labels=['Gelir', 'Gider'])
+plt.legend(loc='upper left')
+plt.title('Gelir ve Giderler')
+plt.xlabel('Yıl')
+plt.ylabel('Tutar')
+plt.show()
+```
+
+<img src="https://i.vgy.me/K1J9rG.png">
+
+Bu örnekte, yıllara göre gelir ve gider verileri bir alan grafiği ile gösterilir. Renkli ve gölgeli alanlar yardımıyla, gelirin ve giderin ne kadar olduğu ve bunların yıllar içindeki değişimleri kolayca görülebilir.
+
+### Pasta grafikleri
+
+Pasta grafikleri, bir veri kümesindeki oranları görselleştirmek için kullanılan grafik türleridir. Pasta grafikleri, her bir veri kategorisi için yüzde veya mutlak sayısal değerler kullanarak, her bir kategori arasındaki oranları kolayca anlamamızı sağlar.
+
+Pasta grafikleri ayrıca şunlara da yardımcı olabilir:
+
+- Bir veri kümesindeki dağılımı anlamak
+- Toplamın ne kadarını her kategorinin temsil ettiğini anlamak
+- Farklı veri kategorileri arasındaki oranları karşılaştırmak
+
+Örneğin, bir şirketin müşterilerinin demografik dağılımını göstermek istediğinizi varsayalım. Pasta grafikleri bu verileri kolayca görselleştirmenize yardımcı olabilir. Ayrıca, bir ürün veya hizmetin farklı pazar segmentleri arasındaki payını göstermek için de kullanılabilir.
+
+İşte bir pasta grafik örneği:
+
+
+```python
+# Verileri oluşturma
+kategoriler = ['Erkek', 'Kadın', 'Diğer']
+oranlar = [60, 35, 5]
+
+# Pasta grafik oluşturma
+plt.pie(oranlar, labels=kategoriler, autopct='%1.1f%%')
+
+# Grafik özellikleri
+plt.title('Müşteri Demografisi')
+plt.axis('equal')
+
+# Grafiği gösterme
+plt.show()
+
+```
+
+<img src="https://i.vgy.me/hEav5i.png">
+
+Bu örnek, bir şirketin müşteri tabanının demografik dağılımını göstermek için bir pasta grafik kullanır. "Erkek", "Kadın" ve "Diğer" kategorileri için oranları gösterir ve her bir dilimde yüzde değerlerini görüntüler.
+
+### Çubuk grafikleri
+
+Çubuk grafikleri yaygın bir kullanıma sahiptir. Histogram grafiklerinden farklı yanı x aksisindeki değerlerin kategorik değil nümerik değerler almasıdır. bar() fonksiyonu ile çizim yapılabilir. Diğer grafiklerdeki benzer parametreler burada da geçerlidir. Örneğin align parametresi ile verinin çubuğun ortasından geçmesi istendiği durumda kullanılabilir. Ya da orientation parametresi ile çubuklar dikey eksende mi olsun yatay eksende mi bununla ilgili ayarlama için kullanılabilir. Genellikle ölçüm değerinin nasıl değiştiği görülmek için kullanılır. x değerlerine karşılık gelen y değerlerine kadar bir çubuk çizilir. 
 
 
 ```python
@@ -774,6 +1029,8 @@ y2_koordinatlari = np.random.randint(5,size=20)
 plt.bar(x1_koordinatlari,y1_koordinatlari,label='grup 1') 
 ```
 
+<img src="https://i.vgy.me/vBcU1r.png">
+
 Bunun yanı sıra çubuk grafikleri kategorik veriler için de kullanılabilir. Bunun için; 
 
 
@@ -783,13 +1040,81 @@ plt.barh(x_bar, np.arange(5))
 plt.xticks(np.arange(5),['bir','iki','üç','dört','beş']) # kategoriler ayrıca verilebilir.
 ```
 
+<img src="https://i.vgy.me/yiJ4Ck.png">
+
 Diğer grafik çeşitleri
 
 - pie pasta grafikleri
 - scatter dağılım grafikleri 
 - boxplot kutu grafikleri
 
-## Stil Dosyaları ile Çalışmak
+### Kelime bulutları
+
+Kelime bulutu, bir metin belgesinde geçen kelimelerin frekans dağılımını görselleştirmek için kullanılır. Genellikle, kelime bulutu oluşturma işlemi şu adımları içerir:
+
+1. Metnin yüklenmesi ve işlenmesi: Kelime bulutu oluşturmak için öncelikle metin belgesinin yüklenmesi ve işlenmesi gerekir. Bu işlem, metnin önceden belirlenmiş bir dil işleme adımından geçirilmesi ile gerçekleştirilir. Bu adım, kelime ayıklama, özel karakterlerin kaldırılması ve ayrıştırma işlemlerini içerebilir.
+2. Kelime frekanslarının hesaplanması: Metnin işlenmesinden sonra, belgedeki her kelimenin frekansı hesaplanır. Bu, kelimenin belgedeki toplam sayısıdır.
+3. Kelime bulutu oluşturma: Hesaplanan kelime frekansları, kelime bulutu oluşturmak için kullanılır. Kelimeler, büyükten küçüğe doğru sıralanır ve en sık kullanılan kelimeler daha büyük yazı tipiyle gösterilir.
+4. Kelime bulutları, özellikle sosyal medya analizi, web sayfası içeriği analizi ve pazarlama kampanyalarında kullanılan bir veri görselleştirme aracıdır.
+
+### 3D grafikler
+
+Matplotlib kütüphanesi, 3 boyutlu verileri görselleştirmek için de kullanılabilir. Bu işlem için `mplot3d` alt paketi kullanılır. Bu alt paket sayesinde, 3 boyutlu grafikler oluşturmak için gerekli araçlar sağlanır.
+
+Öncelikle, `mplot3d` paketini kullanarak 3 boyutlu grafikler için gerekli araçları içe aktaralım:
+
+
+```python
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+x = [1,2,3,4,5]
+y = [2,3,4,5,6]
+z = [0,1,2,3,4]
+ax.scatter(x, y, z)
+ax.set_xlabel('X Label')
+ax.set_ylabel('Y Label')
+ax.set_zlabel('Z Label')
+plt.show()
+```
+
+<img src="https://i.vgy.me/vTVAqM.png">
+
+Bir başka örnek verelim. Burada `add_subplot()` fonksiyonu kullanılarak, 1 satır ve 1 sütundan oluşan bir alt çizim alanı oluşturulur ve projection parametresine "3d" değeri verilerek, 3 boyutlu bir alt çizim alanı oluşturulur.
+
+3 boyutlu bir grafik çizdirmek için, `plot()` fonksiyonunun yerine `plot_wireframe()` fonksiyonu kullanılabilir. Bu fonksiyon, bir kablosuz çerçeve (wireframe) çizgisi şeklinde verileri görselleştirir.
+
+Örneğin, aşağıdaki kod bloğunda, `plot_wireframe()` fonksiyonu kullanılarak bir kürenin yüzeyi çizdirilir:
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits import mplot3d
+
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(111, projection="3d")
+
+u = np.linspace(0, 2 * np.pi, 100)
+v = np.linspace(0, np.pi, 100)
+
+x = 10 * np.outer(np.cos(u), np.sin(v))
+y = 10 * np.outer(np.sin(u), np.sin(v))
+z = 10 * np.outer(np.ones(np.size(u)), np.cos(v))
+
+ax.plot_wireframe(x, y, z, color="b")
+
+plt.show()
+```
+
+<img src="https://i.vgy.me/mx88wW.png">
+
+Bu örnekte, `np.outer()` fonksiyonu kullanarak, kürenin yüzeyine ait x, y ve z koordinatları hesaplanır ve `plot_wireframe()` fonksiyonu kullanılarak bu koordinatlar kullanılarak bir kablosuz çerçeve çizdirilir. Son olarak, `show()` fonksiyonu kullanılarak grafik ekrana çizdirilir.
+
+Bu şekilde, mplot3d paketi ile 3 boyutlu grafikler oluşturabilirsiniz.
+
+### Stil dosyaları
 
 Matplotlib kütüphanesinde bir dokümanda düzenli bir şekilde renk ve görsel seçenekleri kullanmak için stiller kullanılmaktadır. Kütüphane içerisindeki stil dosyaları `plt.style.available` komutu ile gösterilebilir. Tercih edilen stil `plt.style.use()` komutu ile seçilebilir. Bir dokümanda çizilen grafiklerin renkleri, yazı fontları, font büyüklükleri, ızgara şekilleri gibi tasarım özelliklerinin benzer şekilde olması beklenir. 
 
@@ -806,13 +1131,13 @@ plt.style.use('seaborn')
 ```
 
 
-<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_001.png"  width = "75%" height = "75%">
-<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_002.png"  width = "75%" height = "75%">
-<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_003.png"  width = "75%" height = "75%">
-<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_004.png"  width = "75%" height = "75%">
-<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_005.png"  width = "75%" height = "75%">
-<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_006.png"  width = "75%" height = "75%">
-<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_008.png"  width = "75%" height = "75%">
+![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_001.png)
+![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_002.png)
+![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_003.png)
+![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_004.png)
+![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_005.png)
+![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_006.png)
+![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_008.png)
 
 
 ```python
@@ -840,14 +1165,56 @@ plt.xlabel('Veriler')
 
 ```python
 # varsayılanlar belirlemek
-matplotlib.rcParams['lines.linewidth']=2.0 # tüm çizgiler bu çizgi genişliğine sahip olur
+plt.rcParams['lines.linewidth']=2.0 # tüm çizgiler bu çizgi genişliğine sahip olur
 ```
+
+## Veri görselleştirmede ipuçları
+
+Matplotlib'i veri görselleştirme için kullanmak, verilerinizdeki bilgileri ve desenleri etkili bir şekilde iletmek için güçlü bir araç olabilir. Ancak, herhangi bir araç gibi, en iyi sonucu elde etmek için doğru kullanmak önemlidir. Matplotlib kullanırken aklınızda bulundurmanız gereken bazı en iyi uygulamalar şunlardır:
+
+1. Basit tutun: Grafiklerinizi fazla sayıda öğe veya gereksiz ayrıntı ile karmaşık hale getirmekten kaçının. Mesajınızı iletmeye yardımcı olan temel bilgilerle sınırlı kalın.
+2. Doğru grafik türünü seçin: Farklı grafik türleri, farklı veri türleri ve mesajlar için daha uygun olabilir. Örneğin, bir çizgi grafiği zaman içindeki eğilimleri göstermek için daha iyidir, bir bar grafiği ise kategorileri karşılaştırmak için daha iyidir.
+3. Renkleri etkili kullanın: Renk, önemli bilgileri vurgulamak için güçlü bir araç olabilir, ancak ölçülü kullanılmalıdır. Kolayca ayırt edilebilen renkler seçin ve çok fazla farklı renk kullanmaktan kaçının.
+4. Eksenlerinizi etiketleyin: Eksenlerinizdeki birimleri ve ölçekleri net bir şekilde etiketleyin, böylece izleyicileriniz verileri anlayabilirler. 
+5. Başlık ve açıklama ekleyin: Başlık ve açıklama, grafiğinizin ana mesajını açıklamanıza ve bağlam sağlamanıza yardımcı olabilir.
+6. Bu en iyi uygulamaları aklınızda bulundurarak, veri görselleştirmelerinizin net, etkili ve anlaşılır olduğundan emin olabilirsiniz.
+
+Ayrıca, veri görselleştirmede Matplotlib'i kullanırken performansı da göz önünde bulundurmak önemlidir. Büyük miktarda veri ile uğraşırken, çizim süresi ve bellek kullanımını dikkate almak önemlidir.
+
+Performansı iyileştirmenin bir yolu, `matplotlib.pyplot.xlim()` ve `matplotlib.pyplot.ylim()` yöntemlerini kullanarak sırasıyla x ve y eksenlerinin sınırlarını belirlemektir. Bu, çizilecek veri miktarını azaltarak çizim performansını iyileştirebilir.
+
+Başka bir yol, birden çok figür yerine tek bir figürde birden çok grafik oluşturmak için `matplotlib.pyplot.subplots()` işlevini kullanmaktır. Bu, bellek kullanımını azaltarak çizim performansını artırabilir.
+
+Bu en iyi uygulamaları ve ipuçlarını takip ederek, Matplotlib kullanırken veri görselleştirmelerinizin hem etkili hem de verimli olmasını sağlayabilirsiniz.
+
+### Doğru görselleştirme şeklini belirleme
+
+Veriler için doğru görselleştirme şekli, verilerin türüne, boyutuna, özelliklerine ve anlatmak istediğiniz hikayeye bağlı olarak değişebilir. Bazı veriler, örneğin sayısal veriler, çizgi grafiği veya histogram gibi nicel grafiklerle daha iyi anlaşılabilirken, diğerleri, örneğin kategorik veriler, pasta grafikleri veya kutu grafikleri gibi nitel grafiklerle daha iyi anlaşılabilir.
+
+Doğru görselleştirme şeklini belirlemek için aşağıdaki faktörleri dikkate alabilirsiniz:
+
+- Verilerin tipi: Sayısal veriler, kategorik veriler, zaman serileri vb. farklı görselleştirme teknikleri gerektirir.
+- Verilerin boyutu: Verileriniz ne kadar büyükse, daha karmaşık görselleştirme teknikleri gerektirebilirsiniz.
+- Verilerin dağılımı: Verilerinizin dağılımı, verilerinizi nasıl görselleştireceğinizi etkileyebilir. Örneğin, normal dağılıma sahip veriler için histogram kullanmak doğru olabilirken, çarpık dağılıma sahip veriler için kutu grafikleri daha uygun olabilir.
+- Mesajınız: Görselleştirmenin amacı nedir? Verilerinizde hangi mesajı vermek istiyorsunuz? Verilerinizin hikayesini en iyi anlatan görselleştirmeyi seçmelisiniz.
+
+Doğru görselleştirme şeklini seçmek, verilerinizin en iyi şekilde anlaşılmasını sağlar ve hikayenizi en iyi şekilde anlatmanıza yardımcı olacaktır.
 
 ## Seaborn Kütüphanesi
 
 Seaborn, Python'da veri görselleştirme için kullanılan bir kütüphanedir. Matplotlib kütüphanesi temelde kullanılan grafiklerin yanı sıra, Seaborn kütüphanesi daha özel ve daha karmaşık grafiklerin oluşturulmasına yardımcı olur.
 
-Seaborn, özellikle istatistiksel veri görselleştirmesi için tasarlanmıştır ve Matplotlib'den daha yüksek seviyeli bir arayüz sağlar. Buna ek olarak, Seaborn, renk paletleri, özel grafikler ve istatistiksel gösterimler için önceden tanımlanmış tema ve stiller gibi birçok özellik sunar.
+
+### Seaborn ve Matplotlib
+
+Seaborn ve Matplotlib, veri görselleştirme için Python dilinde kullanılan iki popüler kütüphanedir. Matplotlib, Python topluluğunun uzun süredir kullandığı bir kütüphanedir ve temel grafik türlerini çizmek için kullanılır. Seaborn ise Matplotlib'e dayanarak, daha karmaşık görselleştirme tekniklerine odaklanan daha yeni bir kütüphanedir.
+
+- Seaborn, Matplotlib'in üzerine inşa edildiği için Matplotlib'i de kullanır. Ancak Seaborn, daha yüksek seviye araçlar sunar ve Matplotlib'den daha az kod yazmayı gerektirir. Örneğin, Seaborn ile daha karmaşık görselleştirmeleri yapmak daha kolaydır ve daha az ayarlama gerektirir. Seaborn, renkli grafikleri kolayca oluşturmak için önceden tanımlanmış renk paletleri de içerir.
+- Matplotlib daha esnek bir yapıya sahiptir ve daha özelleştirilmiş grafikler oluşturmak için kullanılabilir. Matplotlib ile çok daha fazla özelleştirme yapılabilir ve her yönü tam olarak kontrol edilebilir.
+- Seaborn, Matplotlib'in daha yüksek seviye araçlarına odaklanırken, Matplotlib daha özelleştirilmiş grafikler için daha fazla seçenek sunar. Seaborn ve Matplotlib birlikte kullanılabilir ve veri görselleştirme için güçlü bir kombinasyon sağlar.
+- Seaborn, özellikle istatistiksel veri görselleştirmesi için tasarlanmıştır ve Matplotlib'den daha yüksek seviyeli bir arayüz sağlar. Buna ek olarak, Seaborn, renk paletleri, özel grafikler ve istatistiksel gösterimler için önceden tanımlanmış tema ve stiller gibi birçok özellik sunar.
+- Seaborn ayrıca, regresyon analizi, faktör analizi ve kümeleme analizi gibi veri analizi tekniklerini de içeren birçok özel grafik fonksiyonuna sahiptir.
+
 
 Özellikle, Seaborn kütüphanesi aşağıdaki görselleştirme türlerini içerir:
 
@@ -887,20 +1254,28 @@ Ayrıca, col ve row parametreleri yardımıyla veri kümesinin farklı kategoril
 sns.relplot(x='total_bill', y = 'tip', data = tips)
 ```
 
+<img src="https://i.vgy.me/SSFwUV.png">
+
 
 ```python
 sns.relplot(x='total_bill', y = 'tip', data = tips, hue = 'day') # günlere göre ayrı tipler
 ```
+
+<img src="https://i.vgy.me/xdDnTP.png">
 
 
 ```python
 sns.relplot(x='total_bill', y = 'tip', data = tips, hue = 'day', style='time') # zamana göre de ayrılmış
 ```
 
+<img src="https://i.vgy.me/AsdjXN.png">
+
 
 ```python
 sns.relplot(x='total_bill', y = 'tip', data = tips, hue = 'day', style='time', col = 'sex') # cinsiyet de eklendi
 ```
+
+<img src="https://i.vgy.me/oc3Um8.png">
 
 ### catplot()
 Seaborn kütüphanesi içinde yer alan `catplot()`, kategorik verilerin görselleştirilmesi için kullanılan bir fonksiyondur. catplot(), farklı tiplerdeki kategorik verileri farklı grafik türleri ile görselleştirmek için tasarlanmıştır.
@@ -924,6 +1299,8 @@ g = sns.catplot(x='day', y='total_bill', hue='sex', kind='bar', data=tips)
 plt.show()
 ```
 
+<img src="https://i.vgy.me/3H8Jqg.png">
+
 Bu örnekte `catplot()` fonksiyonuna x, y ve hue parametreleri verilerek, x ekseninde günler, y ekseninde hesap miktarı, hue ile de cinsiyet bilgisi görselleştirilmiştir. Ayrıca kind parametresine bar değeri verilerek, çubuk grafiği çizdirilmiştir.
 
 Tablo veya veri kümesinin özet istatistiklerini göstermek için kullanılan boxplot, Seaborn kütüphanesi içinde yer alan `boxplot()` fonksiyonu ile çizdirilebilir. Boxplot, verilerin çeyrekliklerini (çeyrekler arası yayılma), medyanı ve aykırı değerleri grafiksel olarak gösterir.
@@ -934,4 +1311,11 @@ Tablo veya veri kümesinin özet istatistiklerini göstermek için kullanılan b
 ```python
 sns.boxplot(x='day', y='tip', data=tips)
 plt.show()
+```
+
+<img src="https://i.vgy.me/2i30l3.png">
+
+
+```python
+
 ```
