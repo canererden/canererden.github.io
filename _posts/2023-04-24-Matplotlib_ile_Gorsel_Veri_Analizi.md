@@ -14,7 +14,7 @@ Matplotlib, Python programlama dili için bir grafik çizme kütüphanesidir ve 
 ## Matplotlib Kütüphanesi
 Matplotlib, 2 ve 3 boyutlu grafiklerin çizilmesi için geliştirilmiş, anasayfası (http://matplotlib.org) adresinde bulunan, özellikle bilimsel ve mühendislik alanlarındaki veri görselleştirmelerinde sıklıkla kullanılan bir kütüphanedir. Veri görselleştirme ihtiyacı verinin olduğu her alanda geçerlidir. Çünkü büyük veri kümelerindeki veriyi nitelendiren özelliklere ve ölçülere genel çerçeveden bakılmak istendiğinde görsel araçlara ihtiyaç duyulur. Örneğin bir veri setinin dağılımı ile ilgili histogram grafikleri hızlı bir izlenim imkanı sunar. Aşağıdaki görselde tablo ile sunulamayacak bilgilerin veri görselleştirme ile göze hitap edecek şekilde sunulması için araçlar gösterilmiştir. 
 
-![](https://uploads-ssl.webflow.com/61488f4f65be16b5ebbd450b/61b74ab1d55fa17b82d7ed89_Data%20Visualization.jpg)
+<img src="https://uploads-ssl.webflow.com/61488f4f65be16b5ebbd450b/61b74ab1d55fa17b82d7ed89_Data%20Visualization.jpg"  width = "75%" height = "75%">
 
 Matplotlib kütüphanesi [NumPy](https://numpy.org/) üzerine kurulmuş bir kütüphanedir. Bu nedenle Matplotlib kütüphanesinin çağrılmasından önce NumPy kütüphanesinin de yüklü kütüphaneler arasında olması gereklidir. Matplotlib, verileri görselleştirmek için kullanılan güçlü bir kütüphanedir. Bu nedenle, Matplotlib'ın sunduğu avantajları kullanarak, verilerinizi etkileyici grafiklere dönüştürebilir ve daha kolay bir şekilde analiz edebilirsiniz. Kısaca Matplotlib kütüphanesinin önemli avantajlarını şu şekilde sunabiliriz:
 
@@ -47,7 +47,7 @@ Matplotlib'deki bu katmanlar, grafik oluşturma ve özelleştirme sürecinde kul
 
 Matplotlib'de bir grafik oluşturmak için ilk adım, bir "Figure" oluşturmaktır. "Figure", en üst düzey çizim katmanıdır ve grafikteki her şeyin (eksenler, etiketler, veriler vb.) bulunduğu alanı tanımlar. Aşağıda bir "Figure" anatomisi anlatılmaktadır:
 
-![](https://matplotlib.org/stable/_images/anatomy.png)
+<img src="https://matplotlib.org/stable/_images/anatomy.png"  width = "75%" height = "75%">
 
 1. Figure: Figure, en üst düzey grafik alanıdır. Eksenler, metin, çizgiler ve diğer tüm öğeler bu alan içinde bulunur.
 2. Axes: Axes, Figure içindeki verilerin çizildiği alandır. Her "Figure" bir veya daha fazla "Axes" içerebilir.
@@ -226,7 +226,7 @@ plt.grid()
 plt.legend()
 ```
 
-![image.png](https://matplotlib.org/stable/_images/sphx_glr_linestyles_001.png)
+![image.png](https://matplotlib.org/stable/_images/sphx_glr_linestyles_001.png"  width = "75%" height = "75%">
 
 Diğer diğer parametreler için [şu adresten](https://matplotlib.org/devdocs/api/_as_gen/matplotlib.pyplot.plot.html) bilgi alınabilir.
 
@@ -261,15 +261,24 @@ Matplotlib, çizgi komutlarının marker parametresi kullanılarak seçilen bird
 
 
 **Doldurulmamış markerlar (Unfilled markers)**
-![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_001.png)
+
+<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_001.png"  width = "75%" height = "75%">
+
 **Doldurulmuş markerlar (Filled)**
-![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_002.png)
+
+<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_002.png"  width = "75%" height = "75%">
+
 **Marker fill styles**
-![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_003.png)
+
+<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_003.png"  width = "75%" height = "75%">
+
 **TeX sembollerinden oluşturulan markerlar**
-![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_004.png)
+
+<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_004.png"  width = "75%" height = "75%">
+
 **Yollardan oluşturulan markerlar**
-![](https://matplotlib.org/stable/_images/sphx_glr_marker_reference_005.png)
+
+<img src="https://matplotlib.org/stable/_images/sphx_glr_marker_reference_005.png"  width = "75%" height = "75%">
 
 ### Renk Haritası (Colormap) Özellikleri
 
@@ -655,7 +664,7 @@ plt.legend(['sinüs', 'cosinüs', 'kare'], loc = 'upper left')
 
 Matplotlib kütüphanesinde grafikleri resim olarak kaydetmek, grafikleri göstermek kadar kolaydır. Grafikleri jpeg, png gibi formatlarda kaydetmek için savefig() fonksiyonu kullanılabilir. savefig() fonksiyonu içerisine parametre olarak grafiğin yolu ve ismi verilmelidir, bu parametre fname olarak verilir. fname dışında kullanılabilecek diğer bazı parametreler aşağıda verilmiştir.
 
-- dpi=None: Görüntünün çözünürlüğü, örneğin 300 dpi(inç başına düşen nokta sayısı) ![image.png](attachment:image.png)
+- dpi=None: Görüntünün çözünürlüğü, örneğin 300 dpi(inç başına düşen nokta sayısı)
 - transparent=False: True değeri verildiğinde grafiğin arka planı transparan hale getirilir.
 - bbox_inches=None, grafik çevresindeki sınırlar ile ilgilidir. bbox_inches='tight' genellikle ideal sonuçlar verir.
 
@@ -797,13 +806,13 @@ plt.style.use('seaborn')
 ```
 
 
-![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_001.png)
-![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_002.png)
-![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_003.png)
-![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_004.png)
-![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_005.png)
-![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_006.png)
-![](https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_008.png)
+<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_001.png"  width = "75%" height = "75%">
+<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_002.png"  width = "75%" height = "75%">
+<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_003.png"  width = "75%" height = "75%">
+<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_004.png"  width = "75%" height = "75%">
+<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_005.png"  width = "75%" height = "75%">
+<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_006.png"  width = "75%" height = "75%">
+<img src="https://matplotlib.org/stable/_images/sphx_glr_style_sheets_reference_008.png"  width = "75%" height = "75%">
 
 
 ```python
