@@ -108,7 +108,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-LFW1VCT629 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -135,12 +135,12 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  repo: canererden/canererden.github.io      # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOI-MLlg
+  category: General             # name of the category under which discussions will be created
+  category_id: DIC_kwDOI-MLls4CWEyy
   mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
+  strict: 0                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
@@ -148,7 +148,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: canererden # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
