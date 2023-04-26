@@ -2,6 +2,7 @@
 layout: post
 title: Bu Sistem ile Daha Verimli Çalışın
 date: 2022-04-22
+giscus_comments: true
 permalink: 
 tags:
   - blog
