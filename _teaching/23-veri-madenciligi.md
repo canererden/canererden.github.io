@@ -14,7 +14,7 @@ Kodu: "[ENM424](https://ebs.sakarya.edu.tr/Ders/Detay/573483)"
 Google Class: [orlap6f](https://classroom.google.com/c/NTQyMjIzMjc1MDU3?cjc=orlap6f)
 
 
-Ders notları: [blog](https://canererden.com/blog/tag/veri-madencili%C4%9Fi/)
+Ders notları: [kitap](https://canererden.com/veri-analizi-python/intro.html)
 
 ## Amaç
 
