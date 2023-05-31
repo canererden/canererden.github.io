@@ -8,6 +8,7 @@ tags:
   - bibliyometrik
   - akademik
   - literatür
+  - tarama
   - bibliometrix
   - vosviewer
 ---
