@@ -5,9 +5,9 @@ date: 2023-06-01
 giscus_comments: true
 permalink: 
 tags:
-  - bibliyometrik analiz
-  - akademik çalışma
-  - literatür taraması
+  - bibliyometrik
+  - akademik
+  - literatür
   - bibliometrix
   - vosviewer
 ---
