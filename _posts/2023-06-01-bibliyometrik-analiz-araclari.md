@@ -91,7 +91,7 @@ Kurulum için [şuradaki](https://bibliometrix.org/biblioshiny/biblioshiny1.html
 install.packages("shiny")
 install.packages("bibliometrix")
 ```
-<img src = https://i.vgy.me/0k0ZIO.png>
+<img src = "https://i.vgy.me/0k0ZIO.png">
 
 4. Web of Science'tan veri dışa aktarma: Literatür aramanızı Web of Science'ta (WoS) gerçekleştirin, "Dışa Aktar" düğmesini tıklayın ve "BibTex"i seçin. "Kayıtları BibTeX Dosyasına Aktar" ekranında, "Kayıt İçeriği:" etiketi altında, "Tam Kayıt ve Atıf Yapılan Referanslar"ı seçin. Ardından, 'Kayıt kaynağı' alanında ilk 500 kaydı seçin (500'den fazla kaydınız varsa veya tüm kayıtları indirmeyi seçin). 500'den fazla kaydınız varsa, toplamda WoS'taki tüm kayıtları içeren birden çok .bib dosyanız olana kadar işlemi tekrarlayın.
 5. BibTeX dosyalarını birleştirin: WoS'tan birden çok .bib dosyasını dışa aktarmanız gerekiyorsa, tek bir .bib dosyanız olacak şekilde dosyaları birleştirmeniz gerekir. BibTeX dosyalarını birleştirmek için, en kolayının bir metin düzenleyicide (Notepad gibi) yeni bir dosya açmak ve bu dosyayı .bib dosya uzantısıyla bilgisayarınıza kaydetmek olduğunu düşünüyorum. Ardından, WoS'tan indirdiğiniz .bib dosyalarının her birini açın ve indirilen dosyaların her birinin içeriğini kopyalayıp oluşturduğunuz yeni .bib dosyasına yapıştırın. Burada yaptığımız şey, WoS'tan indirilen birden çok dosyadaki tüm verileri içeren tek bir dosya oluşturmaktır.
@@ -106,6 +106,6 @@ Not: Bibliometrix'i kullanmak istediğinizde, hemen yukarıdaki kodu kopyalayıp
 
 8. BibTeX dosyanızı yükleyin: Bibliometrix'te 'Veri'yi ve ardından 'Verileri Yükle'yi tıklayın. "Lütfen, ne yapılacağını seçin" etiketinin altında "Ham dosyaları içe aktar" öğesini seçin ve "Veritabanı" etiketinin altında "Web of Science (WoS/WoK)" öğesini seçin. Gözat'ı tıklayarak .bib dosyanızı seçin ve ardından "BAŞLAT" düğmesini tıklayın. Artık bibliyometrik analiziniz için Bibliometrix'i kullanmaya hazırsınız.
 
-<img src=https://i.vgy.me/PV4s94.png>
+<img src="https://i.vgy.me/PV4s94.png">
 
 9. Bibliyometrik analizler gerçekleştirin: Verileri analiz etmek amacıyla Bibliometrix'i kullanmak için ekranın solunda gerçekleştirmek istediğiniz kapsayıcı analiz türlerini seçin, örneğin 'Kaynaklar' ve ardından 'En İlgili Kaynaklar' gibi alt menü öğesini seçin. Ekranın sağ tarafından tercih ettiğiniz seçenekleri seçin ve ardından "Çalıştır" düğmesini tıklayın. Artık sonuçları görecek ve sonuçların bir görüntüsünü ve sonuçları içeren bir tabloyu dışa aktarabileceksiniz.
