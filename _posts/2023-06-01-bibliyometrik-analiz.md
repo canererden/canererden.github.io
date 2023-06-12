@@ -9,6 +9,7 @@ tags:
   - akademik
   - literatür
   - tarama
+  - kaynak bulma
   - bibliometrix
   - vosviewer
 ---
