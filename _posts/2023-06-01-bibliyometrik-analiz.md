@@ -18,6 +18,18 @@ Bibliyometrik analiz, belirli bir alanda belirli bir dönemde ve belirli bir bö
 
 Yayınların toplanması aşamasında, araştırma konusuna uygun bir veritabanı seçilir. Örneğin, Web of Science, Scopus veya PubMed gibi popüler veritabanları tercih edilebilir. Bu anlatımda Web of Science (WoS) veritabanı üzerine odaklanacağız. Ancak öncelikle birkaç tanım ile başlayalım (https://cabim.ulakbim.gov.tr/bibliyometrik-analiz/bibliyometrik-analiz-sikca-sorulan-sorular/).
 
+Konuya geçmeden önce bu blog yazısı ile birlikte hazırladığım videoya göz atmanızı öneririm.
+
+---
+**Bibliyometrik Analiz Nedir? Nasıl Kullanılır?**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OXw2jo7_4HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+**Bibliyometrik Analiz Araçlar VOSviewer ve Bibliometrix Kullanımı**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Y687ALw-lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+---
+
 ## Kavramlar
 
 ### Bibliyometri Nedir ?
@@ -79,6 +91,8 @@ WoS indeksinde yer alan Türkiye adresli dergilerin listesine **[buradan](https
 ### SCOPUS Veri Tabanı Nedir?
 
 Elsevier Yayınevi’ne ait çok disiplinli bibliyografik bir veri tabanıdır. 1996′ dan itibaren atıf analizleri de yapılabilmektedir.
+
+---
 
 ## Bibliometrik Analiz Nedir?
 Bibliyometrik analiz, bilimsel yayınlar üzerinde desenleri, eğilimleri ve ilişkileri analiz etmeyi amaçlayan bir yöntemdir. Bu analiz, yayınlanan makalelerin metrik verilerini kullanarak bilimsel araştırma alanlarını, yazarları, kurumları ve çalışmalar arasındaki ilişkileri anlamamızı sağlar. Bibliyometrik analiz, yayın veritabanlarından toplanan bibliyografik verileri kullanarak çeşitli analizler yapmayı içerir. Bu analizler arasında yayın sayıları, atıf analizleri, yazarlık ağları, anahtar kelime co-occurrence analizleri ve diğer görselleştirmeler yer alır. Bibliyometrik analiz, bilimsel araştırma performansının değerlendirilmesi, araştırma trendlerinin belirlenmesi ve araştırma alanları arasındaki işbirliklerinin anlaşılması gibi birçok alanda kullanılır.
