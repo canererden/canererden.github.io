@@ -13,13 +13,7 @@ tags:
 
 # Akademik Yayınlarda ChatGPT Komutları
 
-![ChatGPT Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png)
-
 Bu blog yazısında akademik yayınlarda kullanılabilecek bazı ChatGPT komutlarını paylaşacağım.
-
-# Yeni Çalışma Konusu Bulma için
-
-Tabii, işte akademik çalışma konusu bulma veya gramer düzenlemesi için kullanılabilecek promptları listeleyelim:
 
 ## Yeni Çalışma Konusu Bulma için Promptlar:
 
