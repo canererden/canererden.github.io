@@ -288,9 +288,11 @@ Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili 
 
 ### Wordvice AI
 
-[https://wordvice.ai/](https://wordvice.ai/) <div align="center">
+[https://wordvice.ai/](https://wordvice.ai/) 
+<div align="center">
   <img src="https://bit.ly/3sYXTDK" alt="Your Image" width="30%">
-</div> Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İngilizce yazılarda hataları otomatik olarak bulur ve düzeltir.
+</div> 
+Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İngilizce yazılarda hataları otomatik olarak bulur ve düzeltir.
 
 - Gerçek zamanlı dilbilgisi ve noktalama işaretleri kontrolleri
 - İngilizce yazılara uygun kelime bilgisi, ton ve stil düzeltmeleri
