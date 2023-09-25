@@ -11,6 +11,56 @@ tags:
   - araçlar
 ---
 
+## İçerik
+
+- [Akademik Alanda Kullanılabilecek Yapay Zeka Araçları](#akademik-alanda-kullanılabilecek-yapay-zeka-araçları)
+  - [Kullanım Amaçları](#kullanım-amaçları)
+  - [Popüler Chatbot Uygulamaları](#popüler-chatbot-uygulamaları)
+    - [ChatGPT](#chatgpt)
+    - [Google Bard](#google-bard)
+  - [Yazma ve Dilbilgisi Yardımcıları](#yazma-ve-dilbilgisi-yardımcıları)
+    - [Grammarly](#grammarly)
+    - [Copy.ai](#copyai)
+    - [Paperpal](#paperpal)
+    - [ProWritingAid](#prowritingaid)
+    - [Trinka](#trinka)
+    - [Writefull](#writefull)
+    - [Wordvice AI](#wordvice-ai)
+    - [Hemingway Editor](#hemingway-editor)
+    - [Quillbot](#quillbot)
+    - [Scholarly](#scholarly)
+    - [LanguageTool](#languagetool)
+    - [EssayBot](#essaybot)
+- [Araştırma ve Literatür Tarama](#araştırma-ve-literatür-tarama)
+  - [Belge Okuma ve Anlama](#belge-okuma-ve-anlama)
+    - [ChatPDF](#chatpdf)
+    - [Typeset.io (SciSpace)](#typesetio-scispace)
+    - [ChatDoc](#chatdoc)
+    - [DocLime](#doclime)
+    - [Docalysis](#docalysis)
+    - [Sharly AI](#sharly-ai)
+    - [Docsumo](#docsumo)
+  - [Zaman Yönetimi ve Verimlilik](#zaman-yönetimi-ve-verimlilik)
+    - [ProofHub](#proofhub)
+    - [Gradescope](#gradescope)
+    - [MagicSchool.ai](#magicschoolai)
+  - [Kişiselleştirilmiş Öğrenme Deneyimi](#kişiselleştirilmiş-öğrenme-deneyimi)
+    - [Tutor AI](#tutor-ai)
+    - [Ask Codi](#ask-codi)
+  - [Diğer Araçlar](#diğer-araçlar)
+    - [DeepL](#deepl)
+    - [Bing Image Creator](#bing-image-creator)
+    - [Hocoos](#hocoos)
+    - [Kickresume](#kickresume)
+    - [Replika](#replika)
+    - [Tome.app](#tomeapp)
+    - [Lateral](#lateral)
+    - [Glasp](#glasp)
+    - [Audioopen](#audioopen)
+- [Sonuç](#sonuç)
+- [Kaynaklar](#kaynaklar)
+
+
 # Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
 
 Akademik alanda başarı, artık öğrencilerin ve akademisyenlerin kullanabileceği yapay zeka araçları sayesinde daha farklı bir noktaya geldi. Bu blog yazısında akademik amaçlarla kullanılabilecek yapay zeka araçlarını derlemeye çalışacağım.
