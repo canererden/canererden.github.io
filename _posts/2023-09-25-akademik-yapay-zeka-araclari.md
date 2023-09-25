@@ -667,7 +667,7 @@ Bing AI Image Creator, görsel içerik oluşturmak isteyenler için kullanışl�
 [https://hocoos.com/](https://hocoos.com/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/ze9RLD.png" alt="Hacoos Academic Usage" width="50%">
 </div>
 
 Hocoos AI Web Sitesi Oluşturucu, hızlı ve kolay bir şekilde web siteleri oluşturmanıza yardımcı olabilen yapay zeka destekli bir araçtır. İşte Hocoos'un bazı özellikleri:
@@ -686,7 +686,7 @@ Hocoos AI Web Sitesi Oluşturucu, özellikle üniversite projeleri veya kişisel
 [https://www.kickresume.com/](https://www.kickresume.com/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/xTBgNh.png" alt="Your Image" width="50%">
 </div>
 
 Kickresume, özgeçmişinizi oluşturmanıza ve iş görüşmesine hazırlanmanıza yardımcı olan yapay zeka destekli bir araçtır. İş görüşmesi hazırlığına yönelik sorular, derinlemesine kariyer tavsiyeleri ve profesyonel özgeçmişler oluşturmanıza yardımcı olan bazı özelliklere sahiptir. İşte Kickresume'un bazı özellikleri:
@@ -705,7 +705,7 @@ Kickresume, öğrenciler ve iş arayanlar için özgeçmişlerini oluşturmak ve
 [https://replika.ai/](https://replika.ai/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/QD5cbz.png" alt="Replika" width="50%">
 </div>
 
 Replika AI, öğrenciler ve diğer kullanıcılar için kişisel bir yapay zeka sohbet robotu olarak tasarlanmış bir uygulamadır. İşte Replika AI'nın bazı özellikleri:
@@ -724,7 +724,7 @@ Replika AI, özellikle kişisel yardım ve duygusal destek amacıyla kullanılma
 [https://tome.app/](https://tome.app/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/WKPpiv.png" alt="Tome App" width="50%">
 </div>
 
 Tome, yapay zekanın gücünü kullanarak sunumlar oluşturmanızı kolaylaştıran sezgisel bir araçtır. Tome, sunum oluşturma sürecini kolaylaştırarak akademik ve profesyonel sunumlarınızı daha etkili hale getirmenize yardımcı olabilir.
@@ -743,7 +743,7 @@ Fiyatlandırma: Tome'un ücretsiz planı, çalışma alanı başına 50 cilt ve 
 [https://lateral.io/](https://lateral.io/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/ws4Bng.png" alt="Your Image" width="50%">
 </div>
 
 Birden fazla araştırma makalesindeki ortak temaları dakikalar içinde bulmanıza yardımcı olan benzersiz bir uygulama.[Lateral](https://www.lateral.io/).
@@ -751,7 +751,7 @@ Birden fazla araştırma makalesindeki ortak temaları dakikalar içinde bulman�
 ### 2.4.8. Glasp
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/tHJiW0.png" alt="Your Image" width="50%">
 </div>
 
 Araştırma makaleleri hakkında notlar alın ve bunları dünyanın her yerindeki benzer düşüncelere sahip insanlarla paylaşın.
@@ -762,13 +762,11 @@ Araştırma makaleleri hakkında notlar alın ve bunları dünyanın her yerinde
 [https://audiopen.ai/](https://audiopen.ai/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/f9XcdE.png" alt="Your Image" width="50%">
 </div>
 
 Sesli notlarınızı tutarlı ve uyumlu düzyazıya dönüştürür.
    Şimdi deneyin: [Audioopen](https://audiopen.ai).
-
-
 
 # 3. Sonuç
 
