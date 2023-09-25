@@ -36,10 +36,13 @@ Bu araçlar, çeşitli kullanım amaçlarına hizmet etmek üzere tasarlanmış 
 
 ## Popüler Chatbot Uygulamaları
 
-### ChatGPT
+### ChatGPT 
+[chatgpt.com](https://chat.openai.com/)
 
+<div align="center">
+  <img src="https://images.pexels.com/photos/15863066/pexels-photo-15863066/free-photo-of-internet-teknoloji-is-dizayn.jpeg" alt="ChatGPT" width="75%">
+</div>
 
-![](https://images.pexels.com/photos/15863066/pexels-photo-15863066/free-photo-of-internet-teknoloji-is-dizayn.jpeg)
 
 Kasım 2022'de piyasaya sürülen OpenAI sohbet robotu ChatGPT, akademik araştırmacılara çeşitli şekillerde yardımcı olabilecek bir yapay zeka aracıdır. Ancak, botun sahip olduğu bilgilerin tamamen güvenilir olmadığını ve hatta bazen yanlış olabileceğini unutmamak önemlidir.
 
@@ -47,18 +50,46 @@ ChatGPT, araştırma konunuzla ilgili belirli soruları yanıtlayabilir. Aynı z
 
 Bu yapay zeka sohbet robotu ayrıca araştırma soruları, hipotezler veya deneysel tasarımlar hakkında fikir üretmenize yardımcı olabilir. Karmaşık kavramları basitleştirilmiş açıklamalarla sunarak anlayışınızı derinleştirmenize katkıda bulunabilir. Ayrıca, yazınızın dilbilgisi ve kelime seçimi konusunda da düzeltmeler yaparak daha akıcı ve anlaşılır bir metin oluşturmanıza yardımcı olabilir.
 
+Aşağıdaki blog gönderisinde ChatGPT'nin akademik alanda nasıl kullanılabileceğini daha ayrıntılı olarak inceleyebilirsiniz: 
+
+[ChatGPT: Akademik Araştırmalarda Kullanımı](https://canererden.com/blog/2023/akademik_yayinlarda_chatgpt_promptlar/)
+
+Youtube'da bu konuda bir video da bulunmaktadır:
+
+[![Video Title](https://img.youtube.com/vi/IqfYYxmbTuM/0.jpg)](https://www.youtube.com/watch?v=IqfYYxmbTuM)
+
 Ancak, ChatGPT'nin sunduğu bilgilerin her zaman doğru ve güncel olmadığını unutmamanız önemlidir. Araştırma sürecinizin her aşamasında dikkatli ve eleştirel bir yaklaşım benimsemeli ve güvenilir kaynakları kullanmalısınız. ChatGPT, araştırma çalışmalarınızı destekleyebilir, ancak bu destek kapsamlı bir insan incelemesi ve güvenilir kaynakların kullanımı ile tamamlanmalıdır.
 
-### Google Bard
+### Google Bard 
+[https://bard.google.com/](https://bard.google.com/)
 
-![](https://images.pexels.com/photos/18272890/pexels-photo-18272890/free-photo-of-bina-sanayi-kentsel-sirket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+<div align="center">
+  <img src="https://images.pexels.com/photos/18272890/pexels-photo-18272890/free-photo-of-bina-sanayi-kentsel-sirket.jpeg" alt="Google Bard academic usage" width="50%">
+</div>
 
 Bard, Google tarafından tasarlanan konuşmaya dayalı ve üretken bir yapay zeka sohbet robotudur. 137 milyar parametre üzerinde eğitilmiş olan Bard, geniş bir konuda bilgi sunabilir ve kullanıcıların çeşitli soruları yanıtlamak veya görevleri yerine getirmek için kullanabilirler. Benzer şekilde, ChatGPT gibi bir yapay zeka asistanı olarak işlev görür.
 
+Bard, akademik araştırmacılara çeşitli şekillerde yardımcı olabilir. Örneğin, araştırma konunuzla ilgili belirli soruları yanıtlayabilir. Aynı zamanda önemli makaleler, yazarlar veya eğilimler hakkında önerilerde bulunarak literatür taramasının ilk aşamalarına yardımcı olabilir. 
+
+<div align="center">
+   <img src="https://d1aeya7jd2fyco.cloudfront.net/uploads/2023/05/22/top-10-ways-to-use-bard-as-a-student.webp" alt="How to use Google Bard for academic usage" width="90%">
+</div>
+
+Bununla ilgili daha fazla bilgi için aşağıdaki videoyu izleyebilirsiniz:
+
+[![Video Title](https://img.youtube.com/vi/PbiwGAU5rj0/0.jpg)](https://www.youtube.com/watch?v=PbiwGAU5rj0)
+
+Yine hatırlatalım... Güvenilir bilimsel kaynakları kullanarak kapsamlı bir literatür taraması yapmanız gerektiğini unutmamanız önemlidir.
+
 ## Yazma ve Dilbilgisi Yardımcıları
 
-### Grammarly
-![Alt text](image.png)
+### Grammarly 
+[grammarly.com](https://grammarly.com/)
+
+<div align="center">
+  <img src="https://bit.ly/46nvTbh" alt="Grammarly Academic Usage" width="75%">
+</div>
+
 Dilbilgisi açısından, kullanıcılar yapay zeka destekli çevrimiçi yazma yardımcısı Grammarly ile yazılarını geliştirebilirler. Grammarly, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
 
 **Dilbilgisi ve Yazım Kontrolü:** Grammarly, kullanıcıların metinlerini dilbilgisi hatalarına ve yazım hatalarına karşı kontrol etmelerine yardımcı olur. Noktalama işaretleri
@@ -79,8 +110,101 @@ Dilbilgisi açısından, kullanıcılar yapay zeka destekli çevrimiçi yazma ya
 
 Grammarly, kullanıcıların yazılı iletişimlerini daha etkili ve doğru hale getirmelerine yardımcı olan güçlü bir dilbilgisi ve yazım aracıdır. Hem bireysel hem de kurumsal kullanıcılar için çeşitli özellikler sunar.
 
+Ayrıca üniversitelere sunulan Grammarly Premium üyeliği ile ilgili bilgi almak için aşağıdaki bağlantıyı ziyaret edebilirsiniz:
+
+[Grammarly Premium Üyeliği](https://www.grammarly.com/edu)
+
+Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz. Word eklentisi uzun dokümanlarda çok stabil çalışmasa da sabırlı bir kullanıcı ya da kısa yazılar için iş görebilir :) 
+
+<div align="center">
+   <img src="https://i.vgy.me/QV6W1i.png" alt="Grammarly Academic Usage" width="75%">
+</div>
+
+### Copy.ai
+[https://copy.ai/](https://copy.ai/)
+
+<div align="center">
+  <img src="https://bit.ly/3sYXTUg" alt="Your Image" width="75%">
+</div>
+
+Copy.ai, yapay zeka destekli bir metin oluşturma platformudur. Bu platform, kullanıcılara çeşitli metinler oluşturmalarına yardımcı olur, örneğin reklam başlıkları, blog gönderileri, ürün açıklamaları, sosyal medya içerikleri ve daha fazlası. Kullanıcılar metin oluşturma görevlerini hızlandırmak ve metinlerini geliştirmek için Copy.ai'nin önerilerini kullanabilirler.
+
+Copy.ai'nin bazı özellikleri şunlardır:
+
+- **Ürün Açıklamaları:** E-ticaret siteleri ve mağazaları için ürün açıklamaları oluşturabilirsiniz.
+- **Blog Gönderileri:** Blog yazarları için başlık ve içerik önerileri sunar.
+- **Reklam Metinleri:** Dijital reklam kampanyaları için etkili başlıklar ve metinler oluşturabilirsiniz.
+- **İçerik Genişletme:** Mevcut metinleri daha uzun ve kapsamlı hale getirebilirsiniz.
+
+Copy.ai, metin yazarları, pazarlamacılar ve içerik üreticileri için hızlı ve yaratıcı bir metin oluşturma aracı olarak kullanılabilir. Ancak, kullanıcıların oluşturulan metinleri dikkatle gözden geçirerek ve özelleştirerek sonuçları kişiselleştirmeleri önemlidir.
+
+Özelleştirilmiş metinler için önceden yüklenmiş komutları kullanabilirsiniz:
+
+<div align="center">
+  <img src="https://i.vgy.me/EC7RYv.png" alt="Your Image" width="75%">
+</div>
+
+Görebildiğim kadarıyla 30.000 karaktere kadar ücretsiz kullanım imkanı sunuyor. Ücretsiz sürümde oluşturulan metinlerin sonunda "Made with Copy.ai" ibaresi yer alıyor. Ücretli sürümde bu ibare kaldırılabiliyor.
+
+### Paperpal
+[https://paperpal.com/](https://paperpal.com/)
+
+<div align="center">
+  <img src="https://i.vgy.me/teFYhp.png" alt="Your Image" width="75%">
+</div>
+
+Paperpal, akademik yazılarınızı geliştirmenize yardımcı olan bir editör ve MS Word eklentisi sunan bir araçtır. Bu tür araçlar, yazım hatalarını, dil bilgisi sorunlarını ve yazı stilini geliştirmek için öneriler sunarak akademik yazıları daha etkili hale getirmenize yardımcı olabilir. MS Word eklentisi, kullanıcıların yazılarını doğrudan Word belgeleri üzerinde düzenleyerek işlerini kolaylaştırır.
+
+Paperpal gibi araçlar, özellikle öğrenciler, araştırmacılar ve yazarlar için yararlıdır. Yazdıkları metinleri daha profesyonel ve anlaşılır hale getirmek isteyen kişiler için önemli bir kaynak olabilirler.
+
+MS Word eklentileri, kullanıcıların metinlerini yazarken veya düzenlerken bu tür yazım ve dilbilgisi hatalarını hızlı bir şekilde tespit edip düzeltebilmelerini sağlar. Bu da yazıların kalitesini artırabilir ve daha güvenilir hale getirebilir.
+
+Aylık 200 düzeltmeye kadar ücretsiz olarak sunuyor. Ayrıca Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz.
+
+<div align = "center">
+   <img src="https://i.vgy.me/FJ70Dm.png" alt="Paperpal Academic Usage" width="75%">
+</div>
+
+
+### ProWritingAid 
+[prowritingaid.com](https://prowritingaid.com/)
+
+<div align="center">
+  <img src="https://i.vgy.me/8mVRMR.png" alt="ProWritingAid Academic Usage" width="75%">
+</div>
+
+ProWritingAid, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
+
+**Dilbilgisi ve Yazım Kontrolü:** ProWritingAid, kullanıcıların metinlerini dilbilgisi hatalarına ve yazım hatalarına karşı kontrol etmelerine yardımcı olur. Noktalama işaretleri dahil olmak üzere yazım hatalarını düzeltir.
+
+**Stil ve Ton Düzenlemeleri:** ProWritingAid, metinlerin stilini ve tonunu iyileştirmek için öneriler sunar. Bu, metnin daha tutarlı ve etkili olmasına yardımcı olabilir.
+
+**Alıntı Oluşturucu:** Araştırma makaleleri veya raporlar yazanlar için ProWritingAid, alıntılar ve kaynakları düzenlemek ve alıntıları oluşturmak için kullanışlı bir araç sunar.
+
+**İntihal Kontrolü:** ProWritingAid, yazıların intihal içerip içermediğini kontrol etmek için kullanılabilir. Bu özellik, akademik ve profesyonel yazılarda çok önemlidir.
+
+**Çeşitli Platformlara Entegrasyon:** ProWritingAid, Windows, Mac, iOS ve Android platformlarında 500.000'den fazla uygulama ve web sitesi ile sorunsuz bir şekilde entegre olabilir.
+
+**Farklı Kullanıcı Gruplarına Uygun Planlar:** ProWritingAid, bireyler, gruplar, şirketler ve eğitim kurumları için farklı ihtiyaçları karşılamak üzere çeşitli planlar sunar.
+
+**Blog İçerikleri:** Ayrıca, ProWritingAid farklı konularda bloglar sunar, bu da kullanıcıların dilbilgisi ve yazım konularında daha fazla bilgi edinmelerine yardımcı olabilir.
+
+ProWritingAid, kullanıcıların yazılı iletişimlerini daha etkili ve doğru hale getirmelerine yardımcı olan güçlü bir dilbilgisi ve yazım aracıdır. Hem bireysel hem de kurumsal kullanıcılar için çeşitli özellikler sunar.
+
+Birçok eklenti ve entegrasyon seçeneği sunuyor. Ayrıca Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz.
+
+<div align = "center">
+   <img src="https://i.vgy.me/73dxJA.png" alt="ProWritingAid Academic Usage" width="75%">
+</div>
+
 ### Trinka
-![Alt text](image-1.png)
+[trinka.ai](https://trinka.ai/)
+
+<div align="center">
+  <img src="https://i.vgy.me/8MuwgO.png" alt="Your Image" width="75%">
+</div>
+
+
 Trinka, akademik ve teknik metinlerinizde dil düzeltme konusunda size yardımcı olabilecek etkili bir yapay zeka aracıdır.
 
 Trinka'nın sunduğu en büyük avantajlardan biri, 5000 kelimeye kadar olan metinlerinizi ücretsiz olarak düzeltebilme imkanı sunmasıdır. Özellikle aylık 5000 kelime sınırlaması, birçok kullanıcı için yeterli bir hizmet sunar. Üstelik bu sınırlama sayesinde Trinka'yı deneyerek, ihtiyaçlarınıza ve yazım düzeltme beklentilerinize uygunluğunu değerlendirebilirsiniz.
@@ -92,7 +216,12 @@ Premium sürümünün yıllık 80 dolarlık bir ücretle sunulduğunu belirtmek 
 Sonuç olarak, Trinka, akademik ve teknik yazılarınızın dil bilgisi ve yazım hatalarını düzeltmek için kullanabileceğiniz etkili bir çevrimiçi araç olarak dikkat çekmektedir. Ücretsiz sürümü, aylık 5000 kelime sınırlamasıyla çoğu kullanıcının ihtiyaçlarını karşılayabilirken, daha fazla özellik ve hız için Premium sürümüne yatırım yapma seçeneği de mevcuttur. Trinka'nın kolay kullanımı ve etkili düzeltme önerileri, yazılarınızın kalitesini artırmak için güçlü bir yardımcı olabilir.
 
 ### Writefull
-![Alt text](image-2.png)
+[writefull.com](https://writefull.com/)
+
+<div align="center">
+  <img src="https://i.vgy.me/4WErO2.png" alt="Your Image" width="75%">
+</div>
+
 Writefull, yazılarınızı geliştirmek ve dil kullanımınızı mükemmelleştirmek için tasarlanmış bir yazılım aracıdır. Bu araç, metinlerinizi analiz eder ve size yazım hataları, dilbilgisi düzeltmeleri ve yazılarınızın daha akıcı hale gelmesini sağlayacak öneriler sunar.
 
 1. **Dilbilgisi ve Yazım Kontrolü:** Writefull, yazım hatalarını tespit eder ve size düzeltme önerileri sunar. Bu sayede yazılarınız daha profesyonel ve güvenilir bir izlenim bırakır.
@@ -109,10 +238,20 @@ enekleri ve ifadeleri önererek yazılarınızı daha zengin hale getirir.
 
 Writefull, kullanımı kolay bir arayüze sahiptir ve çeşitli yazı türleri için özelleştirilebilir. Ücretsiz sürümü, temel düzeltmeler ve öneriler sunarken, premium sürüm daha fazla özellik ve hız sağlar.
 
+<div align="center">
+   <img src="https://i.vgy.me/31EOxF.png" alt="Writefull Academic Usage" width="75%">
+</div>
+
 Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili iletişim kurmanızı sağlamak için güçlü bir araçtır. Dilbilgisi, yazım ve ifade konularında sizi desteklerken, akademik yazılarınızı daha profesyonel hale getirmeniz için özellikle faydalıdır. Writefull ile yazılarınızı mükemmelleştirin ve iletişim becerilerinizi geliştirin.
 
 ### Wordvice AI
-![Alt text](image-3.png)
+
+[https://wordvice.ai/](https://wordvice.ai/)
+
+<div align="center">
+  <img src="https://bit.ly/3sYXTDK" alt="Your Image" width="75%">
+</div>
+
 Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İngilizce yazılarda hataları otomatik olarak bulur ve düzeltir.
 
 - Gerçek zamanlı dilbilgisi ve noktalama işaretleri kontrolleri
@@ -120,53 +259,54 @@ Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İn
 - Anlaşılması kolay hata açıklamaları sağlar
 - Akademik makaleler, iş/e-posta metin düzeltmeleri konusunda uzmandır
 
-[Wordvice AI](https://wordvice.ai/)
+### Hemingway Editor
+[hemingwayapp.com](https://hemingwayapp.com/)
+<div align="center">
+  <img src="https://i.vgy.me/8JKzFS.png" alt="Your Image" width="75%">
+</div>
+
+Hemingway Editor, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
+
 
 ### Quillbot
+[https://quillbot.com/](https://quillbot.com/)
 
-![Alt text](image-4.png)
+
+<div align="center">
+  <img src="https://bit.ly/3LC2XEJ" alt="Your Image" width="75%">
+</div>
+
 Quillbot, özellikle akademik araştırmacılar için yararlı olan yazma ve dil geliştirme özelliklerine sahip, Wordvice AI'ye benzer başka bir AI aracıdır. İntihalden kaçınmak için açıklama yapan, kelime önerileri sağlayan ve alternatif kelime seçenekleri sunan gelişmiş algoritmalara dayanmaktadır. "Genişlet" özelliği, birkaç anahtar kelime veya kelime öbeğinden içerik üreterek yazma süreci sırasında beyin fırtınasına yardımcı olur.
 
 Quillbot ayrıca, ana dili İngilizce olmayan kişiler veya dil becerilerini geliştirmek isteyen araştırmacılar için özellikle yararlı olabilecek önerileriyle ilgili açıklamalar da sunuyor. Yabancı dildeki kaynaklarla çalışanlar için Quillbot, doğru referanslamayı sağlamak amacıyla metni birçok farklı dile çevirebilir.
 
 ### Scholarly
+[https://scholarly.ai/](https://scholarly.ai/)
 
-![Alt text](image-5.png)
+<div align="center">
+  <img src="https://bit.ly/3rqN9xD" alt="Your Image" width="75%">
+</div>
 
 Scholarcy, en son araştırmaları takip etmenize ve herhangi bir belgenin işinizle ne kadar alakalı olduğunu hızlı bir şekilde değerlendirmenize yardımcı olmak için makaleleri, raporları ve kitap bölümlerini okuyup özetleyen çevrimiçi bir araştırma aracı olan dijital asistanınızdır. Önemli bilgileri tanımlar ve verileri ilgili kategorilere ayırır.
 
 Scholarcy, herhangi bir Word veya PDF belgesinin özet bilgi kartını oluşturur ve alıntı yapılan kaynakların açık erişim sürümlerine bağlantılar içerir. Ayrıca, bilgileri daha kolay anlaşılır bir şekilde görüntülemek için makalelerden şekil, tablo ve görseller çıkaracak şekilde de yapılandırılabilir.
 
-### Paperpal
+### LanguageTool
+[languagetool.org](https://languagetool.org/)
 
-![Alt text](image-6.png)
+<div align="center">
+  <img src="https://i.vgy.me/NA7S9c.png" alt="LanguageTool Academic Usage" width="75%">
+</div>
 
-Paperpal, akademik yazılarınızı geliştirmenize yardımcı olan bir editör ve MS Word eklentisi sunan bir araçtır. Bu tür araçlar, yazım hatalarını, dil bilgisi sorunlarını ve yazı stilini geliştirmek için öneriler sunarak akademik yazıları daha etkili hale getirmenize yardımcı olabilir. MS Word eklentisi, kullanıcıların yazılarını doğrudan Word belgeleri üzerinde düzenleyerek işlerini kolaylaştırır.
+LanguageTool, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
 
-Paperpal gibi araçlar, özellikle öğrenciler, araştırmacılar ve yazarlar için yararlıdır. Yazdıkları metinleri daha profesyonel ve anlaşılır hale getirmek isteyen kişiler için önemli bir kaynak olabilirler.
-
-MS Word eklentileri, kullanıcıların metinlerini yazarken veya düzenlerken bu tür yazım ve dilbilgisi hatalarını hızlı bir şekilde tespit edip düzeltebilmelerini sağlar. Bu da yazıların kalitesini artırabilir ve daha güvenilir hale getirebilir.
-
-### Copy.ai
-
-![Alt text](image-7.png)
-
-Copy.ai, yapay zeka destekli bir metin oluşturma platformudur. Bu platform, kullanıcılara çeşitli metinler oluşturmalarına yardımcı olur, örneğin reklam başlıkları, blog gönderileri, ürün açıklamaları, sosyal medya içerikleri ve daha fazlası. Kullanıcılar met
-
-in oluşturma görevlerini hızlandırmak ve metinlerini geliştirmek için Copy.ai'nin önerilerini kullanabilirler.
-
-Copy.ai'nin bazı özellikleri şunlardır:
-
-- **Ürün Açıklamaları:** E-ticaret siteleri ve mağazaları için ürün açıklamaları oluşturabilirsiniz.
-- **Blog Gönderileri:** Blog yazarları için başlık ve içerik önerileri sunar.
-- **Reklam Metinleri:** Dijital reklam kampanyaları için etkili başlıklar ve metinler oluşturabilirsiniz.
-- **İçerik Genişletme:** Mevcut metinleri daha uzun ve kapsamlı hale getirebilirsiniz.
-
-Copy.ai, metin yazarları, pazarlamacılar ve içerik üreticileri için hızlı ve yaratıcı bir metin oluşturma aracı olarak kullanılabilir. Ancak, kullanıcıların oluşturulan metinleri dikkatle gözden geçirerek ve özelleştirerek sonuçları kişiselleştirmeleri önemlidir.
 
 ### EssayBot
+[https://essaybot.com/](https://essaybot.com/)
 
-![Alt text](image-8.png)
+<div align="center">
+  <img src="https://i.vgy.me/g0koGZ.png" alt="Your Image" width="75%">
+</div>
 
 EssayBot, öğrencilerin ve yazılı içerik üreticilerinin yazma süreçlerini hızlandırmalarına yardımcı olan bir yapay zeka tabanlı yazma asistanıdır. EssayBot, metin yazma görevlerini kolaylaştırmak için öneriler sunar ve kullanıcıların yazdıkları metinleri geliştirmelerine yardımcı olur.
 
@@ -181,54 +321,64 @@ EssayBot, yazma sürecini hızlandırmak ve kullanıcıların yazdıkları metin
 
 # Araştırma ve Literatür Tarama
 
-Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardımcı olabilir. İhtiyaçlarınıza ve araştırma süreçlerinize bağlı olarak, bu araçlardan bir veya birkaçını seçebilirsiniz. İşte bazı öneriler:
+Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardımcı olabilir. İhtiyaçlarınıza ve araştırma süreçlerinize bağlı olarak, bu araçlardan bir veya birkaçını seçebilirsiniz. Bazı araçlar ücretsizken, bazıları ücretli olabilir. Bu nedenle, araçları kullanmadan önce fiyatlandırma politikalarını kontrol etmeniz önemlidir. Ayrıca, araçların sunduğu özellikleri ve kullanım kolaylığını değerlendirmek için deneme sürümlerini kullanabilirsiniz. 
 
-1. **scite:** Alıntıları izlemek ve makaleleri izlemek için kullanışlıdır. Eğer özellikle makalelerin alıntı durumlarını görmek istiyorsanız bu aracı tercih edebilirsiniz.
+1. **scite:** Alıntıları izlemek ve makaleleri izlemek için kullanışlıdır. Eğer özellikle makalelerin alıntı durumlarını görmek istiyorsanız bu aracı tercih edebilirsiniz. [https://scite.ai/](https://scite.ai/)
 
-2. **Consensus:** Evet/hayır sorularına cevap arıyorsanız veya hızlı bir özetlemeye ihtiyacınız varsa bu aracı kullanabilirsiniz. Basit sorulara hızlı yanıtlar almak için idealdir.
+2. **Consensus:** Evet/hayır sorularına cevap arıyorsanız veya hızlı bir özetlemeye ihtiyacınız varsa bu aracı kullanabilirsiniz. Basit sorulara hızlı yanıtlar almak için idealdir. [https://consensus.ai/](https://consensus.ai/)
 
-3. **Elicit:** Araştırma kaynaklarını detaylı bir şekilde bulmak ve incelemek için kullanabilirsiniz. Özellikle metin özetleri ve metin içi alıntılar gibi özellikler, araştırma materyallerini daha ayrıntılı bir şekilde değerlendirmenizi sağlar.
+3. **Elicit:** Araştırma kaynaklarını detaylı bir şekilde bulmak ve incelemek için kullanabilirsiniz. Özellikle metin özetleri ve metin içi alıntılar gibi özellikler, araştırma materyallerini daha ayrıntılı bir şekilde değerlendirmenizi sağlar. [https://elicit.org/](https://elicit.org/)
 
-4. **Semantic Scholar:** Bilimsel içeriklere odaklanmak ve araştırma trendlerini takip etmek istiyorsanız bu platformu düşünebilirsiniz. Makale analizi ve önerileri ile güncel bilgilere erişim sağlar.
+4. **Semantic Scholar:** Bilimsel içeriklere odaklanmak ve araştırma trendlerini takip etmek istiyorsanız bu platformu düşünebilirsiniz. Makale analizi ve önerileri ile güncel bilgilere erişim sağlar. [https://www.semanticscholar.org/](https://www.semanticscholar.org/)
 
-5. **ResearchRabbit:** Literatür koleksiyonları oluşturmak ve ilgi alanlarınıza göre öneriler almak için kullanabilirsiniz. Ayrıca alanlar, yazarlar ve kamplar arasındaki bağlantıları görsel olarak keşfetmek için de kullanışlıdır.
+5. **ResearchRabbit:** Literatür koleksiyonları oluşturmak ve ilgi alanlarınıza göre öneriler almak için kullanabilirsiniz. Ayrıca alanlar, yazarlar ve kamplar arasındaki bağlantıları görsel olarak keşfetmek için de kullanışlıdır. [https://www.researchrabbit.ai/](https://www.researchrabbit.ai/)
 
-6. **Bit.ai:** Çevrimiçi araştırmaları düzenlemek ve çeşitli formatlardaki içeriği bir arada sunmak için uygundur. Özellikle içerik odaklı işletmeler ve blog yazarları için faydalı olabilir.
+6. **Bit.ai:** Çevrimiçi araştırmaları düzenlemek ve çeşitli formatlardaki içeriği bir arada sunmak için uygundur. Özellikle içerik odaklı işletmeler ve blog yazarları için faydalı olabilir. [https://bit.ai/](https://bit.ai/)
 
-7. **OpenRead:** Veri çıkartma, not alma ve soru-cevap sistemi gibi özellikleri ile araştırma materyalleriyle etkileşim kurmayı kolaylaştırır.
+7. **OpenRead:** Veri çıkartma, not alma ve soru-cevap sistemi gibi özellikleri ile araştırma materyalleriyle etkileşim kurmayı kolaylaştırır. [https://openread.ai/](https://openread.ai/)
 
-8. **HeyScience:** Bilimsel araştırmaları analiz etmek ve önemli bilgileri hızlıca çıkarmak istiyorsanız bu platformu düşünebilirsiniz.
+8. **HeyScience:** Bilimsel araştırmaları analiz etmek ve önemli bilgileri hızlıca çıkarmak istiyorsanız bu platformu düşünebilirsiniz. [https://www.heyscience.com/](https://www.heyscience.com/)
 
-9. **Rayyan:** Sistematik literatür incelemeleri yapmak için idealdir. Referansları düzenlemek, filtrelemek ve işbirliği yapmak için kullanabilirsiniz.
+9. **Rayyan:** Sistematik literatür incelemeleri yapmak için idealdir. Referansları düzenlemek, filtrelemek ve işbirliği yapmak için kullanabilirsiniz. [https://www.rayyan.ai/](https://www.rayyan.ai/)
 
-10. **RAx:** Araştırma projeleri oluşturmak ve işbirliği yapmak için kullanışlıdır. Notlar, yorumlar ve işbirliği özellikleri sunar.
+10. **RAx:** Araştırma projeleri oluşturmak ve işbirliği yapmak için kullanışlıdır. Notlar, yorumlar ve işbirliği özellikleri sunar. [https://rax.ai/](https://rax.ai/)
 
-11. **Jenni AI:** İçerik üretimi ve yazma konularında yardımcı olan bir yapay zeka yazma asistanıdır. İçerik odaklı işlerde ve blog yazılarında kullanışlıdır.
+11. **Jenni AI:** İçerik üretimi ve yazma konularında yardımcı olan bir yapay zeka yazma asistanıdır. İçerik odaklı işlerde ve blog yazılarında kullanışlıdır. [https://jenni.ai/](https://jenni.ai/)
 
-12. **Iris AI:** Makale bulma, özetleme ve araştırma fikirleri üretme konularında yardımcı olur.
+12. **Iris AI:** Makale bulma, özetleme ve araştırma fikirleri üretme konularında yardımcı olur. [https://iris.ai/](https://iris.ai/)
 
-13. **Upword:** İçerik üretimi, yazım ve dilbilgisi düzeltilmesi konularında kullanışlıdır.
+13. **Upword:** İçerik üretimi, yazım ve dilbilgisi düzeltilmesi konularında kullanışlıdır. [https://upword.ai/](https://upword.ai/)
 
-14. **Perplexity AI:** Dil modelleri ve arama motorları sunan bir platformdur.
+14. **Perplexity AI:** Dil modelleri ve arama motorları sunan bir platformdur. [https://perplexity.ai/](https://perplexity.ai/)
 
-15. **ReadCube Papers:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. Notlar, açıklamalar ve işbirliği özellikleri sunar.
+15. **ReadCube Papers:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. Notlar, açıklamalar ve işbirliği özellikleri sunar. [https://www.papersapp.com/](https://www.papersapp.com/)
 
-Tercihleriniz ve ihtiyaçlarınıza bağlı olarak, bu araçlardan uygun olanlarını seçebilirsiniz. Ayrıca, belirli bir araştırma projesi veya çalışma için hangi araçların en iyi olduğunu belirlemek için deneme yapabilirsiniz.
-
+16. **Kopernio:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. [https://kopernio.com/](https://kopernio.com/)
+17. **Scinapse:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. [https://scinapse.io/](https://scinapse.io/)
+18. **Readx:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. [https://readx.io/](https://readx.io/)
+19. **Read by QxMD:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. [https://www.qxmd.com/read-by-qxmd/](https://www.qxmd.com/read-by-qxmd/)
+ 
 ## Belge Okuma ve Anlama
 
 ### ChatPDF
+[https://www.chatpdf.com/](https://www.chatpdf.com/)
 
-![Alt text](image-9.png)
+<div align="center">
+  <img src="https://i.vgy.me/8uuy3H.png" alt="ChatPDF Academic" width="75%">
+</div>
 
 ChatPDF, herhangi bir PDF ile hızlı ve kolay bir şekilde etkileşimde bulunmanızı sağlayan bir yapay zeka aracıdır. Bu araç, yasal sözleşmelerden, mali raporlardan, kılavuzlardan ve eğitim materyallerinden bilgi edinmenize yardımcı olur. Öğrenciler sınavlara hazırlanırken, ev ödevlerinde destek alırken ve çoktan seçmeli soruları saniyeler içinde yanıtlarken ChatPDF'i tercih ediyorlar. Araştırmacılar ise bilimsel makalelerden, akademik çalışmalardan ve kitaplardan ilgili bilgileri hızlı bir şekilde çıkarmak için bu aracı kullanıyorlar.
+
 Alternatifler:
 1. [ChatPDF Resmi Websitesi](https://chatpdf.ai/)
 2. [Sider ChatPDF](https://sider.ai/chatpdf)
 
-### Typeset.io
+### Typeset.io (SciSpace)
+[https://typeset.io/](https://typeset.io/)
 
-![Alt text](image-10.png)
+<div align="center">
+  <img src="https://i.vgy.me/BLRvQu.png" alt="Typeset io Academic" width="75%">
+</div>
 
 Typeset.io, hedef dergilerin ve yayıncıların belirli şablonlarını hızlı ve verimli bir şekilde karşılamanıza yardımcı olan kapsamlı bir platformdur. Bu platform, araştırmacılar, yazarlar ve akademisyenler için özellikle değerlidir, çünkü önceden tanımlanmış taslak şablonları ve otomatik biçimlendirme araçları sunar.
 
@@ -251,8 +401,11 @@ Typeset.io, hedef dergilerin ve yayıncıların belirli şablonlarını hızlı 
 Typeset.io, araştırmalarınızı daha profesyonel hale getirirken zaman ve çaba tasarrufu sağlayan bir araç olarak öne çıkar. Akademik ve araştırma çalışmalarınızı daha düzenli ve etkili hale getirmenize yardımcı olur.
 
 ### ChatDoc
+[https://chatdoc.com/](https://chatdoc.com/)
 
-![Alt text](image-11.png)
+<div align="center">
+  <img src="https://i.vgy.me/cWKRuq.png" alt="ChatDoc Academic Usage" width="75%">
+</div>
 
 ChatDOC, PDF belgelerindeki metinleri, tabloları ve grafikleri anlayabilen bir yapay zeka dil modeli olan ChatGPT temelinde çalışan bir dosya okuma yardımcısıdır. İşte ChatDOC'un temel özellikleri:
 
@@ -268,15 +421,21 @@ ChatDOC, PDF belgelerindeki metinleri, tabloları ve grafikleri anlayabilen bir 
 
 ChatDOC, özellikle kitaplar, kılavuzlar, araştırma makaleleri ve diğer materyalleri incelemek isteyenler için kullanışlı bir araç olarak tasarlanmıştır. Yapay zeka sayesinde, belgelerin içeriğini hızlıca anlamak ve özetlemek daha kolay hale gelir, bu da daha hızlı öğrenmeye ve bilgiye erişmeye yardımcı olabilir.
 
-### DocLime
+<video src="https://cdn.pdppt.com/chatdoc/static/136096b1d4db115ae7228bfc17e34f52/1-1.mp4" controls="controls" style="max-width: 90%;">
+</video>
 
-![Alt text](image-12.png)
+
+### DocLime
+[https://doclime.com/](https://doclime.com/)
+
+<div align="center">
+  <img src="https://i.vgy.me/DJHVyw.png" alt="DocLime Academic" width="75%">
+</div>
+
 
 DocLime, PDF belgelerinden ilgili verileri ve çözümleri hızlı ve kolay bir şekilde çıkarmaya yardımcı olan bir uygulamadır. İşte DocLime'ın temel özellikleri:
 
-**1. PDF Analizi:** DocL
-
-ime, yüklenen PDF belgelerini yapay zeka teknolojisi kullanarak analiz eder. Bu sayede belgelerdeki önemli bilgilere hızlıca erişim sağlar.
+**1. PDF Analizi:** DocLime, yüklenen PDF belgelerini yapay zeka teknolojisi kullanarak analiz eder. Bu sayede belgelerdeki önemli bilgilere hızlıca erişim sağlar.
 
 **2. Hızlı ve Doğru Yanıtlar:** Kullanıcılar, belgelerle ilgili soruları sormak için DocLime'ı kullanabilirler. Uygulama, sorulara hızlı ve doğru yanıtlar üretir.
 
@@ -288,9 +447,14 @@ ime, yüklenen PDF belgelerini yapay zeka teknolojisi kullanarak analiz eder. Bu
 
 DocLime, özellikle belge analizi ve bilgi çıkarma süreçlerini hızlandırmak isteyenler için kullanışlı bir araç olarak öne çıkıyor. Yapay zeka sayesinde, belgelerdeki verilere daha hızlı ve kolay bir şekilde erişmek mümkün olur.
 
-### Docalysis
+<video src="https://doclime.com/videos/doclime_4k.mp4" controls="controls" style="max-width: 90%;">
 
-![Alt text](image-13.png)
+### Docalysis
+[https://docalysis.com/](https://docalysis.com/)
+
+<div align="center">
+  <img src="https://i.vgy.me/rc0H3a.png" alt="DocAlysis Academic" width="75%">
+</div>
 
 DocAlysis, yoğun bir şekilde makale okumak zorunda olan ekipler ve meşgul profesyoneller için tasarlanmış bir yapay zeka destekli uygulamadır. Bu uygulama, PDF dosyalarıyla etkileşime girmenize ve sorularınıza hızlı yanıtlar almanıza olanak tanır, böylece manuel belge okuma sürecinden saatlerce tasarruf edebilirsiniz. Kullanıcılar, makalelerini güvenli bir şekilde Docaliz'e gönderebilir ve içerikleri hakkında yapay zekayı sorgulayabilirler. Uygulama, gelişmiş doğal dil işleme (NLP) teknolojisi kullanarak kullanıcıların sorularını çözmek ve metinden uygun yanıtları vermek için tasarlanmıştır.
 
@@ -299,18 +463,42 @@ Geleneksel metin sayfalarını okuma yaklaşımının aksine, AI destekli sohbet
 DocAlysis, özellikle büyük miktarda makale okuma gerektiren profesyonel ve akademik alanlarda çalışanlar için büyük bir kolaylık sunuyor.
 
 ### Sharly AI
+[https://sharly.ai/](https://sharly.ai/)
 
-![Alt text](image-14.png)
+<div align="center">
+  <img src="https://i.vgy.me/c2qQJy.png" alt="Sharly Academic" width="75%">
+</div>
 
 Sharly AI, uzun ve karmaşık makaleleri daha hızlı anlamak ve özümsemek için üretken yapay zeka kullanarak profesyonellere yardımcı olan bir verimlilik uygulamasıdır. Bu uygulama, en yeni dil modellerini ve doğal dil işleme teknolojisini kullanarak belgeyle ilgili sorulara kesin ve yerinde yanıtlar sunar. Bu sayede kullanıcılar, zamanlarını önemli ölçüde tasarruf edebilirler. Sharly AI'nın kullanıcı dostu arayüzü sayesinde, kullanıcılar anlamak istedikleri materyali kolayca yükleyebilir, sorular sorabilir ve ilgili yanıtları alabilirler.
 
 GPT ile yapılan görüşmede, aracın doğruluğunun %95 olduğu belirlendi ve kullanımın kolay olduğu vurgulandı. Kullanıcılar ayrıca çalışmalarını arkadaşlarıyla özel olarak paylaşarak işbirliğini ve geri bildirimi kolaylaştırabilirler. Sharly AI'nın kullanım alanları çok geniş olup, pazar analizi ve finansal raporlama gibi farklı sektörlerde kullanılabilir. Bu uygulama, profesyonellerin verimliliğini artırmak için güçlü bir araç sunar.
 
+### Docsumo
+[https://docsumo.com/](https://docsumo.com/)
+<div align="center">
+  <img src="https://i.vgy.me/oe7nPq.png" alt="Docsumo Academic Usage" width="75%">
+</div>
+
+Docsumo, belgeleri otomatik olarak okuyan ve verileri çıkaran bir yapay zeka platformudur. Bu platform, belgeleri okumak ve verileri çıkarmak için gelişmiş optik karakter tanıma (OCR) teknolojisini kullanır. İşte Docsumo'nun temel özellikleri:
+
+**1. Belgeleri Otomatik Okuma:** Docsumo, belgeleri otomatik olarak okur ve verileri çıkarır. Bu, belgeleri manuel olarak okumak ve verileri elle girmekten çok daha hızlı ve daha kolaydır.
+
+**2. Veri Çıkarma:** Platform, belgelerden veri çıkarmak için gelişmiş optik karakter tanıma (OCR) teknolojisini kullanır. Bu, verileri daha hızlı ve daha doğru bir şekilde çıkarmanıza olanak tanır.
+
+**3. Veri Doğrulama:** Docsumo, verileri doğrulamak için yapay zeka teknolojisini kullanır. Bu, verilerin doğruluğunu artırır ve hataları azaltır.
+
+**4. Veri Aktarımı:** Platform, verileri doğrudan Excel veya Google Sheets'e aktarmanıza olanak tanır. Bu, verileri daha kolay analiz etmenize ve işlemenize yardımcı olur.
+
+**5. Veri Analizi:** Docsumo, verileri analiz etmek için yapay zeka teknolojisini kullanır. Bu, verileri daha iyi anlamanıza ve daha iyi kararlar vermenize yardımcı olur.
+
 ## Zaman Yönetimi ve Verimlilik
 
 ### ProofHub
+[https://www.proofhub.com/](https://www.proofhub.com/)
 
-![Alt text](image-15.png)
+<div align="center">
+  <img src="https://i.vgy.me/SNpA5g.png" alt="Proofhub Academic" width="75%">
+</div>
 
 ProofHub, araştırmacılar için tasarlanmış kapsamlı bir proje yönetimi ve işbirliği aracıdır. Bu platform, araştırmacıların projelerini etkili bir şekilde yönetmelerini ve ekipleriyle işbirliği yapmalarını kolaylaştırır. İşte ProofHub'ın ana özellikleri:
 
@@ -327,8 +515,11 @@ ProofHub, araştırmacılar için tasarlanmış kapsamlı bir proje yönetimi ve
 ProofHub, araştırmacıların projelerini daha verimli bir şekilde yönetmelerini, iletişimlerini geliştirmelerini ve zamanlarını daha etkili bir şekilde kullanmalarını sağlar. Bu platform, akademik ve bilimsel araştırmaların yönetimini daha kolay hale getirir ve ekip işbirliğini teşvik eder.
 
 ### Gradescope
+[https://www.gradescope.com/](https://www.gradescope.com/)
 
-![Alt text](image-16.png)
+<div align="center">
+  <img src="https://i.vgy.me/ALEc8L.png" alt="Gradescope Academic" width="75%">
+</div>
 
 Gradescope, eğitim kurumlarında yaygın olarak kullanılan bir yapay zeka destekli not verme ve geri bildirim aracıdır. Bu platform, eğitmenlere ödevler, sınavlar ve kodlama projeleri gibi öğrenci çalışmalarını değerlendirme işini büyük ölçüde otomatikleştirmelerine olanak tanır. İşte Gradescope'un temel özellikleri:
 
@@ -343,8 +534,11 @@ Gradescope, eğitim kurumlarında yaygın olarak kullanılan bir yapay zeka dest
 Gradescope, eğitmenlerin değerlendirme süreçlerini daha verimli ve öğrencilere daha anlamlı geri bildirimler sunacak şekilde optimize etmelerine yardımcı olur. Ayrıca, büyük sınıflarda veya karmaşık değerlendirme görevlerinde zaman tasarrufu sağlar ve değerli öğretim kaynaklarını serbest bırakır.
 
 ### MagicSchool.ai
+[https://magicschool.ai/](https://magicschool.ai/)
 
-![Alt text](image-17.png)
+<div align="center">
+  <img src="https://i.vgy.me/as8o3l.png" alt="MagicSchool Academic" width="75%">
+</div>
 
 MagicSchool.ai, öğretmenlerin sınıf dışındaki ek görevleri daha verimli bir şekilde yönetmelerine yardımcı olan kapsamlı bir araçtır. Bu platform, öğretmenlere ders içeriği oluşturmadan, iletişim kurmaya, öğrenci destek sağlamaktan, etkinlik organizasyonuna kadar birçok alanda yardımcı olur. İşte MagicSchool.ai'nin temel özellikleri:
 
@@ -365,16 +559,22 @@ MagicSchool.ai, özellikle öğretmenlerin günlük görevlerini daha verimli bi
 ## Kişiselleştirilmiş Öğrenme Deneyimi
 
 ### Tutor AI
+[https://www.tutorai.me/](https://www.tutorai.me/)
 
-![Alt text](image-18.png)
+<div align="center">
+  <img src="https://i.vgy.me/PiZnU4.png" alt="Tutor AI Academic" width="75%">
+</div>
 
 Tutor AI, kişiselleştirilmiş bir özel ders hizmeti sunarak her öğrencinin kendi öğrenme hızına ve tarzına uygun bir şekilde öğrenmesine yardımcı oluyor. Öğrenciler, ilgilendikleri bir konuyu seçerek ve altında bulunan alt kategorilerden birini seçerek derslerine başlayabilirler. Birkaç dakika içinde, seçtikleri konuyla ilgili ayrıntılı modüllerle birlikte tam bir ders sunulur.
 
 Herhangi bir derse başlandığında, ilgili ve bilgilendirici içerikler otomatik olarak üretilir. Ders materyali içerisinde basitleştirilmiş açıklamalar, örnekler, testler ve sorular gibi çeşitli seçenekler sunulur. Bu seçenekler, öğrencilerin konuyu daha iyi anlamalarına yardımcı olmayı amaçlar.
 
 ### Ask Codi
+[https://askcodi.com/](https://askcodi.com/)
 
-![Alt text](image-19.png)
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
 
 AskCodi, yapay zeka destekli bir kodlama asistanıdır ve programlama konusunda yardımcı olabilir. İşte AskCodi'nin bazı özellikleri:
 
@@ -388,9 +588,30 @@ AskCodi, yapay zeka destekli bir kodlama asistanıdır ve programlama konusunda 
 
 AskCodi, kodlama öğrenmeye yeni başlayanlar için değerli bir araç olabilir ve programlama kariyerinizi destekleyebilir.
 
-## Diğerleri
+## Diğer Araçlar
+
+### DeepL
+
+[https://www.deepl.com/](https://www.deepl.com/)
+
+<div align="center">
+  <img src="https://i.vgy.me/UAa7Ny.png" alt="DeepL Academic Usage" width="75%">
+</div>
+
+DeepL, çeviri yapmak için kullanılan bir yapay zeka aracıdır. Bu araç, kullanıcıların metinleri hızlı ve kolay bir şekilde çevirmelerine olanak tanır.
+
+**Özellikler:**
+
+1. **Çoklu Dil Desteği:** DeepL, 26 farklı dile çeviri yapabilir. Bu, kullanıcıların farklı dillerdeki metinleri hızlıca çevirmelerine olanak tanır.
+2. **Yüksek Kaliteli Çeviri:** DeepL, yüksek kaliteli çeviriler sunar. Bu, kullanıcıların çevirileri daha iyi anlamalarına yardımcı olur.
+3. **Kolay Kullanım:** DeepL, kullanıcıların hızlı ve kolay bir şekilde çeviri yapmalarını sağlar. Herhangi bir teknik beceri gerektirmez.
+4. **Ücretsiz Plan:** Ücretsiz planla başlayabilirsiniz ve çoğu öğrenci için yeterli olan toplam 50 aylık kredi alırsınız.
+5. **Gizlilik:** DeepL, kullanıcıların gizliliğine önem verir. Çevirileri kaydetmez veya kullanmaz.
+6. **Yüksek Hız:** DeepL, çevirileri hızlı bir şekilde yapar. Bu, kullanıcıların zaman tasarrufu yapmalarına yardımcı olur.
+7. **Yüksek Güvenilirlik:** DeepL, çevirileri güvenilir bir şekilde yapar. Bu, kullanıcıların çevirileri daha iyi anlamalarına yardımcı olur.
 
 ### Bing Image Creator
+
 Bing AI Image Creator, görsel oluşturmak için kullanılan bir yapay zeka aracıdır. Bu araç, kullanıcıların doğal dilde bir görseli tanımlamalarına ve istedikleri konuya uygun görselleri üretmelerine olanak tanır. İşte Bing AI Image Creator'ın bazı özellikleri:
 
 1. **Doğal Dil İle Tanımlama:** Kullanıcılar, istedikleri görseli tanımlamak için doğal dil kullanabilirler. Örneğin, "orman manzarası" veya "uzay gemisi" gibi bir ifade kullanabilirler.
@@ -402,6 +623,12 @@ Bing AI Image Creator, görsel oluşturmak için kullanılan bir yapay zeka arac
 Bing AI Image Creator, görsel içerik oluşturmak isteyenler için kullanışlı bir araç olabilir. İstediğiniz konuya uygun ve akılda kalıcı görselleri hızlıca oluşturmanıza yardımcı olabilir.
 
 ### Hocoos
+[https://hocoos.com/](https://hocoos.com/)
+
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
+
 Hocoos AI Web Sitesi Oluşturucu, hızlı ve kolay bir şekilde web siteleri oluşturmanıza yardımcı olabilen yapay zeka destekli bir araçtır. İşte Hocoos'un bazı özellikleri:
 
 1. **Hızlı Kurulum:** Hocoos, web sitenizi oluşturmak için size birkaç soru sorar ve girdilerinize dayanarak 3 farklı demo web sitesi stili sunar. Tercih ettiğiniz stili ve diğer tasarım özelliklerini seçtikten sonra, web siteniz otomatik olarak oluşturulur.
@@ -415,6 +642,11 @@ Hocoos AI Web Sitesi Oluşturucu, hızlı ve kolay bir şekilde web siteleri olu
 Hocoos AI Web Sitesi Oluşturucu, özellikle üniversite projeleri veya kişisel bloglar için hızlı ve etkili bir web sitesi oluşturmak isteyenler için kullanışlı bir araç olabilir.
 
 ### Kickresume
+[https://www.kickresume.com/](https://www.kickresume.com/)
+
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
 
 Kickresume, özgeçmişinizi oluşturmanıza ve iş görüşmesine hazırlanmanıza yardımcı olan yapay zeka destekli bir araçtır. İş görüşmesi hazırlığına yönelik sorular, derinlemesine kariyer tavsiyeleri ve profesyonel özgeçmişler oluşturmanıza yardımcı olan bazı özelliklere sahiptir. İşte Kickresume'un bazı özellikleri:
 
@@ -429,6 +661,11 @@ Kickresume, özgeçmişinizi oluşturmanıza ve iş görüşmesine hazırlanman�
 Kickresume, öğrenciler ve iş arayanlar için özgeçmişlerini oluşturmak ve iş görüşmelerine hazırlanmak için kullanışlı bir araç olabilir.
 
 ### Replika
+[https://replika.ai/](https://replika.ai/)
+
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
 
 Replika AI, öğrenciler ve diğer kullanıcılar için kişisel bir yapay zeka sohbet robotu olarak tasarlanmış bir uygulamadır. İşte Replika AI'nın bazı özellikleri:
 
@@ -443,6 +680,11 @@ Replika AI, öğrenciler ve diğer kullanıcılar için kişisel bir yapay zeka 
 Replika AI, özellikle kişisel yardım ve duygusal destek amacıyla kullanılmak üzere tasarlanmış bir uygulamadır. Kullanıcılar, yapay zeka ile konuşarak duygusal ihtiyaçlarını karşılayabilirler.
 
 ### Tome.app
+[https://tome.app/](https://tome.app/)
+
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
 
 Tome, yapay zekanın gücünü kullanarak sunumlar oluşturmanızı kolaylaştıran sezgisel bir araçtır. Tome, sunum oluşturma sürecini kolaylaştırarak akademik ve profesyonel sunumlarınızı daha etkili hale getirmenize yardımcı olabilir.
 
@@ -457,17 +699,35 @@ Eğer sunum hazırlarken zaman kazanmak istiyor veya güzel sunumlar oluşturma 
 Fiyatlandırma: Tome'un ücretsiz planı, çalışma alanı başına 50 cilt ve 500 AI kredisiyle sınırlıdır.
 
 ### Lateral
+[https://lateral.io/](https://lateral.io/)
+
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
 
 Birden fazla araştırma makalesindeki ortak temaları dakikalar içinde bulmanıza yardımcı olan benzersiz bir uygulama.[Lateral](https://www.lateral.io/).
 
 ### Glasp
 
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
+
 Araştırma makaleleri hakkında notlar alın ve bunları dünyanın her yerindeki benzer düşüncelere sahip insanlarla paylaşın.
    Şimdi deneyin: [Glasp](https://glasp.co/).
 
 ### Audioopen
+
+[https://audiopen.ai/](https://audiopen.ai/)
+
+<div align="center">
+  <img src="" alt="Your Image" width="75%">
+</div>
+
 Sesli notlarınızı tutarlı ve uyumlu düzyazıya dönüştürür.
    Şimdi deneyin: [Audioopen](https://audiopen.ai).
+
+
 
 # Sonuç
 
@@ -484,3 +744,5 @@ https://www.researchgate.net/publication/370902390_Top_FREE_Ai_Tools_for_Researc
 https://kripeshadwani.com/best-ai-tools-for-students/
 
 https://master-academia.com/best-ai-tools-academic-writing/
+
+https://collegevidya.com/blog/how-to-use-google-bard-for-students/
