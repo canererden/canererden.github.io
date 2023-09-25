@@ -9,6 +9,7 @@ tags:
   - yapay zeka
   - akademik çalışma
   - araçlar
+  - ai tools
 ---
 
 ## İçerik
