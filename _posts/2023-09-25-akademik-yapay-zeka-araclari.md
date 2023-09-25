@@ -90,7 +90,7 @@ Bu araçlar, çeşitli kullanım amaçlarına hizmet etmek üzere tasarlanmış 
 [chatgpt.com](https://chat.openai.com/)
 
 <div align="center">
-  <img src="https://images.pexels.com/photos/15863066/pexels-photo-15863066/free-photo-of-internet-teknoloji-is-dizayn.jpeg" alt="ChatGPT" width="75%">
+  <img src="https://images.pexels.com/photos/15863066/pexels-photo-15863066/free-photo-of-internet-teknoloji-is-dizayn.jpeg" alt="ChatGPT" width="50%">
 </div>
 
 
@@ -137,7 +137,7 @@ Yine hatırlatalım... Güvenilir bilimsel kaynakları kullanarak kapsamlı bir 
 [grammarly.com](https://grammarly.com/)
 
 <div align="center">
-  <img src="https://bit.ly/46nvTbh" alt="Grammarly Academic Usage" width="75%">
+  <img src="https://bit.ly/46nvTbh" alt="Grammarly Academic Usage" width="50%">
 </div>
 
 Dilbilgisi açısından, kullanıcılar yapay zeka destekli çevrimiçi yazma yardımcısı Grammarly ile yazılarını geliştirebilirler. Grammarly, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
@@ -167,14 +167,14 @@ Ayrıca üniversitelere sunulan Grammarly Premium üyeliği ile ilgili bilgi alm
 Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz. Word eklentisi uzun dokümanlarda çok stabil çalışmasa da sabırlı bir kullanıcı ya da kısa yazılar için iş görebilir :) 
 
 <div align="center">
-   <img src="https://i.vgy.me/QV6W1i.png" alt="Grammarly Academic Usage" width="75%">
+   <img src="https://i.vgy.me/QV6W1i.png" alt="Grammarly Academic Usage" width="50%">
 </div>
 
 ### Copy.ai
 [https://copy.ai/](https://copy.ai/)
 
 <div align="center">
-  <img src="https://bit.ly/3sYXTUg" alt="Your Image" width="75%">
+  <img src="https://bit.ly/3sYXTUg" alt="Your Image" width="50%">
 </div>
 
 Copy.ai, yapay zeka destekli bir metin oluşturma platformudur. Bu platform, kullanıcılara çeşitli metinler oluşturmalarına yardımcı olur, örneğin reklam başlıkları, blog gönderileri, ürün açıklamaları, sosyal medya içerikleri ve daha fazlası. Kullanıcılar metin oluşturma görevlerini hızlandırmak ve metinlerini geliştirmek için Copy.ai'nin önerilerini kullanabilirler.
@@ -191,7 +191,7 @@ Copy.ai, metin yazarları, pazarlamacılar ve içerik üreticileri için hızlı
 Özelleştirilmiş metinler için önceden yüklenmiş komutları kullanabilirsiniz:
 
 <div align="center">
-  <img src="https://i.vgy.me/EC7RYv.png" alt="Your Image" width="75%">
+  <img src="https://i.vgy.me/EC7RYv.png" alt="Your Image" width="50%">
 </div>
 
 Görebildiğim kadarıyla 30.000 karaktere kadar ücretsiz kullanım imkanı sunuyor. Ücretsiz sürümde oluşturulan metinlerin sonunda "Made with Copy.ai" ibaresi yer alıyor. Ücretli sürümde bu ibare kaldırılabiliyor.
@@ -200,7 +200,7 @@ Görebildiğim kadarıyla 30.000 karaktere kadar ücretsiz kullanım imkanı sun
 [https://paperpal.com/](https://paperpal.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/teFYhp.png" alt="Your Image" width="75%">
+  <img src="https://i.vgy.me/teFYhp.png" alt="Your Image" width="50%">
 </div>
 
 Paperpal, akademik yazılarınızı geliştirmenize yardımcı olan bir editör ve MS Word eklentisi sunan bir araçtır. Bu tür araçlar, yazım hatalarını, dil bilgisi sorunlarını ve yazı stilini geliştirmek için öneriler sunarak akademik yazıları daha etkili hale getirmenize yardımcı olabilir. MS Word eklentisi, kullanıcıların yazılarını doğrudan Word belgeleri üzerinde düzenleyerek işlerini kolaylaştırır.
@@ -212,7 +212,7 @@ MS Word eklentileri, kullanıcıların metinlerini yazarken veya düzenlerken bu
 Aylık 200 düzeltmeye kadar ücretsiz olarak sunuyor. Ayrıca Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz.
 
 <div align = "center">
-   <img src="https://i.vgy.me/FJ70Dm.png" alt="Paperpal Academic Usage" width="75%">
+   <img src="https://i.vgy.me/FJ70Dm.png" alt="Paperpal Academic Usage" width="50%">
 </div>
 
 
@@ -220,7 +220,7 @@ Aylık 200 düzeltmeye kadar ücretsiz olarak sunuyor. Ayrıca Word eklentisi sa
 [prowritingaid.com](https://prowritingaid.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/8mVRMR.png" alt="ProWritingAid Academic Usage" width="75%">
+  <img src="https://i.vgy.me/8mVRMR.png" alt="ProWritingAid Academic Usage" width="50%">
 </div>
 
 ProWritingAid, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
@@ -244,14 +244,14 @@ ProWritingAid, kullanıcıların yazılı iletişimlerini daha etkili ve doğru 
 Birçok eklenti ve entegrasyon seçeneği sunuyor. Ayrıca Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz.
 
 <div align = "center">
-   <img src="https://i.vgy.me/73dxJA.png" alt="ProWritingAid Academic Usage" width="75%">
+   <img src="https://i.vgy.me/73dxJA.png" alt="ProWritingAid Academic Usage" width="50%">
 </div>
 
 ### Trinka
 [trinka.ai](https://trinka.ai/)
 
 <div align="center">
-  <img src="https://i.vgy.me/8MuwgO.png" alt="Your Image" width="75%">
+  <img src="https://i.vgy.me/8MuwgO.png" alt="Your Image" width="50%">
 </div>
 
 
@@ -269,7 +269,7 @@ Sonuç olarak, Trinka, akademik ve teknik yazılarınızın dil bilgisi ve yazı
 [writefull.com](https://writefull.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/4WErO2.png" alt="Your Image" width="75%">
+  <img src="https://i.vgy.me/4WErO2.png" alt="Your Image" width="50%">
 </div>
 
 Writefull, yazılarınızı geliştirmek ve dil kullanımınızı mükemmelleştirmek için tasarlanmış bir yazılım aracıdır. Bu araç, metinlerinizi analiz eder ve size yazım hataları, dilbilgisi düzeltmeleri ve yazılarınızın daha akıcı hale gelmesini sağlayacak öneriler sunar.
@@ -289,7 +289,7 @@ enekleri ve ifadeleri önererek yazılarınızı daha zengin hale getirir.
 Writefull, kullanımı kolay bir arayüze sahiptir ve çeşitli yazı türleri için özelleştirilebilir. Ücretsiz sürümü, temel düzeltmeler ve öneriler sunarken, premium sürüm daha fazla özellik ve hız sağlar.
 
 <div align="center">
-   <img src="https://i.vgy.me/31EOxF.png" alt="Writefull Academic Usage" width="75%">
+   <img src="https://i.vgy.me/31EOxF.png" alt="Writefull Academic Usage" width="50%">
 </div>
 
 Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili iletişim kurmanızı sağlamak için güçlü bir araçtır. Dilbilgisi, yazım ve ifade konularında sizi desteklerken, akademik yazılarınızı daha profesyonel hale getirmeniz için özellikle faydalıdır. Writefull ile yazılarınızı mükemmelleştirin ve iletişim becerilerinizi geliştirin.
@@ -299,7 +299,7 @@ Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili 
 [https://wordvice.ai/](https://wordvice.ai/)
 
 <div align="center">
-  <img src="https://bit.ly/3sYXTDK" alt="Your Image" width="75%">
+  <img src="https://bit.ly/3sYXTDK" alt="Your Image" width="50%">
 </div>
 
 Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İngilizce yazılarda hataları otomatik olarak bulur ve düzeltir.
@@ -312,7 +312,7 @@ Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İn
 ### Hemingway Editor
 [hemingwayapp.com](https://hemingwayapp.com/)
 <div align="center">
-  <img src="https://i.vgy.me/8JKzFS.png" alt="Your Image" width="75%">
+  <img src="https://i.vgy.me/8JKzFS.png" alt="Your Image" width="50%">
 </div>
 
 Hemingway Editor, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
@@ -323,7 +323,7 @@ Hemingway Editor, kullanıcıların yazılarını düzeltmelerine ve geliştirme
 
 
 <div align="center">
-  <img src="https://bit.ly/3LC2XEJ" alt="Your Image" width="75%">
+  <img src="https://bit.ly/3LC2XEJ" alt="Your Image" width="50%">
 </div>
 
 Quillbot, özellikle akademik araştırmacılar için yararlı olan yazma ve dil geliştirme özelliklerine sahip, Wordvice AI'ye benzer başka bir AI aracıdır. İntihalden kaçınmak için açıklama yapan, kelime önerileri sağlayan ve alternatif kelime seçenekleri sunan gelişmiş algoritmalara dayanmaktadır. "Genişlet" özelliği, birkaç anahtar kelime veya kelime öbeğinden içerik üreterek yazma süreci sırasında beyin fırtınasına yardımcı olur.
@@ -334,7 +334,7 @@ Quillbot ayrıca, ana dili İngilizce olmayan kişiler veya dil becerilerini gel
 [https://scholarly.ai/](https://scholarly.ai/)
 
 <div align="center">
-  <img src="https://bit.ly/3rqN9xD" alt="Your Image" width="75%">
+  <img src="https://bit.ly/3rqN9xD" alt="Your Image" width="50%">
 </div>
 
 Scholarcy, en son araştırmaları takip etmenize ve herhangi bir belgenin işinizle ne kadar alakalı olduğunu hızlı bir şekilde değerlendirmenize yardımcı olmak için makaleleri, raporları ve kitap bölümlerini okuyup özetleyen çevrimiçi bir araştırma aracı olan dijital asistanınızdır. Önemli bilgileri tanımlar ve verileri ilgili kategorilere ayırır.
@@ -345,7 +345,7 @@ Scholarcy, herhangi bir Word veya PDF belgesinin özet bilgi kartını oluşturu
 [languagetool.org](https://languagetool.org/)
 
 <div align="center">
-  <img src="https://i.vgy.me/NA7S9c.png" alt="LanguageTool Academic Usage" width="75%">
+  <img src="https://i.vgy.me/NA7S9c.png" alt="LanguageTool Academic Usage" width="50%">
 </div>
 
 LanguageTool, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
@@ -355,7 +355,7 @@ LanguageTool, kullanıcıların yazılarını düzeltmelerine ve geliştirmeleri
 [https://essaybot.com/](https://essaybot.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/g0koGZ.png" alt="Your Image" width="75%">
+  <img src="https://i.vgy.me/g0koGZ.png" alt="Your Image" width="50%">
 </div>
 
 EssayBot, öğrencilerin ve yazılı içerik üreticilerinin yazma süreçlerini hızlandırmalarına yardımcı olan bir yapay zeka tabanlı yazma asistanıdır. EssayBot, metin yazma görevlerini kolaylaştırmak için öneriler sunar ve kullanıcıların yazdıkları metinleri geliştirmelerine yardımcı olur.
@@ -414,7 +414,7 @@ Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardı
 [https://www.chatpdf.com/](https://www.chatpdf.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/8uuy3H.png" alt="ChatPDF Academic" width="75%">
+  <img src="https://i.vgy.me/8uuy3H.png" alt="ChatPDF Academic" width="50%">
 </div>
 
 ChatPDF, herhangi bir PDF ile hızlı ve kolay bir şekilde etkileşimde bulunmanızı sağlayan bir yapay zeka aracıdır. Bu araç, yasal sözleşmelerden, mali raporlardan, kılavuzlardan ve eğitim materyallerinden bilgi edinmenize yardımcı olur. Öğrenciler sınavlara hazırlanırken, ev ödevlerinde destek alırken ve çoktan seçmeli soruları saniyeler içinde yanıtlarken ChatPDF'i tercih ediyorlar. Araştırmacılar ise bilimsel makalelerden, akademik çalışmalardan ve kitaplardan ilgili bilgileri hızlı bir şekilde çıkarmak için bu aracı kullanıyorlar.
@@ -427,7 +427,7 @@ Alternatifler:
 [https://typeset.io/](https://typeset.io/)
 
 <div align="center">
-  <img src="https://i.vgy.me/BLRvQu.png" alt="Typeset io Academic" width="75%">
+  <img src="https://i.vgy.me/BLRvQu.png" alt="Typeset io Academic" width="50%">
 </div>
 
 Typeset.io, hedef dergilerin ve yayıncıların belirli şablonlarını hızlı ve verimli bir şekilde karşılamanıza yardımcı olan kapsamlı bir platformdur. Bu platform, araştırmacılar, yazarlar ve akademisyenler için özellikle değerlidir, çünkü önceden tanımlanmış taslak şablonları ve otomatik biçimlendirme araçları sunar.
@@ -454,7 +454,7 @@ Typeset.io, araştırmalarınızı daha profesyonel hale getirirken zaman ve ça
 [https://chatdoc.com/](https://chatdoc.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/cWKRuq.png" alt="ChatDoc Academic Usage" width="75%">
+  <img src="https://i.vgy.me/cWKRuq.png" alt="ChatDoc Academic Usage" width="50%">
 </div>
 
 ChatDOC, PDF belgelerindeki metinleri, tabloları ve grafikleri anlayabilen bir yapay zeka dil modeli olan ChatGPT temelinde çalışan bir dosya okuma yardımcısıdır. İşte ChatDOC'un temel özellikleri:
@@ -479,7 +479,7 @@ ChatDOC, özellikle kitaplar, kılavuzlar, araştırma makaleleri ve diğer mate
 [https://doclime.com/](https://doclime.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/DJHVyw.png" alt="DocLime Academic" width="75%">
+  <img src="https://i.vgy.me/DJHVyw.png" alt="DocLime Academic" width="50%">
 </div>
 
 
@@ -503,7 +503,7 @@ DocLime, özellikle belge analizi ve bilgi çıkarma süreçlerini hızlandırma
 [https://docalysis.com/](https://docalysis.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/rc0H3a.png" alt="DocAlysis Academic" width="75%">
+  <img src="https://i.vgy.me/rc0H3a.png" alt="DocAlysis Academic" width="50%">
 </div>
 
 DocAlysis, yoğun bir şekilde makale okumak zorunda olan ekipler ve meşgul profesyoneller için tasarlanmış bir yapay zeka destekli uygulamadır. Bu uygulama, PDF dosyalarıyla etkileşime girmenize ve sorularınıza hızlı yanıtlar almanıza olanak tanır, böylece manuel belge okuma sürecinden saatlerce tasarruf edebilirsiniz. Kullanıcılar, makalelerini güvenli bir şekilde Docaliz'e gönderebilir ve içerikleri hakkında yapay zekayı sorgulayabilirler. Uygulama, gelişmiş doğal dil işleme (NLP) teknolojisi kullanarak kullanıcıların sorularını çözmek ve metinden uygun yanıtları vermek için tasarlanmıştır.
@@ -516,7 +516,7 @@ DocAlysis, özellikle büyük miktarda makale okuma gerektiren profesyonel ve ak
 [https://sharly.ai/](https://sharly.ai/)
 
 <div align="center">
-  <img src="https://i.vgy.me/c2qQJy.png" alt="Sharly Academic" width="75%">
+  <img src="https://i.vgy.me/c2qQJy.png" alt="Sharly Academic" width="50%">
 </div>
 
 Sharly AI, uzun ve karmaşık makaleleri daha hızlı anlamak ve özümsemek için üretken yapay zeka kullanarak profesyonellere yardımcı olan bir verimlilik uygulamasıdır. Bu uygulama, en yeni dil modellerini ve doğal dil işleme teknolojisini kullanarak belgeyle ilgili sorulara kesin ve yerinde yanıtlar sunar. Bu sayede kullanıcılar, zamanlarını önemli ölçüde tasarruf edebilirler. Sharly AI'nın kullanıcı dostu arayüzü sayesinde, kullanıcılar anlamak istedikleri materyali kolayca yükleyebilir, sorular sorabilir ve ilgili yanıtları alabilirler.
@@ -526,7 +526,7 @@ GPT ile yapılan görüşmede, aracın doğruluğunun %95 olduğu belirlendi ve 
 ### Docsumo
 [https://docsumo.com/](https://docsumo.com/)
 <div align="center">
-  <img src="https://i.vgy.me/oe7nPq.png" alt="Docsumo Academic Usage" width="75%">
+  <img src="https://i.vgy.me/oe7nPq.png" alt="Docsumo Academic Usage" width="50%">
 </div>
 
 Docsumo, belgeleri otomatik olarak okuyan ve verileri çıkaran bir yapay zeka platformudur. Bu platform, belgeleri okumak ve verileri çıkarmak için gelişmiş optik karakter tanıma (OCR) teknolojisini kullanır. İşte Docsumo'nun temel özellikleri:
@@ -547,7 +547,7 @@ Docsumo, belgeleri otomatik olarak okuyan ve verileri çıkaran bir yapay zeka p
 [https://www.proofhub.com/](https://www.proofhub.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/SNpA5g.png" alt="Proofhub Academic" width="75%">
+  <img src="https://i.vgy.me/SNpA5g.png" alt="Proofhub Academic" width="50%">
 </div>
 
 ProofHub, araştırmacılar için tasarlanmış kapsamlı bir proje yönetimi ve işbirliği aracıdır. Bu platform, araştırmacıların projelerini etkili bir şekilde yönetmelerini ve ekipleriyle işbirliği yapmalarını kolaylaştırır. İşte ProofHub'ın ana özellikleri:
@@ -569,7 +569,7 @@ ProofHub, araştırmacıların projelerini daha verimli bir şekilde yönetmeler
 
 
 <div align="center">
-  <img src="https://i.vgy.me/ALEc8L.png" alt="Gradescope Academic" width="75%">
+  <img src="https://i.vgy.me/ALEc8L.png" alt="Gradescope Academic" width="50%">
 </div>
 
 Gradescope, eğitim kurumlarında yaygın olarak kullanılan bir yapay zeka destekli not verme ve geri bildirim aracıdır. Bu platform, eğitmenlere ödevler, sınavlar ve kodlama projeleri gibi öğrenci çalışmalarını değerlendirme işini büyük ölçüde otomatikleştirmelerine olanak tanır. İşte Gradescope'un temel özellikleri:
@@ -588,7 +588,7 @@ Gradescope, eğitmenlerin değerlendirme süreçlerini daha verimli ve öğrenci
 [https://magicschool.ai/](https://magicschool.ai/)
 
 <div align="center">
-  <img src="https://i.vgy.me/as8o3l.png" alt="MagicSchool Academic" width="75%">
+  <img src="https://i.vgy.me/as8o3l.png" alt="MagicSchool Academic" width="50%">
 </div>
 
 MagicSchool.ai, öğretmenlerin sınıf dışındaki ek görevleri daha verimli bir şekilde yönetmelerine yardımcı olan kapsamlı bir araçtır. Bu platform, öğretmenlere ders içeriği oluşturmadan, iletişim kurmaya, öğrenci destek sağlamaktan, etkinlik organizasyonuna kadar birçok alanda yardımcı olur. İşte MagicSchool.ai'nin temel özellikleri:
@@ -613,7 +613,7 @@ MagicSchool.ai, özellikle öğretmenlerin günlük görevlerini daha verimli bi
 [https://www.tutorai.me/](https://www.tutorai.me/)
 
 <div align="center">
-  <img src="https://i.vgy.me/PiZnU4.png" alt="Tutor AI Academic" width="75%">
+  <img src="https://i.vgy.me/PiZnU4.png" alt="Tutor AI Academic" width="50%">
 </div>
 
 Tutor AI, kişiselleştirilmiş bir özel ders hizmeti sunarak her öğrencinin kendi öğrenme hızına ve tarzına uygun bir şekilde öğrenmesine yardımcı oluyor. Öğrenciler, ilgilendikleri bir konuyu seçerek ve altında bulunan alt kategorilerden birini seçerek derslerine başlayabilirler. Birkaç dakika içinde, seçtikleri konuyla ilgili ayrıntılı modüllerle birlikte tam bir ders sunulur.
@@ -624,7 +624,7 @@ Herhangi bir derse başlandığında, ilgili ve bilgilendirici içerikler otomat
 [https://askcodi.com/](https://askcodi.com/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 AskCodi, yapay zeka destekli bir kodlama asistanıdır ve programlama konusunda yardımcı olabilir. İşte AskCodi'nin bazı özellikleri:
@@ -646,7 +646,7 @@ AskCodi, kodlama öğrenmeye yeni başlayanlar için değerli bir araç olabilir
 [https://www.deepl.com/](https://www.deepl.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/UAa7Ny.png" alt="DeepL Academic Usage" width="75%">
+  <img src="https://i.vgy.me/UAa7Ny.png" alt="DeepL Academic Usage" width="50%">
 </div>
 
 DeepL, çeviri yapmak için kullanılan bir yapay zeka aracıdır. Bu araç, kullanıcıların metinleri hızlı ve kolay bir şekilde çevirmelerine olanak tanır.
@@ -677,7 +677,7 @@ Bing AI Image Creator, görsel içerik oluşturmak isteyenler için kullanışl�
 [https://hocoos.com/](https://hocoos.com/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 Hocoos AI Web Sitesi Oluşturucu, hızlı ve kolay bir şekilde web siteleri oluşturmanıza yardımcı olabilen yapay zeka destekli bir araçtır. İşte Hocoos'un bazı özellikleri:
@@ -696,7 +696,7 @@ Hocoos AI Web Sitesi Oluşturucu, özellikle üniversite projeleri veya kişisel
 [https://www.kickresume.com/](https://www.kickresume.com/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 Kickresume, özgeçmişinizi oluşturmanıza ve iş görüşmesine hazırlanmanıza yardımcı olan yapay zeka destekli bir araçtır. İş görüşmesi hazırlığına yönelik sorular, derinlemesine kariyer tavsiyeleri ve profesyonel özgeçmişler oluşturmanıza yardımcı olan bazı özelliklere sahiptir. İşte Kickresume'un bazı özellikleri:
@@ -715,7 +715,7 @@ Kickresume, öğrenciler ve iş arayanlar için özgeçmişlerini oluşturmak ve
 [https://replika.ai/](https://replika.ai/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 Replika AI, öğrenciler ve diğer kullanıcılar için kişisel bir yapay zeka sohbet robotu olarak tasarlanmış bir uygulamadır. İşte Replika AI'nın bazı özellikleri:
@@ -734,7 +734,7 @@ Replika AI, özellikle kişisel yardım ve duygusal destek amacıyla kullanılma
 [https://tome.app/](https://tome.app/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 Tome, yapay zekanın gücünü kullanarak sunumlar oluşturmanızı kolaylaştıran sezgisel bir araçtır. Tome, sunum oluşturma sürecini kolaylaştırarak akademik ve profesyonel sunumlarınızı daha etkili hale getirmenize yardımcı olabilir.
@@ -753,7 +753,7 @@ Fiyatlandırma: Tome'un ücretsiz planı, çalışma alanı başına 50 cilt ve 
 [https://lateral.io/](https://lateral.io/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 Birden fazla araştırma makalesindeki ortak temaları dakikalar içinde bulmanıza yardımcı olan benzersiz bir uygulama.[Lateral](https://www.lateral.io/).
@@ -761,7 +761,7 @@ Birden fazla araştırma makalesindeki ortak temaları dakikalar içinde bulman�
 ### Glasp
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 Araştırma makaleleri hakkında notlar alın ve bunları dünyanın her yerindeki benzer düşüncelere sahip insanlarla paylaşın.
@@ -772,7 +772,7 @@ Araştırma makaleleri hakkında notlar alın ve bunları dünyanın her yerinde
 [https://audiopen.ai/](https://audiopen.ai/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="75%">
+  <img src="" alt="Your Image" width="50%">
 </div>
 
 Sesli notlarınızı tutarlı ve uyumlu düzyazıya dönüştürür.
