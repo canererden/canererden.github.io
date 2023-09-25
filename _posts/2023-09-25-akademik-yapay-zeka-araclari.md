@@ -201,10 +201,8 @@ Görebildiğim kadarıyla 30.000 karaktere kadar ücretsiz kullanım imkanı sun
 [https://paperpal.com/](https://paperpal.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/teFYhp.png" alt="Your Image" width="50%">
-</div>
-
-Paperpal, akademik yazılarınızı geliştirmenize yardımcı olan bir editör ve MS Word eklentisi sunan bir araçtır. Bu tür araçlar, yazım hatalarını, dil bilgisi sorunlarını ve yazı stilini geliştirmek için öneriler sunarak akademik yazıları daha etkili hale getirmenize yardımcı olabilir. MS Word eklentisi, kullanıcıların yazılarını doğrudan Word belgeleri üzerinde düzenleyerek işlerini kolaylaştırır.
+  <img src="https://i.vgy.me/teFYhp.png" alt="Your Image" width="30%">
+</div> Paperpal, akademik yazılarınızı geliştirmenize yardımcı olan bir editör ve MS Word eklentisi sunan bir araçtır. Bu tür araçlar, yazım hatalarını, dil bilgisi sorunlarını ve yazı stilini geliştirmek için öneriler sunarak akademik yazıları daha etkili hale getirmenize yardımcı olabilir. MS Word eklentisi, kullanıcıların yazılarını doğrudan Word belgeleri üzerinde düzenleyerek işlerini kolaylaştırır.
 
 Paperpal gibi araçlar, özellikle öğrenciler, araştırmacılar ve yazarlar için yararlıdır. Yazdıkları metinleri daha profesyonel ve anlaşılır hale getirmek isteyen kişiler için önemli bir kaynak olabilirler.
 
@@ -221,10 +219,8 @@ Aylık 200 düzeltmeye kadar ücretsiz olarak sunuyor. Ayrıca Word eklentisi sa
 [prowritingaid.com](https://prowritingaid.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/8mVRMR.png" alt="ProWritingAid Academic Usage" width="50%">
-</div>
-
-ProWritingAid, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
+  <img src="https://i.vgy.me/8mVRMR.png" alt="ProWritingAid Academic Usage" width="30%">
+</div> ProWritingAid, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
 
 **Dilbilgisi ve Yazım Kontrolü:** ProWritingAid, kullanıcıların metinlerini dilbilgisi hatalarına ve yazım hatalarına karşı kontrol etmelerine yardımcı olur. Noktalama işaretleri dahil olmak üzere yazım hatalarını düzeltir.
 
@@ -252,11 +248,8 @@ Birçok eklenti ve entegrasyon seçeneği sunuyor. Ayrıca Word eklentisi sayesi
 [trinka.ai](https://trinka.ai/)
 
 <div align="center">
-  <img src="https://i.vgy.me/8MuwgO.png" alt="Your Image" width="50%">
-</div>
-
-
-Trinka, akademik ve teknik metinlerinizde dil düzeltme konusunda size yardımcı olabilecek etkili bir yapay zeka aracıdır.
+  <img src="https://i.vgy.me/8MuwgO.png" alt="Your Image" width="30%">
+</div> Trinka, akademik ve teknik metinlerinizde dil düzeltme konusunda size yardımcı olabilecek etkili bir yapay zeka aracıdır.
 
 Trinka'nın sunduğu en büyük avantajlardan biri, 5000 kelimeye kadar olan metinlerinizi ücretsiz olarak düzeltebilme imkanı sunmasıdır. Özellikle aylık 5000 kelime sınırlaması, birçok kullanıcı için yeterli bir hizmet sunar. Üstelik bu sınırlama sayesinde Trinka'yı deneyerek, ihtiyaçlarınıza ve yazım düzeltme beklentilerinize uygunluğunu değerlendirebilirsiniz.
 
@@ -270,10 +263,8 @@ Sonuç olarak, Trinka, akademik ve teknik yazılarınızın dil bilgisi ve yazı
 [writefull.com](https://writefull.com/)
 
 <div align="center">
-  <img src="https://i.vgy.me/4WErO2.png" alt="Your Image" width="50%">
-</div>
-
-Writefull, yazılarınızı geliştirmek ve dil kullanımınızı mükemmelleştirmek için tasarlanmış bir yazılım aracıdır. Bu araç, metinlerinizi analiz eder ve size yazım hataları, dilbilgisi düzeltmeleri ve yazılarınızın daha akıcı hale gelmesini sağlayacak öneriler sunar.
+  <img src="https://i.vgy.me/4WErO2.png" alt="Your Image" width="30%">
+</div> Writefull, yazılarınızı geliştirmek ve dil kullanımınızı mükemmelleştirmek için tasarlanmış bir yazılım aracıdır. Bu araç, metinlerinizi analiz eder ve size yazım hataları, dilbilgisi düzeltmeleri ve yazılarınızın daha akıcı hale gelmesini sağlayacak öneriler sunar.
 
 1. **Dilbilgisi ve Yazım Kontrolü:** Writefull, yazım hatalarını tespit eder ve size düzeltme önerileri sunar. Bu sayede yazılarınız daha profesyonel ve güvenilir bir izlenim bırakır.
 
@@ -297,13 +288,9 @@ Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili 
 
 ### Wordvice AI
 
-[https://wordvice.ai/](https://wordvice.ai/)
-
-<div align="center">
-  <img src="https://bit.ly/3sYXTDK" alt="Your Image" width="50%">
-</div>
-
-Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İngilizce yazılarda hataları otomatik olarak bulur ve düzeltir.
+[https://wordvice.ai/](https://wordvice.ai/) <div align="center">
+  <img src="https://bit.ly/3sYXTDK" alt="Your Image" width="30%">
+</div> Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İngilizce yazılarda hataları otomatik olarak bulur ve düzeltir.
 
 - Gerçek zamanlı dilbilgisi ve noktalama işaretleri kontrolleri
 - İngilizce yazılara uygun kelime bilgisi, ton ve stil düzeltmeleri
