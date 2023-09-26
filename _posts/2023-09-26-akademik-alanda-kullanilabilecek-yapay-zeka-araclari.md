@@ -11,16 +11,6 @@ tags:
   - araçlar
   - ai tools
 ---
-
-## İçerik
-
-- [Akademik Alanda Kullanılabilecek Yapay Zeka Araçları](#akademik-alanda-kullanılabilecek-yapay-zeka-araçları)
-  - [Kullanım Amaçları](#kullanım-amaçları)
-  - [Popüler Chatbot Uygulamaları](#popüler-chatbot-uygulamaları)
-    - [ChatGPT](#chatgpt)
-    - [Google Bard](#google-bard)
-
-
 # Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
 
 Akademik alanda başarı, artık öğrencilerin ve akademisyenlerin kullanabileceği yapay zeka araçları sayesinde daha farklı bir noktaya geldi. Bu blog yazısında akademik amaçlarla kullanılabilecek yapay zeka araçlarını derlemeye çalışacağım.
@@ -92,3 +82,13 @@ Bununla ilgili daha fazla bilgi için aşağıdaki videoyu izleyebilirsiniz:
 [![Video Title](https://img.youtube.com/vi/PbiwGAU5rj0/0.jpg)](https://www.youtube.com/watch?v=PbiwGAU5rj0)
 
 Yine hatırlatalım... Güvenilir bilimsel kaynakları kullanarak kapsamlı bir literatür taraması yapmanız gerektiğini unutmamanız önemlidir.
+
+# Kaynaklar
+
+https://www.researchgate.net/publication/370902390_Top_FREE_Ai_Tools_for_Research_and_Academic_Writing_2023
+
+https://kripeshadwani.com/best-ai-tools-for-students/
+
+https://master-academia.com/best-ai-tools-academic-writing/
+
+https://collegevidya.com/blog/how-to-use-google-bard-for-students/
