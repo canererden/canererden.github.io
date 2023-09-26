@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
+title: 1- Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
 permalink: 
@@ -12,42 +12,43 @@ tags:
   - ai tools
 ---
 
-## 0.1. İçerik
+## İçerik
 
-- [1. Akademik Alanda Kullanılabilecek Yapay Zeka Araçları](#1-akademik-alanda-kullanılabilecek-yapay-zeka-araçları)
-  - [1.1. Kullanım Amaçları](#11-kullanım-amaçları)
-  - [1.2. Popüler Chatbot Uygulamaları](#12-popüler-chatbot-uygulamaları)
-    - [1.2.1. ChatGPT](#121-chatgpt)
-    - [1.2.2. Google Bard](#122-google-bard)
-- [2. Kaynaklar](#2-kaynaklar)
+- [Akademik Alanda Kullanılabilecek Yapay Zeka Araçları](#akademik-alanda-kullanılabilecek-yapay-zeka-araçları)
+  - [Kullanım Amaçları](#kullanım-amaçları)
+  - [Popüler Chatbot Uygulamaları](#popüler-chatbot-uygulamaları)
+    - [ChatGPT](#chatgpt)
+    - [Google Bard](#google-bard)
 
 
-# 1. Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
+# Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
 
 Akademik alanda başarı, artık öğrencilerin ve akademisyenlerin kullanabileceği yapay zeka araçları sayesinde daha farklı bir noktaya geldi. Bu blog yazısında akademik amaçlarla kullanılabilecek yapay zeka araçlarını derlemeye çalışacağım.
 
-## 1.1. Kullanım Amaçları
+## Kullanım Amaçları
 
 Bu araçlar, çeşitli kullanım amaçlarına hizmet etmek üzere tasarlanmış yapay zeka destekli uygulamalardır. Bu araçların temel kullanım amaçlarına göre şu şekilde listeledim:
 
 1. **Yazma ve Dilbilgisi Yardımcıları:**
-   - Grammarly ve Paperpal gibi araçlar, kullanıcıların yazılarını düzeltmelerine, dilbilgisi hatalarını düzeltmelerine ve yazım, netlik, stil ve ton gibi yazma özelliklerini geliştirmelerine yardımcı olur. İletişim becerilerini artırır. Okumak için şu linki takip edebilirsiniz: [Akademik Yazılarınızı Geliştirmek İçin Yazma ve Dilbilgisi Yardımcısı Yapay Zeka Uygulaması](https://canererden.com/blog/2023-09-26-yazma-ve-dilbilgisi-yardimcisi-olarak-yapay-zeka-araclari)
+   - Grammarly ve Paperpal gibi araçlar, kullanıcıların yazılarını düzeltmelerine, dilbilgisi hatalarını düzeltmelerine ve yazım, netlik, stil ve ton gibi yazma özelliklerini geliştirmelerine yardımcı olur. İletişim becerilerini artırır. Okumak için şu linki takip edebilirsiniz: [Akademik Yazılarınızı Geliştirmek İçin Yazma ve Dilbilgisi Yardımcısı Yapay Zeka Uygulaması](https://canererden.com/blog/2023/yazma-ve-dilbilgisi-yardimcisi-olarak-yapay-zeka-araclari)
 
 2. **Araştırma ve Literatür Tarama:**
-   - HeyScience, Rayyan ve diğer benzer araçlar, araştırmacılara ve öğrencilere bilimsel araştırma yapma, literatür tarama ve makaleler üzerinde çalışma konularında yardımcı olur. Bilimsel araştırmalarda ve eğitimde kullanılırlar. Okumak için şu linki takip edebilirsiniz: [Araştırma ve Literatür Taramasında Kullanılabilecek Yapay Zeka Araçları](https://canererden.com/blog/2023-09-25-arastirma-ve-literatur-taramasinda-yapay-zeka-araclari)
+   - HeyScience, Rayyan ve diğer benzer araçlar, araştırmacılara ve öğrencilere bilimsel araştırma yapma, literatür tarama ve makaleler üzerinde çalışma konularında yardımcı olur. Bilimsel araştırmalarda ve eğitimde kullanılırlar. Okumak için şu linki takip edebilirsiniz: [Araştırma ve Literatür Taramasında Kullanılabilecek Yapay Zeka Araçları](https://canererden.com/blog/2023/arastirma-ve-literatur-taramasinda-yapay-zeka-araclari/)
 
 3. **Belge Okuma ve Anlama:**
-   - ChatPDF gibi araçlar, kullanıcıların yazılı metinleri daha iyi anlamalarına, özetlemelerine ve işlemelerine yardımcı olur. Belirli bir amaca hizmet eden bir araç seçerken, kullanıcının ihtiyaçlarına ve tercihlerine göre hangi özelliklerin en uygun olduğunu düşünmek önemlidir. Okumak için şu linki takip edebilirsiniz: [Belge Okuma ve Anlama için Yapay Zeka Araçları](https://canererden.com/blog/2023-09-26-belge-okuma-ve-anlama-icin-yapay-zeka-araclari)
+   - ChatPDF gibi araçlar, kullanıcıların yazılı metinleri daha iyi anlamalarına, özetlemelerine ve işlemelerine yardımcı olur. Belirli bir amaca hizmet eden bir araç seçerken, kullanıcının ihtiyaçlarına ve tercihlerine göre hangi özelliklerin en uygun olduğunu düşünmek önemlidir. Okumak için şu linki takip edebilirsiniz: [Belge Okuma ve Anlama için Yapay Zeka Araçları](https://canererden.com/blog/2023/belge-okuma-anlamada-yapay-zeka-araclari/)
 
 4. **Zaman Yönetimi ve Verimlilik:**
-   - ProofHub, Upword AI gibi araçlar, kullanıcıların web sayfalarını veya videoları hızlı bir şekilde özetleyerek araştırma ve öğrenme süreçlerini hızlandırmalarına yardımcı olur. Verimliliği artırarak zamandan tasarruf sağlar. Okumak için şu linki takip edebilirsiniz: [Zaman Yönetimi ve Verimlilik için Yapay Zeka Araçları](https://canererden.com/blog/2023-09-25-zaman-yonetimi-ve-verimlilik-icin-yapay-zeka-araclari)
+   - ProofHub, Upword AI gibi araçlar, kullanıcıların web sayfalarını veya videoları hızlı bir şekilde özetleyerek araştırma ve öğrenme süreçlerini hızlandırmalarına yardımcı olur. Verimliliği artırarak zamandan tasarruf sağlar. Okumak için şu linki takip edebilirsiniz: [Zaman Yönetimi ve Verimlilik için Yapay Zeka Araçları](https://canererden.com/blog/2023/zaman-yonetimi-ve-verimlilik-icin-yapay-zeka-araclari/)
 
 5. **Kişiselleştirilmiş Öğrenme Deneyimi:**
-   - Tutor AI ve RAx gibi uygulamalar, öğrencilere kişiselleştirilmiş öğrenme deneyimleri sunar. Kullanıcıların belirli konuları öğrenmelerine ve öğrenme hızlarını ayarlamalarına olanak tanır. Okumak için şu linki takip edebilirsiniz: [Kişiselleştirilmiş Öğrenme Deneyimi için Yapay Zeka Araçları](https://canererden.com/blog/2023-09-25-kisisellestirilmis-ogrenme-deneyimi-icin-yapay-zeka-araclari)
+   - Tutor AI ve RAx gibi uygulamalar, öğrencilere kişiselleştirilmiş öğrenme deneyimleri sunar. Kullanıcıların belirli konuları öğrenmelerine ve öğrenme hızlarını ayarlamalarına olanak tanır. Okumak için şu linki takip edebilirsiniz: [Kişiselleştirilmiş Öğrenme Deneyimi için Yapay Zeka Araçları](https://canererden.com/blog/2023/kisisellestirilmis-ogrenme-deneyimi-icin-yapay-zeka-araclari/)
+6. **Diğer Yapay Zeka Araçları:**
+   - Diğer araçları burada listeledim: [Akademik Hayatta Kullanılabiecek Diğer Yapay Zeka Araçları](https://canererden.com/blog/2023/diger-yapay-zeka-araclari/)
 
-## 1.2. Popüler Chatbot Uygulamaları
+## Popüler Chatbot Uygulamaları
 
-### 1.2.1. ChatGPT 
+### ChatGPT 
 [chatgpt.com](https://chat.openai.com/)
 
 <div align="center">
@@ -71,7 +72,7 @@ Youtube'da bu konuda bir video da bulunmaktadır:
 
 Ancak, ChatGPT'nin sunduğu bilgilerin her zaman doğru ve güncel olmadığını unutmamanız önemlidir. Araştırma sürecinizin her aşamasında dikkatli ve eleştirel bir yaklaşım benimsemeli ve güvenilir kaynakları kullanmalısınız. ChatGPT, araştırma çalışmalarınızı destekleyebilir, ancak bu destek kapsamlı bir insan incelemesi ve güvenilir kaynakların kullanımı ile tamamlanmalıdır.
 
-### 1.2.2. Google Bard 
+### Google Bard 
 [https://bard.google.com/](https://bard.google.com/)
 
 <div align="center">
@@ -91,13 +92,3 @@ Bununla ilgili daha fazla bilgi için aşağıdaki videoyu izleyebilirsiniz:
 [![Video Title](https://img.youtube.com/vi/PbiwGAU5rj0/0.jpg)](https://www.youtube.com/watch?v=PbiwGAU5rj0)
 
 Yine hatırlatalım... Güvenilir bilimsel kaynakları kullanarak kapsamlı bir literatür taraması yapmanız gerektiğini unutmamanız önemlidir.
-
-# 2. Kaynaklar
-
-https://www.researchgate.net/publication/370902390_Top_FREE_Ai_Tools_for_Research_and_Academic_Writing_2023
-
-https://kripeshadwani.com/best-ai-tools-for-students/
-
-https://master-academia.com/best-ai-tools-academic-writing/
-
-https://collegevidya.com/blog/how-to-use-google-bard-for-students/

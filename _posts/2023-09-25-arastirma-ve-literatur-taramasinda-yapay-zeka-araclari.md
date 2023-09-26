@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Araştırma ve Literatür Taramasında Kullanılabilecek Yapay Zeka Araçları
+title: 2- Araştırma ve Literatür Taramasında Kullanılabilecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
 permalink: 
@@ -14,13 +14,8 @@ tags:
   - araştırma
 ---
 
-## 0.1. İçerik
 
-- [1. Araştırma ve Literatür Tarama için Yapay Zeka Araçları](#1-araştırma-ve-literatür-tarama-için-yapay-zeka-araçları)
-- [2. Kaynaklar](#2-kaynaklar)
-
-
-# 1. Araştırma ve Literatür Tarama için Yapay Zeka Araçları
+# Araştırma ve Literatür Tarama için Yapay Zeka Araçları
 
 Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardımcı olabilir. İhtiyaçlarınıza ve araştırma süreçlerinize bağlı olarak, bu araçlardan bir veya birkaçını seçebilirsiniz. Bazı araçlar ücretsizken, bazıları ücretli olabilir. Bu nedenle, araçları kullanmadan önce fiyatlandırma politikalarını kontrol etmeniz önemlidir. Ayrıca, araçların sunduğu özellikleri ve kullanım kolaylığını değerlendirmek için deneme sürümlerini kullanabilirsiniz. 
 
@@ -58,13 +53,3 @@ Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardı
 17. **Scinapse:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. [https://scinapse.io/](https://scinapse.io/)
 18. **Readx:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. [https://readx.io/](https://readx.io/)
 19. **Read by QxMD:** Bilimsel makalelere erişim ve yönetim konusunda kullanışlıdır. [https://www.qxmd.com/read-by-qxmd/](https://www.qxmd.com/read-by-qxmd/)
- 
-# 2. Kaynaklar
-
-https://www.researchgate.net/publication/370902390_Top_FREE_Ai_Tools_for_Research_and_Academic_Writing_2023
-
-https://kripeshadwani.com/best-ai-tools-for-students/
-
-https://master-academia.com/best-ai-tools-academic-writing/
-
-https://collegevidya.com/blog/how-to-use-google-bard-for-students/

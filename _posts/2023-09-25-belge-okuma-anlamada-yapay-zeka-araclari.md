@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Belge Okuma ve Anlama için Kullanılabiecek Yapay Zeka Araçları
+title: 3- Belge Okuma ve Anlama için Kullanılabiecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
 permalink: 
@@ -15,21 +15,22 @@ tags:
   - belge okuma
 ---
 
-## 0.1. İçerik
+## İçerik
 
-- [1. Belge Okuma ve Anlama](#1-belge-okuma-ve-anlama)
-  - [1.1. ChatPDF](#11-chatpdf)
-  - [1.2. Typeset.io (SciSpace)](#12-typesetio-scispace)
-  - [1.3. ChatDoc](#13-chatdoc)
-  - [1.4. DocLime](#14-doclime)
-  - [1.5. Docalysis](#15-docalysis)
-  - [1.6. Sharly AI](#16-sharly-ai)
-  - [1.7. Docsumo](#17-docsumo)
-- [2. Kaynaklar](#2-kaynaklar)
+- [Belge Okuma ve Anlama](#belge-okuma-ve-anlama)
+  - [ChatPDF](#chatpdf)
+  - [Typeset.io (SciSpace)](#typesetio-scispace)
+  - [ChatDoc](#chatdoc)
+  - [DocLime](#doclime)
+  - [Docalysis](#docalysis)
+  - [Sharly AI](#sharly-ai)
+  - [Docsumo](#docsumo)
 
-# 1. Belge Okuma ve Anlama
+# Belge Okuma ve Anlama
 
-## 1.1. ChatPDF
+Bu araçlar belge okuma ve anlamada kullanılabilecek yapay zeka araçlarıdır. Bu araçlar, çeşitli kullanım amaçlarına hizmet etmek üzere tasarlanmış yapay zeka destekli uygulamalardır. Bu araçların temel kullanım amaçlarına göre şu şekilde listeledim:
+
+## ChatPDF
 [https://www.chatpdf.com/](https://www.chatpdf.com/)
 
 <div align="center">
@@ -42,7 +43,7 @@ Alternatifler:
 1. [ChatPDF Resmi Websitesi](https://chatpdf.ai/)
 2. [Sider ChatPDF](https://sider.ai/chatpdf)
 
-## 1.2. Typeset.io (SciSpace)
+## Typeset.io (SciSpace)
 [https://typeset.io/](https://typeset.io/)
 
 <div align="center">
@@ -69,7 +70,7 @@ Typeset.io, hedef dergilerin ve yayıncıların belirli şablonlarını hızlı 
 
 Typeset.io, araştırmalarınızı daha profesyonel hale getirirken zaman ve çaba tasarrufu sağlayan bir araç olarak öne çıkar. Akademik ve araştırma çalışmalarınızı daha düzenli ve etkili hale getirmenize yardımcı olur.
 
-## 1.3. ChatDoc
+## ChatDoc
 [https://chatdoc.com/](https://chatdoc.com/)
 
 <div align="center">
@@ -94,7 +95,7 @@ ChatDOC, özellikle kitaplar, kılavuzlar, araştırma makaleleri ve diğer mate
 </video>
 
 
-## 1.4. DocLime
+## DocLime
 [https://doclime.com/](https://doclime.com/)
 
 <div align="center">
@@ -118,7 +119,7 @@ DocLime, özellikle belge analizi ve bilgi çıkarma süreçlerini hızlandırma
 
 <video src="https://doclime.com/videos/doclime_4k.mp4" controls="controls" style="max-width: 90%;">
 
-## 1.5. Docalysis
+## Docalysis
 [https://docalysis.com/](https://docalysis.com/)
 
 <div align="center">
@@ -131,7 +132,7 @@ Geleneksel metin sayfalarını okuma yaklaşımının aksine, AI destekli sohbet
 
 DocAlysis, özellikle büyük miktarda makale okuma gerektiren profesyonel ve akademik alanlarda çalışanlar için büyük bir kolaylık sunuyor.
 
-## 1.6. Sharly AI
+## Sharly AI
 [https://sharly.ai/](https://sharly.ai/)
 
 <div align="center">
@@ -142,7 +143,7 @@ Sharly AI, uzun ve karmaşık makaleleri daha hızlı anlamak ve özümsemek iç
 
 GPT ile yapılan görüşmede, aracın doğruluğunun %95 olduğu belirlendi ve kullanımın kolay olduğu vurgulandı. Kullanıcılar ayrıca çalışmalarını arkadaşlarıyla özel olarak paylaşarak işbirliğini ve geri bildirimi kolaylaştırabilirler. Sharly AI'nın kullanım alanları çok geniş olup, pazar analizi ve finansal raporlama gibi farklı sektörlerde kullanılabilir. Bu uygulama, profesyonellerin verimliliğini artırmak için güçlü bir araç sunar.
 
-## 1.7. Docsumo
+## Docsumo
 [https://docsumo.com/](https://docsumo.com/)
 <div align="center">
   <img src="https://i.vgy.me/oe7nPq.png" alt="Docsumo Academic Usage" width="50%">
@@ -159,13 +160,3 @@ Docsumo, belgeleri otomatik olarak okuyan ve verileri çıkaran bir yapay zeka p
 **4. Veri Aktarımı:** Platform, verileri doğrudan Excel veya Google Sheets'e aktarmanıza olanak tanır. Bu, verileri daha kolay analiz etmenize ve işlemenize yardımcı olur.
 
 **5. Veri Analizi:** Docsumo, verileri analiz etmek için yapay zeka teknolojisini kullanır. Bu, verileri daha iyi anlamanıza ve daha iyi kararlar vermenize yardımcı olur.
-
-# 2. Kaynaklar
-
-https://www.researchgate.net/publication/370902390_Top_FREE_Ai_Tools_for_Research_and_Academic_Writing_2023
-
-https://kripeshadwani.com/best-ai-tools-for-students/
-
-https://master-academia.com/best-ai-tools-academic-writing/
-
-https://collegevidya.com/blog/how-to-use-google-bard-for-students/

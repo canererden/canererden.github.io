@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Yazma ve Dilbilgisi Yardımcısı olarak Kullanılabilecek Yapay Zeka Araçları
+title: 2- Yazma ve Dilbilgisi Yardımcısı olarak Kullanılabilecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
 permalink: 
@@ -14,27 +14,26 @@ tags:
   - dilbilgisi yardımcısı
 ---
 
-## 0.1. İçerik
+## İçerik
 
-- [1. Yazma ve Dilbilgisi Yardımcıları](#1-yazma-ve-dilbilgisi-yardımcıları)
-  - [1.1. Grammarly](#11-grammarly)
-  - [1.2. Copy.ai](#12-copyai)
-  - [1.3. Paperpal](#13-paperpal)
-  - [1.4. ProWritingAid](#14-prowritingaid)
-  - [1.5. Trinka](#15-trinka)
-  - [1.6. Writefull](#16-writefull)
-  - [1.7. Wordvice AI](#17-wordvice-ai)
-  - [1.8. Hemingway Editor](#18-hemingway-editor)
-  - [1.9. Quillbot](#19-quillbot)
-  - [1.10. Scholarly](#110-scholarly)
-  - [1.11. LanguageTool](#111-languagetool)
-  - [1.12. EssayBot](#112-essaybot)
-- [2. Kaynaklar](#2-kaynaklar)
+- [Yazma ve Dilbilgisi Yardımcıları](#yazma-ve-dilbilgisi-yardımcıları)
+  - [Grammarly](#grammarly)
+  - [Copy.ai](#copyai)
+  - [Paperpal](#paperpal)
+  - [ProWritingAid](#prowritingaid)
+  - [Trinka](#trinka)
+  - [Writefull](#writefull)
+  - [Wordvice AI](#wordvice-ai)
+  - [Hemingway Editor](#hemingway-editor)
+  - [Quillbot](#quillbot)
+  - [Scholarly](#scholarly)
+  - [LanguageTool](#languagetool)
+  - [EssayBot](#essaybot)
 
 
-# 1. Yazma ve Dilbilgisi Yardımcıları
+# Yazma ve Dilbilgisi Yardımcıları
 
-## 1.1. Grammarly 
+## Grammarly 
 [grammarly.com](https://grammarly.com/)
 
 <div align="center">
@@ -71,7 +70,7 @@ Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde dü
    <img src="https://i.vgy.me/QV6W1i.png" alt="Grammarly Academic Usage" width="50%">
 </div>
 
-## 1.2. Copy.ai
+## Copy.ai
 [https://copy.ai/](https://copy.ai/)
 
 <div align="center">
@@ -97,7 +96,7 @@ Copy.ai, metin yazarları, pazarlamacılar ve içerik üreticileri için hızlı
 
 Görebildiğim kadarıyla 30.000 karaktere kadar ücretsiz kullanım imkanı sunuyor. Ücretsiz sürümde oluşturulan metinlerin sonunda "Made with Copy.ai" ibaresi yer alıyor. Ücretli sürümde bu ibare kaldırılabiliyor.
 
-## 1.3. Paperpal
+## Paperpal
 [https://paperpal.com/](https://paperpal.com/)
 
 <div align="center">
@@ -115,7 +114,7 @@ Aylık 200 düzeltmeye kadar ücretsiz olarak sunuyor. Ayrıca Word eklentisi sa
 </div>
 
 
-## 1.4. ProWritingAid 
+## ProWritingAid 
 [prowritingaid.com](https://prowritingaid.com/)
 
 <div align="center">
@@ -144,7 +143,7 @@ Birçok eklenti ve entegrasyon seçeneği sunuyor. Ayrıca Word eklentisi sayesi
    <img src="https://i.vgy.me/73dxJA.png" alt="ProWritingAid Academic Usage" width="50%">
 </div>
 
-## 1.5. Trinka
+## Trinka
 [trinka.ai](https://trinka.ai/)
 
 <div align="center">
@@ -159,7 +158,7 @@ Premium sürümünün yıllık 80 dolarlık bir ücretle sunulduğunu belirtmek 
 
 Sonuç olarak, Trinka, akademik ve teknik yazılarınızın dil bilgisi ve yazım hatalarını düzeltmek için kullanabileceğiniz etkili bir çevrimiçi araç olarak dikkat çekmektedir. Ücretsiz sürümü, aylık 5000 kelime sınırlamasıyla çoğu kullanıcının ihtiyaçlarını karşılayabilirken, daha fazla özellik ve hız için Premium sürümüne yatırım yapma seçeneği de mevcuttur. Trinka'nın kolay kullanımı ve etkili düzeltme önerileri, yazılarınızın kalitesini artırmak için güçlü bir yardımcı olabilir.
 
-## 1.6. Writefull
+## Writefull
 [writefull.com](https://writefull.com/)
 
 <div align="center">
@@ -186,7 +185,7 @@ Writefull, kullanımı kolay bir arayüze sahiptir ve çeşitli yazı türleri i
 
 Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili iletişim kurmanızı sağlamak için güçlü bir araçtır. Dilbilgisi, yazım ve ifade konularında sizi desteklerken, akademik yazılarınızı daha profesyonel hale getirmeniz için özellikle faydalıdır. Writefull ile yazılarınızı mükemmelleştirin ve iletişim becerilerinizi geliştirin.
 
-## 1.7. Wordvice AI
+## Wordvice AI
 
 [https://wordvice.ai/](https://wordvice.ai/) 
 <div align="center">
@@ -199,7 +198,7 @@ Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İn
 - Anlaşılması kolay hata açıklamaları sağlar
 - Akademik makaleler, iş/e-posta metin düzeltmeleri konusunda uzmandır
 
-## 1.8. Hemingway Editor
+## Hemingway Editor
 [hemingwayapp.com](https://hemingwayapp.com/)
 <div align="center">
   <img src="https://i.vgy.me/8JKzFS.png" alt="Your Image" width="50%">
@@ -208,7 +207,7 @@ Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İn
 Hemingway Editor, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
 
 
-## 1.9. Quillbot
+## Quillbot
 [https://quillbot.com/](https://quillbot.com/)
 
 
@@ -220,7 +219,7 @@ Quillbot, özellikle akademik araştırmacılar için yararlı olan yazma ve dil
 
 Quillbot ayrıca, ana dili İngilizce olmayan kişiler veya dil becerilerini geliştirmek isteyen araştırmacılar için özellikle yararlı olabilecek önerileriyle ilgili açıklamalar da sunuyor. Yabancı dildeki kaynaklarla çalışanlar için Quillbot, doğru referanslamayı sağlamak amacıyla metni birçok farklı dile çevirebilir.
 
-## 1.10. Scholarly
+## Scholarly
 [https://scholarly.ai/](https://scholarly.ai/)
 
 <div align="center">
@@ -231,7 +230,7 @@ Scholarcy, en son araştırmaları takip etmenize ve herhangi bir belgenin işin
 
 Scholarcy, herhangi bir Word veya PDF belgesinin özet bilgi kartını oluşturur ve alıntı yapılan kaynakların açık erişim sürümlerine bağlantılar içerir. Ayrıca, bilgileri daha kolay anlaşılır bir şekilde görüntülemek için makalelerden şekil, tablo ve görseller çıkaracak şekilde de yapılandırılabilir.
 
-## 1.11. LanguageTool
+## LanguageTool
 [languagetool.org](https://languagetool.org/)
 
 <div align="center">
@@ -241,7 +240,7 @@ Scholarcy, herhangi bir Word veya PDF belgesinin özet bilgi kartını oluşturu
 LanguageTool, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
 
 
-## 1.12. EssayBot
+## EssayBot
 [https://essaybot.com/](https://essaybot.com/)
 
 <div align="center">
@@ -258,13 +257,3 @@ EssayBot'ın bazı özellikleri şunlardır:
 - **Dilbilgisi ve Yazım Kontrolü:** Metinlerdeki dilbilgisi hatalarını ve yazım hatalarını düzeltir.
 
 EssayBot, yazma sürecini hızlandırmak ve kullanıcıların yazdıkları metinleri geliştirmelerine yardımcı olmak için kullanılabilecek bir araçtır. Ancak, akademik bağlamda kullanılırken öğrencilerin kendi araştırmalarını yapmaları ve metinleri özgün ve doğru bir şekilde oluşturmaları önemlidir.
-
-# 2. Kaynaklar
-
-https://www.researchgate.net/publication/370902390_Top_FREE_Ai_Tools_for_Research_and_Academic_Writing_2023
-
-https://kripeshadwani.com/best-ai-tools-for-students/
-
-https://master-academia.com/best-ai-tools-academic-writing/
-
-https://collegevidya.com/blog/how-to-use-google-bard-for-students/
