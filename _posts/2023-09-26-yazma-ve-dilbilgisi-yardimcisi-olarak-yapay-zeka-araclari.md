@@ -76,7 +76,7 @@ Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde dü
 [https://www.aje.com/grammar-check/](https://www.aje.com/grammar-check/)
 
 <div align="center">
-  <img src="https://i.vgy.me/aQ01qf.png" alt="Your Image" width="50%">
+  <img src="https://i.vgy.me/PFRlWy.png" alt="Your Image" width="50%">
 </div>
 
 Makaleniz yüksek etkili bir akademik dergiye gönderilmeye hazır mı? Makalenizin net ve doğru olup olmadığını kontrol etmek için hızlı, ücretsiz Dil Değerlendirme Aracını (LAT) kullanabilirsiniz.
