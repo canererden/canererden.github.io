@@ -18,6 +18,7 @@ tags:
 
 - [Yazma ve Dilbilgisi Yardımcıları](#yazma-ve-dilbilgisi-yardımcıları)
   - [Grammarly](#grammarly)
+  - [AJE's Free Grammar Check Tool](#ajes-free-grammar-check-tool)
   - [Copy.ai](#copyai)
   - [Paperpal](#paperpal)
   - [ProWritingAid](#prowritingaid)
@@ -69,6 +70,20 @@ Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde dü
 <div align="center">
    <img src="https://i.vgy.me/QV6W1i.png" alt="Grammarly Academic Usage" width="50%">
 </div>
+
+## AJE's Free Grammar Check Tool
+
+[https://www.aje.com/grammar-check/](https://www.aje.com/grammar-check/)
+
+<div align="center">
+  <img src="https://i.vgy.me/aQ01qf.png" alt="Your Image" width="50%">
+</div>
+
+Makaleniz yüksek etkili bir akademik dergiye gönderilmeye hazır mı? Makalenizin net ve doğru olup olmadığını kontrol etmek için hızlı, ücretsiz Dil Değerlendirme Aracını (LAT) kullanabilirsiniz.
+
+AJE'nin ücretsiz Dilbilgisi Kontrolü, dil kalitesini kontrol etme sürecini hızlandırır.
+
+Gramer Kontrolü, makalenizin hedef derginize gönderilmeden önce dil revizyonlarından faydalanıp yararlanamayacağını anlamanıza yardımcı olabilir. Özellikle akademik ve teknik yazılara yönelik bir araç oluşturmak için en son teknolojiye sahip makine öğrenimini kullanılmaktadır.
 
 ## Copy.ai
 [https://copy.ai/](https://copy.ai/)
