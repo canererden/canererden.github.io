@@ -61,11 +61,11 @@ http://webcache.googleusercontent.com/search?q=cache:https://medium.com/quant-fa
 
 After accessing the cached version, we choose the "Only text version" option, as depicted in the image below:
 
-![Google Cache Only Text Version](https://i.vgy.me/LZ2B7j.png)
+![Google Cache Only Text Version](https://i.vgy.me/LZ2B7j.png){width=80%}
 
 By clicking on the "Readbee" button, the content is transformed into a distraction-free format, making it easier to read, as shown below:
 
-![Readbee Transformed Content](https://i.vgy.me/1yi3FG.png)
+![Readbee Transformed Content](https://i.vgy.me/1yi3FG.png){width=80%}
 
 This method allows you to enjoy Medium articles hassle-free and explore a wealth of valuable information.
 
