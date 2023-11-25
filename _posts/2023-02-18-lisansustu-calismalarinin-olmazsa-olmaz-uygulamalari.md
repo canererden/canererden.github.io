@@ -7,6 +7,10 @@ tags:
   - blog
   - verimlilik
   - uygulama
+  - tools
+  - code
+  - optimization
+  - data-science
 ---
 
 Bu yazıda akademik hayatta araştırma yaparken kullandığım dijital araçları listeleyeceğim. Listede kullandığım ve memnun olduğum uygulamalar bulunmakta. 

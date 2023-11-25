@@ -11,6 +11,7 @@ tags:
   - araçlar
   - ai tools
   - yapay zeka araçları
+  - tools
 ---
 
 ## 0.1. İçerik

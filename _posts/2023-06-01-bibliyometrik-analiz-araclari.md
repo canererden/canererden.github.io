@@ -12,6 +12,8 @@ tags:
   - kaynak bulma
   - bibliometrix
   - vosviewer
+  - tools
+  - code
 ---
 
 Konuya geçmeden önce bu blog yazısı ile birlikte hazırladığım videoya göz atmanızı öneririm.
