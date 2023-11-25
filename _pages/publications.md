@@ -18,4 +18,6 @@ nav_order: 1
 
 <!-- <script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2F8w9gWseaWC8CpfhLv&noBootstrap=1&jsonp=1"></script> -->
 
+<script src=”http://bibbase.org/show?bib=https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-mypublications%2Fcanererden&msg=embed&jsonp=1″></script>
+
 </div>
