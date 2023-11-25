@@ -17,10 +17,10 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: Muli, sans-serif;
 }
 
 h1 {
-  font-family: Muli;
   font-size: 29px;
   font-style: normal;
   font-variant: normal;
@@ -28,8 +28,15 @@ h1 {
   line-height: 29px;
 }
 
+h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 29px;
+}
+
 h3 {
-  font-family: Muli;
   font-size: 22px;
   font-style: normal;
   font-variant: normal;
@@ -38,7 +45,6 @@ h3 {
 }
 
 p {
-  font-family: Muli;
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
