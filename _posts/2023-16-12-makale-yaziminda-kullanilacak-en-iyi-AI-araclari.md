@@ -23,7 +23,7 @@ tags:
 
 Günümüzde, akademik araştırmalarda yapay zeka destekli araçlar, araştırmacılara büyük kolaylıklar sağlamaktadır. Yüzlerce PDF'yi tarayarak bilgi toplamak yerine, güçlü yapay zeka araçları araştırma makalelerinizdeki önemli bilgileri özetlemenize yardımcı olabilir. Bu blog yazısında, akademik dünyada gerçekleşen bu dönüştürücü gelişmeleri inceleyerek, araştırma süreçlerinizi daha etkili hale getirmenize yardımcı olacak yapay zeka araçlarına odaklanacağız.
 
-## 1. [Araştırma Asistanları](#)
+## 1. [Araştırma ve Yazma Asistanları](#)
 
 Yapay zeka destekli araştırma asistanları, literatür tarama sürecinizi manuel zahmetten kurtarabilir. Bu araçlar, araştırma makalelerinizdeki önemli alıntıları tespit eder ve size zaman kazandırır.
 
@@ -31,6 +31,7 @@ Yapay zeka destekli araştırma asistanları, literatür tarama sürecinizi manu
 | --- | --- | --- | --- | --- |
 | Jenni.ai | Jenni AI, yarı zamanda yüksek kaliteli içerik yazmanıza yardımcı olan bir araştırma/yazma asistanıdır. | Literatür Tarama | Günlük 200 Kelimeye kadar ücretsiz | [Jenni.ai](https://app.jenni.ai/) |
 | scite.ai | scite, alıntının bağlamını gösteren ve makalenin destekleyici mi yoksa karşıt kanıtlar mı sağladığını açıklayan alıntılar aracılığıyla araştırmacıların araştırma makalelerini daha iyi keşfetmelerine ve anlamalarına yardımcı olan Brooklyn merkezli bir kuruluştur.  | Literatür Tarama | Ücretli (aylık ₺94,44) | [scite.ai](https://scite.ai/) |
+| wisio.app | wisio.app, bilim insanları için yapay zeka destekli bir yazma yardımcısıdır. | Yazma Asistanı | Aylık 16$ | [wisio.app](https://wisio.app/) |
 
 ## 2. [Makale Özetleme Araçları](#)
 
