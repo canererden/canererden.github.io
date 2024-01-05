@@ -23,45 +23,31 @@ tags:
 
 Günümüzde, akademik araştırmalarda yapay zeka destekli araçlar, araştırmacılara büyük kolaylıklar sağlamaktadır. Yüzlerce PDF'yi tarayarak bilgi toplamak yerine, güçlü yapay zeka araçları araştırma makalelerinizdeki önemli bilgileri özetlemenize yardımcı olabilir. Bu blog yazısında, akademik dünyada gerçekleşen bu dönüştürücü gelişmeleri inceleyerek, araştırma süreçlerinizi daha etkili hale getirmenize yardımcı olacak yapay zeka araçlarına odaklanacağız.
 
-## 1. [Araştırma ve Yazma Asistanları](#)
-
-Yapay zeka destekli araştırma asistanları, literatür tarama sürecinizi manuel zahmetten kurtarabilir. Bu araçlar, araştırma makalelerinizdeki önemli alıntıları tespit eder ve size zaman kazandırır.
-
-| Araç | Açıklama | Kullanım Alanı | Ücret | Link |
-| --- | --- | --- | --- | --- |
-| Jenni.ai | Jenni AI, yarı zamanda yüksek kaliteli içerik yazmanıza yardımcı olan bir araştırma/yazma asistanıdır. | Literatür Tarama | Günlük 200 Kelimeye kadar ücretsiz | [Jenni.ai](https://app.jenni.ai/) |
-| scite.ai | scite, alıntının bağlamını gösteren ve makalenin destekleyici mi yoksa karşıt kanıtlar mı sağladığını açıklayan alıntılar aracılığıyla araştırmacıların araştırma makalelerini daha iyi keşfetmelerine ve anlamalarına yardımcı olan Brooklyn merkezli bir kuruluştur.  | Literatür Tarama | Ücretli (aylık ₺94,44) | [scite.ai](https://scite.ai/) |
-| wisio.app | wisio.app, bilim insanları için yapay zeka destekli bir yazma yardımcısıdır. | Yazma Asistanı | Aylık 16$ | [wisio.app](https://wisio.app/) |
-
-## 2. [Makale Özetleme Araçları](#)
-
-Makalelerinizi özetlemek için kullanılan yapay zeka araçları, karmaşık bilgileri sadeleştirir ve ana noktaları vurgular. Bu sayede, araştırmanızın temel odak noktalarını hızlıca gözden geçirebilirsiniz.
-
-## 3. [Belge Tarama ve Sınıflandırma Araçları](#)
-
-Yapay zeka destekli belge tarama araçları, araştırma sürecinizi daha kesin ve hızlı hale getirir. İlgili makaleleri bulma konusunda size rehberlik eder ve araştırmanızın kapsamını artırır.
-
-## 4. [Yapay Zeka Destekli Dil Denetimi](#)
-
 Yazım hatalarını düzeltme, dilinizi zenginleştirme ve metinlerinizi optimize etme konusunda yapay zeka araçları size yardımcı olabilir. Bu da makalenizin kalitesini artırır.
 
-> "Akademide geçirdiğim süre boyunca bu araçların varlığını dilediğimi biliyorum. Hangi araçları kullanmanız gerektiğini bulmak bazen zorlayıcı olabilir. Ancak, her geçen gün yeni bir araç ortaya çıkıyor gibi görünüyor!"
-
-Yukarıda sıralanan yapay zeka araçları, kendi araştırma süreçlerimde kullandığım ve şiddetle tavsiye ettiğim araçlardır. Bu araçlar, araştırma süreçlerinizi daha verimli, kapsamlı ve titiz hale getirmenize yardımcı olabilir.
+> "Akademide geçirdiğim süre boyunca bu araçların varlığını dilediğimi biliyorum. Hangi araçları kullanmanız gerektiğini bulmak bazen zorlayıcı olabilir. Bu nedenle, bu blog yazısında, araştırma süreçlerinizi daha verimli hale getirmenize yardımcı olacak en iyi yapay zeka araçlarını listeledim."
 
 Bu güçlü yapay zeka araçları sayesinde, literatür tarama süreciniz daha az sıkıcı hale gelecek, ilgili makaleleri daha kesin bir şekilde bulabilecek ve genel araştırma sürecinizi daha verimli bir hale getirebileceksiniz.
 
-Makale yazım sürecinizi iyileştirmek için bu yapay zeka araçlarını keşfedin ve araştırma yolculuğunuzu daha etkili hale getirin!
+## 1. [Araştırma, Yazma, Literatür Tarama ve Özetleme Asistanları](#)
 
-| Araç | Açıklama | Ücret | Link |
-| --- | --- | --- | --- |
-| Grammarly | Yazım denetimi | Ücretsiz | [Grammarly](https://www.grammarly.com/) |
-| Copyscape | Plagiarism checker | Ücretli | [Copyscape](https://www.copyscape.com/) |
-| Plagiarism Checker | Plagiarism checker | Ücretsiz | [Plagiarism Checker](https://smallseotools.com/plagiarism-checker/) |
-| Quetext | Plagiarism checker | Ücretsiz | [Quetext](https://www.quetext.com/) |
-| Plagiarism Detector | Plagiarism checker | Ücretsiz | [Plagiarism Detector](https://plagiarismdetector.net/) |
-| Plagiarism Checker | Plagiarism checker | Ücretsiz | [Plagiarism Checker](https://www.duplichecker.com/) |
-| Elicit | Plagiarism checker | Ücretsiz | [Elicit](https://elicit.org/) |
-| Research Rabbit | Literatür tarama | Ücretsiz | [Research Rabbit](https://www.researchrabbit.ai/) |
-| Iris.ai | Literatür tarama | Ücretsiz | [Iris.ai](https://iris.ai/) |
-| Writefull | Yazım Denetimi | Ücretsiz | [Writefull](https://writefull.com/) |
+Yapay zeka destekli araştırma asistanları, literatür tarama sürecinizi manuel zahmetten kurtarabilir. Bu araçlar, araştırma makalelerinizdeki önemli alıntıları tespit eder ve size zaman kazandırır. Bulabildiğim araçları aşağıda bulabilirsiniz:
+
+| Araç (Link)                                                         | Kullanım Alanı    |
+| ------------------------------------------------------------------- | ----------------- |
+| [Copyscape](https://www.copyscape.com/)                             | Benzerlik Kontrol |
+| [Elicit](https://elicit.org/)                                       | Literatür Tarama  |
+| [Grammarly](https://www.grammarly.com/)                             | Yazım denetimi    |
+| [Iris.ai](https://iris.ai/)                                         | Literatür Tarama  |
+| [Jenni.ai](https://app.jenni.ai/)                                   | Literatür Tarama  |
+| [Plagiarism Checker](https://smallseotools.com/plagiarism-checker/) | Benzerlik Kontrol |
+| [Plagiarism Checker](https://www.duplichecker.com/)                 | Benzerlik Kontrol |
+| [Plagiarism Detector](https://plagiarismdetector.net/)              | Benzerlik Kontrol |
+| [Quetext](https://www.quetext.com/)                                 | Benzerlik Kontrol |
+| [Research Rabbit](https://www.researchrabbit.ai/)                   | Literatür Tarama  |
+| [Scholarcy](https://www.scholarcy.com/)                             | Literatür Tarama  |
+| [Smodin](https://smodin.io/tr)                                      | Yazma Asistanı    |
+| [TLDR This](https://tldrthis.com/)                                  | Literatür Tarama  |
+| [Writefull](https://writefull.com/)                                 | Yazım Denetimi    |
+| [scite.ai](https://scite.ai/)                                       | Literatür Tarama  |
+| [wisio.app](https://wisio.app/)                                     | Yazma Asistanı    |
