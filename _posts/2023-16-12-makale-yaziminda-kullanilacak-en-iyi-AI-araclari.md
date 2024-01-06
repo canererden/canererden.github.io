@@ -51,3 +51,7 @@ Yapay zeka destekli araştırma asistanları, literatür tarama sürecinizi manu
 | [Writefull](https://writefull.com/)                                 | Yazım Denetimi     |
 | [scite.ai](https://scite.ai/)                                       | Literatür Tarama   |
 | [wisio.app](https://wisio.app/)                                     | Yazma Asistanı     |
+| [https://academicgpt.net/](https://academicgpt.net/)                | Yazı Yazma ve Özetleme   |
+|[https://textcortex.com/](https://textcortex.com/)|Yazı Yazma|
+|[https://chat.nbox.ai/](https://chat.nbox.ai/)|Yazı Oluşturma ve Chat|
+
