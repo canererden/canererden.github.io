@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ücretsiz Olarak Çevrimiçi Alabileceğiniz Harvard Üniversitesinin En İyi Veri Bilimi, Bilgisayar Bilimleri Kursları
-date: 2024-06-01
+date: 2024-05-01 00:00:00 +0300
 giscus_comments: true
 permalink: 
 tags:
