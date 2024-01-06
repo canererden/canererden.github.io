@@ -33,25 +33,25 @@ Bu güçlü yapay zeka araçları sayesinde, literatür tarama süreciniz daha a
 
 Yapay zeka destekli araştırma asistanları, literatür tarama sürecinizi manuel zahmetten kurtarabilir. Bu araçlar, araştırma makalelerinizdeki önemli alıntıları tespit eder ve size zaman kazandırır. Bulabildiğim araçları aşağıda bulabilirsiniz:
 
-| **Araç (Link)**                                                     | **Kullanım Alanı** |
-| ------------------------------------------------------------------- | ------------------ |
-| [Copyscape](https://www.copyscape.com/)                             | Benzerlik Kontrol  |
-| [Elicit](https://elicit.org/)                                       | Literatür Tarama   |
-| [Grammarly](https://www.grammarly.com/)                             | Yazım denetimi     |
-| [Iris.ai](https://iris.ai/)                                         | Literatür Tarama   |
-| [Jenni.ai](https://app.jenni.ai/)                                   | Literatür Tarama   |
-| [Plagiarism Checker](https://smallseotools.com/plagiarism-checker/) | Benzerlik Kontrol  |
-| [Plagiarism Checker](https://www.duplichecker.com/)                 | Benzerlik Kontrol  |
-| [Plagiarism Detector](https://plagiarismdetector.net/)              | Benzerlik Kontrol  |
-| [Quetext](https://www.quetext.com/)                                 | Benzerlik Kontrol  |
-| [Research Rabbit](https://www.researchrabbit.ai/)                   | Literatür Tarama   |
-| [Scholarcy](https://www.scholarcy.com/)                             | Literatür Tarama   |
-| [Smodin](https://smodin.io/tr)                                      | Yazma Asistanı     |
-| [TLDR This](https://tldrthis.com/)                                  | Literatür Tarama   |
-| [Writefull](https://writefull.com/)                                 | Yazım Denetimi     |
-| [scite.ai](https://scite.ai/)                                       | Literatür Tarama   |
-| [wisio.app](https://wisio.app/)                                     | Yazma Asistanı     |
-| [https://academicgpt.net/](https://academicgpt.net/)                | Yazı Yazma ve Özetleme   |
-|[https://textcortex.com/](https://textcortex.com/)|Yazı Yazma|
-|[https://chat.nbox.ai/](https://chat.nbox.ai/)|Yazı Oluşturma ve Chat|
+| **Araç (Link)**                                                     | **Kullanım Alanı**     |
+| ------------------------------------------------------------------- | ---------------------- |
+| [Copyscape](https://www.copyscape.com/)                             | Benzerlik Kontrol      |
+| [Elicit](https://elicit.org/)                                       | Literatür Tarama       |
+| [Grammarly](https://www.grammarly.com/)                             | Yazım denetimi         |
+| [Iris.ai](https://iris.ai/)                                         | Literatür Tarama       |
+| [Jenni.ai](https://app.jenni.ai/)                                   | Literatür Tarama       |
+| [Plagiarism Checker](https://smallseotools.com/plagiarism-checker/) | Benzerlik Kontrol      |
+| [Plagiarism Checker](https://www.duplichecker.com/)                 | Benzerlik Kontrol      |
+| [Plagiarism Detector](https://plagiarismdetector.net/)              | Benzerlik Kontrol      |
+| [Quetext](https://www.quetext.com/)                                 | Benzerlik Kontrol      |
+| [Research Rabbit](https://www.researchrabbit.ai/)                   | Literatür Tarama       |
+| [Scholarcy](https://www.scholarcy.com/)                             | Literatür Tarama       |
+| [Smodin](https://smodin.io/tr)                                      | Yazma Asistanı         |
+| [TLDR This](https://tldrthis.com/)                                  | Literatür Tarama       |
+| [Writefull](https://writefull.com/)                                 | Yazım Denetimi         |
+| [https://academicgpt.net/](https://academicgpt.net/)                | Yazı Yazma ve Özetleme |
+| [scite.ai](https://scite.ai/)                                       | Literatür Tarama       |
+| [wisio.app](https://wisio.app/)                                     | Yazma Asistanı         |
+| [https://chat.nbox.ai/](https://chat.nbox.ai/)                      | Yazı Oluşturma ve Chat |
+| [https://textcortex.com/](https://textcortex.com/)                  | Yazı Yazma             |
 
