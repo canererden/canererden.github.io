@@ -7,15 +7,6 @@ permalink:
 tags:
   - blog
   - veri bilimi
-  - kurs
-  - bilgisayar bilimleri
-  - makine öğrenmesi
-  - optimization
-  - data-science
-  - python
-  - javascript
-  - yapay zeka
-  - artificial intelligence
 ---
 
 # Ücretsiz Olarak Çevrimiçi Alabileceğiniz Harvard Üniversitesi'nin En İyi Veri Bilimi, Bilgisayar Bilimleri Kursları
