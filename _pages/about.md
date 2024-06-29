@@ -3,7 +3,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliations</a>. [1] Faculty of Technology, Department of Computer Engineering, Sakarya University of Applied Sciences, Sakarya, Türkiye. 
+subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliation</a>. 
 
 profile:
   align: right
@@ -17,11 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-[2] AI Research and Application Center, Sakarya University of Applied Sciences, Sakarya, Türkiye.
-
----
-
-## Welcome to the Personal Website of Caner Erden
+## Welcome to my Personal Website
 
 I am currently serving as a Senior Researcher at the [AI Research and Application Center](https://yapayzeka.subu.edu.tr/en) within Sakarya University of Applied Sciences ([SUBÜ](https://www.subu.edu.tr/en)), located in Sakarya, Turkey. Additionally, I hold the position of Associate Professor in the [Faculty of Technology](https://tf.subu.edu.tr/en/anasayfa), specifically in the [Department of Computer Engineering](https://bm.subu.edu.tr/en) at SUBÜ.
 
@@ -35,6 +31,9 @@ My research interests span several areas within the realm of computational scien
 
 I am passionate about exploring innovative approaches and techniques to address complex challenges in these fields. This website serves as a platform to showcase my research, projects, and professional contributions. Here, you can find detailed information about my work, access my publications, and read my blog posts where I share insights and updates on various topics related to my field.
 
+Affiliations:
+- [1] Faculty of Technology, Department of Computer Engineering, Sakarya University of Applied Sciences, Sakarya, Türkiye.
+- [2] AI Research and Application Center, Sakarya University of Applied Sciences, Sakarya, Türkiye.
 Thank you for visiting my website.
 
 ---
