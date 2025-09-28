@@ -6,7 +6,7 @@ description:
 nav: true
 display_categories: [Lisans, Yüksek Lisans]
 nav_order: 3
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->
@@ -56,22 +56,3 @@ horizontal: false
   {%- endif -%}
 {%- endif -%}
 </div>
-
-## Geçmiş Dönemler
-
-| Ders Adı                              | Akademik Yıl | Öğrenim Adı   |
-| ------------------------------------- | ------------ | ------------- |
-| Benzetim                              | 2021-2022    | Lisans        |
-| Benzetim                              | 2020-2021    | Lisans        |
-| Girişimcilik ve Proje Yönetimi        | 2021-2022    | Lisans        |
-| İstatistikte Bilgisayar Uygulaması    | 2019-2020    | Lisans        |
-| Lojistik ve Tedarik Zinciri Yönetimi  | 2021-2022    | Lisans        |
-| Lojistik ve Tedarik Zinciri Yönetimi  | 2020-2021    | Lisans        |
-| Uluslararası Tedarik Zinciri Yönetimi | 2021-2022    | Yüksek Lisans |
-| Uluslararası Tedarik Zinciri Yönetimi | 2020-2021    | Yüksek Lisans |
-| Üretim Yönetimi                       | 2022-2023    | Lisans        |
-| Veri Madenciliği                      | 2019-2020    | Lisans        |
-| Veri Madenciliği                      | 2020-2021    | Lisans        |
-| Yöneylem Araştırması                  | 2022-2023    | Lisans        |
-| Yöneylem Araştırması                  | 2021-2022    | Lisans        |
-| Yöneylem Araştırması                  | 2020-2021    | Lisans        |

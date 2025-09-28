@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Benzetim (Bahar-23)
-description: [UTL 306]
-img: assets/img/benzetim.jpg
+title: Benzetim
+description: [UTL 306 - Kesikli olay simülasyonu ile yönetim sistemlerinin modellenmesi, analiz edilmesi ve yorumlanması]
+# img: assets/img/benzetim.jpg
 category: Lisans
-permalink: /teaching/benzetim-23
+permalink: /teaching/benzetim
 venue: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
 location: Sakarya, Türkiye
 ---
 
 Kodu: "[UTL 306](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/31976/97662?Disaridan=)"
-Google Class: [qqvsvd6](https://classroom.google.com/c/NTQyMjIzMjc1MDU3?cjc=qqvsvd6)
 
 ## Amaç
 

@@ -1,20 +1,31 @@
 ---
 layout: page
-title: Veri Madenciliği (Bahar-23)
-description: [ENM424]
-img: assets/img/veri_madenciligi.jpg
+title: Veri Madenciliği
+description: [BIL 018 - Veri tabanlarından anlamlı bilgi keşfi; istatistiksel yöntemler, makine öğrenmesi ve yapay sinir ağlarıyla uygulamalı analizler.]
+#img: assets/img/veri_madenciligi.jpg
 category: Lisans
-permalink: /teaching/veri-madenciligi-23
-venue: Sakarya Üniversitesi
-date: 2023-01-01
+permalink: /teaching/veri-madenciligi
+venue: Sakarya Uygulamalı Bilimler Üniversitesi
+date: 2025-01-01
 location: Sakarya, Türkiye
 ---
 
-Kodu: "[ENM424](https://ebs.sakarya.edu.tr/Ders/Detay/573483)"
-Google Class: [orlap6f](https://classroom.google.com/c/NTQyMjIzMjc1MDU3?cjc=orlap6f)
+Kodu: "[BIL 018](https://ebs.bys.subu.edu.tr/DersDetay?bi=517&pi=519&ay=34&di=14328&ic=&ad=17002)"
 
 
-Ders notları: [kitap](https://canererden.com/veri-analizi-python/intro.html)
+## Ders Kitabı: Veri Analizi ve Python
+
+Bu ders kapsamında hazırladığım [**Veri Analizi ve Python**](https://canererden.com/veri-analizi-python/intro.html) adlı notlar, temel veri işleme tekniklerinden görselleştirmeye, istatistiksel analizden makine öğrenmesi uygulamalarına kadar geniş bir yelpazeyi kapsamaktadır. Kitap, hem teorik bilgileri hem de Python kod örneklerini sade ve anlaşılır bir şekilde sunmaktadır.
+
+🔗 [Kitabı incelemek için tıklayın](https://canererden.com/veri-analizi-python/intro.html)
+
+## Python ile Veri Madenciliği
+
+<img src="https://www.kodlab.com/2299-thickbox_default/python-ile-veri-madenciligi.jpg" alt="Python ile Veri Madenciliği" width="120" align="left" style="margin-right: 15px;">
+
+Bu kitap, veri madenciliği alanında Python programlama diliyle uygulamalı çözümler sunan kapsamlı bir kaynaktır. Gerçek veri setleriyle desteklenen örnekler, hem teorik altyapıyı hem de pratik uygulamaları bir araya getirerek öğrenciler, araştırmacılar ve veri bilimiyle ilgilenen profesyoneller için güçlü bir referans niteliği taşır.
+
+🔗 [Kitabı Kodlab üzerinden incele](https://www.kodlab.com/ana-sayfa/598-python-ile-veri-madenciligi-9786257440172.html)
 
 ## Amaç
 

@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliations</a>. [1] Faculty of Technology, Department of Computer Engineering, Sakarya University of Applied Sciences, Sakarya, Türkiye. 
+subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliations</a>. Faculty of Technology, Department of Computer Engineering, Sakarya University of Applied Sciences, Sakarya, Türkiye. 
 
 profile:
   align: right
@@ -14,9 +14,6 @@ news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
----
-
-[2] AI Research and Application Center, Sakarya University of Applied Sciences, Sakarya, Türkiye.
 
 ---
 
