@@ -24,6 +24,8 @@ I am currently serving as a Senior Researcher at the [AI Research and Applicatio
 
 Prior to my current roles, I earned a Bachelor of Science degree in Industrial Engineering from Istanbul Commerce University in 2010, followed by a Master of Science degree in Industrial Engineering from Istanbul University in 2013. Subsequently, from 2013 to 2019, I worked as a Research Assistant in the [Industrial Engineering Department](https://ie.sakarya.edu.tr/en) at Sakarya University, where I also completed my Ph.D. under the guidance of [H. İbrahim Demir](https://hidemir.sakarya.edu.tr/en). My doctoral thesis focused on the integration of process planning, dynamic scheduling, and due date assignment functions in a job shop environment.
 
+In the 2024–2025 academic year, I completed a TÜBİTAK-funded postdoctoral research project at the [College of Computing](http://www.coc.gatech.edu/) of the Georgia Institute of Technology, under the supervision of [Prof. Ling Liu](https://www.cc.gatech.edu/people/ling-liu). This work focused on advanced topics in data science and intelligent systems, further expanding my expertise in computational methods and interdisciplinary applications.
+
 My research interests span several areas within the realm of computational sciences, including:
 - data science and data mining, 
 - machine learning, 
