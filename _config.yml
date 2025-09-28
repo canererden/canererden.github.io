@@ -8,7 +8,7 @@ middle_name:
 last_name: Erden
 email: cerden@subu.edu.tr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-I am Caner Erden, a dedicated researcher in the field of machine learning and optimization. With a Ph.D. in Computer Engineering, my work focuses on developing advanced algorithms to solve complex industrial problems. My passion lies in uncovering insights from data and translating them into practical solutions.
+I am Caner Erden a dedicated researcher in the field of machine learning and optimization. With a Ph.D. in Computer Engineering, my work focuses on developing advanced algorithms to solve complex industrial problems. My passion lies in uncovering insights from data and translating them into practical solutions.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 keywords: canererden, caner erden, caner erden akademik, blog  # add your own keywords or leave empty
