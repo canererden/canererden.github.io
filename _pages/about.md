@@ -30,3 +30,5 @@ My research interests span several areas within the realm of computational scien
 - meta-heuristic algorithms. 
 
 I am passionate about exploring innovative approaches and techniques to address complex challenges in these fields. This website serves as a platform to showcase my research, projects, and professional contributions. Here, you can find detailed information about my work, access my publications, and read my blog posts where I share insights and updates on various topics related to my field.
+
+---
