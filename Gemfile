@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
+    gem 'css_parser'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
