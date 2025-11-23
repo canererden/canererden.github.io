@@ -2,13 +2,13 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliation</a>. Faculty of Technology, Department of Computer Engineering, Sakarya University of Applied Sciences, Sakarya, Türkiye.
+subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliation</a>. Sakarya University of Applied Sciences, Faculty of Technology, Department of Computer Engineering.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: Sakarya Uygulamalı Bilimler Üniversitesi, Teknoloji Fakültesi T3 Blok 355 nolu oda, Esentepe Kampüsü, Serdivan/Sakarya, Türkiye
+  address: Sakarya Uygulamalı Bilimler Üniversitesi, Teknoloji Fakültesi T3 Blok, Esentepe Kampüsü, Serdivan/Sakarya, Türkiye
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
