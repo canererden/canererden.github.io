@@ -45,6 +45,7 @@ citation_publisher: Springer
             </div>
             <div class="card-body bg-light p-3">
                 <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+{% raw %}
 @book{sen2024advances,
   title     = {Advances in Intelligent Manufacturing and Service System Informatics: Proceedings of IMSS 2023},
   author    = {Şen, Zekâi and Uygun, Özer and Erden, Caner},
@@ -55,6 +56,7 @@ citation_publisher: Springer
   abstract  = {Covers latest research in technological advances in manufacturing engineering & service systems. Comprises select peer-reviewed proceedings of the conference IMSS 2023. Enriches understanding by including contributions from leading experts across the globe.},
   language  = {en}
 }
+{% endraw %}
                 </pre>
             </div>
         </div>

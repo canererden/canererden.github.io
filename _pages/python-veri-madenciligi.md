@@ -62,6 +62,7 @@ citation_publisher: Kodlab Yayın Dağıtım
             </div>
             <div class="card-body bg-light p-3">
                 <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+{% raw %}
 @book{erden_python_2021,
   title     = {{Python \.Ile Veri Madencili\u{g}i}},
   author    = {Erden, Caner},
@@ -71,6 +72,7 @@ citation_publisher: Kodlab Yayın Dağıtım
   isbn      = {9786257440172},
   langid    = {turkish}
 }
+{% endraw %}
                 </pre>
             </div>
         </div>

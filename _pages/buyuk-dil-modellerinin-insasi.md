@@ -44,6 +44,7 @@ citation_publisher: Seçkin Yayıncılık
             </div>
             <div class="card-body bg-light p-3">
                 <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+{% raw %}
 @book{erden_llm_insasi_2026,
   title     = {Büyük Dil Modellerinin (LLM) İnşası: 103 Kod Bloğu ve 8 Uygulamalı Notebook ile},
   author    = {Erden, Caner},
@@ -53,6 +54,7 @@ citation_publisher: Seçkin Yayıncılık
   url       = {https://www.seckin.com.tr/kitap/245833947},
   language  = {tr}
 }
+{% endraw %}
                 </pre>
             </div>
         </div>

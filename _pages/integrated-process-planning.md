@@ -45,6 +45,7 @@ citation_publisher: CRC Press
             </div>
             <div class="card-body bg-light p-3">
                 <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+{% raw %}
 @book{demir2023integrated,
   title     = {Integrated Process Planning, Scheduling, and Due-Date Assignment},
   author    = {Demir, Halil Ibrahim and K{\"o}k{\c{c}}am, Abdullah Hulusi and Erden, Caner},
@@ -53,6 +54,7 @@ citation_publisher: CRC Press
   doi       = {https://doi.org/10.1201/9781003215295},
   publisher = {CRC Press}
 }
+{% endraw %}
                 </pre>
             </div>
         </div>

@@ -44,6 +44,7 @@ citation_publication_date: 2023
             </div>
             <div class="card-body bg-light p-3">
                 <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+{% raw %}
 @book{erden_veri_analizi_python_2023,
   title     = {Veri Analizi için Python Kütüphaneleri},
   author    = {Erden, Caner},
@@ -52,6 +53,7 @@ citation_publication_date: 2023
   abstract  = {Bu kitap, Python programlama dili kullanarak veri analizi yapmak isteyen herkes için tasarlanmış bir kaynaktır. NumPy, Pandas ve Matplotlib kütüphanelerini kullanarak, temel veri analizi becerilerini kazanmanıza yardımcı olacak kapsamlı bir rehberdir.},
   language  = {tr}
 }
+{% endraw %}
                 </pre>
             </div>
         </div>
