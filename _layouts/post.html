@@ -18,6 +18,13 @@ layout: default
     font-size: 1.15rem;
     line-height: 1.8;
     color: var(--global-text-color);
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .post-content pre,
+  .post-content table {
+    max-width: 100%;
+    overflow-x: auto;
   }
   .post-content p {
     margin-bottom: 1.5rem;
@@ -39,10 +46,18 @@ layout: default
   }
 </style>
 
+<style>
+  @media (min-width: 992px) {
+    .article-col {
+      border-right: 1px solid var(--global-divider-color);
+    }
+  }
+</style>
+
 <div class="post">
   <div class="row">
     <!-- Main Article Content -->
-    <div class="col-lg-8 pe-lg-5">
+    <div class="col-lg-8 pe-lg-5 article-col mb-5 mb-lg-0">
       <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
