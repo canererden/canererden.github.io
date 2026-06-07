@@ -158,9 +158,23 @@ layout: default
           <div class="card-body">
             <h5 class="card-title mb-3" style="font-weight: 700; color: var(--global-text-color);"><i class="fas fa-tags mr-2" style="color: var(--global-theme-color);"></i> Etiketler</h5>
             <div class="d-flex flex-wrap gap-2">
-              {% for tag in site.tags %}
+              {% assign tag_limit = 10 %}
+              {% for tag in site.tags limit:tag_limit %}
                 <a href="{{ tag[0] | slugify | prepend: '/blog/tag/' | relative_url }}" class="badge badge-pill badge-info mb-1 p-2" style="font-size: 0.85rem;">{{ tag[0] }} ({{ tag[1].size }})</a>
               {% endfor %}
+              
+              {% if site.tags.size > tag_limit %}
+              <div class="collapse w-100" id="collapseTags">
+                <div class="d-flex flex-wrap gap-2 mt-1">
+                {% for tag in site.tags offset:tag_limit %}
+                  <a href="{{ tag[0] | slugify | prepend: '/blog/tag/' | relative_url }}" class="badge badge-pill badge-info mb-1 p-2" style="font-size: 0.85rem;">{{ tag[0] }} ({{ tag[1].size }})</a>
+                {% endfor %}
+                </div>
+              </div>
+              <a class="w-100 text-center mt-2 text-muted" data-toggle="collapse" data-bs-toggle="collapse" href="#collapseTags" role="button" aria-expanded="false" aria-controls="collapseTags" style="font-size: 0.85rem; cursor: pointer; text-decoration: none;" onclick="this.style.display='none'">
+                <i class="fas fa-chevron-down"></i> Daha Fazla Göster
+              </a>
+              {% endif %}
             </div>
           </div>
         </div>
