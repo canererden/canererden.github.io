@@ -207,3 +207,12 @@
       }
     </script>
 {%- endif %}
+
+    <!-- Google Scholar Highwire Press Tags -->
+    {% if page.citation_title %}
+    <meta name="citation_title" content="{{ page.citation_title }}">
+    {% if page.citation_author %}<meta name="citation_author" content="{{ page.citation_author }}">{% endif %}
+    {% if page.citation_publication_date %}<meta name="citation_publication_date" content="{{ page.citation_publication_date }}">{% endif %}
+    {% if page.citation_isbn %}<meta name="citation_isbn" content="{{ page.citation_isbn }}">{% endif %}
+    {% if page.citation_publisher %}<meta name="citation_publisher" content="{{ page.citation_publisher }}">{% endif %}
+    {% endif %}
