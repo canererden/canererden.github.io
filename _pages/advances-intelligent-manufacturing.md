@@ -37,5 +37,26 @@ citation_publisher: Springer
             <li>Comprises select peer-reviewed proceedings of the conference IMSS 2023.</li>
             <li>Enriches understanding by including contributions from leading experts across the globe.</li>
         </ul>
+        
+        <div class="card mt-5">
+            <div class="card-header d-flex justify-content-between align-items-center font-weight-bold">
+                <span>Alıntı Yap (BibTeX)</span>
+                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Kopyalandı!'; setTimeout(() => this.innerText='Kopyala', 2000);">Kopyala</button>
+            </div>
+            <div class="card-body bg-light p-3">
+                <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+@book{sen2024advances,
+  title     = {Advances in Intelligent Manufacturing and Service System Informatics: Proceedings of IMSS 2023},
+  author    = {Şen, Zekâi and Uygun, Özer and Erden, Caner},
+  year      = {2024},
+  publisher = {Springer},
+  isbn      = {9789819960620},
+  url       = {https://link.springer.com/book/10.1007/978-981-99-6062-0},
+  abstract  = {Covers latest research in technological advances in manufacturing engineering & service systems. Comprises select peer-reviewed proceedings of the conference IMSS 2023. Enriches understanding by including contributions from leading experts across the globe.},
+  language  = {en}
+}
+                </pre>
+            </div>
+        </div>
     </div>
 </div>

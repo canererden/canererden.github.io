@@ -54,5 +54,25 @@ citation_publisher: Kodlab Yayın Dağıtım
             <li>Birliktelik Analizleri</li>
             <li>Makine Öğrenmesi Uygulamaları</li>
         </ul>
+        
+        <div class="card mt-5">
+            <div class="card-header d-flex justify-content-between align-items-center font-weight-bold">
+                <span>Alıntı Yap (BibTeX)</span>
+                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Kopyalandı!'; setTimeout(() => this.innerText='Kopyala', 2000);">Kopyala</button>
+            </div>
+            <div class="card-body bg-light p-3">
+                <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+@book{erden_python_2021,
+  title     = {{Python \.Ile Veri Madencili\u{g}i}},
+  author    = {Erden, Caner},
+  year      = {2021},
+  publisher = {{Kodlab}},
+  address   = {{\.Istanbul}},
+  isbn      = {9786257440172},
+  langid    = {turkish}
+}
+                </pre>
+            </div>
+        </div>
     </div>
 </div>

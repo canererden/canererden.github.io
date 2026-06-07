@@ -36,5 +36,24 @@ citation_publication_date: 2023
             <li>Görsel Veri Analizine Giriş</li>
             <li>Scikit-Learn ve Makine Öğrenmesi</li>
         </ul>
+        
+        <div class="card mt-5">
+            <div class="card-header d-flex justify-content-between align-items-center font-weight-bold">
+                <span>Alıntı Yap (BibTeX)</span>
+                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Kopyalandı!'; setTimeout(() => this.innerText='Kopyala', 2000);">Kopyala</button>
+            </div>
+            <div class="card-body bg-light p-3">
+                <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+@book{erden_veri_analizi_python_2023,
+  title     = {Veri Analizi için Python Kütüphaneleri},
+  author    = {Erden, Caner},
+  year      = {2023},
+  url       = {https://canererden.com/veri-analizi-python/intro.html},
+  abstract  = {Bu kitap, Python programlama dili kullanarak veri analizi yapmak isteyen herkes için tasarlanmış bir kaynaktır. NumPy, Pandas ve Matplotlib kütüphanelerini kullanarak, temel veri analizi becerilerini kazanmanıza yardımcı olacak kapsamlı bir rehberdir.},
+  language  = {tr}
+}
+                </pre>
+            </div>
+        </div>
     </div>
 </div>

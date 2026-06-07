@@ -36,5 +36,25 @@ citation_publisher: Seçkin Yayıncılık
         <h4>Kitabın Açıklaması</h4>
         <p>Yapay zekânın en heyecan verici alanlarından biri olan büyük dil modellerini (LLM) hem kavramsal hem de uygulamalı yönleriyle ele alan bu kitap, LLM'lerin tarihsel gelişiminden temel çalışma prensiplerine kadar geniş bir yelpazeyi ayrıntılı bir şekilde açıklar. Dikkat mekanizmaları, sıfırdan GPT modeli oluşturma, performans değerlendirme, ince ayar (fine-tuning) ve komut mühendisliği gibi kritik konuları bütüncül bir çerçevede sunar.</p>
         <p>Güçlü görsel anlatımı ve uygulama odaklı yapısıyla öne çıkan eser; 9 ana bölüm, 103 kod bloğu ve 8 uygulamalı notebook desteğiyle okuyucuya doğrudan uygulanabilir bir çalışma zemini sağlar. Yapay zekâ meraklılarından yazılım geliştiricilere kadar geniş bir kitleye hitap eden bu çalışma, büyük dil modellerini teoriden pratiğe taşıyan tam donanımlı bir rehber niteliğindedir.</p>
+
+        <div class="card mt-5">
+            <div class="card-header d-flex justify-content-between align-items-center font-weight-bold">
+                <span>Alıntı Yap (BibTeX)</span>
+                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Kopyalandı!'; setTimeout(() => this.innerText='Kopyala', 2000);">Kopyala</button>
+            </div>
+            <div class="card-body bg-light p-3">
+                <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+@book{erden_llm_insasi_2026,
+  title     = {Büyük Dil Modellerinin (LLM) İnşası: 103 Kod Bloğu ve 8 Uygulamalı Notebook ile},
+  author    = {Erden, Caner},
+  year      = {2026},
+  publisher = {Seçkin Yayıncılık},
+  isbn      = {9786253818548},
+  url       = {https://www.seckin.com.tr/kitap/245833947},
+  language  = {tr}
+}
+                </pre>
+            </div>
+        </div>
     </div>
 </div>

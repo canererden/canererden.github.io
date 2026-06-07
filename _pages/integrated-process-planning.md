@@ -37,5 +37,24 @@ citation_publisher: CRC Press
         <p>Integrated Process Planning, Scheduling, and Due-Date Assignment combines the most important manufacturing functions to use manufacturing resources better, reduce production costs, and eliminate bottlenecks with increased production efficiency. The book covers how the integration will help eliminate scheduling conflicts and how to adapt to irregular shop floor disturbances. It also explains how other elements, such as tardiness and earliness, are penalized and how prioritizing helps improve weight performance function.</p>
 
         <p>This book will draw the interest of professionals, students, and academicians in process planning, scheduling, and due-date assignment. It could also be supplemental material for manufacturing courses in industrial engineering and manufacturing engineering departments.</p>
+        
+        <div class="card mt-5">
+            <div class="card-header d-flex justify-content-between align-items-center font-weight-bold">
+                <span>Alıntı Yap (BibTeX)</span>
+                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Kopyalandı!'; setTimeout(() => this.innerText='Kopyala', 2000);">Kopyala</button>
+            </div>
+            <div class="card-body bg-light p-3">
+                <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
+@book{demir2023integrated,
+  title     = {Integrated Process Planning, Scheduling, and Due-Date Assignment},
+  author    = {Demir, Halil Ibrahim and K{\"o}k{\c{c}}am, Abdullah Hulusi and Erden, Caner},
+  year      = {2023},
+  url       = {https://www.taylorfrancis.com/books/mono/10.1201/9781003215295/integrated-process-planning-scheduling-due-date-assignment-halil-ibrahim-demir-abdullah-hulusi-k%C3%B6k%C3%A7am-caner-erden},
+  doi       = {https://doi.org/10.1201/9781003215295},
+  publisher = {CRC Press}
+}
+                </pre>
+            </div>
+        </div>
     </div>
 </div>
