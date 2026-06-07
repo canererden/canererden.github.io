@@ -10,10 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   address: Sakarya Uygulamalı Bilimler Üniversitesi, Teknoloji Fakültesi T3 Blok, Esentepe Kampüsü, Serdivan/Sakarya, Türkiye
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 
 ---
 
@@ -35,6 +35,13 @@ I earned my Ph.D. in Industrial Engineering from Sakarya University under the su
 
 <div class="p-3 mt-4 mb-4" style="background-color: var(--global-card-bg-color); border-left: 4px solid var(--global-theme-color); border-radius: 0 0.5rem 0.5rem 0; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
 I am deeply passionate about exploring innovative techniques to address modern computational challenges. This website serves as a central repository for my research, publications, and professional projects. Please feel free to explore my latest work or read my blog where I share insights on data science and machine learning.
+</div>
+
+<div class="text-center mt-5 mb-5">
+  <h4 style="font-family: 'Inter', sans-serif; font-weight: 700; color: var(--global-text-color); margin-bottom: 1.5rem;">Daha Fazlası İçin YouTube Kanalımı Keşfedin</h4>
+  <a href="https://youtube.com/@CanerErden" target="_blank" class="btn" style="background-color: #ff0000; color: #fff; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 1.1rem; border-radius: 2rem; padding: 0.75rem 2rem; box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(255, 0, 0, 0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 15px rgba(255, 0, 0, 0.3)';">
+    <i class="fab fa-youtube mr-2" style="font-size: 1.3rem;"></i> Caner Erden YouTube
+  </a>
 </div>
 
 </div>
