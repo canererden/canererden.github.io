@@ -10,13 +10,6 @@ tags:
   - akademik çalışma
   - araçlar
   - ai tools
-  - yazma
-  - dilbilgisi yardımcısı
-    - yazım yardımcısı
-    - yazım denetleyicisi
-    - yazım denetimi
-    - yazım denetimi aracı
-    - yazım denetimi araçları
 description: "Günümüzde, akademik araştırmalarda yapay zeka destekli araçlar, araştırmacılara büyük kolaylıklar sağlamaktadır. Yüzlerce PDF'yi tarayarak bilgi topla..."
 ---
 
