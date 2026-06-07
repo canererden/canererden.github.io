@@ -14,4 +14,6 @@ children:
     permalink: /veri-analizi-python/
   - title: Integrated Process Planning, Scheduling, and Due-Date Assignment
     permalink: /integrated-process-planning/
+  - title: Advances in Intelligent Manufacturing and Service System Informatics
+    permalink: /advances-intelligent-manufacturing/
 ---
