@@ -30,10 +30,6 @@ Bu araçlar zaman yönetimi ve verimlilik konularında kullanışlıdır. Araşt
 ## ProofHub
 [https://www.proofhub.com/](https://www.proofhub.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/SNpA5g.png" alt="Proofhub Academic" width="50%">
-</div>
-
 ProofHub, araştırmacılar için tasarlanmış kapsamlı bir proje yönetimi ve işbirliği aracıdır. Bu platform, araştırmacıların projelerini etkili bir şekilde yönetmelerini ve ekipleriyle işbirliği yapmalarını kolaylaştırır. İşte ProofHub'ın ana özellikleri:
 
 **1. Görev ve Proje Yönetimi (Kanban Araçları, Gantt Şemaları):** ProofHub, araştırmacıların projelerini görsel olarak yönetmelerine olanak tanır. Kanban tahtaları ve Gantt şemaları gibi araçlarla görevleri oluşturabilir, sıralayabilir ve izleyebilirsiniz. Bu sayede projenizin ilerlemesini daha iyi takip edebilirsiniz.
@@ -51,11 +47,6 @@ ProofHub, araştırmacıların projelerini daha verimli bir şekilde yönetmeler
 ## Gradescope
 [https://www.gradescope.com/](https://www.gradescope.com/)
 
-
-<div align="center">
-  <img src="https://i.vgy.me/ALEc8L.png" alt="Gradescope Academic" width="50%">
-</div>
-
 Gradescope, eğitim kurumlarında yaygın olarak kullanılan bir yapay zeka destekli not verme ve geri bildirim aracıdır. Bu platform, eğitmenlere ödevler, sınavlar ve kodlama projeleri gibi öğrenci çalışmalarını değerlendirme işini büyük ölçüde otomatikleştirmelerine olanak tanır. İşte Gradescope'un temel özellikleri:
 
 **1. Otomatik Not Verme:** Gradescope, makine öğrenimi algoritmalarını kullanarak öğrenci çalışmalarını otomatik olarak değerlendirebilir. Bu, öğrenci işlerini hızlı bir şekilde puanlama ve notlandırma sürecini büyük ölçüde hızlandırır.
@@ -70,10 +61,6 @@ Gradescope, eğitmenlerin değerlendirme süreçlerini daha verimli ve öğrenci
 
 ## MagicSchool.ai
 [https://magicschool.ai/](https://magicschool.ai/)
-
-<div align="center">
-  <img src="https://i.vgy.me/as8o3l.png" alt="MagicSchool Academic" width="50%">
-</div>
 
 MagicSchool.ai, öğretmenlerin sınıf dışındaki ek görevleri daha verimli bir şekilde yönetmelerine yardımcı olan kapsamlı bir araçtır. Bu platform, öğretmenlere ders içeriği oluşturmadan, iletişim kurmaya, öğrenci destek sağlamaktan, etkinlik organizasyonuna kadar birçok alanda yardımcı olur. İşte MagicSchool.ai'nin temel özellikleri:
 

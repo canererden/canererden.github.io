@@ -32,7 +32,6 @@ description: "- [Yazma ve Dilbilgisi Yardımcıları](#yazma-ve-dilbilgisi-yard�
   - [LanguageTool](#languagetool)
   - [EssayBot](#essaybot)
 
-
 # Yazma ve Dilbilgisi Yardımcıları
 
 ## Grammarly 
@@ -68,17 +67,9 @@ Ayrıca üniversitelere sunulan Grammarly Premium üyeliği ile ilgili bilgi alm
 
 Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz. Word eklentisi uzun dokümanlarda çok stabil çalışmasa da sabırlı bir kullanıcı ya da kısa yazılar için iş görebilir :) 
 
-<div align="center">
-   <img src="https://i.vgy.me/QV6W1i.png" alt="Grammarly Academic Usage" width="50%">
-</div>
-
 ## AJE's Free Grammar Check Tool
 
 [https://www.aje.com/grammar-check/](https://www.aje.com/grammar-check/)
-
-<div align="center">
-  <img src="https://i.vgy.me/PFRlWy.png" alt="Your Image" width="50%">
-</div>
 
 Makaleniz yüksek etkili bir akademik dergiye gönderilmeye hazır mı? Makalenizin net ve doğru olup olmadığını kontrol etmek için hızlı, ücretsiz Dil Değerlendirme Aracını (LAT) kullanabilirsiniz.
 
@@ -106,18 +97,12 @@ Copy.ai, metin yazarları, pazarlamacılar ve içerik üreticileri için hızlı
 
 Özelleştirilmiş metinler için önceden yüklenmiş komutları kullanabilirsiniz:
 
-<div align="center">
-  <img src="https://i.vgy.me/EC7RYv.png" alt="Your Image" width="50%">
-</div>
-
 Görebildiğim kadarıyla 30.000 karaktere kadar ücretsiz kullanım imkanı sunuyor. Ücretsiz sürümde oluşturulan metinlerin sonunda "Made with Copy.ai" ibaresi yer alıyor. Ücretli sürümde bu ibare kaldırılabiliyor.
 
 ## Paperpal
 [https://paperpal.com/](https://paperpal.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/teFYhp.png" alt="Your Image" width="30%">
-</div> Paperpal, akademik yazılarınızı geliştirmenize yardımcı olan bir editör ve MS Word eklentisi sunan bir araçtır. Bu tür araçlar, yazım hatalarını, dil bilgisi sorunlarını ve yazı stilini geliştirmek için öneriler sunarak akademik yazıları daha etkili hale getirmenize yardımcı olabilir. MS Word eklentisi, kullanıcıların yazılarını doğrudan Word belgeleri üzerinde düzenleyerek işlerini kolaylaştırır.
+ Paperpal, akademik yazılarınızı geliştirmenize yardımcı olan bir editör ve MS Word eklentisi sunan bir araçtır. Bu tür araçlar, yazım hatalarını, dil bilgisi sorunlarını ve yazı stilini geliştirmek için öneriler sunarak akademik yazıları daha etkili hale getirmenize yardımcı olabilir. MS Word eklentisi, kullanıcıların yazılarını doğrudan Word belgeleri üzerinde düzenleyerek işlerini kolaylaştırır.
 
 Paperpal gibi araçlar, özellikle öğrenciler, araştırmacılar ve yazarlar için yararlıdır. Yazdıkları metinleri daha profesyonel ve anlaşılır hale getirmek isteyen kişiler için önemli bir kaynak olabilirler.
 
@@ -125,17 +110,10 @@ MS Word eklentileri, kullanıcıların metinlerini yazarken veya düzenlerken bu
 
 Aylık 200 düzeltmeye kadar ücretsiz olarak sunuyor. Ayrıca Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz.
 
-<div align = "center">
-   <img src="https://i.vgy.me/FJ70Dm.png" alt="Paperpal Academic Usage" width="50%">
-</div>
-
-
 ## ProWritingAid 
 [prowritingaid.com](https://prowritingaid.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/8mVRMR.png" alt="ProWritingAid Academic Usage" width="30%">
-</div> ProWritingAid, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
+ ProWritingAid, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
 
 **Dilbilgisi ve Yazım Kontrolü:** ProWritingAid, kullanıcıların metinlerini dilbilgisi hatalarına ve yazım hatalarına karşı kontrol etmelerine yardımcı olur. Noktalama işaretleri dahil olmak üzere yazım hatalarını düzeltir.
 
@@ -155,16 +133,10 @@ ProWritingAid, kullanıcıların yazılı iletişimlerini daha etkili ve doğru 
 
 Birçok eklenti ve entegrasyon seçeneği sunuyor. Ayrıca Word eklentisi sayesinde yazılarınızı doğrudan Word belgeleri üzerinde düzenleyebilirsiniz.
 
-<div align = "center">
-   <img src="https://i.vgy.me/73dxJA.png" alt="ProWritingAid Academic Usage" width="50%">
-</div>
-
 ## Trinka
 [trinka.ai](https://trinka.ai/)
 
-<div align="center">
-  <img src="https://i.vgy.me/8MuwgO.png" alt="Your Image" width="30%">
-</div> Trinka, akademik ve teknik metinlerinizde dil düzeltme konusunda size yardımcı olabilecek etkili bir yapay zeka aracıdır.
+ Trinka, akademik ve teknik metinlerinizde dil düzeltme konusunda size yardımcı olabilecek etkili bir yapay zeka aracıdır.
 
 Trinka'nın sunduğu en büyük avantajlardan biri, 5000 kelimeye kadar olan metinlerinizi ücretsiz olarak düzeltebilme imkanı sunmasıdır. Özellikle aylık 5000 kelime sınırlaması, birçok kullanıcı için yeterli bir hizmet sunar. Üstelik bu sınırlama sayesinde Trinka'yı deneyerek, ihtiyaçlarınıza ve yazım düzeltme beklentilerinize uygunluğunu değerlendirebilirsiniz.
 
@@ -177,9 +149,7 @@ Sonuç olarak, Trinka, akademik ve teknik yazılarınızın dil bilgisi ve yazı
 ## Writefull
 [writefull.com](https://writefull.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/4WErO2.png" alt="Your Image" width="30%">
-</div> Writefull, yazılarınızı geliştirmek ve dil kullanımınızı mükemmelleştirmek için tasarlanmış bir yazılım aracıdır. Bu araç, metinlerinizi analiz eder ve size yazım hataları, dilbilgisi düzeltmeleri ve yazılarınızın daha akıcı hale gelmesini sağlayacak öneriler sunar.
+ Writefull, yazılarınızı geliştirmek ve dil kullanımınızı mükemmelleştirmek için tasarlanmış bir yazılım aracıdır. Bu araç, metinlerinizi analiz eder ve size yazım hataları, dilbilgisi düzeltmeleri ve yazılarınızın daha akıcı hale gelmesini sağlayacak öneriler sunar.
 
 1. **Dilbilgisi ve Yazım Kontrolü:** Writefull, yazım hatalarını tespit eder ve size düzeltme önerileri sunar. Bu sayede yazılarınız daha profesyonel ve güvenilir bir izlenim bırakır.
 
@@ -194,10 +164,6 @@ enekleri ve ifadeleri önererek yazılarınızı daha zengin hale getirir.
 5. **Grafikler ve Tablolar İçin Yardım:** Grafikler ve tabloların yazılarınızı desteklemesi önemlidir. Writefull, bu unsurları daha etkili bir şekilde kullanmanız için öneriler sunar.
 
 Writefull, kullanımı kolay bir arayüze sahiptir ve çeşitli yazı türleri için özelleştirilebilir. Ücretsiz sürümü, temel düzeltmeler ve öneriler sunarken, premium sürüm daha fazla özellik ve hız sağlar.
-
-<div align="center">
-   <img src="https://i.vgy.me/31EOxF.png" alt="Writefull Academic Usage" width="50%">
-</div>
 
 Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili iletişim kurmanızı sağlamak için güçlü bir araçtır. Dilbilgisi, yazım ve ifade konularında sizi desteklerken, akademik yazılarınızı daha profesyonel hale getirmeniz için özellikle faydalıdır. Writefull ile yazılarınızı mükemmelleştirin ve iletişim becerilerinizi geliştirin.
 
@@ -216,16 +182,11 @@ Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İn
 
 ## Hemingway Editor
 [hemingwayapp.com](https://hemingwayapp.com/)
-<div align="center">
-  <img src="https://i.vgy.me/8JKzFS.png" alt="Your Image" width="50%">
-</div>
 
 Hemingway Editor, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
 
-
 ## Quillbot
 [https://quillbot.com/](https://quillbot.com/)
-
 
 <div align="center">
   <img src="https://bit.ly/3LC2XEJ" alt="Your Image" width="50%">
@@ -249,19 +210,10 @@ Scholarcy, herhangi bir Word veya PDF belgesinin özet bilgi kartını oluşturu
 ## LanguageTool
 [languagetool.org](https://languagetool.org/)
 
-<div align="center">
-  <img src="https://i.vgy.me/NA7S9c.png" alt="LanguageTool Academic Usage" width="50%">
-</div>
-
 LanguageTool, kullanıcıların yazılarını düzeltmelerine ve geliştirmelerine yardımcı olan bir dilbilgisi ve yazım aracıdır. Bu araç, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
-
 
 ## EssayBot
 [https://essaybot.com/](https://essaybot.com/)
-
-<div align="center">
-  <img src="https://i.vgy.me/g0koGZ.png" alt="Your Image" width="50%">
-</div>
 
 EssayBot, öğrencilerin ve yazılı içerik üreticilerinin yazma süreçlerini hızlandırmalarına yardımcı olan bir yapay zeka tabanlı yazma asistanıdır. EssayBot, metin yazma görevlerini kolaylaştırmak için öneriler sunar ve kullanıcıların yazdıkları metinleri geliştirmelerine yardımcı olur.
 

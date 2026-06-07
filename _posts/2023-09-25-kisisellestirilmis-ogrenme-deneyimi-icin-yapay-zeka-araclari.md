@@ -26,10 +26,6 @@ description: "- [Kişiselleştirilmiş Öğrenme Deneyimi](#kişiselleştirilmi�
 ## Tutor AI
 [https://www.tutorai.me/](https://www.tutorai.me/)
 
-<div align="center">
-  <img src="https://i.vgy.me/PiZnU4.png" alt="Tutor AI Academic" width="50%">
-</div>
-
 Tutor AI, kişiselleştirilmiş bir özel ders hizmeti sunarak her öğrencinin kendi öğrenme hızına ve tarzına uygun bir şekilde öğrenmesine yardımcı oluyor. Öğrenciler, ilgilendikleri bir konuyu seçerek ve altında bulunan alt kategorilerden birini seçerek derslerine başlayabilirler. Birkaç dakika içinde, seçtikleri konuyla ilgili ayrıntılı modüllerle birlikte tam bir ders sunulur.
 
 Herhangi bir derse başlandığında, ilgili ve bilgilendirici içerikler otomatik olarak üretilir. Ders materyali içerisinde basitleştirilmiş açıklamalar, örnekler, testler ve sorular gibi çeşitli seçenekler sunulur. Bu seçenekler, öğrencilerin konuyu daha iyi anlamalarına yardımcı olmayı amaçlar.

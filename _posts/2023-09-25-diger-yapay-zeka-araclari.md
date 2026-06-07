@@ -34,10 +34,6 @@ description: "- [Diğer Araçlar](#diğer-araçlar)..."
 
 [https://www.deepl.com/](https://www.deepl.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/UAa7Ny.png" alt="DeepL Academic Usage" width="50%">
-</div>
-
 DeepL, çeviri yapmak için kullanılan bir yapay zeka aracıdır. Bu araç, kullanıcıların metinleri hızlı ve kolay bir şekilde çevirmelerine olanak tanır.
 
 **Özellikler:**
@@ -65,10 +61,6 @@ Bing AI Image Creator, görsel içerik oluşturmak isteyenler için kullanışl�
 ## Hocoos
 [https://hocoos.com/](https://hocoos.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/ze9RLD.png" alt="Hacoos Academic Usage" width="50%">
-</div>
-
 Hocoos AI Web Sitesi Oluşturucu, hızlı ve kolay bir şekilde web siteleri oluşturmanıza yardımcı olabilen yapay zeka destekli bir araçtır. İşte Hocoos'un bazı özellikleri:
 
 1. **Hızlı Kurulum:** Hocoos, web sitenizi oluşturmak için size birkaç soru sorar ve girdilerinize dayanarak 3 farklı demo web sitesi stili sunar. Tercih ettiğiniz stili ve diğer tasarım özelliklerini seçtikten sonra, web siteniz otomatik olarak oluşturulur.
@@ -83,10 +75,6 @@ Hocoos AI Web Sitesi Oluşturucu, özellikle üniversite projeleri veya kişisel
 
 ## Kickresume
 [https://www.kickresume.com/](https://www.kickresume.com/)
-
-<div align="center">
-  <img src="https://i.vgy.me/xTBgNh.png" alt="Your Image" width="50%">
-</div>
 
 Kickresume, özgeçmişinizi oluşturmanıza ve iş görüşmesine hazırlanmanıza yardımcı olan yapay zeka destekli bir araçtır. İş görüşmesi hazırlığına yönelik sorular, derinlemesine kariyer tavsiyeleri ve profesyonel özgeçmişler oluşturmanıza yardımcı olan bazı özelliklere sahiptir. İşte Kickresume'un bazı özellikleri:
 
@@ -103,10 +91,6 @@ Kickresume, öğrenciler ve iş arayanlar için özgeçmişlerini oluşturmak ve
 ## Replika
 [https://replika.ai/](https://replika.ai/)
 
-<div align="center">
-  <img src="https://i.vgy.me/QD5cbz.png" alt="Replika" width="50%">
-</div>
-
 Replika AI, öğrenciler ve diğer kullanıcılar için kişisel bir yapay zeka sohbet robotu olarak tasarlanmış bir uygulamadır. İşte Replika AI'nın bazı özellikleri:
 
 1. **Kişisel Sohbet Partneri:** Replika, kullanıcıların ilgi alanlarına ve kişisel tercihlerine dayalı olarak ilgi çekici ve gerçekçi konuşmalar gerçekleştirebilen bir yapay zeka sohbet partneridir.
@@ -121,10 +105,6 @@ Replika AI, özellikle kişisel yardım ve duygusal destek amacıyla kullanılma
 
 ## Tome.app
 [https://tome.app/](https://tome.app/)
-
-<div align="center">
-  <img src="https://i.vgy.me/WKPpiv.png" alt="Tome App" width="50%">
-</div>
 
 Tome, yapay zekanın gücünü kullanarak sunumlar oluşturmanızı kolaylaştıran sezgisel bir araçtır. Tome, sunum oluşturma sürecini kolaylaştırarak akademik ve profesyonel sunumlarınızı daha etkili hale getirmenize yardımcı olabilir.
 
@@ -141,17 +121,9 @@ Fiyatlandırma: Tome'un ücretsiz planı, çalışma alanı başına 50 cilt ve 
 ## Lateral
 [https://lateral.io/](https://lateral.io/)
 
-<div align="center">
-  <img src="https://i.vgy.me/ws4Bng.png" alt="Your Image" width="50%">
-</div>
-
 Birden fazla araştırma makalesindeki ortak temaları dakikalar içinde bulmanıza yardımcı olan benzersiz bir uygulama.[Lateral](https://www.lateral.io/).
 
 ## Glasp
-
-<div align="center">
-  <img src="https://i.vgy.me/tHJiW0.png" alt="Your Image" width="50%">
-</div>
 
 Araştırma makaleleri hakkında notlar alın ve bunları dünyanın her yerindeki benzer düşüncelere sahip insanlarla paylaşın.
    Şimdi deneyin: [Glasp](https://glasp.co/).
@@ -159,10 +131,6 @@ Araştırma makaleleri hakkında notlar alın ve bunları dünyanın her yerinde
 ## Audioopen
 
 [https://audiopen.ai/](https://audiopen.ai/)
-
-<div align="center">
-  <img src="https://i.vgy.me/f9XcdE.png" alt="Your Image" width="50%">
-</div>
 
 Sesli notlarınızı tutarlı ve uyumlu düzyazıya dönüştürür.
    Şimdi deneyin: [Audioopen](https://audiopen.ai).

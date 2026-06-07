@@ -28,7 +28,6 @@ Konuya geçmeden önce bu blog yazısı ile birlikte hazırladığım videoya g�
 **Bibliyometrik Analiz Araçlar VOSviewer ve Bibliometrix Kullanımı**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7Y687ALw-lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
 ---
 
 ## Kavramlar
@@ -143,9 +142,6 @@ Bibliyometrik analiz yaparken, analiz yöntemlerini ve istatistiksel araçları 
 bu sayfadan şifremi unuttum ile şifremi aldım. Ardından aşağıdaki gibi documents search ten advanced search seçeneğine tıkladım. 
 
 [Advanced Search - Web of Science Core Collection (vetisonline.com)](https://a8f59890210bb2a36cc265c34c80a801c14e01d5.vetisonline.com/wos/woscc/advanced-search)
-
-<img src="https://i.vgy.me/MUsMHX.png">
-
 Anahtar kelimelerin oluşturulması ve stratejinin oluşturulması için anahtar kelimeleri kullanarak etkili bir arama stratejisi oluşturmak gerekiyor. 
 
 Örneğin hava kalitesi tahmin çalışmalarını incelemek istiyorum. Bunun için bir liste oluşturuyorum. Önemli anahtar kelimeler neler? Hangi anahtar kelimeler birlikte kullanılacak, hangileri ayrı kullanılacak ya da hangi anahtar kelimelerden neler türetilebilir? gibi soruların yanıtlarını vererek bir liste yapılabilir. Önce üst başlıkları belirledim (Air quality, Air pollution, Methods). Ardından alt başlıkları ve alt başlıklardan türetilecek kelimeleri listeledim.
@@ -188,12 +184,6 @@ Yazılan arama kodu şu şekilde gerçekleşti.
 (TS=("*air quality*" OR "*air pollution*")) AND (TS=("machine learning" OR "deep learning" OR "artificial neural network")) AND (TS=("Air pollutant" OR "Particulate Matter" OR "carbon monoxide" OR "Nitrogen Oxides" OR "Ozone" OR "Sulfur Dioxide"))
 ```
 Bu komutu gelişmiş aramaya yazarak ara diyorum.
-
-<img src="https://i.vgy.me/Irif2K.png">
-
 1,379 yayın bulundu. Yayınların bir yayın yılı, yayınlandığı yer gibi sınırlamalarını da yapıyorum. 2010dan öncekileri exclude ettim. Sadece article ları aldım. Topiclerde environmental science olanları tercih ettim. Böylece 978 adet makale kalmış oldu. Bu makaleleri bibtex dosyası olarak export ettim.
-
-<img src="https://i.vgy.me/A7Nlrn.png">
-
 All records seçeneği ile indirdiğim dosyayı air_quality_wos.bib olarak kaydettim.
 Veri setini JabRef ile açtım. Quality >> Find Dublicates ile tekrar eden makaleleri arattım. Veri setinin temiz olduğundan emin olduktan sonra veri setini Vosviewer programına aktarabiliriz.

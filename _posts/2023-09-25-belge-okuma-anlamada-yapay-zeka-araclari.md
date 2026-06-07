@@ -34,10 +34,6 @@ Bu araçlar belge okuma ve anlamada kullanılabilecek yapay zeka araçlarıdır.
 ## ChatPDF
 [https://www.chatpdf.com/](https://www.chatpdf.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/8uuy3H.png" alt="ChatPDF Academic" width="50%">
-</div>
-
 ChatPDF, herhangi bir PDF ile hızlı ve kolay bir şekilde etkileşimde bulunmanızı sağlayan bir yapay zeka aracıdır. Bu araç, yasal sözleşmelerden, mali raporlardan, kılavuzlardan ve eğitim materyallerinden bilgi edinmenize yardımcı olur. Öğrenciler sınavlara hazırlanırken, ev ödevlerinde destek alırken ve çoktan seçmeli soruları saniyeler içinde yanıtlarken ChatPDF'i tercih ediyorlar. Araştırmacılar ise bilimsel makalelerden, akademik çalışmalardan ve kitaplardan ilgili bilgileri hızlı bir şekilde çıkarmak için bu aracı kullanıyorlar.
 
 Alternatifler:
@@ -46,10 +42,6 @@ Alternatifler:
 
 ## Typeset.io (SciSpace)
 [https://typeset.io/](https://typeset.io/)
-
-<div align="center">
-  <img src="https://i.vgy.me/BLRvQu.png" alt="Typeset io Academic" width="50%">
-</div>
 
 Typeset.io, hedef dergilerin ve yayıncıların belirli şablonlarını hızlı ve verimli bir şekilde karşılamanıza yardımcı olan kapsamlı bir platformdur. Bu platform, araştırmacılar, yazarlar ve akademisyenler için özellikle değerlidir, çünkü önceden tanımlanmış taslak şablonları ve otomatik biçimlendirme araçları sunar.
 
@@ -74,10 +66,6 @@ Typeset.io, araştırmalarınızı daha profesyonel hale getirirken zaman ve ça
 ## ChatDoc
 [https://chatdoc.com/](https://chatdoc.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/cWKRuq.png" alt="ChatDoc Academic Usage" width="50%">
-</div>
-
 ChatDOC, PDF belgelerindeki metinleri, tabloları ve grafikleri anlayabilen bir yapay zeka dil modeli olan ChatGPT temelinde çalışan bir dosya okuma yardımcısıdır. İşte ChatDOC'un temel özellikleri:
 
 **1. Veri Toplama ve Özetleme:** ChatDOC, PDF belgelerini hızlı bir şekilde okur, verileri toplar ve net yanıtlar sunar. Kullanıcılara belgelerindeki önemli bilgilere hızlıca erişme imkanı tanır.
@@ -95,14 +83,8 @@ ChatDOC, özellikle kitaplar, kılavuzlar, araştırma makaleleri ve diğer mate
 <video src="https://cdn.pdppt.com/chatdoc/static/136096b1d4db115ae7228bfc17e34f52/1-1.mp4" controls="controls" style="max-width: 90%;">
 </video>
 
-
 ## DocLime
 [https://doclime.com/](https://doclime.com/)
-
-<div align="center">
-  <img src="https://i.vgy.me/DJHVyw.png" alt="DocLime Academic" width="50%">
-</div>
-
 
 DocLime, PDF belgelerinden ilgili verileri ve çözümleri hızlı ve kolay bir şekilde çıkarmaya yardımcı olan bir uygulamadır. İşte DocLime'ın temel özellikleri:
 
@@ -123,10 +105,6 @@ DocLime, özellikle belge analizi ve bilgi çıkarma süreçlerini hızlandırma
 ## Docalysis
 [https://docalysis.com/](https://docalysis.com/)
 
-<div align="center">
-  <img src="https://i.vgy.me/rc0H3a.png" alt="DocAlysis Academic" width="50%">
-</div>
-
 DocAlysis, yoğun bir şekilde makale okumak zorunda olan ekipler ve meşgul profesyoneller için tasarlanmış bir yapay zeka destekli uygulamadır. Bu uygulama, PDF dosyalarıyla etkileşime girmenize ve sorularınıza hızlı yanıtlar almanıza olanak tanır, böylece manuel belge okuma sürecinden saatlerce tasarruf edebilirsiniz. Kullanıcılar, makalelerini güvenli bir şekilde Docaliz'e gönderebilir ve içerikleri hakkında yapay zekayı sorgulayabilirler. Uygulama, gelişmiş doğal dil işleme (NLP) teknolojisi kullanarak kullanıcıların sorularını çözmek ve metinden uygun yanıtları vermek için tasarlanmıştır.
 
 Geleneksel metin sayfalarını okuma yaklaşımının aksine, AI destekli sohbet işlevi, materyali daha konuşkan ve ilgi çekici bir deneyim haline getirir.
@@ -136,19 +114,12 @@ DocAlysis, özellikle büyük miktarda makale okuma gerektiren profesyonel ve ak
 ## Sharly AI
 [https://sharly.ai/](https://sharly.ai/)
 
-<div align="center">
-  <img src="https://i.vgy.me/c2qQJy.png" alt="Sharly Academic" width="50%">
-</div>
-
 Sharly AI, uzun ve karmaşık makaleleri daha hızlı anlamak ve özümsemek için üretken yapay zeka kullanarak profesyonellere yardımcı olan bir verimlilik uygulamasıdır. Bu uygulama, en yeni dil modellerini ve doğal dil işleme teknolojisini kullanarak belgeyle ilgili sorulara kesin ve yerinde yanıtlar sunar. Bu sayede kullanıcılar, zamanlarını önemli ölçüde tasarruf edebilirler. Sharly AI'nın kullanıcı dostu arayüzü sayesinde, kullanıcılar anlamak istedikleri materyali kolayca yükleyebilir, sorular sorabilir ve ilgili yanıtları alabilirler.
 
 GPT ile yapılan görüşmede, aracın doğruluğunun %95 olduğu belirlendi ve kullanımın kolay olduğu vurgulandı. Kullanıcılar ayrıca çalışmalarını arkadaşlarıyla özel olarak paylaşarak işbirliğini ve geri bildirimi kolaylaştırabilirler. Sharly AI'nın kullanım alanları çok geniş olup, pazar analizi ve finansal raporlama gibi farklı sektörlerde kullanılabilir. Bu uygulama, profesyonellerin verimliliğini artırmak için güçlü bir araç sunar.
 
 ## Docsumo
 [https://docsumo.com/](https://docsumo.com/)
-<div align="center">
-  <img src="https://i.vgy.me/oe7nPq.png" alt="Docsumo Academic Usage" width="50%">
-</div>
 
 Docsumo, belgeleri otomatik olarak okuyan ve verileri çıkaran bir yapay zeka platformudur. Bu platform, belgeleri okumak ve verileri çıkarmak için gelişmiş optik karakter tanıma (OCR) teknolojisini kullanır. İşte Docsumo'nun temel özellikleri:
 
