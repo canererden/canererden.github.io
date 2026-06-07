@@ -116,17 +116,43 @@
               {%- endif -%}
               {% endfor -%}
 
+              {% assign target_en_url = page.url | prepend: '/en' %}
+              {% assign target_en_exists = false %}
+              {% for p in site.pages %}
+                {% if p.url == target_en_url %}
+                  {% assign target_en_exists = true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+
+              {% assign target_tr_url = page.url | remove_first: '/en' %}
+              {% assign target_tr_exists = false %}
+              {% for p in site.pages %}
+                {% if p.url == target_tr_url %}
+                  {% assign target_tr_exists = true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+
               <!-- Language Toggle -->
               {%- if is_en -%}
                 <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="{{ page.url | remove_first: '/en' | relative_url }}" title="Türkçe" style="color: var(--global-theme-color);">TR</a>
+                  {%- if target_tr_exists -%}
+                    <a class="nav-link font-weight-bold" href="{{ target_tr_url | relative_url }}" title="Türkçe" style="color: var(--global-theme-color);">TR</a>
+                  {%- else -%}
+                    <a class="nav-link font-weight-bold" href="{{ page.url | relative_url }}" title="Türkçe" style="color: var(--global-theme-color);">TR</a>
+                  {%- endif -%}
                 </li>
               {%- else -%}
                 <li class="nav-item">
                   {%- if page.url contains '/blog/' -%}
-                    <a class="nav-link font-weight-bold" href="{{ '/en/' | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
+                    <a class="nav-link font-weight-bold" href="{{ page.url | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
                   {%- else -%}
-                    <a class="nav-link font-weight-bold" href="{{ page.url | prepend: '/en' | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
+                    {%- if target_en_exists -%}
+                      <a class="nav-link font-weight-bold" href="{{ target_en_url | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
+                    {%- else -%}
+                      <a class="nav-link font-weight-bold" href="{{ page.url | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
+                    {%- endif -%}
                   {%- endif -%}
                 </li>
               {%- endif -%}
