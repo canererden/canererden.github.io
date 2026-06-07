@@ -208,6 +208,27 @@
     </script>
 {%- endif %}
 
+    {% if page.url == '/' or page.url == '/en/' %}
+    <!-- Explicit Person Schema for Homepage SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Caner Erden",
+        "honorificPrefix": "Doç. Dr.",
+        "jobTitle": "Associate Professor",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Sakarya University of Applied Sciences"
+        },
+        "url": "{{ site.url }}",
+        "image": "{{ site.og_image | absolute_url }}",
+        {% if sameaslinks != blank -%}
+        "sameAs": {{ sameaslinks }}
+        {%- endif %}
+      }
+    </script>
+    {% endif %}
     <!-- Google Scholar Highwire Press Tags -->
     {% if page.citation_title %}
     <meta name="citation_title" content="{{ page.citation_title }}">
