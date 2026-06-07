@@ -13,11 +13,11 @@ profile:
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 
 ---
 
-<div style="font-size: 1.15rem; line-height: 1.8;">
+<div style="font-size: 1.15rem; line-height: 1.8;" markdown="1">
 
 I am an Associate Professor in the [Department of Computer Engineering](https://bm.subu.edu.tr/en) at Sakarya University of Applied Sciences ([SUBÜ](https://www.subu.edu.tr/en)), and a Senior Researcher at the [AI Research and Application Center](https://yapayzeka.subu.edu.tr/en). My work bridges computational theory and practical engineering, leveraging advanced algorithms to solve complex industrial and optimization problems.
 
