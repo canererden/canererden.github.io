@@ -22,19 +22,34 @@ pagination:
 
   {% if site.display_tags %}
   <div class="tag-category-list mb-5 mt-4">
-    <div class="d-flex flex-wrap justify-content-center gap-3">
+    <div class="d-flex flex-wrap justify-content-center gap-4">
       {% for tag in site.display_tags %}
         {% case tag %}
-          {% when 'data-science' %}{% assign icon = 'fas fa-network-wired' %}
-          {% when 'optimization' %}{% assign icon = 'fas fa-tachometer-alt' %}
-          {% when 'scheduling' %}{% assign icon = 'fas fa-calendar-check' %}
-          {% when 'tools' %}{% assign icon = 'fas fa-tools' %}
-          {% when 'code' %}{% assign icon = 'fas fa-laptop-code' %}
+          {% when 'yapay zeka' %}{% assign icon = 'fas fa-brain' %}
+          {% when 'veri bilimi' %}{% assign icon = 'fas fa-database' %}
+          {% when 'araçlar' %}{% assign icon = 'fas fa-tools' %}
+          {% when 'akademik çalışma' %}{% assign icon = 'fas fa-graduation-cap' %}
+          {% when 'chatgpt' %}{% assign icon = 'fas fa-robot' %}
           {% else %}{% assign icon = 'fas fa-hashtag' %}
         {% endcase %}
-        <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}" class="category-card shadow-sm text-center p-3 text-decoration-none rounded hoverable" style="min-width: 120px; transition: transform 0.2s, box-shadow 0.2s; background: var(--global-card-bg-color); color: var(--global-text-color);">
-          <i class="{{ icon }} fa-2x mb-2" style="color: var(--global-theme-color);"></i>
-          <div style="font-weight: 600; font-size: 0.9rem; text-transform: capitalize;">{{ tag | replace: '-', ' ' }}</div>
+        <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}" class="category-card shadow-sm text-center text-decoration-none rounded hoverable" style="flex: 1 1 140px; max-width: 180px; padding: 1.5rem 1rem; transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); background: var(--global-card-bg-color); color: var(--global-text-color); border: 1px solid var(--global-divider-color); border-radius: 12px; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.75rem;">
+          <div class="icon-container" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background: rgba(29, 78, 216, 0.1); transition: all 0.3s ease;">
+            <i class="{{ icon }} fa-lg" style="color: var(--global-theme-color);"></i>
+          </div>
+          <div style="font-weight: 700; font-size: 0.95rem; font-family: 'Inter', sans-serif; text-transform: capitalize; text-align: center; line-height: 1.2;">{{ tag }}</div>
+          <style>
+            .category-card:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 10px 20px rgba(29, 78, 216, 0.15) !important;
+              border-color: var(--global-theme-color) !important;
+            }
+            .category-card:hover .icon-container {
+              background: var(--global-theme-color) !important;
+            }
+            .category-card:hover .icon-container i {
+              color: #ffffff !important;
+            }
+          </style>
         </a>
       {% endfor %}
     </div>
