@@ -21,17 +21,23 @@ pagination:
   </div>
 
   {% if site.display_tags %}
-  <div class="tag-list">
-    <ul class="p-0 m-0">
+  <div class="tag-category-list mb-5 mt-4">
+    <div class="d-flex flex-wrap justify-content-center gap-3">
       {% for tag in site.display_tags %}
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
+        {% case tag %}
+          {% when 'data-science' %}{% assign icon = 'fas fa-network-wired' %}
+          {% when 'optimization' %}{% assign icon = 'fas fa-tachometer-alt' %}
+          {% when 'scheduling' %}{% assign icon = 'fas fa-calendar-check' %}
+          {% when 'tools' %}{% assign icon = 'fas fa-tools' %}
+          {% when 'code' %}{% assign icon = 'fas fa-laptop-code' %}
+          {% else %}{% assign icon = 'fas fa-hashtag' %}
+        {% endcase %}
+        <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}" class="category-card shadow-sm text-center p-3 text-decoration-none rounded hoverable" style="min-width: 120px; transition: transform 0.2s, box-shadow 0.2s; background: var(--global-card-bg-color); color: var(--global-text-color);">
+          <i class="{{ icon }} fa-2x mb-2" style="color: var(--global-theme-color);"></i>
+          <div style="font-weight: 600; font-size: 0.9rem; text-transform: capitalize;">{{ tag | replace: '-', ' ' }}</div>
+        </a>
       {% endfor %}
-    </ul>
+    </div>
   </div>
   {% endif %}
 
