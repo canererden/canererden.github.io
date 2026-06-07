@@ -14,7 +14,7 @@ nav_order: 3
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Python ile Veri Madenciliği</h5>
                 <p class="card-text text-muted mb-4">Kodlab Yayın Dağıtım, 2024</p>
-                <a href="{{ '/python-veri-madenciligi/' | relative_url }}" class="btn btn-outline-primary mt-auto">Detaylar</a>
+                <a href="{{ '/python-veri-madenciligi/' | relative_url }}" class="btn btn-outline-primary mt-auto">Details</a>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@ nav_order: 3
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Büyük Dil Modellerinin (LLM) İnşası</h5>
                 <p class="card-text text-muted mb-4">Seçkin Yayıncılık, 2026</p>
-                <a href="{{ '/buyuk-dil-modellerinin-insasi/' | relative_url }}" class="btn btn-outline-primary mt-auto">Detaylar</a>
+                <a href="{{ '/buyuk-dil-modellerinin-insasi/' | relative_url }}" class="btn btn-outline-primary mt-auto">Details</a>
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@ nav_order: 3
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Veri Analizi için Python Kütüphaneleri</h5>
                 <p class="card-text text-muted mb-4">Web Yayını, 2023</p>
-                <a href="{{ '/veri-analizi-python/' | relative_url }}" class="btn btn-outline-primary mt-auto">Detaylar</a>
+                <a href="{{ '/veri-analizi-python/' | relative_url }}" class="btn btn-outline-primary mt-auto">Details</a>
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@ nav_order: 3
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title" style="font-size: 1.1rem;">Integrated Process Planning, Scheduling, and Due-Date Assignment</h5>
                 <p class="card-text text-muted mb-4">CRC Press, 2023</p>
-                <a href="{{ '/integrated-process-planning/' | relative_url }}" class="btn btn-outline-primary mt-auto">Detaylar</a>
+                <a href="{{ '/integrated-process-planning/' | relative_url }}" class="btn btn-outline-primary mt-auto">Details</a>
             </div>
         </div>
     </div>

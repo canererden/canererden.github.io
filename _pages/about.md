@@ -10,25 +10,23 @@ profile:
   image_circular: false # crops the image to make it circular
   address: Sakarya Uygulamalı Bilimler Üniversitesi, Teknoloji Fakültesi T3 Blok, Esentepe Kampüsü, Serdivan/Sakarya, Türkiye
 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+news: true  # includes a list of news items
+latest_posts: true  # includes a list of the newest posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 
 ---
 
-I am currently serving as a Senior Researcher at the [AI Research and Application Center](https://yapayzeka.subu.edu.tr/en) within Sakarya University of Applied Sciences ([SUBÜ](https://www.subu.edu.tr/en)), located in Sakarya, Turkey. Additionally, I hold the position of Associate Professor in the [Faculty of Technology](https://tf.subu.edu.tr/en/anasayfa), specifically in the [Department of Computer Engineering](https://bm.subu.edu.tr/en) at SUBÜ.
+I am an Associate Professor in the [Department of Computer Engineering](https://bm.subu.edu.tr/en) at Sakarya University of Applied Sciences ([SUBÜ](https://www.subu.edu.tr/en)), and a Senior Researcher at the [AI Research and Application Center](https://yapayzeka.subu.edu.tr/en). My work bridges computational theory and practical engineering, leveraging advanced algorithms to solve complex industrial and optimization problems.
 
-Prior to my current roles, I earned a Bachelor of Science degree in Industrial Engineering from Istanbul Commerce University in 2010, followed by a Master of Science degree in Industrial Engineering from Istanbul University in 2013. Subsequently, from 2013 to 2019, I worked as a Research Assistant in the [Industrial Engineering Department](https://ie.sakarya.edu.tr/en) at Sakarya University, where I also completed my Ph.D. under the guidance of [H. İbrahim Demir](https://hidemir.sakarya.edu.tr/en). My doctoral thesis focused on the integration of process planning, dynamic scheduling, and due date assignment functions in a job shop environment.
+I earned my Ph.D. in Industrial Engineering from Sakarya University under the supervision of [Dr. H. İbrahim Demir](https://hidemir.sakarya.edu.tr/en), focusing on the integration of process planning, dynamic scheduling, and due-date assignment in job shop environments. During the 2024–2025 academic year, I conducted postdoctoral research at the [College of Computing](http://www.coc.gatech.edu/) of the Georgia Institute of Technology, supervised by [Prof. Ling Liu](https://www.cc.gatech.edu/people/ling-liu). This TÜBİTAK-funded project deepened my expertise in data science and intelligent computational systems.
 
-In the 2024–2025 academic year, I completed a TÜBİTAK-funded postdoctoral research project at the [College of Computing](http://www.coc.gatech.edu/) of the Georgia Institute of Technology, under the supervision of [Prof. Ling Liu](https://www.cc.gatech.edu/people/ling-liu). This work focused on advanced topics in data science and intelligent systems, further expanding my expertise in computational methods and interdisciplinary applications.
+My primary research interests include:
+- **Artificial Intelligence & Machine Learning**
+- **Data Science & Data Mining**
+- **Operations Research & Optimization**
+- **Meta-heuristic Algorithms**
 
-My research interests span several areas within the realm of computational sciences, including:
-- data science and data mining, 
-- machine learning, 
-- operations research, 
-- meta-heuristic algorithms. 
-
-I am passionate about exploring innovative approaches and techniques to address complex challenges in these fields. This website serves as a platform to showcase my research, projects, and professional contributions. Here, you can find detailed information about my work, access my publications, and read my blog posts where I share insights and updates on various topics related to my field.
+I am deeply passionate about exploring innovative techniques to address modern computational challenges. This website serves as a central repository for my research, publications, and professional projects. Please feel free to explore my latest work or read my blog where I share insights on data science and machine learning.
 
 ---

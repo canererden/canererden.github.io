@@ -18,20 +18,20 @@ citation_publisher: Springer
     <div class="col-sm-8 mt-3 mt-md-0">
         <h2>Advances in Intelligent Manufacturing and Service System Informatics</h2>
         <p><em>Proceedings of IMSS 2023</em></p>
-        <p><strong>Editörler:</strong> Zekâi Şen, Özer Uygun, Caner Erden</p>
-        <p><strong>Yayınevi:</strong> Springer</p>
-        <p><strong>Basım Yılı:</strong> 2024</p>
+        <p><strong>Editors:</strong> Zekâi Şen, Özer Uygun, Caner Erden</p>
+        <p><strong>Publisher:</strong> Springer</p>
+        <p><strong>Publication Year:</strong> 2024</p>
         <p><strong>ISBN:</strong> 978-981-99-6062-0</p>
         
         <p>
-            <a href="https://link.springer.com/book/10.1007/978-981-99-6062-0" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Kitabı İncele / Satın Al</a>
+            <a href="https://link.springer.com/book/10.1007/978-981-99-6062-0" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">View / Purchase Book</a>
         </p>
     </div>
 </div>
 
 <div class="row mt-4">
     <div class="col-12">
-        <h4>Kitabın Açıklaması</h4>
+        <h4>Book Description</h4>
         <ul>
             <li>Covers latest research in technological advances in manufacturing engineering & service systems.</li>
             <li>Comprises select peer-reviewed proceedings of the conference IMSS 2023.</li>
@@ -40,8 +40,8 @@ citation_publisher: Springer
         
         <div class="card mt-5">
             <div class="card-header d-flex justify-content-between align-items-center font-weight-bold">
-                <span>Alıntı Yap (BibTeX)</span>
-                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Kopyalandı!'; setTimeout(() => this.innerText='Kopyala', 2000);">Kopyala</button>
+                <span>Cite (BibTeX)</span>
+                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Copied!'; setTimeout(() => this.innerText='Copy', 2000);">Copy</button>
             </div>
             <div class="card-body bg-light p-3">
                 <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">

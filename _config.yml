@@ -2,18 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Caner Erden # the website title (if blank, full name will be used instead)
+title: Caner Erden, Ph.D. # the website title (if blank, full name will be used instead)
 first_name: Caner
 middle_name: 
 last_name: Erden
 email: cerden@subu.edu.tr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am Caner Erden a dedicated researcher in the field of machine learning and optimization. 
-  With a Ph.D. in Computer Engineering, my work focuses on developing advanced algorithms to solve complex industrial problems. 
-  My passion lies in uncovering insights from data and translating them into practical solutions.
+  I am Caner Erden, Ph.D., an Associate Professor and researcher specializing in Artificial Intelligence, Machine Learning, and Optimization. 
+  With a strong focus on bridging theoretical foundations with practical industrial applications, my work aims to solve complex computational challenges.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
-keywords: canererden, caner erden, caner erden akademik, blog  # add your own keywords or leave empty
+keywords: caner erden, machine learning, optimization, artificial intelligence, academic portfolio, ph.d. # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧬  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -107,7 +106,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 yoksis_url: https://akademik.yok.gov.tr/AkademikArama/AkademisyenGorevOgrenimBilgileri?islem=direct&sira=_D2bDdARDMCOgjHVGzFVZw&authorId=826576D68A7ECF34
 
 contact_note: >
-  Please do not hesitate to reach out to me: cerden at subu.edu.tr
+  Please feel free to contact me: cerden at subu.edu.tr
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

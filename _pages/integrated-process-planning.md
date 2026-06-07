@@ -17,21 +17,21 @@ citation_publisher: CRC Press
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         <h2>Integrated Process Planning, Scheduling, and Due-Date Assignment</h2>
-        <p><strong>Yazarlar:</strong> Halil Ibrahim Demir, Abdullah Hulusi Kökçam, Caner Erden</p>
-        <p><strong>Yayınevi:</strong> CRC Press</p>
-        <p><strong>Basım Yılı:</strong> 2023</p>
+        <p><strong>Authors:</strong> Halil Ibrahim Demir, Abdullah Hulusi Kökçam, Caner Erden</p>
+        <p><strong>Publisher:</strong> CRC Press</p>
+        <p><strong>Publication Year:</strong> 2023</p>
         <p><strong>ISBN:</strong> 9781003215295</p>
-        <p><strong>Sayfa Sayısı:</strong> 152</p>
+        <p><strong>Pages:</strong> 152</p>
         
         <p>
-            <a href="https://www.taylorfrancis.com/books/mono/10.1201/9781003215295/integrated-process-planning-scheduling-due-date-assignment-halil-ibrahim-demir-abdullah-hulusi-k%C3%B6k%C3%A7am-caner-erden" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Kitabı İncele / Satın Al</a>
+            <a href="https://www.taylorfrancis.com/books/mono/10.1201/9781003215295/integrated-process-planning-scheduling-due-date-assignment-halil-ibrahim-demir-abdullah-hulusi-k%C3%B6k%C3%A7am-caner-erden" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">View / Purchase Book</a>
         </p>
     </div>
 </div>
 
 <div class="row mt-4">
     <div class="col-12">
-        <h4>Kitabın Açıklaması</h4>
+        <h4>Book Description</h4>
         <p>Traditionally, the three most important manufacturing functions are process planning, scheduling, and due-date assignment, which are handled sequentially and separately. This book integrates these manufacturing processes and functions to increase global performance along with manufacturing and production cost savings.</p>
         
         <p>Integrated Process Planning, Scheduling, and Due-Date Assignment combines the most important manufacturing functions to use manufacturing resources better, reduce production costs, and eliminate bottlenecks with increased production efficiency. The book covers how the integration will help eliminate scheduling conflicts and how to adapt to irregular shop floor disturbances. It also explains how other elements, such as tardiness and earliness, are penalized and how prioritizing helps improve weight performance function.</p>
@@ -40,8 +40,8 @@ citation_publisher: CRC Press
         
         <div class="card mt-5">
             <div class="card-header d-flex justify-content-between align-items-center font-weight-bold">
-                <span>Alıntı Yap (BibTeX)</span>
-                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Kopyalandı!'; setTimeout(() => this.innerText='Kopyala', 2000);">Kopyala</button>
+                <span>Cite (BibTeX)</span>
+                <button class="btn btn-sm btn-outline-secondary" onclick="navigator.clipboard.writeText(document.getElementById('bibtex-content').innerText); this.innerText='Copied!'; setTimeout(() => this.innerText='Copy', 2000);">Copy</button>
             </div>
             <div class="card-body bg-light p-3">
                 <pre id="bibtex-content" class="mb-0" style="font-size: 0.85em; white-space: pre-wrap;">
