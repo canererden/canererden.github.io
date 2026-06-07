@@ -37,11 +37,16 @@
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
-              {%- for page in site.pages -%}
-                {% if is_en and page.permalink == '/en/' %}
-                  {% assign about_title = page.title %}
-                {% elsif is_en == false and page.permalink == '/' %}
-                  {% assign about_title = page.title %}
+              {% assign is_en = false %}
+              {% if page.url contains '/en/' %}
+                {% assign is_en = true %}
+              {% endif %}
+
+              {%- for site_page in site.pages -%}
+                {% if is_en and site_page.permalink == '/en/' %}
+                  {% assign about_title = site_page.title %}
+                {% elsif is_en == false and site_page.permalink == '/' %}
+                  {% assign about_title = site_page.title %}
                 {% endif %}
               {% endfor %}
 
@@ -71,11 +76,6 @@
                 </a>
               </li>
               {%- endif %}
-
-              {% assign is_en = false %}
-              {% if page.url contains '/en/' %}
-                {% assign is_en = true %}
-              {% endif %}
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
