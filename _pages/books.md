@@ -10,4 +10,6 @@ children:
     permalink: /python-veri-madenciligi/
   - title: Büyük Dil Modellerinin İnşası
     permalink: /buyuk-dil-modellerinin-insasi/
+  - title: Veri Analizi için Python Kütüphaneleri
+    permalink: /veri-analizi-python/
 ---
