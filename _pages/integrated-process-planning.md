@@ -2,7 +2,7 @@
 layout: page
 permalink: /integrated-process-planning/
 title: Integrated Process Planning, Scheduling, and Due-Date Assignment
-description: 
+description: Integrated Process Planning and Scheduling (Entegre Süreç Planlama ve Çizelgeleme) akademik kitabı.
 nav: false
 citation_title: Integrated Process Planning, Scheduling, and Due-Date Assignment
 citation_author: Halil Ibrahim Demir, Abdullah Hulusi Kökçam, Caner Erden

@@ -3,6 +3,7 @@ layout: about
 title: Anasayfa
 permalink: /
 subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliation</a>. Sakarya University of Applied Sciences, Faculty of Technology, Department of Computer Engineering.
+description: Sakarya Uygulamalı Bilimler Üniversitesi, Bilgisayar Mühendisliği Bölümü'nde Doçent Dr. Caner Erden'in kişisel ve akademik web sitesi. Yapay zeka, veri bilimi ve optimizasyon alanındaki çalışmalar.
 
 profile:
   align: right

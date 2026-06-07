@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Dr. Caner Erden'in veri bilimi, optimizasyon ve yapay zeka alanlarındaki devam eden ve tamamlanmış projeleri.
 nav: false
 nav_order: 2
 display_categories: [work, fun]

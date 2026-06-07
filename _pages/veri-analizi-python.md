@@ -2,7 +2,7 @@
 layout: page
 permalink: /veri-analizi-python/
 title: Veri Analizi için Python Kütüphaneleri
-description: 
+description: Python ile Veri Analizi kitabı ve veri bilimcilere yönelik eğitim içerikleri.
 nav: false
 citation_title: Veri Analizi için Python Kütüphaneleri
 citation_author: Caner Erden

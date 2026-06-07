@@ -2,7 +2,7 @@
 layout: page
 permalink: /en/teaching/
 title: Teaching
-description: 
+description: Data Mining, Artificial Intelligence, and Optimization courses taught at Sakarya University of Applied Sciences.
 nav_en: true
 display_categories: [Undergraduate, Graduate]
 nav_order: 3

@@ -2,7 +2,7 @@
 layout: page
 permalink: /advances-intelligent-manufacturing/
 title: Advances in Intelligent Manufacturing and Service System Informatics
-description: 
+description: Advances in Intelligent Manufacturing kitabı hakkında bilgiler.
 nav: false
 citation_title: Advances in Intelligent Manufacturing and Service System Informatics
 citation_author: Zekâi Şen, Özer Uygun, Caner Erden

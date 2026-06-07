@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Eğitim
-description: 
+description: Sakarya Uygulamalı Bilimler Üniversitesi bünyesinde verilen Veri Madenciliği, Yapay Zeka ve Optimizasyon dersleri.
 nav: true
 display_categories: [Undergraduate, Graduate]
 nav_order: 3

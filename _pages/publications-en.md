@@ -2,7 +2,7 @@
 layout: page
 permalink: /en/publications/
 title: Publications
-description: Publications by categories in reversed chronological order.
+description: Peer-reviewed journal articles, conference proceedings, and academic publications by Dr. Caner Erden.
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
 nav_en: true
 nav_order: 1

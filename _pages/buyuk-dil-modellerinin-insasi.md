@@ -2,7 +2,7 @@
 layout: page
 permalink: /buyuk-dil-modellerinin-insasi/
 title: Büyük Dil Modellerinin (LLM) İnşası
-description: 
+description: Büyük Dil Modellerinin İnşası (Building Large Language Models) kitabı ve ek kaynakları.
 nav: false
 citation_title: Büyük Dil Modellerinin (LLM) İnşası
 citation_author: Caner Erden
