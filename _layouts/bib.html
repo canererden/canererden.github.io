@@ -249,5 +249,46 @@
     <div class="bibtex hidden mt-3 p-3" style="background-color: var(--global-bg-color); border-radius: 0.5rem; border-left: 3px solid #6c757d; box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); font-family: 'Inter', sans-serif; font-size: 0.85rem;">
       {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
     </div>
+    
+    <!-- Zotero & Mendeley & Google Scholar Metadata Integration -->
+    {% capture coins_title %}ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3A{% if entry.type == 'article' %}journal{% else %}book{% endif %}&amp;rft.genre={% if entry.type == 'article' %}article{% elsif entry.type == 'inproceedings' %}proceeding{% else %}book{% endif %}&amp;rft.title={{ entry.title | cgi_escape }}&amp;rft.date={{ entry.year }}{% if entry.journal %}&amp;rft.jtitle={{ entry.journal | cgi_escape }}{% endif %}{% if entry.booktitle %}&amp;rft.btitle={{ entry.booktitle | cgi_escape }}{% endif %}{% if entry.pages %}&amp;rft.pages={{ entry.pages | cgi_escape }}{% endif %}{% if entry.volume %}&amp;rft.volume={{ entry.volume | cgi_escape }}{% endif %}{% if entry.number %}&amp;rft.issue={{ entry.number | cgi_escape }}{% endif %}{% if entry.doi %}&amp;rft_id=info%3Adoi%2F{{ entry.doi | cgi_escape }}{% endif %}{% for author in entry.author_array %}&amp;rft.au={{ author.first | cgi_escape }}+{{ author.last | cgi_escape }}{% endfor %}{% endcapture %}
+    <span class="Z3988" title="{{ coins_title }}"></span>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{% if entry.type == 'article' %}ScholarlyArticle{% elsif entry.type == 'book' %}Book{% else %}Chapter{% endif %}",
+      "headline": {{ entry.title | jsonify }},
+      "name": {{ entry.title | jsonify }},
+      "author": [
+        {% for author in entry.author_array %}
+        {
+          "@type": "Person",
+          "name": {{ author.first | append: ' ' | append: author.last | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ],
+      "datePublished": {{ entry.year | jsonify }},
+      {% if entry.journal %}
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": {{ entry.journal | jsonify }}
+      },
+      {% elsif entry.booktitle %}
+      "isPartOf": {
+        "@type": "Book",
+        "name": {{ entry.booktitle | jsonify }}
+      },
+      {% endif %}
+      {% if entry.pages %}"pagination": {{ entry.pages | jsonify }},{% endif %}
+      {% if entry.publisher %}"publisher": {"@type": "Organization", "name": {{ entry.publisher | jsonify }}},{% endif %}
+      {% if entry.doi %}"@id": "https://doi.org/{{ entry.doi }}",{% endif %}
+      {% if entry.url or entry.html or entry.pdf %}
+      "url": {{ entry.url | default: entry.html | default: entry.pdf | jsonify }}
+      {% else %}
+      "url": "{{ page.url | absolute_url }}"
+      {% endif %}
+    }
+    </script>
   </div>
 </div>
