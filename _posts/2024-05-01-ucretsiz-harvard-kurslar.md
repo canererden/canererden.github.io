@@ -34,7 +34,7 @@ Burada  Harvard Üniversitesi'nden ücretsiz çevrimiçi kurslardan bir liste pa
 
 **Data Science(Veri Bilimi)**:
 
-- [Araştırma için Python Kullanımı](hhttps://zdcs.link/ml8yK?pageview_type=Standard&template=article&module=content_body&element=offer&item=text-link&element_label=Using%20Python%20for%20Research&object_type=article&object_uuid=01ANpZQ1Xgc0kaSXlM3cRpy&short_url=ml8yK&u=https%3A%2F%2Fmashable.com%2Farticle%2Ffree-harvard-courses-january)
+- [Araştırma için Python Kullanımı](https://zdcs.link/ml8yK?pageview_type=Standard&template=article&module=content_body&element=offer&item=text-link&element_label=Using%20Python%20for%20Research&object_type=article&object_uuid=01ANpZQ1Xgc0kaSXlM3cRpy&short_url=ml8yK&u=https%3A%2F%2Fmashable.com%2Farticle%2Ffree-harvard-courses-january)
 
 - [TinyML Uygulamaları](https://zdcs.link/BJgyV?pageview_type=Standard&template=article&module=content_body&element=offer&item=text-link&element_label=TinyML%20Uygulamaları&object_type=article&object_uuid=01ANpZQ1Xgc0kaSXlM3cRpy&short_url=BJgyV&u=https%3A%2F%2Fmashable.com%2Farticle%2Ffree-harvard-courses-january "(yeni pencerede açılır)")
 
