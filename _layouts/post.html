@@ -153,6 +153,26 @@ layout: default
           </div>
         </div>
         
+        <!-- Related Posts Widget -->
+        <div class="card shadow-sm mb-3" style="background-color: var(--global-card-bg-color); border-color: var(--global-divider-color); border-radius: 0.5rem;">
+          <div class="card-body py-3 px-3">
+            <h6 class="card-title mb-2" style="font-weight: 700; color: var(--global-text-color);"><i class="fas fa-thumbs-up mr-2" style="color: var(--global-theme-color);"></i> Ilginizi Çekebilecek Yazılar</h6>
+            <ul class="list-unstyled mb-0">
+              {% if page.tags.size > 0 %}
+                {% assign first_tag = page.tags[0] %}
+                {% if site.tags[first_tag] %}
+                  {% assign related_posts = site.tags[first_tag] | where_exp:"p","p.url != page.url" | sort:"date" | reverse %}
+                  {% for post in related_posts limit:5 %}
+                  <li class="mb-2 pb-2 {% unless forloop.last %}border-bottom{% endunless %}" style="border-color: var(--global-divider-color) !important;">
+                    <a href="{{ post.url | relative_url }}" class="text-decoration-none" style="color: var(--global-text-color); font-weight: 600; font-size: 0.85rem; line-height:1.3;">{{ post.title }}</a>
+                    <div class="text-muted mt-1" style="font-size:0.75rem;"><i class="fas fa-clock"></i> {{ post.date | date: "%d.%m.%Y" }}</div>
+                  </li>
+                  {% endfor %}
+                {% endif %}
+              {% endif %}
+            </ul>
+          </div>
+        </div>
         <!-- Tags Widget -->
         <div class="card shadow-sm mb-3" style="background-color: var(--global-card-bg-color); border-color: var(--global-divider-color); border-radius: 0.5rem;">
           <div class="card-body py-3 px-3">
