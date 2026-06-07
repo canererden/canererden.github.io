@@ -15,11 +15,20 @@ layout: default
 
 <style>
   .post-content {
-    font-size: 1.15rem;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
     line-height: 1.8;
     color: var(--global-text-color);
     word-break: break-word;
     overflow-wrap: break-word;
+  }
+  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
   }
   .post-content pre,
   .post-content table {
@@ -40,9 +49,16 @@ layout: default
     margin: 0 0 2rem 0;
   }
   .post-title {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
     margin-bottom: 0.5rem;
+  }
+  .post-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
   }
 </style>
 
@@ -51,6 +67,10 @@ layout: default
     .article-col {
       border-right: 1px solid var(--global-divider-color);
     }
+  }
+  /* Sidebar Typography */
+  .sticky-top .card-title, .sticky-top a {
+    font-family: 'Inter', sans-serif;
   }
 </style>
 
