@@ -10,12 +10,14 @@ profile:
   image_circular: false # crops the image to make it circular
   address: Sakarya Uygulamalı Bilimler Üniversitesi, Teknoloji Fakültesi T3 Blok, Esentepe Kampüsü, Serdivan/Sakarya, Türkiye
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 ---
+
+<div style="font-size: 1.15rem; line-height: 1.8;">
 
 I am an Associate Professor in the [Department of Computer Engineering](https://bm.subu.edu.tr/en) at Sakarya University of Applied Sciences ([SUBÜ](https://www.subu.edu.tr/en)), and a Senior Researcher at the [AI Research and Application Center](https://yapayzeka.subu.edu.tr/en). My work bridges computational theory and practical engineering, leveraging advanced algorithms to solve complex industrial and optimization problems.
 
@@ -28,5 +30,7 @@ My primary research interests include:
 - **Meta-heuristic Algorithms**
 
 I am deeply passionate about exploring innovative techniques to address modern computational challenges. This website serves as a central repository for my research, publications, and professional projects. Please feel free to explore my latest work or read my blog where I share insights on data science and machine learning.
+
+</div>
 
 ---
