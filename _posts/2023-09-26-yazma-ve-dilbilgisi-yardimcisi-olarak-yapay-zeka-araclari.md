@@ -4,7 +4,6 @@ title: 2- Yazma ve Dilbilgisi Yardımcısı olarak Kullanılabilecek Yapay Zeka 
 date: 2023-09-25
 giscus_comments: true
 permalink: 
-thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka

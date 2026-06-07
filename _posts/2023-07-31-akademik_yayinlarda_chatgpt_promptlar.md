@@ -4,7 +4,6 @@ title: Akademik Yayınlarda ChatGPT Komutları
 date: 2023-07-31
 giscus_comments: true
 permalink: 
-thumbnail: assets/img/blog/default.jpg
 tags:
   - chatgpt
   - akademik yayın

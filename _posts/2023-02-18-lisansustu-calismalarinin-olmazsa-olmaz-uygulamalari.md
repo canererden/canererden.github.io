@@ -3,7 +3,6 @@ layout: post
 title: Lisansüstü çalışmalarının olmazsa olmaz uygulamaları
 date: 2023-02-18
 permalink: 
-thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - verimlilik

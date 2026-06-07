@@ -4,7 +4,6 @@ title: 2- Araştırma ve Literatür Taramasında Kullanılabilecek Yapay Zeka Ar
 date: 2023-09-25
 giscus_comments: true
 permalink: 
-thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka

@@ -4,7 +4,6 @@ title: Bibliyometrik Analiz
 date: 2023-06-01
 giscus_comments: true
 permalink: 
-thumbnail: assets/img/blog/default.jpg
 tags:
   - bibliyometrik
   - akademik

@@ -4,7 +4,6 @@ title: 5- Kişiselleştirilmiş Öğrenme Deneyimi için Kullanılabiecek Yapay 
 date: 2023-09-25
 giscus_comments: true
 permalink: 
-thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka

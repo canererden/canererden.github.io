@@ -13,30 +13,54 @@ layout: default
 </style>
 {% endif %}
 
+<style>
+  .post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--global-text-color);
+  }
+  .post-content p {
+    margin-bottom: 1.5rem;
+  }
+  .post-header {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+  }
+  .post-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+</style>
+
 <div class="post">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
-    <p class="post-tags">
-      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+    <div class="post-tags mt-3">
+      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}" class="badge badge-pill badge-primary mr-1">
+        <i class="fas fa-calendar fa-sm"></i> {{ year }}
+      </a>
       {%- if tags != "" %}
-      &nbsp; &middot; &nbsp;
         {% for tag in page.tags -%}
-        <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-          <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-          {% endfor -%}
+        <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="badge badge-pill badge-info mr-1">
+          {{ tag }}
+        </a>
+        {% endfor -%}
       {% endif %}
 
       {%- if categories != "" %}
-      &nbsp; &middot; &nbsp;
         {% for category in page.categories -%}
-        <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-          <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-          {% endfor -%}
+        <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}" class="badge badge-pill badge-secondary mr-1">
+          {{ category }}
+        </a>
+        {% endfor -%}
       {% endif %}
-
-    </p>
+    </div>
   </header>
 
   <article class="post-content">

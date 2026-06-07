@@ -3,33 +3,29 @@ layout: post
 title: "Yazınızın Başlığı Buraya"
 description: "Ana sayfada ve arama sonuçlarında görünecek kısa ve ilgi çekici bir açıklama yazın."
 date: 2026-06-07 10:00:00 +0300
-thumbnail: "assets/img/blog/default.jpg" # assets/img/blog/ içine attığınız görselin yolu
 giscus_comments: true
 tags:
   - blog
-  - veri bilimi
-  - yapay zeka
+  - teknoloji
 ---
 
-# Yazınızın Başlığı Buraya
+> **Not:** Eğer bu yazıya özel bir kapak görseli eklemek isterseniz, üstteki bloğa `thumbnail: "assets/img/blog/resim_adiniz.jpg"` şeklinde bir satır ekleyebilirsiniz. Eklemezseniz, yazı metin odaklı sade bir tasarımla görünecektir.
 
-Yazınızın içeriğini buraya Markdown formatında yazabilirsiniz. Alt başlıklar oluşturmak için `##` kullanabilirsiniz.
+Sitenizin yeni okuma ayarlarına (satır aralığı, maksimum genişlik vb.) uygun olarak içeriklerinizi doğrudan bu alana yazmaya başlayabilirsiniz. Sistem, uzun paragrafları ve başlıkları Medium veya Substack gibi modern platformlara benzer şekilde otomatik olarak ortalayacak ve okunabilirliği artıracaktır.
 
-## Alt Başlık Örneği
+## İkinci Derece Başlık Örneği
 
-- Madde 1
-- Madde 2
-- Madde 3
+Araştırmalarınız ve makaleleriniz için buraya detaylı metinler girebilirsiniz. Yeni tasarımda satır genişliği 800px ile sınırlandırılmıştır; bu da okuyucunun gözünün satır sonunu ararken yorulmasını engeller.
 
-**Kalın yazı** veya *İtalik yazı* kullanabilirsiniz. Eğer resim eklemek isterseniz:
+- **Vurgulamak İstediğiniz Yerler:** İlgili metni kalın yazabilirsiniz.
+- *İkincil Düşünceler:* İtalik yazabilirsiniz.
 
-![Resim Açıklaması](assets/img/blog/resim_adi.jpg)
+### Görsel Ekleme
+Eğer yazı metninizin içine bir görsel eklemek isterseniz:
+![Görsel Açıklaması](assets/img/blog/yazi_ici_resim.jpg)
 
-Kod eklemek için aşağıdaki formatı kullanabilirsiniz:
+### Alıntı Ekleme
+Önemli bir sözü veya referansı vurgulamak için alıntı bloğu kullanabilirsiniz:
+> "Eğitim, dünyayı değiştirmek için kullanabileceğiniz en güçlü silahtır." - Nelson Mandela
 
-```python
-def hello_world():
-    print("Merhaba, Dünya!")
-```
-
-Yazınız hazır olduğunda bu dosyayı `_posts` klasörüne `YIL-AY-GUN-yazi-basligi.md` şeklinde kaydedin.
+Yazınız bittikten sonra bu dosyayı `_posts` klasörüne taşıyın.

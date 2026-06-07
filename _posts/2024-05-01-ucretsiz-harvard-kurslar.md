@@ -4,7 +4,6 @@ title: Ücretsiz Olarak Çevrimiçi Alabileceğiniz Harvard Üniversitesinin En 
 date: 2024-05-01 00:00:00 +0300
 giscus_comments: true
 permalink: 
-thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - veri bilimi
