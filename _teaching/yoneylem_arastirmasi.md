@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Yöneylem Araştırması
+title: Operations Research
 description: [UTL 305 - Karar verme süreçlerini iyileştirmeye yönelik yöneylem araştırması modellerinin Excel ile uygulamalı olarak çözüldüğü; ulaştırma ve atama problemlerinin ele alındığı ders.]
-category: Lisans
+category: Undergraduate
 permalink: /teaching/yoneylem-arastirmasi
 date: 2023-09-01
-location: Sakarya, Türkiye
+location: Sakarya, Turkey
 university: Sakarya Uygulamalı Bilimler Üniversitesi
 instructor: Dr. Caner Erden
 contact:

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Uluslararası Tedarik Zinciri Yönetimi
+title: International Supply Chain Management Yönetimi
 description: [UTL506 - Güncel lojistik ve tedarik zinciri problemlerinin çözümleri ve tedarik zinciri yönetiminde yer alan başlıca fonksiyonlar.]
 # img: assets/img/uluslararasi_tzy.jpg
-category: Yüksek Lisans
+category: Graduate
 permalink: /teaching/uluslararasi_tedarik_zinciri
 university: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
-location: Sakarya, Türkiye
+location: Sakarya, Turkey
 ---
 
 Kodu: "[UTL506](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32539/96817?Disaridan=)"

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Üretim Yönetimi
+title: Production Management
 description: [UTF 307 - Kuruluş yeri seçimi, işyeri düzenleme, iş analizi, tahmin yöntemleri ve stok yönetim sistemleri.]
-category: Lisans
+category: Undergraduate
 permalink: /teaching/uretim-yonetimi
 date: 2023-09-01
-location: Sakarya, Türkiye
+location: Sakarya, Turkey
 university: Sakarya Uygulamalı Bilimler Üniversitesi
 instructor: Dr. Öğr. Üyesi Caner Erden
 contact:

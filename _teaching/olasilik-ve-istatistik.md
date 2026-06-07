@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Olasılık ve İstatistik
+title: Probability and Statistics
 description: [TKN 227 Temel istatistiksel teknikler, olasılık hesapları ve değişkenler arası ilişkilerin analizine yönelik uygulamalı bir giriş.]
-category: Lisans
+category: Undergraduate
 permalink: /teaching/olasilik-ve-istatistik
 date: 2023-09-01
-location: Sakarya, Türkiye
+location: Sakarya, Turkey
 university: Sakarya Uygulamalı Bilimler Üniversitesi
 semester: "1. Yarıyıl"
 credits:

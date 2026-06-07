@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: 
 nav: true
-display_categories: [Lisans, Yüksek Lisans]
+display_categories: [Undergraduate, Graduate]
 nav_order: 3
 horizontal: true
 ---

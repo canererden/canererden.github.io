@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Veri Madenciliği
+title: Data Mining
 description: [BIL 018 - Veri tabanlarından anlamlı bilgi keşfi; istatistiksel yöntemler, makine öğrenmesi ve yapay sinir ağlarıyla uygulamalı analizler.]
 #img: assets/img/veri_madenciligi.jpg
-category: Lisans
+category: Undergraduate
 permalink: /teaching/veri-madenciligi
 venue: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2025-01-01
-location: Sakarya, Türkiye
+location: Sakarya, Turkey
 ---
 
 Kodu: "[BIL 018](https://ebs.bys.subu.edu.tr/DersDetay?bi=517&pi=519&ay=34&di=14328&ic=&ad=17002)"

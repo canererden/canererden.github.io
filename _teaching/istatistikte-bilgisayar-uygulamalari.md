@@ -1,11 +1,11 @@
 ---
 layout: page
-title: İstatistikte Bilgisayar Uygulamaları
+title: Computer Applications in Statistics
 description: İstatistiksel analizlerin Minitab ile bilgisayar ortamında uygulanması
-category: Lisans
+category: Undergraduate
 permalink: /teaching/istatistikte-bilgisayar-uygulamalari
 date: 2023-09-01
-location: Sakarya, Türkiye
+location: Sakarya, Turkey
 university: Sakarya Üniversitesi
 instructor: Dr. Caner Erden
 contact:

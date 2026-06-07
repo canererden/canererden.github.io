@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Lojistik ve Tedarik Zinciri Yönetimi
+title: Logistics and Supply Chain Management
 description: [UTL 204 - Lojistik ve tedarik zinciri süreçlerinin yönetimi, karar analizi ve temel sorunlara yönelik çözüm yöntemlerinin teorik ve pratik olarak ele alındığı ders.]
 # img: assets/img/lojistik_ve_tzy.jpg
-category: Lisans
+category: Undergraduate
 permalink: /teaching/lojistik_tedarik_zinciri_yonetimi
 university: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
-location: Sakarya, Türkiye
+location: Sakarya, Turkey
 ---
 
 Kodu: "[UTL 204](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32445/71650?Disaridan=)"
