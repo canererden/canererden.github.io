@@ -4,9 +4,11 @@ title: Ücretsiz Olarak Çevrimiçi Alabileceğiniz Harvard Üniversitesinin En 
 date: 2024-05-01 00:00:00 +0300
 giscus_comments: true
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - veri bilimi
+description: "Python, yapay zeka, JavaScript ve daha fazlasını edX üzerinden ücretsiz olarak alabileceğiniz geniş bir Harvard Üniversitesi çevrimiçi kursları bulunm..."
 ---
 
 # Ücretsiz Olarak Çevrimiçi Alabileceğiniz Harvard Üniversitesi'nin En İyi Veri Bilimi, Bilgisayar Bilimleri Kursları

@@ -4,6 +4,7 @@ title: Akademik Hayatta Kullanılabiecek Diğer Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka
@@ -12,6 +13,7 @@ tags:
   - ai tools
   - yapay zeka araçları
   - tools
+description: "- [1. Diğer Yapay Zeka Araçları](#1-diğer-yapay-zeka-araçları)..."
 ---
 
 ## 0.1. İçerik

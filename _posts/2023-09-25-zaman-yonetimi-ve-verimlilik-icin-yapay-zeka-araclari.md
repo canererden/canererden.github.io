@@ -4,6 +4,7 @@ title: 4- Zaman Yönetimi ve Verimlilik için Kullanılabiecek Yapay Zeka Araçl
 date: 2023-09-25
 giscus_comments: true
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka
@@ -13,6 +14,7 @@ tags:
   - literatür tarama
   - araştırma
   - belge okuma
+description: "- [Zaman Yönetimi ve Verimlilik](#zaman-yönetimi-ve-verimlilik)..."
 ---
 
 ## İçerik

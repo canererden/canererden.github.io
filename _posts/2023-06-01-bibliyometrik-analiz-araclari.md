@@ -4,6 +4,7 @@ title: Bibliyometrik Analiz Araçları
 date: 2023-06-01
 giscus_comments: true
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - bibliyometrik
   - akademik
@@ -14,6 +15,7 @@ tags:
   - vosviewer
   - tools
   - code
+description: "Konuya geçmeden önce bu blog yazısı ile birlikte hazırladığım videoya göz atmanızı öneririm...."
 ---
 
 Konuya geçmeden önce bu blog yazısı ile birlikte hazırladığım videoya göz atmanızı öneririm.

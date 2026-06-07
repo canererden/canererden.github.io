@@ -4,6 +4,7 @@ title: Makale Yazımında Kullanılacak En İyi Yapay Zeka Araçları
 date: 2023-12-16 00:00:00 +0300
 giscus_comments: true
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka
@@ -17,6 +18,7 @@ tags:
     - yazım denetimi
     - yazım denetimi aracı
     - yazım denetimi araçları
+description: "Günümüzde, akademik araştırmalarda yapay zeka destekli araçlar, araştırmacılara büyük kolaylıklar sağlamaktadır. Yüzlerce PDF'yi tarayarak bilgi topla..."
 ---
 
 # Makale Yazımında Kullanılacak En İyi Yapay Zeka Araçları

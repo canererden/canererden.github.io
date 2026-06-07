@@ -47,49 +47,60 @@ pagination:
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
 
-    <li>
-      <h3>
-        {% if post.redirect == blank %}
-          <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <li class="mb-5">
+      <div class="row">
+        {% if post.thumbnail %}
+        <div class="col-md-4">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <img src="{{ post.thumbnail | relative_url }}" alt="Thumbnail" class="img-fluid rounded z-depth-1 mb-3 mb-md-0" style="object-fit: cover; width: 100%; height: 180px;">
+          </a>
+        </div>
+        <div class="col-md-8 d-flex flex-column justify-content-center">
         {% else %}
-          {% if post.redirect contains '://' %}
-            <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
-            <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          {% else %}
-            <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
-          {% endif %}
+        <div class="col-md-12 d-flex flex-column justify-content-center">
         {% endif %}
-      </h3>
-      <p>{{ post.description }}</p>
-      <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %-d, %Y' }}
-        {%- if post.external_source %}
-        &nbsp; &middot; &nbsp; {{ post.external_source }}
-        {%- endif %}
-      </p>
-      <p class="post-tags">
-        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
-
-          {% if tags != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-              <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-    </p>
+          <h3 class="mb-2">
+            {% if post.redirect == blank %}
+              <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            {% else %}
+              {% if post.redirect contains '://' %}
+                <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
+                <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              {% else %}
+                <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
+              {% endif %}
+            {% endif %}
+          </h3>
+          <p class="text-muted mb-2">{{ post.description }}</p>
+          <p class="post-meta mb-2" style="font-size: 0.9rem;">
+            {{ read_time }} min read &nbsp; &middot; &nbsp;
+            {{ post.date | date: '%B %-d, %Y' }}
+            {%- if post.external_source %}
+            &nbsp; &middot; &nbsp; {{ post.external_source }}
+            {%- endif %}
+          </p>
+          <p class="post-tags mb-0" style="font-size: 0.85rem;">
+            <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+              <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+              {% if tags != "" %}
+              &nbsp; &middot; &nbsp;
+                {% for tag in post.tags %}
+                <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+                  <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+                  {% endfor %}
+              {% endif %}
+              {% if categories != "" %}
+              &nbsp; &middot; &nbsp;
+                {% for category in post.categories %}
+                <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
+                  <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+                  {% endfor %}
+              {% endif %}
+          </p>
+        </div>
+      </div>
     </li>
 
     {% endfor %}

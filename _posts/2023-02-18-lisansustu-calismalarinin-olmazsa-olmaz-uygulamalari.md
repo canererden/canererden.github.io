@@ -3,6 +3,7 @@ layout: post
 title: Lisansüstü çalışmalarının olmazsa olmaz uygulamaları
 date: 2023-02-18
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - verimlilik
@@ -11,6 +12,7 @@ tags:
   - code
   - optimization
   - data-science
+description: "Bu yazıda akademik hayatta araştırma yaparken kullandığım dijital araçları listeleyeceğim. Listede kullandığım ve memnun olduğum uygulamalar bulunmakt..."
 ---
 
 Bu yazıda akademik hayatta araştırma yaparken kullandığım dijital araçları listeleyeceğim. Listede kullandığım ve memnun olduğum uygulamalar bulunmakta. 

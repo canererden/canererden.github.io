@@ -4,6 +4,7 @@ title: 6- Diğer Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka
@@ -12,6 +13,7 @@ tags:
   - ai tools
   - literatür tarama
   - kişiselleştirilmiş öğrenme
+description: "- [Diğer Araçlar](#diğer-araçlar)..."
 ---
 
 ## İçerik

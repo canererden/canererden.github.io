@@ -4,6 +4,7 @@ title: 2- Araştırma ve Literatür Taramasında Kullanılabilecek Yapay Zeka Ar
 date: 2023-09-25
 giscus_comments: true
 permalink: 
+thumbnail: assets/img/blog/default.jpg
 tags:
   - blog
   - yapay zeka
@@ -12,6 +13,7 @@ tags:
   - ai tools
   - literatür tarama
   - araştırma
+description: "Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardımcı olabilir. İhtiyaçlarınıza ve araştırma süreçlerinize bağlı olarak, bu araçl..."
 ---
 
 
