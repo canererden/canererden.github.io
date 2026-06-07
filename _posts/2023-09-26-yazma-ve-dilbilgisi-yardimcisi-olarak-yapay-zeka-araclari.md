@@ -38,7 +38,6 @@ description: "- [Yazma ve Dilbilgisi Yardımcıları](#yazma-ve-dilbilgisi-yard�
 [grammarly.com](https://grammarly.com/)
 
 <div align="center">
-  <img src="https://bit.ly/46nvTbh" alt="Grammarly Academic Usage" width="50%">
 </div>
 
 Dilbilgisi açısından, kullanıcılar yapay zeka destekli çevrimiçi yazma yardımcısı Grammarly ile yazılarını geliştirebilirler. Grammarly, dilbilgisi, yazım, noktalama işaretleri ve dil stilini iyileştirmek için çeşitli araçlar sunar.
@@ -81,7 +80,6 @@ Gramer Kontrolü, makalenizin hedef derginize gönderilmeden önce dil revizyonl
 [https://copy.ai/](https://copy.ai/)
 
 <div align="center">
-  <img src="https://bit.ly/3sYXTUg" alt="Your Image" width="50%">
 </div>
 
 Copy.ai, yapay zeka destekli bir metin oluşturma platformudur. Bu platform, kullanıcılara çeşitli metinler oluşturmalarına yardımcı olur, örneğin reklam başlıkları, blog gönderileri, ürün açıklamaları, sosyal medya içerikleri ve daha fazlası. Kullanıcılar metin oluşturma görevlerini hızlandırmak ve metinlerini geliştirmek için Copy.ai'nin önerilerini kullanabilirler.
@@ -171,7 +169,6 @@ Sonuç olarak, Writefull, yazılarınızın kalitesini artırmak ve daha etkili 
 
 [https://wordvice.ai/](https://wordvice.ai/) 
 <div align="center">
-  <img src="https://bit.ly/3sYXTDK" alt="Your Image" width="30%">
 </div> 
 Wordvice AI, akademik makalelerde, ödevlerde, iş e-postalarında ve diğer İngilizce yazılarda hataları otomatik olarak bulur ve düzeltir.
 
@@ -189,7 +186,6 @@ Hemingway Editor, kullanıcıların yazılarını düzeltmelerine ve geliştirme
 [https://quillbot.com/](https://quillbot.com/)
 
 <div align="center">
-  <img src="https://bit.ly/3LC2XEJ" alt="Your Image" width="50%">
 </div>
 
 Quillbot, özellikle akademik araştırmacılar için yararlı olan yazma ve dil geliştirme özelliklerine sahip, Wordvice AI'ye benzer başka bir AI aracıdır. İntihalden kaçınmak için açıklama yapan, kelime önerileri sağlayan ve alternatif kelime seçenekleri sunan gelişmiş algoritmalara dayanmaktadır. "Genişlet" özelliği, birkaç anahtar kelime veya kelime öbeğinden içerik üreterek yazma süreci sırasında beyin fırtınasına yardımcı olur.
@@ -200,7 +196,6 @@ Quillbot ayrıca, ana dili İngilizce olmayan kişiler veya dil becerilerini gel
 [https://scholarly.ai/](https://scholarly.ai/)
 
 <div align="center">
-  <img src="https://bit.ly/3rqN9xD" alt="Your Image" width="50%">
 </div>
 
 Scholarcy, en son araştırmaları takip etmenize ve herhangi bir belgenin işinizle ne kadar alakalı olduğunu hızlı bir şekilde değerlendirmenize yardımcı olmak için makaleleri, raporları ve kitap bölümlerini okuyup özetleyen çevrimiçi bir araştırma aracı olan dijital asistanınızdır. Önemli bilgileri tanımlar ve verileri ilgili kategorilere ayırır.

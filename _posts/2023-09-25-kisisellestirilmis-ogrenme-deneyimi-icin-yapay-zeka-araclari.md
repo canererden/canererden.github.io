@@ -34,7 +34,6 @@ Herhangi bir derse başlandığında, ilgili ve bilgilendirici içerikler otomat
 [https://askcodi.com/](https://askcodi.com/)
 
 <div align="center">
-  <img src="" alt="Your Image" width="50%">
 </div>
 
 AskCodi, yapay zeka destekli bir kodlama asistanıdır ve programlama konusunda yardımcı olabilir. İşte AskCodi'nin bazı özellikleri:
