@@ -134,39 +134,80 @@
                 {% endif %}
               {% endfor %}
 
-              <!-- Language Toggle -->
-              {%- if is_en -%}
-                <li class="nav-item">
+              <style>
+                .nav-toggles-container {
+                  display: flex;
+                  align-items: center;
+                  gap: 0.75rem;
+                  margin-left: 0.5rem;
+                }
+                .premium-toggle-btn {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 2.5rem;
+                  height: 2.5rem;
+                  border-radius: 50%;
+                  border: 1px solid var(--global-divider-color);
+                  background-color: var(--global-card-bg-color);
+                  color: var(--global-text-color);
+                  font-family: 'Inter', sans-serif;
+                  font-weight: 700;
+                  font-size: 0.85rem;
+                  text-decoration: none !important;
+                  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+                  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+                  cursor: pointer;
+                  padding: 0;
+                }
+                .premium-toggle-btn:hover {
+                  transform: translateY(-2px);
+                  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+                  background-color: var(--global-theme-color);
+                  border-color: var(--global-theme-color);
+                  color: #fff !important;
+                }
+                .premium-toggle-btn:hover i {
+                  color: #fff !important;
+                }
+                .lang-toggle {
+                  width: auto;
+                  padding: 0 1rem;
+                  border-radius: 2rem;
+                }
+                #light-toggle {
+                  outline: none;
+                }
+              </style>
+
+              <div class="nav-toggles-container">
+                <!-- Language Toggle -->
+                {%- if is_en -%}
                   {%- if target_tr_exists -%}
-                    <a class="nav-link font-weight-bold" href="{{ target_tr_url | relative_url }}" title="Türkçe" style="color: var(--global-theme-color);">TR</a>
+                    <a class="premium-toggle-btn lang-toggle" href="{{ target_tr_url | relative_url }}" title="Türkçe">TR</a>
                   {%- else -%}
-                    <a class="nav-link font-weight-bold" href="{{ page.url | relative_url }}" title="Türkçe" style="color: var(--global-theme-color);">TR</a>
+                    <a class="premium-toggle-btn lang-toggle" href="{{ page.url | relative_url }}" title="Türkçe">TR</a>
                   {%- endif -%}
-                </li>
-              {%- else -%}
-                <li class="nav-item">
+                {%- else -%}
                   {%- if page.url contains '/blog/' -%}
-                    <a class="nav-link font-weight-bold" href="{{ page.url | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
+                    <a class="premium-toggle-btn lang-toggle" href="{{ page.url | relative_url }}" title="English">EN</a>
                   {%- else -%}
                     {%- if target_en_exists -%}
-                      <a class="nav-link font-weight-bold" href="{{ target_en_url | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
+                      <a class="premium-toggle-btn lang-toggle" href="{{ target_en_url | relative_url }}" title="English">EN</a>
                     {%- else -%}
-                      <a class="nav-link font-weight-bold" href="{{ page.url | relative_url }}" title="English" style="color: var(--global-theme-color);">EN</a>
+                      <a class="premium-toggle-btn lang-toggle" href="{{ page.url | relative_url }}" title="English">EN</a>
                     {%- endif -%}
                   {%- endif -%}
-                </li>
-              {%- endif -%}
+                {%- endif -%}
 
-              {%- if site.enable_darkmode %}
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
+                {%- if site.enable_darkmode %}
+                <!-- Toogle theme mode -->
+                <button class="premium-toggle-btn" id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon" style="font-size: 1rem;"></i>
+                  <i class="fas fa-sun" style="font-size: 1rem;"></i>
                 </button>
-              </li>
-              {%- endif %}
+                {%- endif %}
+              </div>
             </ul>
           </div>
         </div>
