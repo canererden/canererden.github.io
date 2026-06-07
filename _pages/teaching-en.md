@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /teaching/
-title: Eğitim
+permalink: /en/teaching/
+title: Teaching
 description: 
-nav: true
+nav_en: true
 display_categories: [Undergraduate, Graduate]
 nav_order: 3
 horizontal: true
 ---
 
-<!-- pages/teaching.md -->
+<!-- pages/teaching-en.md -->
 <div class="teaching">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized teaching -->

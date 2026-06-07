@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /publications/
-title: Yayınlar
-description: Kategorilere göre yayınlar.
+permalink: /en/publications/
+title: Publications
+description: Publications by categories in reversed chronological order.
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
-nav: true
+nav_en: true
 nav_order: 1
 ---
-<!-- _pages/publications.md -->
+<!-- _pages/publications-en.md -->
 
 <style>
   .pub-hidden { display: none !important; }
@@ -61,11 +61,11 @@ nav_order: 1
 
 </div>
 
-<button id="showMorePubs" class="btn-show-more">Tüm Yayınları Göster <i class="fas fa-chevron-down"></i></button>
+<button id="showMorePubs" class="btn-show-more">Show All Publications <i class="fas fa-chevron-down"></i></button>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const limit = 5; // İlk 5 yayından sonrasını gizle
+  const limit = 5; // Hide after 5
   const pubs = document.querySelectorAll('ol.bibliography li');
   const years = document.querySelectorAll('h2.year');
   const showMoreBtn = document.getElementById('showMorePubs');
