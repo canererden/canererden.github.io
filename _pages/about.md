@@ -37,13 +37,4 @@ I earned my Ph.D. in Industrial Engineering from Sakarya University under the su
 I am deeply passionate about exploring innovative techniques to address modern computational challenges. This website serves as a central repository for my research, publications, and professional projects. Please feel free to explore my latest work or read my blog where I share insights on data science and machine learning.
 </div>
 
-<div class="text-center mt-5 mb-5">
-  <h4 style="font-family: 'Inter', sans-serif; font-weight: 700; color: var(--global-text-color); margin-bottom: 1.5rem;">Daha Fazlası İçin YouTube Kanalımı Keşfedin</h4>
-  <a href="https://youtube.com/@CanerErden" target="_blank" class="btn" style="background-color: #ff0000; color: #fff; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 1.1rem; border-radius: 2rem; padding: 0.75rem 2rem; box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(255, 0, 0, 0.4)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 15px rgba(255, 0, 0, 0.3)';">
-    <i class="fab fa-youtube mr-2" style="font-size: 1.3rem;"></i> Caner Erden YouTube
-  </a>
-</div>
-
-</div>
-
 ---
