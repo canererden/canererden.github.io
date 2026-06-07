@@ -24,11 +24,11 @@ $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
-// Academic & AI Theme Colors
-$ai-blue-color: #1D4ED8 !default; // Deep trustworthy tech blue (Light mode)
-$ai-blue-hover: #1E3A8A !default; // Darker shade for hover
-$ai-cyan-color: #0EA5E9 !default; // Bright electric tech cyan (Dark mode)
-$ai-cyan-hover: #38BDF8 !default; // Lighter shade for hover
+// Academic & AI Theme Colors (Emerald & Mint)
+$theme-primary-light: #047857 !default; // Deep Emerald for light mode
+$theme-hover-light: #065F46 !default; // Darker hover
+$theme-primary-dark: #34D399 !default; // Bright Mint for dark mode
+$theme-hover-dark: #6EE7B7 !default; // Lighter hover
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
