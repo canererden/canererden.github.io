@@ -80,7 +80,7 @@ layout: default
     <div class="col-lg-9 pe-lg-5 article-col mb-5 mb-lg-0" style="padding-right: 4rem !important;">
       <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+        <p class="post-meta"><i class="fas fa-calendar-alt" style="color: var(--global-theme-color);"></i> {{ page.date | date: "%d.%m.%Y" }} &nbsp;&middot;&nbsp; <i class="fas fa-user-edit" style="color: var(--global-theme-color);"></i> {{ page.author | default: "Caner Erden" }}{%- if page.meta -%} &nbsp;&middot;&nbsp; {{ page.meta }}{%- endif -%}</p>
         <div class="post-tags mt-3">
           <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}" class="badge badge-pill badge-primary mr-1">
             <i class="fas fa-calendar fa-sm"></i> {{ year }}

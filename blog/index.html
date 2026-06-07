@@ -15,6 +15,22 @@ pagination:
 
 <div class="post">
 
+  <style>
+    .premium-blog-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+    }
+    .premium-blog-card:hover .premium-img {
+      transform: scale(1.05);
+    }
+    .premium-blog-card:hover .premium-title-link {
+      color: var(--global-theme-color) !important;
+    }
+    .read-more-link:hover .read-more-icon {
+      transform: translateX(4px);
+    }
+  </style>
+
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
@@ -69,50 +85,38 @@ pagination:
     {% assign categories = post.categories | join: "" %}
 
     <div class="col mb-4">
-      <div class="card h-100 hoverable shadow-sm" style="border: 1px solid var(--global-divider-color); background-color: var(--global-card-bg-color); border-radius: 0.5rem; overflow: hidden;">
+      <div class="card h-100 premium-blog-card" style="border: none; background-color: var(--global-card-bg-color); border-radius: 1rem; overflow: hidden; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); box-shadow: 0 4px 15px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
         {% if post.thumbnail %}
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            <img src="{{ post.thumbnail | relative_url }}" class="card-img-top" alt="Thumbnail" style="height: 200px; object-fit: cover;">
+          <a href="{{ post.url | prepend: site.baseurl }}" style="overflow: hidden; display: block;">
+            <img src="{{ post.thumbnail | relative_url }}" class="card-img-top premium-img" alt="Thumbnail" style="height: 220px; object-fit: cover; transition: transform 0.5s ease;">
           </a>
         {% endif %}
-        <div class="card-body d-flex flex-column">
-          <h3 class="card-title mb-3" style="font-family: 'Inter', sans-serif; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.3;">
+        <div class="card-body d-flex flex-column" style="padding: 2rem;">
+          <h3 class="card-title mb-3" style="font-family: 'Inter', sans-serif; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.4;">
             {% if post.redirect == blank %}
-              <a class="text-decoration-none" style="color: var(--global-text-color);" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a class="text-decoration-none premium-title-link" style="color: var(--global-text-color); transition: color 0.2s;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             {% else %}
               {% if post.redirect contains '://' %}
-                <a class="text-decoration-none" style="color: var(--global-text-color);" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
-                <svg width="1.5rem" height="1.5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align: middle;">
-                  <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
+                <a class="text-decoration-none premium-title-link" style="color: var(--global-text-color); transition: color 0.2s;" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
               {% else %}
-                <a class="text-decoration-none" style="color: var(--global-text-color);" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
+                <a class="text-decoration-none premium-title-link" style="color: var(--global-text-color); transition: color 0.2s;" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
               {% endif %}
             {% endif %}
           </h3>
-          <p class="card-text text-muted mb-4" style="font-family: 'Lora', serif; font-size: 1rem; line-height: 1.6;">{{ post.description }}</p>
+          <p class="card-text text-muted mb-4" style="font-family: 'Lora', serif; font-size: 1rem; line-height: 1.7; flex-grow: 1;">{{ post.description }}</p>
           
-          <div class="mt-auto border-top pt-3" style="border-color: var(--global-divider-color) !important;">
-            <p class="post-meta mb-2" style="font-family: 'Inter', sans-serif; font-size: 0.85rem; color: var(--global-text-color);">
-              <i class="fas fa-clock"></i> {{ read_time }} min read &nbsp; &middot; &nbsp;
-              <i class="fas fa-calendar-alt"></i> {{ post.date | date: '%B %-d, %Y' }}
-            </p>
-            <div class="post-tags mt-2">
-              {% if tags != "" %}
-                {% for tag in post.tags %}
-                <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="badge badge-pill badge-info mr-1 mb-1">
-                  {{ tag }}
-                </a>
-                {% endfor %}
-              {% endif %}
-              {% if categories != "" %}
-                {% for category in post.categories %}
-                <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}" class="badge badge-pill badge-secondary mr-1 mb-1">
-                  {{ category }}
-                </a>
-                {% endfor %}
-              {% endif %}
+          <div class="mt-auto d-flex align-items-center justify-content-between pt-3" style="border-top: 1px solid var(--global-divider-color);">
+            <div class="post-meta" style="font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #6b7280; font-weight: 500;">
+              <span style="color: var(--global-theme-color); font-weight: 700;">{{ post.author | default: "Caner Erden" }}</span>
+              <span class="mx-2">&middot;</span>
+              {{ post.date | date: '%d.%m.%Y' }}
             </div>
+            
+            {% if post.redirect == blank %}
+              <a href="{{ post.url | prepend: site.baseurl }}" class="read-more-link" style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 0.9rem; color: var(--global-theme-color); text-decoration: none; display: flex; align-items: center; transition: all 0.3s ease;">
+                Devamını Oku <i class="fas fa-arrow-right ml-2 read-more-icon" style="transition: transform 0.3s ease; font-size: 0.8rem;"></i>
+              </a>
+            {% endif %}
           </div>
         </div>
       </div>
