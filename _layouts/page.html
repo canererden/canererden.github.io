@@ -11,6 +11,12 @@ layout: default
 
           <article>
             {{ content }}
+
+            {% if page.citation_title %}
+            <!-- COinS for Zotero/Mendeley Book Metadata -->
+            {% capture coins_title %}ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle={{ page.citation_title | url_encode }}{% if page.citation_author %}{% assign authors = page.citation_author | split: ", " %}{% for author in authors %}&rft.au={{ author | url_encode }}{% endfor %}{% endif %}{% if page.citation_publication_date %}&rft.date={{ page.citation_publication_date | url_encode }}{% endif %}{% if page.citation_publisher %}&rft.pub={{ page.citation_publisher | url_encode }}{% endif %}{% if page.citation_isbn %}&rft.isbn={{ page.citation_isbn | url_encode }}{% endif %}{% endcapture %}
+            <span class="Z3988" title="{{ coins_title | escape }}"></span>
+            {% endif %}
           </article>
 
         </div>
