@@ -45,7 +45,12 @@
 
     <!-- OpenGraph -->
     <meta property="og:site_name" content="{{ title }}" />
+    {% if page.citation_title %}
+    <meta property="og:type" content="book" />
+    {% if page.citation_isbn %}<meta property="book:isbn" content="{{ page.citation_isbn }}" />{% endif %}
+    {% else %}
     <meta property="og:type" content="website" />
+    {% endif %}
     <meta property="og:title" content="{%- if page.title -%}{{ title }} | {{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}" />
     <meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
@@ -233,6 +238,7 @@
     {% if page.citation_title %}
     <!-- Google Scholar Highwire Press Tags -->
     <meta name="citation_title" content="{{ page.citation_title }}">
+    <meta name="citation_book_title" content="{{ page.citation_title }}">
     {% if page.citation_author %}
     {% assign authors = page.citation_author | split: ", " %}
     {% for author in authors %}
