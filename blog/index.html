@@ -87,7 +87,14 @@ pagination:
     <div class="col mb-4">
       <div class="card h-100 premium-blog-card" style="border: none; background-color: var(--global-card-bg-color); border-radius: 1rem; overflow: hidden; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); box-shadow: 0 4px 15px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
         {% if post.thumbnail %}
-          <a href="{{ post.url | prepend: site.baseurl }}" style="overflow: hidden; display: block;">
+          {% if post.redirect == blank %}
+            {% assign thumb_url = post.url | prepend: site.baseurl %}
+          {% elsif post.redirect contains '://' %}
+            {% assign thumb_url = post.redirect %}
+          {% else %}
+            {% assign thumb_url = post.redirect | relative_url %}
+          {% endif %}
+          <a href="{{ thumb_url }}" {% if post.redirect contains '://' %}target="_blank"{% endif %} style="overflow: hidden; display: block;">
             <img src="{{ post.thumbnail | relative_url }}" class="card-img-top premium-img" alt="Thumbnail" style="height: 220px; object-fit: cover; transition: transform 0.5s ease;">
           </a>
         {% endif %}
@@ -113,10 +120,15 @@ pagination:
             </div>
             
             {% if post.redirect == blank %}
-              <a href="{{ post.url | prepend: site.baseurl }}" class="read-more-link" style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 0.9rem; color: var(--global-theme-color); text-decoration: none; display: flex; align-items: center; transition: all 0.3s ease;">
-                Devamını Oku <i class="fas fa-arrow-right ml-2 read-more-icon" style="transition: transform 0.3s ease; font-size: 0.8rem;"></i>
-              </a>
+              {% assign read_more_url = post.url | prepend: site.baseurl %}
+            {% elsif post.redirect contains '://' %}
+              {% assign read_more_url = post.redirect %}
+            {% else %}
+              {% assign read_more_url = post.redirect | relative_url %}
             {% endif %}
+            <a href="{{ read_more_url }}" {% if post.redirect contains '://' %}target="_blank"{% endif %} class="read-more-link" style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 0.9rem; color: var(--global-theme-color); text-decoration: none; display: flex; align-items: center; transition: all 0.3s ease;">
+              {% if post.redirect contains '://' %}Medium'da Oku{% else %}Devamını Oku{% endif %} <i class="fas fa-arrow-right ml-2 read-more-icon" style="transition: transform 0.3s ease; font-size: 0.8rem;"></i>
+            </a>
           </div>
         </div>
       </div>
