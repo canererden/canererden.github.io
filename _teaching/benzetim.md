@@ -10,28 +10,43 @@ date: 2023-01-01
 location: Sakarya, Turkey
 ---
 
-Kodu: "[UTL 306](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/31976/97662?Disaridan=)"
+<div class="row mb-5">
+  <div class="col-12 col-md-4 text-center">
+    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
+        <p class="card-text mb-0"><a href="https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/31976/97662?Disaridan=" target="_blank" class="badge bg-primary text-white text-decoration-none px-3 py-2">UTL 306</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-8">
+    <h2 class="mb-3">Dersin Amacı</h2>
+    <p>
+      Bu derste kesikli olay simülasyonlarına bir giriş yapılacaktır. Ayrıca, istatistik ve olasılığın benzetimde kullanımlarından bahsedildikten sonra gerçek problemler için benzetimin kullanımı gösterilecektir. Kısaca, bu dersin amacı öğrencilere farklı yönetim sistemlerini analiz etme, davranışını inceleyebilmek amacıyla, Benzetim tekniği kullanarak, model kurma, deney yapma ve yorumlama yeteneği kazandırmaktır.
+    </p>
+  </div>
+</div>
 
-## Amaç
+<hr class="my-5">
 
-Bu derste kesikli olay simülasyonlarına bir giriş yapılacaktır. Ayrıca, istatistik ve olasılığın benzetimde kullanımlarından bahsedildikten sonra gerçek problemler için benzetimin kullanımı gösterilecektir. Kısaca, bu dersin amacı öğrencilere farklı yönetim sistemlerini analiz etme, davranışını inceleyebilmek amacıyla, Benzetim tekniği kullanarak, model kurma ve deney yapma ve yorumlama yeteneği kazandırmaktır.
+## 📚 Ders Kitapları ve Kaynaklar
 
-Ders Kitapları
+**Ana Kaynaklar:**
+* Kelton, David, Randall Sadowski Nancy Zupick, *Simulation with Arena*, McGraw-Hill, 2015.
+* Erden C. *Python İle Veri Madenciliği*. İstanbul: Kodlab; 2021. [[Kitabı İncele](https://www.kodlab.com/home/598-python-ile-veri-madenciligi-9786257440172.html)]
 
-## Ana Kitap
+**Yardımcı Kaynaklar:**
+* Başlıgil, Hüseyin, *Modelleme Ve Simülasyon*, İstanbul Üniversitesi Açık Ve Uzaktan Eğitim Fakültesi, 2020.
+* Law, Averil, *Simulation Modeling and Analysis*, Dubuque, 2014.
+* Pidd, Michael, *Tools for thinking: modelling in management science*, Wiley, 2009.
+* Altiok, Tayfur ve Benjamin Melamed, *Simulation Modeling and Analysis with ARENA*, Elsevier Science, 2010.
 
-1.	 Kelton, David, Randall Sadowski Nancy Zupick, Simulation with Arena, McGraw-Hill, 2015.
-2.   Erden C. Python İle Veri Madenciliği. İstanbul: Kodlab; 2021. Available from: https://www.kodlab.com/home/598-python-ile-veri-madenciligi-9786257440172.html
+<hr class="my-5">
 
-## Yardımcı Kaynaklar
----
-1.	Başlıgil, Hüseyin, Modelleme Ve Simülasyon, İstanbul Üniversitesi Açık Ve Uzaktan Eğitim Fakültesi, 2020.[link].
-2.	Law, Averil, Simulation Modeling and Analysis, Dubuque, 2014.
-3.	Pidd, Michael., Tools for thinking: modelling in management science, Wiley, 2009
-4.	Altiok, Tayfur ve Benjamin Melamed, Simulation Modeling and Analysis with ARENA, Elsevier Science, 2010.
+## 💻 Yazılım ve Program
 
+Arena Programını indirmek için [buradaki bağlantıya](http://highered.mheducation.com/sites/0073401315/student_view0/arena_software_download.html) tıklayınız (~800 MB). Bağlantıdan indirdiğiniz zip dosyasının içerisindeki `autorun.exe` dosyasını çalıştırın. Eğer aktivasyon istenirse "STUDENT" yazın.
 
-## Program
-
-Arena Programını indirmek için [buradaki](http://highered.mheducation.com/sites/0073401315/student_view0/arena_software_download.html) bağlantıya tıklayınız(~800 MB). Bağlantıdan indirdiğiniz zip dosyasının içerisindeki “autorun.exe” dosyasını çalıştırın. Eğer aktivasyon istenirse “STUDENT” yazın.
-Not: Arena sadece Windows ortamında çalışmaktadır. Apple bilgisayarı olanların kullanabilmesi için bilgisayarlarına Windows yüklemesi gerekmektedir.
+<div class="alert alert-warning py-2 mt-3" role="alert">
+  <i class="fa-solid fa-triangle-exclamation mr-2"></i> <strong>Not:</strong> Arena sadece Windows ortamında çalışmaktadır. Apple bilgisayarı olanların kullanabilmesi için bilgisayarlarına Windows yüklemesi veya Boot Camp kullanması gerekmektedir.
+</div>

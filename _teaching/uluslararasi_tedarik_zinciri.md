@@ -12,18 +12,34 @@ location: Sakarya, Turkey
 
 Kodu: "[UTL506](https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32539/96817?Disaridan=)"
 
-## Amaç
+<div class="row mb-5">
+  <div class="col-12 col-md-4 text-center">
+    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
+        <p class="card-text mb-0"><a href="https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32539/96817?Disaridan=" target="_blank" class="badge bg-primary text-white text-decoration-none px-3 py-2">UTL 506</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-8">
+    <h2 class="mb-3">Dersin Amacı</h2>
+    <p>
+      Lojistik ve tedarik zinciri yönetimi günümüz şirketlerinin önem verdiği konuların başında gelmektedir. Bu dersin amacı öğrencilerin uluslararası tedarik zinciri ve yönetimi ile ilgili temel kavramların öğrenilmesini sağlamaktır. Bu derste güncel lojistik ve tedarik zinciri problemlerinin çözümleri incelenecek ve tedarik zinciri yönetiminde yer alan başlıca fonksiyonlardan bahsedilecektir.
+    </p>
+    <p class="text-muted small">
+      <strong>İçerik:</strong> 21. yy tedarik zinciri yönetimi, lojistik, tedarik ve üretim, envanter yönetimi, ulaşım altyapısı, taşımacılık operasyonları, müşteri odaklı tedarik.
+    </p>
+  </div>
+</div>
 
-Lojistik ve tedarik zinciri yönetimi günümüz şirketlerinin önem verdiği konuların başında gelmektedir. Birçok şirket yöneticisi tedarik edilen hizmet veya malların yönetimi ile ilgili iyileştirmeler yapmaya çalışmaktadır. 
-Bu dersin amacı öğrencilerin uluslararası tedarik zinciri ve yönetimi ile ilgili temel kavramların öğrenilmesini sağlamaktır. Bu derste güncel lojistik ve tedarik zinciri problemlerinin çözümleri incelenecek ve Ayrıca tedarik zinciri yönetiminde yer alan başlıca fonksiyonlardan bahsedilecektir.
-Bu dersin içeriği; 21.yy tedarik zinciri yönetimi, lojistik, tedarik ve üretim, envanter yönetimi, ulaşım altyapısı, taşımacılık operasyonları, müşteri odaklı tedariktir.
+<hr class="my-5">
 
-## Ana Kitap
+## 📚 Ders Kitapları ve Kaynaklar
 
-1.	 Martin Christopher, Logistics & Supply Chain Management, 5. Baskı, Pearson.
+**Ana Kitap:**
+* Martin Christopher, *Logistics & Supply Chain Management*, 5. Baskı, Pearson.
 
-## Yardımcı Kaynaklar
-
-1.	Alexandre Dolgui, Jean-Marie Proth, Supply Chain Engineering: Useful Methods and Techniques, Springer Press.
-2.	B. Türker Palamutçuoğlu, Celal Bayar Üniversitesi Kula Meslek Yüksekokulu İşletme Yönetimi Programı Lojistik Yönetimi Ders Notu, 2012.
-3.	Timur, M.N. Ve ark., Tedarik Zinciri Yönetimi, Anadolu Üniversitesi Yayınları, 2019.
+**Yardımcı Kaynaklar:**
+* Alexandre Dolgui, Jean-Marie Proth, *Supply Chain Engineering: Useful Methods and Techniques*, Springer Press.
+* B. Türker Palamutçuoğlu, Celal Bayar Üniversitesi Kula Meslek Yüksekokulu İşletme Yönetimi Programı Lojistik Yönetimi Ders Notu, 2012.
+* Timur, M.N. Ve ark., *Tedarik Zinciri Yönetimi*, Anadolu Üniversitesi Yayınları, 2019.

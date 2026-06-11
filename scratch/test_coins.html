@@ -1,0 +1,10 @@
+---
+layout: null
+citation_title: "Python ile Veri Madenciliği"
+citation_author: "Caner Erden, Test Author"
+citation_publication_date: "2024"
+citation_publisher: "Kodlab"
+citation_isbn: "12345"
+---
+{% capture coins_title %}ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle={{ page.citation_title | url_encode }}{% if page.citation_author %}{% assign authors = page.citation_author | split: ", " %}{% for author in authors %}&rft.au={{ author | url_encode }}{% endfor %}{% endif %}{% if page.citation_publication_date %}&rft.date={{ page.citation_publication_date | url_encode }}{% endif %}{% if page.citation_publisher %}&rft.pub={{ page.citation_publisher | url_encode }}{% endif %}{% if page.citation_isbn %}&rft.isbn={{ page.citation_isbn | url_encode }}{% endif %}{% endcapture %}
+<span class="Z3988" title="{{ coins_title | escape }}"></span>

@@ -16,55 +16,86 @@ office_hours: "Çarşamba 09:00–11:00"
 semester: "5. Yarıyıl"
 ---
 
-## Dersin Amacı
+<div class="row mb-5">
+  <div class="col-12 col-md-4 text-center">
+    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
+        <p class="card-text mb-0"><span class="badge bg-primary text-white px-3 py-2">UTF 307</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-8">
+    <h2 class="mb-3">Dersin Amacı</h2>
+    <p>
+      Bu dersin amacı, öğrencilere işletmeler için rekabette kritik öneme sahip üretimle ilgili stratejik, taktik ve operasyonel düzeyde karar alma becerisi kazandırmaktır. Konular arasında kuruluş yeri seçimi, işyeri düzenleme, iş analizi, tahmin yöntemleri ve stok yönetim sistemleri yer almaktadır.
+    </p>
+  </div>
+</div>
 
-Bu dersin amacı, öğrencilere işletmeler için rekabette kritik öneme sahip üretimle ilgili stratejik, taktik ve operasyonel düzeyde karar alma becerisi kazandırmaktır. Konular arasında kuruluş yeri seçimi, işyeri düzenleme, iş analizi, tahmin yöntemleri ve stok yönetim sistemleri yer almaktadır.
+<hr class="my-5">
 
----
+<div class="row g-4 mb-5">
+  <!-- Ders Çıktıları -->
+  <div class="col-12 col-lg-6">
+    <div class="h-100 p-4 border rounded shadow-sm bg-light">
+      <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-bullseye text-primary mr-2"></i> Ders Çıktıları</h4>
+      <ul class="mb-0 text-muted">
+        <li>Üretim yönetimi ile ilgili temel kavramları öğrenmek</li>
+        <li>Üretim tiplerini analiz edebilmek</li>
+        <li>Tesis yeri seçimi ve iç yerleşim tasarımı yapabilmek</li>
+        <li>İş analiz yöntemlerini, zaman etüdü ve iş ölçümünü uygulayabilmek</li>
+        <li>Üretimin diğer işletme fonksiyonlarıyla ilişkisini kavrayabilmek</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Değerlendirme Sistemi -->
+  <div class="col-12 col-lg-6">
+    <div class="h-100 p-4 border rounded shadow-sm bg-light">
+      <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-chart-pie text-primary mr-2"></i> Değerlendirme Sistemi</h4>
+      <ul class="mb-0 text-muted">
+        <li><strong>%5</strong> Kısa Sınav</li>
+        <li><strong>%15</strong> Ödevler (2 Adet)</li>
+        <li><strong>%30</strong> Ara Sınav</li>
+        <li><strong>%50</strong> Final Sınavı</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-## Ders Çıktıları
+<hr class="my-5">
 
-- Üretim yönetimi ile ilgili temel kavramları öğrenmek  
-- Üretim tiplerini analiz edebilmek  
-- Tesis yeri seçimi ve iç yerleşim tasarımı yapabilmek  
-- İş analiz yöntemlerini, zaman etüdü ve iş ölçümünü uygulayabilmek  
-- Üretimin diğer işletme fonksiyonlarıyla ilişkisini kavrayabilmek
-
----
-
-## Ders Kitapları
+## 📚 Ders Kitapları
 
 **Ana Kaynaklar:**
-
 1. Dilşad Güzel – *Üretim Yönetimi*, Atatürk Üniversitesi AÖF  
 2. Celal Hakan Kağnicioğlu – *Üretim Yönetimi*, Anadolu Üniversitesi AÖF  
 3. Bülent Kobu – *Üretim Yönetimi*, Beta Kitabevi, 2009  
 4. Eliyahu Goldratt – *AMAÇ: Sürekli İyileştirme Süreci*, Optimist Yayınevi
 
----
+## 📅 Ders Akışı
 
-## Değerlendirme Sistemi
-
-- %5 Kısa Sınav  
-- %5 Ödev 1  
-- %10 Ödev 2  
-- %30 Ara Sınav  
-- %50 Final Sınavı
-
----
-
-## Ders Akışı
-
-| Hafta | Konu |
-|-------|------|
-| 1 | Üretim Yönetimine Giriş ve Temel Kavramlar |
-| 2–3 | Tesis Yeri Seçimi ve Değerleme Yöntemleri |
-| 4 | Tesis Yerleşimi ve Kapasite Planlaması |
-| 5 | Hat Dengeleme |
-| 6 | Sistematik Tesis Yerleşimi |
-| 7 | Stok Yönetim Modelleri (Çağdaş Ateş) |
-| 8 | Stok Yönetimi ve Kontrolü |
-| 9 | Talep Tahmin Yöntemleri |
-| 10 | Ara Sınav |
-| 11–12 | Kalite Yönetimi |
-| 13–14 | Öğrenci Sunumları |
+<div class="table-responsive">
+  <table class="table table-hover border">
+    <thead class="thead-light">
+      <tr>
+        <th>Hafta</th>
+        <th>Konu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Üretim Yönetimine Giriş ve Temel Kavramlar</td></tr>
+      <tr><td>2–3</td><td>Tesis Yeri Seçimi ve Değerleme Yöntemleri</td></tr>
+      <tr><td>4</td><td>Tesis Yerleşimi ve Kapasite Planlaması</td></tr>
+      <tr><td>5</td><td>Hat Dengeleme</td></tr>
+      <tr><td>6</td><td>Sistematik Tesis Yerleşimi</td></tr>
+      <tr><td>7</td><td>Stok Yönetim Modelleri (Çağdaş Ateş)</td></tr>
+      <tr><td>8</td><td>Stok Yönetimi ve Kontrolü</td></tr>
+      <tr><td>9</td><td>Talep Tahmin Yöntemleri</td></tr>
+      <tr><td>10</td><td>Ara Sınav</td></tr>
+      <tr><td>11–12</td><td>Kalite Yönetimi</td></tr>
+      <tr><td>13–14</td><td>Öğrenci Sunumları</td></tr>
+    </tbody>
+  </table>
+</div>
