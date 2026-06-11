@@ -1,36 +1,95 @@
-<!-- _includes/projects.html -->
+<!-- _includes/teaching.html -->
 <div class="grid-sizer"></div>
-<div class="grid-item">
+<div class="grid-item" style="padding-bottom: 1.5rem;">
   {% if project.redirect -%}
-  <a href="{{ project.redirect }}">
-    {%- else -%}
-    <a href="{{ project.url | relative_url }}">
-      {%- endif %}
-      <div class="card hoverable">
-        {%- if project.img %}
-        {%- include figure.html
-        path=project.img
-        alt="project thumbnail" -%}
-        {%- endif %}
-        <div class="card-body">
-          <h2 class="card-title">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {%- if project.github -%}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-              {%- if project.github_stars -%}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {%- endif %}
-            </div>
-            {%- endif %}
+  <a href="{{ project.redirect }}" style="text-decoration: none; color: inherit; display: block; height: 100%;">
+  {%- else -%}
+  <a href="{{ project.url | relative_url }}" style="text-decoration: none; color: inherit; display: block; height: 100%;">
+  {%- endif %}
+    <div class="card premium-teaching-card" style="border: none; border-radius: 1.25rem; overflow: hidden; background-color: var(--global-card-bg-color); transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); box-shadow: 0 4px 20px rgba(0,0,0,0.06); display: flex; flex-direction: column; height: 100%;">
+      
+      <!-- Image or Fallback Gradient -->
+      <div style="position: relative; overflow: hidden; height: 180px; width: 100%; border-bottom: 1px solid var(--global-divider-color);">
+        {%- if project.img -%}
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;" class="teaching-img">
+        {%- else -%}
+          <!-- Premium Fallback Gradient based on title length -->
+          {% assign hash = project.title.size | modulo: 5 %}
+          {% if hash == 0 %}
+            {% assign bg = "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" %}
+            {% assign icon = "fas fa-brain" %}
+          {% elsif hash == 1 %}
+            {% assign bg = "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)" %}
+            {% assign icon = "fas fa-chart-line" %}
+          {% elsif hash == 2 %}
+            {% assign bg = "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)" %}
+            {% assign icon = "fas fa-network-wired" %}
+          {% elsif hash == 3 %}
+            {% assign bg = "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)" %}
+            {% assign icon = "fas fa-database" %}
+          {% else %}
+            {% assign bg = "linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%)" %}
+            {% assign icon = "fas fa-chalkboard-teacher" %}
+          {% endif %}
+          <div style="width: 100%; height: 100%; background: {{ bg }}; display: flex; align-items: center; justify-content: center; transition: transform 0.5s ease;" class="teaching-img">
+            <i class="{{ icon }}" style="font-size: 4rem; color: rgba(255, 255, 255, 0.9); filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); {% if hash == 4 %}color: rgba(0,0,0,0.3);{% endif %}"></i>
+          </div>
+        {%- endif -%}
+        
+        <!-- Category Badge -->
+        {%- if project.category -%}
+        <div style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); backdrop-filter: blur(4px); color: #fff; padding: 0.35rem 0.85rem; border-radius: 2rem; font-size: 0.75rem; font-family: 'Inter', sans-serif; font-weight: 600; letter-spacing: 0.5px; z-index: 2;">
+          {{ project.category }}
+        </div>
+        {%- endif -%}
+      </div>
+
+      <!-- Card Body -->
+      <div class="card-body d-flex flex-column" style="padding: 1.5rem;">
+        <h3 class="card-title" style="font-family: 'Inter', sans-serif; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.4; color: var(--global-text-color); margin-bottom: 0.75rem;">
+          {{ project.title }}
+        </h3>
+        
+        <p class="card-text text-muted" style="font-family: 'Lora', serif; font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1.25rem;">
+          {{ project.description | truncatewords: 20 }}
+        </p>
+
+        <!-- Meta info (Venue, Date) -->
+        <div style="border-top: 1px solid var(--global-divider-color); padding-top: 1rem; display: flex; align-items: center; justify-content: space-between;">
+          <div style="font-family: 'Inter', sans-serif; font-size: 0.8rem; color: #6b7280; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
+            {%- if project.venue -%}
+              <span><i class="fas fa-university"></i> {{ project.venue | truncate: 25 }}</span>
+            {%- endif -%}
+          </div>
+          <div style="font-family: 'Inter', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--global-theme-color); display: flex; align-items: center; white-space: nowrap;">
+            İncele <i class="fas fa-arrow-right ml-2" style="font-size: 0.75rem; transition: transform 0.3s ease;" class="hover-arrow"></i>
           </div>
         </div>
       </div>
-    </a>
+    </div>
+  </a>
 </div>
+
+<style>
+  .premium-teaching-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12) !important;
+  }
+  .premium-teaching-card:hover .teaching-img {
+    transform: scale(1.05);
+  }
+  .premium-teaching-card:hover .fa-arrow-right {
+    transform: translateX(4px);
+  }
+  /* Optional: make sure Masonry items span appropriately */
+  .grid-item {
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .grid-item {
+      width: 50%;
+      padding: 0 0.75rem 1.5rem;
+    }
+  }
+</style>

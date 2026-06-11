@@ -6,7 +6,6 @@ description: Sakarya Uygulamalı Bilimler Üniversitesi bünyesinde verilen Veri
 nav: true
 display_categories: [Undergraduate, Graduate]
 nav_order: 3
-horizontal: true
 ---
 
 <!-- pages/teaching.md -->
