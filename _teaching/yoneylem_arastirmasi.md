@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Operations Research
+layout: course
+title: Yöneylem Araştırması
+title_en: Operations Research
 description: [UTL 305 - Karar verme süreçlerini iyileştirmeye yönelik yöneylem araştırması modellerinin Excel ile uygulamalı olarak çözüldüğü; ulaştırma ve atama problemlerinin ele alındığı ders.]
-category: Undergraduate
+category: Lisans
 permalink: /teaching/yoneylem-arastirmasi
 date: 2023-09-01
 location: Sakarya, Turkey
@@ -15,24 +16,9 @@ schedule: "Pazartesi 09:00 – 102 Nolu Sınıf"
 office_hours: "Pazartesi 14:00–16:00"
 ---
 
-<div class="row mb-5">
-  <div class="col-12 col-md-4 text-center">
-    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
-      <div class="card-body">
-        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
-        <p class="card-text mb-0"><span class="badge bg-primary text-white px-3 py-2">UTL 305</span></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-8">
-    <h2 class="mb-3">Dersin Amacı</h2>
-    <p>
-      Yöneylem Araştırması (YA), bilim, mühendislik ve ekonomi gibi birçok alanda karar verme süreçlerini iyileştirmek için kullanılan güçlü bir disiplindir. Bu ders kapsamında YA modellerinin nasıl oluşturulacağı ve çözüleceği, MS Excel ile uygulamalı örnekler üzerinden gösterilecektir. Ulaştırma ve atama problemleri gibi lojistik karar süreçleri de ele alınacaktır.
-    </p>
-  </div>
-</div>
+## Dersin Amacı
+Yöneylem Araştırması (YA), bilim, mühendislik ve ekonomi gibi birçok alanda karar verme süreçlerini iyileştirmek için kullanılan güçlü bir disiplindir. Bu ders kapsamında YA modellerinin nasıl oluşturulacağı ve çözüleceği, MS Excel ile uygulamalı örnekler üzerinden gösterilecektir. Ulaştırma ve atama problemleri gibi lojistik karar süreçleri de ele alınacaktır.
 
-<hr class="my-5">
 
 <h2 class="mb-4">📺 Eğitim Serisi: Yöneylem Araştırması & Soru Çözümleri</h2>
 <div class="row g-4 mb-5">
@@ -49,8 +35,6 @@ office_hours: "Pazartesi 14:00–16:00"
     </div>
   </div>
 </div>
-
-<hr class="my-5">
 
 ## 📚 Ders Kitapları
 

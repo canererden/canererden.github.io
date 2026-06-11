@@ -24,15 +24,22 @@ hr {
 }
 
 table {
+  color: var(--global-text-color) !important;
   td,
   th {
     font-size: 1rem;
     padding: 1px 1rem 1px 0;
+    color: var(--global-text-color) !important;
   }
 
   th {
     font-weight: bold;
   }
+}
+
+.table-hover tbody tr:hover {
+  color: var(--global-text-color) !important;
+  background-color: rgba(128, 128, 128, 0.1) !important;
 }
 
 a,

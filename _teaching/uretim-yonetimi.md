@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Production Management
+layout: course
+title: Üretim Yönetimi
+title_en: Production Management
 description: [UTF 307 - Kuruluş yeri seçimi, işyeri düzenleme, iş analizi, tahmin yöntemleri ve stok yönetim sistemleri.]
-category: Undergraduate
+category: Lisans
 permalink: /teaching/uretim-yonetimi
 date: 2023-09-01
 location: Sakarya, Turkey
@@ -16,29 +17,14 @@ office_hours: "Çarşamba 09:00–11:00"
 semester: "5. Yarıyıl"
 ---
 
-<div class="row mb-5">
-  <div class="col-12 col-md-4 text-center">
-    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
-      <div class="card-body">
-        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
-        <p class="card-text mb-0"><span class="badge bg-primary text-white px-3 py-2">UTF 307</span></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-8">
-    <h2 class="mb-3">Dersin Amacı</h2>
-    <p>
-      Bu dersin amacı, öğrencilere işletmeler için rekabette kritik öneme sahip üretimle ilgili stratejik, taktik ve operasyonel düzeyde karar alma becerisi kazandırmaktır. Konular arasında kuruluş yeri seçimi, işyeri düzenleme, iş analizi, tahmin yöntemleri ve stok yönetim sistemleri yer almaktadır.
-    </p>
-  </div>
-</div>
+## Dersin Amacı
+Bu dersin amacı, öğrencilere işletmeler için rekabette kritik öneme sahip üretimle ilgili stratejik, taktik ve operasyonel düzeyde karar alma becerisi kazandırmaktır. Konular arasında kuruluş yeri seçimi, işyeri düzenleme, iş analizi, tahmin yöntemleri ve stok yönetim sistemleri yer almaktadır.
 
-<hr class="my-5">
 
 <div class="row g-4 mb-5">
   <!-- Ders Çıktıları -->
   <div class="col-12 col-lg-6">
-    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+    <div class="course-card">
       <div class="card-body">
         <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-bullseye text-primary mr-2"></i> Ders Çıktıları</h4>
         <ul class="mb-0 text-muted">
@@ -54,7 +40,7 @@ semester: "5. Yarıyıl"
   
   <!-- Değerlendirme Sistemi -->
   <div class="col-12 col-lg-6">
-    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+    <div class="course-card">
       <div class="card-body">
         <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-chart-pie text-primary mr-2"></i> Değerlendirme Sistemi</h4>
         <ul class="mb-0 text-muted">
@@ -67,8 +53,6 @@ semester: "5. Yarıyıl"
     </div>
   </div>
 </div>
-
-<hr class="my-5">
 
 ## 📚 Ders Kitapları
 

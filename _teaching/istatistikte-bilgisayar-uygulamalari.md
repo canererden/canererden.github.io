@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Computer Applications in Statistics
+layout: course
+title: İstatistikte Bilgisayar Uygulamaları
+title_en: Computer Applications in Statistics
 description: İstatistiksel analizlerin Minitab ile bilgisayar ortamında uygulanması
-category: Undergraduate
+category: Lisans
 permalink: /teaching/istatistikte-bilgisayar-uygulamalari
 date: 2023-09-01
 location: Sakarya, Turkey
@@ -40,14 +41,10 @@ google_class_code: sbljs4i
   </div>
 </div>
 
-<hr class="my-5">
-
 <h2 class="mb-4">📺 Eğitim Serisi: İstatistikte Bilgisayar Uygulamaları</h2>
 <div class="ratio ratio-16x9 mb-5 shadow rounded overflow-hidden">
   <iframe src="https://www.youtube.com/embed/videoseries?list=PLNVCj-z_HS4a0T8I3aCGNpRw9jegDQzEC" title="İstatistikte Bilgisayar Uygulamaları" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-<hr class="my-5">
 
 ## 📚 Ders Kitapları
 

@@ -1,0 +1,125 @@
+---
+layout: default
+---
+<!-- _layouts/course.html -->
+<div class="course-page">
+  <!-- Hero Section -->
+  <div class="course-hero shadow-sm" style="border-radius: 1.25rem; overflow: hidden; position: relative; margin-bottom: 3rem; background: linear-gradient(135deg, var(--global-theme-color) 0%, rgba(0,0,0,0.8) 100%); color: white; padding: 4rem 2rem; text-align: center;">
+    
+    <!-- Badges -->
+    <div class="badges mb-3 d-flex justify-content-center flex-wrap gap-2">
+      {%- if page.ders_kodu -%}
+      <span class="badge" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.3); font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 2rem; color: #fff;">
+        <i class="fas fa-barcode"></i> {{ page.ders_kodu }}
+      </span>
+      {%- endif -%}
+      {%- if page.category -%}
+      <span class="badge" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.3); font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 2rem; color: #fff;">
+        <i class="fas fa-graduation-cap"></i> {{ page.category }}
+      </span>
+      {%- endif -%}
+      {%- if page.university -%}
+      <span class="badge" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.3); font-size: 0.9rem; padding: 0.5rem 1rem; border-radius: 2rem; color: #fff;">
+        <i class="fas fa-university"></i> {{ page.university }}
+      </span>
+      {%- endif -%}
+    </div>
+
+    <h1 class="course-title" style="font-family: 'Inter', sans-serif; font-weight: 800; font-size: 3.5rem; letter-spacing: -0.02em; margin-bottom: 1rem; color: #fff;">
+      {{ page.title }}
+    </h1>
+    
+    {%- if page.description -%}
+    <p class="course-description mx-auto" style="font-family: 'Lora', serif; font-size: 1.25rem; max-width: 800px; color: rgba(255,255,255,0.9); line-height: 1.6;">
+      {{ page.description }}
+    </p>
+    {%- endif -%}
+
+    {%- if page.ders_linki -%}
+    <div class="mt-4">
+      <a href="{{ page.ders_linki }}" target="_blank" class="btn btn-light rounded-pill px-4 py-2" style="font-family: 'Inter', sans-serif; font-weight: 600; font-size: 1rem; transition: transform 0.2s;">
+        <i class="fas fa-external-link-alt"></i> Ders Detayları
+      </a>
+    </div>
+    {%- endif -%}
+  </div>
+
+  <!-- Content Section -->
+  <article class="course-content" style="font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.8; color: var(--global-text-color);">
+    {{ content }}
+  </article>
+</div>
+
+<!-- Custom CSS for Course Elements -->
+<style>
+  /* Beautify h2 headers */
+  .course-content h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: var(--global-text-color);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--global-divider-color);
+    position: relative;
+  }
+  .course-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: var(--global-theme-color);
+  }
+
+  /* Beautify lists */
+  .course-content ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .course-content ul li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .course-content ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--global-theme-color);
+    font-weight: bold;
+  }
+
+  /* Card enhancements */
+  .course-card {
+    background: var(--global-card-bg-color);
+    border-radius: 1rem;
+    border: 1px solid var(--global-divider-color);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+  .course-card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transform: translateY(-3px);
+    text-decoration: none;
+    color: var(--global-text-color);
+  }
+  .course-card img {
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+
+  /* Helper for ratio */
+  .ratio-16x9 {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+</style>

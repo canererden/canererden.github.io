@@ -1,35 +1,21 @@
 ---
-layout: page
-title: Data Mining
+layout: course
+ders_kodu: "BIL 018"
+ders_linki: "https://ebs.bys.subu.edu.tr/DersDetay?bi=517&pi=519&ay=34&di=14328&ic=&ad=17002"
+title: Veri Madenciliği
+title_en: Data Mining
 description: [BIL 018 - Veri tabanlarından anlamlı bilgi keşfi; istatistiksel yöntemler, makine öğrenmesi ve yapay sinir ağlarıyla uygulamalı analizler.]
 #img: assets/img/veri_madenciligi.jpg
-category: Undergraduate
+category: Lisans
 permalink: /teaching/veri-madenciligi
 venue: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2025-01-01
 location: Sakarya, Turkey
 ---
 
-<div class="row mb-5">
-  <div class="col-12 col-md-4 text-center">
-    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
-      <div class="card-body">
-        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
-        <p class="card-text mb-0"><a href="https://ebs.bys.subu.edu.tr/DersDetay?bi=517&pi=519&ay=34&di=14328&ic=&ad=17002" target="_blank" class="badge bg-primary text-white text-decoration-none px-3 py-2">BIL 018</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-8">
-    <h2 class="mb-3">Dersin Amacı</h2>
-    <p>
-      Veri Madenciliği, büyük veri tabanlarından gizli olan anlamlı bilgileri keşfetme sürecidir. 
-      Bu ders, veri madenciliğinin istatistiksel, makine öğrenmesi ve veri tabanı yönünden temellerini içermektedir.
-      Veri hazırlama, sınıflandırma, kümeleme, birliktelik analizleri gibi temel kavramlar uygulamalı olarak işlenmektedir.
-    </p>
-  </div>
-</div>
+## Dersin Amacı
+Veri Madenciliği, büyük veri tabanlarından gizli olan anlamlı bilgileri keşfetme sürecidir. Bu ders, veri madenciliğinin istatistiksel, makine öğrenmesi ve veri tabanı yönünden temellerini içermektedir. Veri hazırlama, sınıflandırma, kümeleme, birliktelik analizleri gibi temel kavramlar uygulamalı olarak işlenmektedir.
 
-<hr class="my-5">
 
 <h2 class="mb-4">📺 Veri Madenciliği ve Veri Bilimi Eğitim Serisi</h2>
 <div class="row g-4 mb-5">
@@ -47,13 +33,11 @@ location: Sakarya, Turkey
   </div>
 </div>
 
-<hr class="my-5">
-
 <h2 class="mb-4">📚 Ders Kitapları ve Kaynaklar</h2>
 <div class="row g-4 mb-5">
   <!-- Kitap 1 -->
   <div class="col-12 col-lg-6">
-    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+    <div class="course-card">
       <div class="card-body d-flex align-items-center">
         <div>
           <h4 class="mb-2"><i class="fa-solid fa-book-open text-primary mr-2"></i> Veri Analizi ve Python</h4>
@@ -66,7 +50,7 @@ location: Sakarya, Turkey
   
   <!-- Kitap 2 -->
   <div class="col-12 col-lg-6">
-    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+    <div class="course-card">
       <div class="card-body d-flex align-items-center">
         <img src="https://www.kodlab.com/2299-thickbox_default/python-ile-veri-madenciligi.jpg" alt="Kitap" width="80" class="rounded shadow-sm mr-4" style="object-fit: cover;">
         <div>

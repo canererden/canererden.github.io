@@ -1,40 +1,26 @@
 ---
-layout: page
-title: Logistics and Supply Chain Management
+layout: course
+ders_kodu: "UTL 204"
+ders_linki: "https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32445/71650?Disaridan="
+title: Lojistik ve Tedarik Zinciri Yönetimi
+title_en: Logistics and Supply Chain Management
 description: [UTL 204 - Lojistik ve tedarik zinciri süreçlerinin yönetimi, karar analizi ve temel sorunlara yönelik çözüm yöntemlerinin teorik ve pratik olarak ele alındığı ders.]
 # img: assets/img/lojistik_ve_tzy.jpg
-category: Undergraduate
+category: Lisans
 permalink: /teaching/lojistik_tedarik_zinciri_yonetimi
 university: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
 location: Sakarya, Turkey
 ---
 
-<div class="row mb-5">
-  <div class="col-12 col-md-4 text-center">
-    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
-      <div class="card-body">
-        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
-        <p class="card-text mb-0"><a href="https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/32445/71650?Disaridan=" target="_blank" class="badge bg-primary text-white text-decoration-none px-3 py-2">UTL 204</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-8">
-    <h2 class="mb-3">Dersin Amacı</h2>
-    <p>
-      Bu dersin amacı, lojistik ve tedarik zinciri kavramlarını, önemini ve bunlara ait temel sorunları çözebilmek için yöntemleri öğretmek ve bu alandaki kararları analiz etmektir. Tedarik zinciri, ham maddeden tüketiciye kadar gerçekleşen tüm süreçlerin yönetimi ile ilgilenir. Bu derste, öğrencilere tedarik zinciri süreçlerinden ve lojistiğin tedarik zinciri yönetimi içerisindeki öneminden bahsedilmektedir.
-    </p>
-  </div>
-</div>
+## Dersin Amacı
+Bu dersin amacı, lojistik ve tedarik zinciri kavramlarını, önemini ve bunlara ait temel sorunları çözebilmek için yöntemleri öğretmek ve bu alandaki kararları analiz etmektir. Tedarik zinciri, ham maddeden tüketiciye kadar gerçekleşen tüm süreçlerin yönetimi ile ilgilenir. Bu derste, öğrencilere tedarik zinciri süreçlerinden ve lojistiğin tedarik zinciri yönetimi içerisindeki öneminden bahsedilmektedir.
 
-<hr class="my-5">
 
 <h2 class="mb-4">📺 Eğitim Serisi: Lojistik ve Tedarik Zinciri Yönetimi</h2>
 <div class="ratio ratio-16x9 mb-5 shadow rounded overflow-hidden">
   <iframe src="https://www.youtube.com/embed/videoseries?list=PLNVCj-z_HS4Yfr6Xv1shz4uvXRr4Ymxaz" title="Lojistik Yönetimi || Tedarik Zinciri Yönetimi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-<hr class="my-5">
 
 ## 🎯 Öğrenme Hedefleri
 1. Lojistik ve tedarik zinciri yönetimindeki temel kavramları anlama

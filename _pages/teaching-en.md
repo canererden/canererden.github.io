@@ -4,7 +4,7 @@ permalink: /en/teaching/
 title: Teaching
 description: Data Mining, Artificial Intelligence, and Optimization courses taught at Sakarya University of Applied Sciences.
 nav_en: true
-display_categories: [Undergraduate, Graduate]
+display_categories: [Lisans, Lisansüstü]
 nav_order: 3
 ---
 
@@ -13,7 +13,10 @@ nav_order: 3
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized teaching -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  {%- assign display_cat = category %}
+  {%- if display_cat == 'Lisans' %}{% assign display_cat = 'Undergraduate' %}{% endif %}
+  {%- if display_cat == 'Lisansüstü' %}{% assign display_cat = 'Graduate' %}{% endif %}
+  <h2 class="category">{{ display_cat }}</h2>
   {%- assign categorized_teaching = site.teaching | where: "category", category -%}
   {%- assign sorted_teaching = categorized_teaching | sort: "importance" %}
   <!-- Generate cards for each teaching -->

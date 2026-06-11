@@ -1,11 +1,6 @@
 <!-- _includes/teaching.html -->
 <div class="col mb-4">
-  {% if project.redirect -%}
-  <a href="{{ project.redirect }}" style="text-decoration: none; color: inherit; display: block; height: 100%;">
-  {%- else -%}
-  <a href="{{ project.url | relative_url }}" style="text-decoration: none; color: inherit; display: block; height: 100%;">
-  {%- endif %}
-    <div class="card premium-teaching-card" style="border: none; border-radius: 1.25rem; overflow: hidden; background-color: var(--global-card-bg-color); transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); box-shadow: 0 4px 20px rgba(0,0,0,0.06); display: flex; flex-direction: column; height: 100%;">
+  <div class="card premium-teaching-card position-relative" style="border: none; border-radius: 1.25rem; overflow: hidden; background-color: var(--global-card-bg-color); transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); box-shadow: 0 4px 20px rgba(0,0,0,0.06); display: flex; flex-direction: column; height: 100%;">
       
       <!-- Image or Fallback Gradient -->
       <div style="position: relative; overflow: hidden; height: 180px; width: 100%; border-bottom: 1px solid var(--global-divider-color);">
@@ -45,9 +40,11 @@
 
       <!-- Card Body -->
       <div class="card-body d-flex flex-column" style="padding: 1.5rem;">
-        <h3 class="card-title" style="font-family: 'Inter', sans-serif; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.4; color: var(--global-text-color); margin-bottom: 0.75rem;">
-          {{ project.title }}
-        </h3>
+            <h3 class="card-title" style="font-family: 'Inter', sans-serif; font-size: 1.3rem; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 0.75rem; line-height: 1.3;">
+              <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="stretched-link" style="color: var(--global-text-color); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='var(--global-theme-color)'" onmouseout="this.style.color='var(--global-text-color)'">
+                {% if page.url contains '/en/' and project.title_en %}{{ project.title_en }}{% else %}{{ project.title }}{% endif %}
+              </a>
+            </h3>
         
         <p class="card-text text-muted" style="font-family: 'Lora', serif; font-size: 0.95rem; line-height: 1.6; flex-grow: 1; margin-bottom: 1.25rem;">
           {{ project.description | truncatewords: 20 }}
@@ -55,7 +52,7 @@
 
         <!-- Meta info (Venue, Date) -->
         <div style="border-top: 1px solid var(--global-divider-color); padding-top: 1rem; display: flex; align-items: center; justify-content: space-between;">
-          <div style="font-family: 'Inter', sans-serif; font-size: 0.8rem; color: #6b7280; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
+          <div style="font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--global-text-color); opacity: 0.7; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
             {%- if project.venue -%}
               <span><i class="fas fa-university"></i> {{ project.venue | truncate: 25 }}</span>
             {%- endif -%}
@@ -66,7 +63,6 @@
         </div>
       </div>
     </div>
-  </a>
 </div>
 
 <style>

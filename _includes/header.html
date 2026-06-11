@@ -116,24 +116,6 @@
               {%- endif -%}
               {% endfor -%}
 
-              {% assign target_en_url = page.url | prepend: '/en' %}
-              {% assign target_en_exists = false %}
-              {% for p in site.pages %}
-                {% if p.url == target_en_url %}
-                  {% assign target_en_exists = true %}
-                  {% break %}
-                {% endif %}
-              {% endfor %}
-
-              {% assign target_tr_url = page.url | remove_first: '/en' %}
-              {% assign target_tr_exists = false %}
-              {% for p in site.pages %}
-                {% if p.url == target_tr_url %}
-                  {% assign target_tr_exists = true %}
-                  {% break %}
-                {% endif %}
-              {% endfor %}
-
               <style>
                 .nav-toggles-container {
                   display: flex;
@@ -180,22 +162,53 @@
                 }
               </style>
 
+              {% assign target_en_url = page.url | prepend: '/en' %}
+              {% assign target_en_exists = false %}
+              {% for p in site.pages %}
+                {% if p.url == target_en_url %}
+                  {% assign target_en_exists = true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+
+              {% assign target_tr_url = page.url | remove_first: '/en' %}
+              {% if target_tr_url == '' %}{% assign target_tr_url = '/' %}{% endif %}
+              {% assign target_tr_exists = false %}
+              {% for p in site.pages %}
+                {% if p.url == target_tr_url %}
+                  {% assign target_tr_exists = true %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+
               <div class="nav-toggles-container">
                 <!-- Language Toggle -->
                 {%- if is_en -%}
                   {%- if target_tr_exists -%}
                     <a class="premium-toggle-btn lang-toggle" href="{{ target_tr_url | relative_url }}" title="Türkçe">TR</a>
                   {%- else -%}
-                    <a class="premium-toggle-btn lang-toggle" href="{{ page.url | relative_url }}" title="Türkçe">TR</a>
+                    {%- if page.url contains '/blog/' -%}
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/blog/' | relative_url }}" title="Türkçe">TR</a>
+                    {%- elsif page.url contains '/teaching/' -%}
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/teaching/' | relative_url }}" title="Türkçe">TR</a>
+                    {%- elsif page.url contains '/publications/' -%}
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/publications/' | relative_url }}" title="Türkçe">TR</a>
+                    {%- else -%}
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/' | relative_url }}" title="Türkçe">TR</a>
+                    {%- endif -%}
                   {%- endif -%}
                 {%- else -%}
-                  {%- if page.url contains '/blog/' -%}
-                    <a class="premium-toggle-btn lang-toggle" href="{{ page.url | relative_url }}" title="English">EN</a>
+                  {%- if target_en_exists -%}
+                    <a class="premium-toggle-btn lang-toggle" href="{{ target_en_url | relative_url }}" title="English">EN</a>
                   {%- else -%}
-                    {%- if target_en_exists -%}
-                      <a class="premium-toggle-btn lang-toggle" href="{{ target_en_url | relative_url }}" title="English">EN</a>
+                    {%- if page.url contains '/blog/' -%}
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/blog/' | relative_url }}" title="English">EN</a>
+                    {%- elsif page.url contains '/teaching/' -%}
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/teaching/' | relative_url }}" title="English">EN</a>
+                    {%- elsif page.url contains '/publications/' -%}
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/publications/' | relative_url }}" title="English">EN</a>
                     {%- else -%}
-                      <a class="premium-toggle-btn lang-toggle" href="{{ page.url | relative_url }}" title="English">EN</a>
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/' | relative_url }}" title="English">EN</a>
                     {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}

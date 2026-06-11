@@ -1,33 +1,21 @@
 ---
-layout: page
-title: Simulation
+layout: course
+ders_kodu: "UTL 306"
+ders_linki: "https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/31976/97662?Disaridan="
+title: Benzetim
+title_en: Simulation
 description: [UTL 306 - Kesikli olay simülasyonu ile yönetim sistemlerinin modellenmesi, analiz edilmesi ve yorumlanması]
 # img: assets/img/benzetim.jpg
-category: Undergraduate
+category: Lisans
 permalink: /teaching/benzetim
 venue: Sakarya Uygulamalı Bilimler Üniversitesi
 date: 2023-01-01
 location: Sakarya, Turkey
 ---
 
-<div class="row mb-5">
-  <div class="col-12 col-md-4 text-center">
-    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
-      <div class="card-body">
-        <h5 class="card-title font-weight-bold text-primary">Ders Kodu</h5>
-        <p class="card-text mb-0"><a href="https://ebs.sabis.subu.edu.tr/DersDetay/DersinDetayliBilgileri/31976/97662?Disaridan=" target="_blank" class="badge bg-primary text-white text-decoration-none px-3 py-2">UTL 306</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-8">
-    <h2 class="mb-3">Dersin Amacı</h2>
-    <p>
-      Bu derste kesikli olay simülasyonlarına bir giriş yapılacaktır. Ayrıca, istatistik ve olasılığın benzetimde kullanımlarından bahsedildikten sonra gerçek problemler için benzetimin kullanımı gösterilecektir. Kısaca, bu dersin amacı öğrencilere farklı yönetim sistemlerini analiz etme, davranışını inceleyebilmek amacıyla, Benzetim tekniği kullanarak, model kurma, deney yapma ve yorumlama yeteneği kazandırmaktır.
-    </p>
-  </div>
-</div>
+## Dersin Amacı
+Bu derste kesikli olay simülasyonlarına bir giriş yapılacaktır. Ayrıca, istatistik ve olasılığın benzetimde kullanımlarından bahsedildikten sonra gerçek problemler için benzetimin kullanımı gösterilecektir. Kısaca, bu dersin amacı öğrencilere farklı yönetim sistemlerini analiz etme, davranışını inceleyebilmek amacıyla, Benzetim tekniği kullanarak, model kurma, deney yapma ve yorumlama yeteneği kazandırmaktır.
 
-<hr class="my-5">
 
 ## 📚 Ders Kitapları ve Kaynaklar
 
@@ -40,8 +28,6 @@ location: Sakarya, Turkey
 * Law, Averil, *Simulation Modeling and Analysis*, Dubuque, 2014.
 * Pidd, Michael, *Tools for thinking: modelling in management science*, Wiley, 2009.
 * Altiok, Tayfur ve Benjamin Melamed, *Simulation Modeling and Analysis with ARENA*, Elsevier Science, 2010.
-
-<hr class="my-5">
 
 ## 💻 Yazılım ve Program
 
