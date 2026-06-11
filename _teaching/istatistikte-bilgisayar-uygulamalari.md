@@ -60,7 +60,7 @@ google_class_code: sbljs4i
 
 <div class="table-responsive">
   <table class="table table-hover border">
-    <thead class="thead-light">
+    <thead>
       <tr>
         <th>Hafta</th>
         <th>Konu</th>

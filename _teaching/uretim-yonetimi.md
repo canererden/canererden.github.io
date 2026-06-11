@@ -38,28 +38,32 @@ semester: "5. Yarıyıl"
 <div class="row g-4 mb-5">
   <!-- Ders Çıktıları -->
   <div class="col-12 col-lg-6">
-    <div class="h-100 p-4 border rounded shadow-sm bg-light">
-      <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-bullseye text-primary mr-2"></i> Ders Çıktıları</h4>
-      <ul class="mb-0 text-muted">
-        <li>Üretim yönetimi ile ilgili temel kavramları öğrenmek</li>
-        <li>Üretim tiplerini analiz edebilmek</li>
-        <li>Tesis yeri seçimi ve iç yerleşim tasarımı yapabilmek</li>
-        <li>İş analiz yöntemlerini, zaman etüdü ve iş ölçümünü uygulayabilmek</li>
-        <li>Üretimin diğer işletme fonksiyonlarıyla ilişkisini kavrayabilmek</li>
-      </ul>
+    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+      <div class="card-body">
+        <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-bullseye text-primary mr-2"></i> Ders Çıktıları</h4>
+        <ul class="mb-0 text-muted">
+          <li>Üretim yönetimi ile ilgili temel kavramları öğrenmek</li>
+          <li>Üretim tiplerini analiz edebilmek</li>
+          <li>Tesis yeri seçimi ve iç yerleşim tasarımı yapabilmek</li>
+          <li>İş analiz yöntemlerini, zaman etüdü ve iş ölçümünü uygulayabilmek</li>
+          <li>Üretimin diğer işletme fonksiyonlarıyla ilişkisini kavrayabilmek</li>
+        </ul>
+      </div>
     </div>
   </div>
   
   <!-- Değerlendirme Sistemi -->
   <div class="col-12 col-lg-6">
-    <div class="h-100 p-4 border rounded shadow-sm bg-light">
-      <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-chart-pie text-primary mr-2"></i> Değerlendirme Sistemi</h4>
-      <ul class="mb-0 text-muted">
-        <li><strong>%5</strong> Kısa Sınav</li>
-        <li><strong>%15</strong> Ödevler (2 Adet)</li>
-        <li><strong>%30</strong> Ara Sınav</li>
-        <li><strong>%50</strong> Final Sınavı</li>
-      </ul>
+    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+      <div class="card-body">
+        <h4 class="h5 mb-3 text-secondary"><i class="fa-solid fa-chart-pie text-primary mr-2"></i> Değerlendirme Sistemi</h4>
+        <ul class="mb-0 text-muted">
+          <li><strong>%5</strong> Kısa Sınav</li>
+          <li><strong>%15</strong> Ödevler (2 Adet)</li>
+          <li><strong>%30</strong> Ara Sınav</li>
+          <li><strong>%50</strong> Final Sınavı</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
@@ -78,7 +82,7 @@ semester: "5. Yarıyıl"
 
 <div class="table-responsive">
   <table class="table table-hover border">
-    <thead class="thead-light">
+    <thead>
       <tr>
         <th>Hafta</th>
         <th>Konu</th>

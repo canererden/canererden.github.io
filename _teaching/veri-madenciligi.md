@@ -31,9 +31,20 @@ location: Sakarya, Turkey
 
 <hr class="my-5">
 
-<h2 class="mb-4">📺 Veri Madenciliği Eğitim Serisi</h2>
-<div class="ratio ratio-16x9 mb-5 shadow rounded overflow-hidden">
-  <iframe src="https://www.youtube.com/embed/videoseries?list=PLNVCj-z_HS4YpUuNJ-XbPrfeThCF-ROeb" title="Veri Madenciliği Dersleri" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 class="mb-4">📺 Veri Madenciliği ve Veri Bilimi Eğitim Serisi</h2>
+<div class="row g-4 mb-5">
+  <div class="col-12 col-lg-6">
+    <h4 class="h5 mb-3 text-secondary">Veri Madenciliği</h4>
+    <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLNVCj-z_HS4YpUuNJ-XbPrfeThCF-ROeb" title="Veri Madenciliği Dersleri" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-12 col-lg-6">
+    <h4 class="h5 mb-3 text-secondary">Veri Bilimi</h4>
+    <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLNVCj-z_HS4a2ehsxJ3dsYFOzbiIZbMFS" title="Veri Bilimi Dersleri" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 <hr class="my-5">
@@ -42,23 +53,27 @@ location: Sakarya, Turkey
 <div class="row g-4 mb-5">
   <!-- Kitap 1 -->
   <div class="col-12 col-lg-6">
-    <div class="d-flex p-4 border rounded shadow-sm align-items-center bg-light h-100">
-      <div>
-        <h4 class="mb-2"><i class="fa-solid fa-book-open text-primary mr-2"></i> Veri Analizi ve Python</h4>
-        <p class="text-muted small mb-3">Temel veri işleme tekniklerinden makine öğrenmesi uygulamalarına kadar geniş yelpaze.</p>
-        <a href="https://canererden.com/veri-analizi-python/intro.html" class="btn btn-primary btn-sm rounded-pill px-4">Kitabı İncele</a>
+    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+      <div class="card-body d-flex align-items-center">
+        <div>
+          <h4 class="mb-2"><i class="fa-solid fa-book-open text-primary mr-2"></i> Veri Analizi ve Python</h4>
+          <p class="text-muted small mb-3">Temel veri işleme tekniklerinden makine öğrenmesi uygulamalarına kadar geniş yelpaze.</p>
+          <a href="https://canererden.com/veri-analizi-python/intro.html" class="btn btn-primary btn-sm rounded-pill px-4">Kitabı İncele</a>
+        </div>
       </div>
     </div>
   </div>
   
   <!-- Kitap 2 -->
   <div class="col-12 col-lg-6">
-    <div class="d-flex p-4 border rounded shadow-sm align-items-center bg-light h-100">
-      <img src="https://www.kodlab.com/2299-thickbox_default/python-ile-veri-madenciligi.jpg" alt="Kitap" width="80" class="rounded shadow-sm mr-4" style="object-fit: cover;">
-      <div>
-        <h4 class="mb-2">Python ile Veri Madenciliği</h4>
-        <p class="text-muted small mb-3">Python programlama diliyle uygulamalı çözümler sunan kapsamlı bir kaynak.</p>
-        <a href="https://www.kodlab.com/ana-sayfa/598-python-ile-veri-madenciligi-9786257440172.html" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-4">Kodlab'da İncele</a>
+    <div class="card h-100 shadow-sm border-0 premium-teaching-card">
+      <div class="card-body d-flex align-items-center">
+        <img src="https://www.kodlab.com/2299-thickbox_default/python-ile-veri-madenciligi.jpg" alt="Kitap" width="80" class="rounded shadow-sm mr-4" style="object-fit: cover;">
+        <div>
+          <h4 class="mb-2">Python ile Veri Madenciliği</h4>
+          <p class="text-muted small mb-3">Python programlama diliyle uygulamalı çözümler sunan kapsamlı bir kaynak.</p>
+          <a href="https://www.kodlab.com/ana-sayfa/598-python-ile-veri-madenciligi-9786257440172.html" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-4">Kodlab'da İncele</a>
+        </div>
       </div>
     </div>
   </div>
