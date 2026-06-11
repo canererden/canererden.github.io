@@ -82,13 +82,13 @@
     transform: translateX(4px);
   }
   /* Optional: make sure Masonry items span appropriately */
-  .grid-item {
-    width: 100%;
+  .grid-sizer, .grid-item {
+    width: 100% !important;
     padding-bottom: 1.5rem;
   }
   @media (min-width: 768px) {
-    .grid-item {
-      width: 50%;
+    .grid-sizer, .grid-item {
+      width: 50% !important;
       padding: 0 0.75rem 1.5rem;
     }
   }
