@@ -2,7 +2,7 @@
 layout: page
 permalink: /python-veri-madenciligi/
 title: Python ile Veri Madenciliği
-description: "Python ile Veri Madenciliği: Kavramlar, Uygulamalar ve Örnekler kitabı hakkında detaylı bilgi."
+description: Python ile Veri Madenciliği: Kavramlar, Uygulamalar ve Örnekler kitabı hakkında detaylı bilgi.
 nav: false
 citation_title: Python ile Veri Madenciliği
 citation_author: Caner Erden
