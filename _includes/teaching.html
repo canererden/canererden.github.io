@@ -1,6 +1,5 @@
 <!-- _includes/teaching.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item" style="padding-bottom: 1.5rem;">
+<div class="col mb-4">
   {% if project.redirect -%}
   <a href="{{ project.redirect }}" style="text-decoration: none; color: inherit; display: block; height: 100%;">
   {%- else -%}
@@ -80,17 +79,5 @@
   }
   .premium-teaching-card:hover .fa-arrow-right {
     transform: translateX(4px);
-  }
-  /* Optional: make sure Masonry items span appropriately */
-  .grid-sizer, .grid-item {
-    width: 100% !important;
-    padding-bottom: 1.5rem;
-  }
-  @media (min-width: 768px) {
-    .grid-sizer, .grid-item {
-      width: calc(50% - 5px) !important;
-      padding: 0;
-      margin-bottom: 1.5rem;
-    }
   }
 </style>
