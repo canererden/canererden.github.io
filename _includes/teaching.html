@@ -62,7 +62,7 @@
             {%- endif -%}
           </div>
           <div style="font-family: 'Inter', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--global-theme-color); display: flex; align-items: center; white-space: nowrap;">
-            İncele <i class="fas fa-arrow-right ml-2" style="font-size: 0.75rem; transition: transform 0.3s ease;" class="hover-arrow"></i>
+            {% if page.url contains '/en/' %}View Details{% else %}İncele{% endif %} <i class="fas fa-arrow-right ml-2" style="font-size: 0.75rem; transition: transform 0.3s ease;" class="hover-arrow"></i>
           </div>
         </div>
       </div>

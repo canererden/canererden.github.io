@@ -6,7 +6,6 @@ description: Data Mining, Artificial Intelligence, and Optimization courses taug
 nav_en: true
 display_categories: [Undergraduate, Graduate]
 nav_order: 3
-horizontal: true
 ---
 
 <!-- pages/teaching-en.md -->
