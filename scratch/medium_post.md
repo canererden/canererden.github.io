@@ -1,16 +1,15 @@
----
-layout: post
-title: Zaman Serisi Tahminleri ve ARIMA Modelleri
-date: 2020-05-06
-giscus_comments: true
-permalink: /2020/05/06/zaman-serisi-tahminleri-ve-arima-modelleri
-redirect_from: /zaman-serisi-tahminleri-ve-arima-modelleri/
-tags:
-  - zaman serisi
-  - arima
-  - tahmin
-description: "Bu yazıda zaman serisi analizlerinde kullanılan tahmin çalışmalarından ve ARIMA modellerinden bahsedilecektir. Minitab üzerinde bir zaman serisi analizi uygulaması gerçekleştirilecektir."
----
+Title: Zaman Serisi Tahminleri ve ARIMA Modelleri
+
+URL Source: https://cerden.medium.com/zaman-serisi-tahminleri-ve-arima-modelleri-d7398d63f346
+
+Published Time: 2023-02-15T09:06:01Z
+
+Markdown Content:
+[![Image 1: Caner Erden](https://miro.medium.com/v2/resize:fill:32:32/1*MubH1N9K7NIi_FijP1nMzw.jpeg)](https://cerden.medium.com/?source=post_page---byline--d7398d63f346---------------------------------------)
+
+7 min read
+
+Feb 15, 2023
 
 Bu yazıda zaman serisi analizlerinde kullanılan tahmin çalışmalarından ve ARIMA modellerinden bahsedilecektir. Minitab üzerinde bir zaman serisi analizi uygulaması gerçekleştirilecektir.
 
@@ -36,6 +35,7 @@ Durağanlık zaman serisi analizlerinde önemli bir yer tutar. Çünkü durağan
 
 Uygulama için kullanılacak olan veri setini [şu adresten](https://drive.google.com/a/sakarya.edu.tr/file/d/1GkuXTBnNoS3SMZkTLHxRC9Ebxq4VmR-Q/view?usp=sharing) indirebirip Minitab ile açabilirsiniz. Stat>>Time Series>>Plot ile grafiğini çizelim.
 
+Press enter or click to view image in full size
 
 ![Image 3](https://miro.medium.com/v2/resize:fit:700/0*dZ-zABUF_fE5e9OL.png)
 
@@ -51,6 +51,7 @@ Aylık sayıların olduğu tabloda yeni bir sütunda aylık toplam yolcu sayıla
 
 Zaman serisi grafiğinden senelik grafik çizilebilir.
 
+Press enter or click to view image in full size
 
 ![Image 5](https://miro.medium.com/v2/resize:fit:700/0*ITdbql989azYTX0n)
 
@@ -72,6 +73,7 @@ Burada trend ve mevsimsellik etkisi birbiriyle çarpılır. Bu model eğer mevsi
 
 Minitab’de mevsimsellik ve trend etkisinin bulunması için Time Series >> Decomposition menüsü kullanılır.
 
+Press enter or click to view image in full size
 
 ![Image 8](https://miro.medium.com/v2/resize:fit:700/0*sTFTT9TbfzBbasM1)
 
@@ -87,6 +89,7 @@ Aylık bir veri ile çalışıyorsak 12li hareketli ortalama almak isteyebiliriz
 
 formülü ile 7. aya ait hareketli ortalamayı bulabiliriz. Minitab’de Stat>>Time Series >> Moving Average
 
+Press enter or click to view image in full size
 
 ![Image 11](https://miro.medium.com/v2/resize:fit:700/0*q1535AMxGQcJVeHH.png)
 
@@ -106,8 +109,11 @@ Excel’e yolcu sayılarını yapıştırdıktan sonra 7. Aya gelerek aşağıda
 
 Önceki verilere daha az yeni verilere daha fazla ağırlık vererek şimdiki değeri hesaplama yöntemi.
 
+## Get Caner Erden’s stories in your inbox
 
+Join Medium for free to get updates from this writer.
 
+Remember me for faster sign in
 
 Aşağıdaki formüldeki gibi düzleştirme yapar. Burada α_t o zamanki üssel hareketli ortalamanın değeridir. α_t değeri düzleşmenin miktarını belirler. Eğer α 1’e eşit olursa x üzerinde hiç düzleştirme olmaz. Eğer 0 olursa bu kez X değerini çok az kullanmış oluruz. α değerini Minitab’e bırakmak en doğrusu olabilir.
 
@@ -117,6 +123,7 @@ Aşağıdaki formüldeki gibi düzleştirme yapar. Burada α_t o zamanki üssel 
 
 Başka bir üssel düzleştirme yöntemidir. Buradaki fark mevsimsellik etkisi de göz önüne alınarak bir düzleştirme işlemi yapmasıdır.
 
+Press enter or click to view image in full size
 
 ![Image 15](https://miro.medium.com/v2/resize:fit:700/0*buUhymyFWX8ajc-C)
 
@@ -148,6 +155,7 @@ Otokorelasyon aynı değişkenin kendi değerleri arasındaki korelasyon için k
 
 Şimdi yolcu sayıları serisindeki ACF ve PACF grafiklerine bakalım.
 
+Press enter or click to view image in full size
 
 ![Image 20](https://miro.medium.com/v2/resize:fit:700/0*jd52gMO7D3rMwBje.png)
 
@@ -157,6 +165,7 @@ Azalma yavaş yavaş gerçekleşmiş. Serinin durağanlaştırılması gerekir. 
 
 Minitab’de 1 derece fark aldıktan sonra grafikler tekrar incelenir. Şimdi serinin durağan hale geldiğini söyleyebiliriz. Korelogram okumasından hatırlanacağı gibi ACF ve PACF grafiklerinden çıkan sonuç seride yüksek otokorelasyon olduğu yönündedir.
 
+Press enter or click to view image in full size
 
 ![Image 21](https://miro.medium.com/v2/resize:fit:700/0*JfFkV4871pLgHtNW)
 

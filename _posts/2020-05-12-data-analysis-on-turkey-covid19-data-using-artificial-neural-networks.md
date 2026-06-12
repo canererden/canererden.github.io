@@ -4,6 +4,7 @@ title: "Data Analysis on Turkey COVID19 Data using Artificial Neural Networks"
 date: 2020-05-12
 giscus_comments: true
 permalink: /2020/05/12/data-analysis-on-turkey-covid19-data-using-artificial-neural-networks
+redirect_from: /makine-ogrenmesi-ile-covid19-turkiye-verileri-analizi/
 tags:
   - blog
 description: "--..."

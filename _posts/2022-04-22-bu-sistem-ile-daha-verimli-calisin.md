@@ -4,6 +4,7 @@ title: Bu Sistem ile Daha Verimli Çalışın
 date: 2022-04-22
 giscus_comments: true
 permalink: 
+redirect_from: /bu-sistem-ile-daha-verimli-calisin/
 tags:
   - blog
   - verimlilik

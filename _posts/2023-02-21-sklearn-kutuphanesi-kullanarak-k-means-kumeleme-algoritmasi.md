@@ -4,6 +4,7 @@ title: "Sklearn Kütüphanesi Kullanarak K-Means Kümeleme Algoritması"
 date: 2023-02-21
 giscus_comments: true
 permalink: /2023/02/21/sklearn-kutuphanesi-kullanarak-k-means-kumeleme-algoritmasi
+redirect_from: /sklearn-kutuphanesi-kullanarak-k-means-kumeleme-algoritmasi/
 tags:
   - blog
 description: "Makine öğrenmesindeki öğrenmeler gözetimli, gözetimsiz ve takviyeli öğrenme olarak ayrılabilir. Gözetimli öğrenmede sınıflandırma ve regresyon çalışma..."

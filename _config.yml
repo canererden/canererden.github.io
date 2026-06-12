@@ -227,6 +227,7 @@ plugins:
   - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll-redirect-from
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-link-attributes
