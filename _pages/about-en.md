@@ -26,7 +26,7 @@ I am an Associate Professor in the <a href="https://bm.subu.edu.tr/en">Departmen
 
 I earned my Ph.D. in Industrial Engineering from Sakarya University under the supervision of [Dr. H. İbrahim Demir](https://hidemir.sakarya.edu.tr/en), focusing on the integration of process planning, dynamic scheduling, and due-date assignment in job shop environments. During the 2024–2025 academic year, I conducted postdoctoral research at the [College of Computing](http://www.coc.gatech.edu/) of the Georgia Institute of Technology, supervised by [Prof. Ling Liu](https://www.cc.gatech.edu/people/ling-liu). This TÜBİTAK-funded project deepened my expertise in data science and intelligent computational systems.
 
-<h4 class="mt-4 mb-3" style="font-family: 'Inter', sans-serif; font-weight: 700; color: var(--global-theme-color);">Core Research Areas</h4>
+<h4 class="mt-4 mb-3" style="font-family: 'Inter', sans-serif; font-weight: 700; color: var(--global-theme-color);">Key Research Areas</h4>
 <div class="d-flex flex-wrap mb-4" style="gap: 0.5rem;">
   <span class="badge" style="background-color: var(--global-theme-color); font-size: 0.95rem; padding: 0.6rem 1rem; border-radius: 2rem; font-family: 'Inter', sans-serif; font-weight: 600;"><i class="fas fa-brain mr-2"></i> Artificial Intelligence & Machine Learning</span>
   <span class="badge" style="background-color: var(--global-theme-color); font-size: 0.95rem; padding: 0.6rem 1rem; border-radius: 2rem; font-family: 'Inter', sans-serif; font-weight: 600;"><i class="fas fa-database mr-2"></i> Data Science & Data Mining</span>

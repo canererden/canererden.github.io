@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /repositories/
+permalink: /en/repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: A collection of my open-source code, research projects, and other repositories on GitHub.
 nav: false
 nav_en: false
 nav_order: 3

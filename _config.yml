@@ -229,6 +229,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-redirect-from
   - jekyll/scholar
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-link-attributes
   - jekyll-twitter-plugin

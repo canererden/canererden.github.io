@@ -1,0 +1,20 @@
+name: Check Links
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.9.3
+        with:
+          args: "--accept 200,204,429 --exclude-mail '**/*.md' '**/*.html' '_bibliography/**/*.bib'"

@@ -1,0 +1,42 @@
+name: Check Bibliography
+
+on:
+  push:
+    paths:
+      - '_bibliography/**/*.bib'
+  pull_request:
+    paths:
+      - '_bibliography/**/*.bib'
+
+jobs:
+  bib-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install bibtexparser
+        run: pip install bibtexparser
+        
+      - name: Verify Bibliography Format
+        run: |
+          python -c "
+          import bibtexparser, sys, glob
+          success = True
+          for f in glob.glob('_bibliography/**/*.bib', recursive=True):
+              try:
+                  with open(f, encoding='utf-8') as bibtex_file:
+                      bib_database = bibtexparser.load(bibtex_file)
+                      if not bib_database.entries:
+                          print(f'Warning: No entries found in {f}')
+              except Exception as e:
+                  print(f'Error parsing {f}: {e}')
+                  success = False
+          if not success:
+              sys.exit(1)
+          print('All bibliography files parsed successfully.')
+          "
