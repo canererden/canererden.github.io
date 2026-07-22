@@ -1,13 +1,17 @@
+{%- assign redirect_target = page.redirect.to | default: page.redirect -%}
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 
 <head>
-    <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
-    <link rel="canonical" href="{{ page.redirect }}" />
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url={{ redirect_target | escape }}" />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="{{ redirect_target | escape }}" />
+    <title>Yönlendiriliyor…</title>
 </head>
 
 <body>
-    <p>If you are not redirected automatically, follow this <a href="{{ page.redirect }}">link</a>.</p>
+    <p>Otomatik olarak yönlendirilmezseniz <a href="{{ redirect_target | escape }}">bu bağlantıyı kullanın</a>.</p>
 </body>
 
 </html>
