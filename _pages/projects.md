@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: projects
 permalink: /projects/
 description: Dr. Caner Erden'in veri bilimi, optimizasyon ve yapay zeka alanlarındaki devam eden ve tamamlanmış projeleri.
@@ -14,9 +15,10 @@ horizontal: false
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  {%- if sorted_projects.size > 0 -%}
+  <h2 class="category">{{ category }}</h2>
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
@@ -32,6 +34,7 @@ horizontal: false
       {% include projects.html %}
     {%- endfor %}
   </div>
+  {%- endif -%}
   {%- endif -%}
   {% endfor %}
 

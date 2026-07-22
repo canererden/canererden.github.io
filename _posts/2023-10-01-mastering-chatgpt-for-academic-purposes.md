@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Mastering ChatGPT for Academic Purposes"
 date: 2023-10-01
 giscus_comments: true

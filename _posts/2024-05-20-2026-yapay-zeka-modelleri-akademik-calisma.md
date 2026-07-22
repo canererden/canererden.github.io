@@ -1,16 +1,15 @@
 ---
 layout: post
-title: "2026'da Ücretsiz ve Düşük Maliyetli Yapay Zekâ Modelleri ile Akademik Çalışma Ortamı Kurmak: Gemini, Groq, Groq, Mistral ve NVIDIA Deneyimlerim"
+title: "VS Code + Continue ile Ücretsiz AI Modelleri Kullanma Rehberi (Gemini, Groq, Mistral, NVIDIA ve Daha Fazlası)"
 date: 2024-05-20
 categories: yapay zeka veri bilimi
 tags: yapay zeka veri bilimi akademik çalışma
 ---
 
-# 2026'da Ücretsiz ve Düşük Maliyetli Yapay Zekâ Modelleri ile Akademik Çalışma Ortamı Kurmak: Gemini, Groq, Groq, Mistral ve NVIDIA Deneyimlerim
-
+# VS Code + Continue ile Ücretsiz AI Modelleri Kullanma Rehberi (Gemini, Groq, Mistral, NVIDIA ve Daha Fazlası)
 ## Giriş
 
-Akademik araştırmacılar için yapay zeka araçlarının kullanımı giderek daha önemli hale geliyor. Bu yazıda, 2026 yılına doğru ücretsiz ve düşük maliyetli yapay zeka modelleri ile akademik çalışma ortamı kurma deneyimlerimi paylaşacağım. Özellikle Gemini, Groq, Groq, Mistral ve NVIDIA gibi modelleri inceleyeceğim.
+Akademik araştırmacılar için yapay zeka araçlarının kullanımı giderek daha önemli hale geliyor. Bu yazıda, VS Code ve Continue ile ücretsiz yapay zeka modelleri kullanma deneyimlerimi paylaşacağım. Özellikle Gemini, Groq, Mistral ve NVIDIA gibi modelleri inceleyeceğim.
 
 ### Neden tek bir modele bağlı kalmıyorum?
 
@@ -48,7 +47,7 @@ NVIDIA modeli, akademik araştırmalar için güçlü bir seçenektir. Bu modeli
 
 ## Sonuç
 
-2026 yılına doğru ücretsiz ve düşük maliyetli yapay zeka modelleri ile akademik çalışma ortamı kurmak, akademik araştırmacılar için önemli bir fırsat sunmaktadır. Bu yazıda paylaştığım deneyimler, akademik araştırmacılar için yapay zeka modellerinin seçimi ve kullanımı hakkında faydalı bilgiler içermiştir.
+VS Code ve Continue ile ücretsiz yapay zeka modelleri kullanmak, akademik araştırmacılar için önemli bir fırsat sunmaktadır. Bu yazıda paylaştığım deneyimler, akademik araştırmacılar için yapay zeka modellerinin seçimi ve kullanımı hakkında faydalı bilgiler içermiştir.
 
 ## Kaynakça
 
@@ -56,5 +55,3 @@ NVIDIA modeli, akademik araştırmalar için güçlü bir seçenektir. Bu modeli
 - [Groq Modeli](https://groq.com)
 - [Mistral Modeli](https://mistral.ai)
 - [NVIDIA Modeli](https://www.nvidia.com)
-
----

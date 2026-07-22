@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Data Analysis on Turkey COVID19 Data using Artificial Neural Networks"
 date: 2020-05-12
 giscus_comments: true

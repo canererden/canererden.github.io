@@ -202,7 +202,7 @@
                     <a class="premium-toggle-btn lang-toggle" href="{{ target_en_url | relative_url }}" title="English">EN</a>
                   {%- else -%}
                     {%- if page.url contains '/blog/' -%}
-                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/blog/' | relative_url }}" title="English">EN</a>
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/' | relative_url }}" title="English home">EN</a>
                     {%- elsif page.url contains '/teaching/' -%}
                       <a class="premium-toggle-btn lang-toggle" href="{{ '/en/teaching/' | relative_url }}" title="English">EN</a>
                     {%- elsif page.url contains '/publications/' -%}

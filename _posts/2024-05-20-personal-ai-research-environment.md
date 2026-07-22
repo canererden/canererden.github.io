@@ -1,4 +1,5 @@
 ---
+lang: en
 title: "Building My Personal AI Research Lab"
 date: 2024-05-20
 categories:
