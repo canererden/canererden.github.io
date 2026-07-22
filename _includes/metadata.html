@@ -248,29 +248,30 @@
     {% endif %}
     <!-- Book Metadata for Google Scholar, Zotero, etc. -->
     {% if page.citation_title %}
+    {% assign book_authors = page.citation_authors %}
+    {% unless book_authors %}
+      {% assign book_authors = page.citation_author | split: ", " %}
+    {% endunless %}
     <!-- Google Scholar Highwire Press Tags -->
-    <meta name="citation_title" content="{{ page.citation_title }}">
-    <meta name="citation_book_title" content="{{ page.citation_title }}">
-    {% if page.citation_author %}
-    {% assign authors = page.citation_author | split: ", " %}
-    {% for author in authors %}
+    <meta name="citation_title" content="{{ page.citation_title | escape }}">
+    {% for author in book_authors %}
     <meta name="citation_author" content="{{ author }}">
     {% endfor %}
-    {% endif %}
     {% if page.citation_publication_date %}<meta name="citation_publication_date" content="{{ page.citation_publication_date }}">{% endif %}
     {% if page.citation_isbn %}<meta name="citation_isbn" content="{{ page.citation_isbn }}">{% endif %}
     {% if page.citation_publisher %}<meta name="citation_publisher" content="{{ page.citation_publisher }}">{% endif %}
+    {% if page.citation_language %}<meta name="citation_language" content="{{ page.citation_language }}">{% endif %}
 
     <!-- Dublin Core Tags -->
-    <meta name="DC.title" content="{{ page.citation_title }}">
-    {% if page.citation_author %}
-    {% for author in authors %}
+    <meta name="DC.title" content="{{ page.citation_title | escape }}">
+    {% for author in book_authors %}
     <meta name="DC.creator" content="{{ author }}">
     {% endfor %}
-    {% endif %}
     {% if page.citation_publication_date %}<meta name="DC.date" content="{{ page.citation_publication_date }}">{% endif %}
     {% if page.citation_isbn %}<meta name="DC.identifier" content="urn:isbn:{{ page.citation_isbn }}">{% endif %}
     {% if page.citation_publisher %}<meta name="DC.publisher" content="{{ page.citation_publisher }}">{% endif %}
+    {% if page.citation_language %}<meta name="DC.language" content="{{ page.citation_language }}">{% endif %}
+    {% if page.book_abstract %}<meta name="DC.description" content="{{ page.book_abstract | strip_html | normalize_whitespace | escape }}">{% endif %}
     <meta name="DC.type" content="Book">
 
     <!-- Schema.org Book -->
@@ -278,26 +279,37 @@
     {
       "@context": "https://schema.org",
       "@type": "Book",
-      "name": "{{ page.citation_title }}",
-      {% if page.citation_author %}
+      "name": {{ page.citation_title | jsonify }},
       "author": [
-        {% for author in authors %}
+        {% for author in book_authors %}
         {
           "@type": "Person",
-          "name": "{{ author }}"
+          "name": {{ author | jsonify }}
         }{% unless forloop.last %},{% endunless %}
         {% endfor %}
       ],
-      {% endif %}
-      {% if page.citation_isbn %}"isbn": "{{ page.citation_isbn }}",{% endif %}
+      "url": {{ page.url | absolute_url | jsonify }},
+      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
+      {% if page.citation_isbn %},"isbn": {{ page.citation_isbn | jsonify }}{% endif %}
       {% if page.citation_publisher %}
-      "publisher": {
+      ,"publisher": {
         "@type": "Organization",
-        "name": "{{ page.citation_publisher }}"
-      },
+        "name": {{ page.citation_publisher | jsonify }}
+      }
       {% endif %}
-      {% if page.citation_publication_date %}"datePublished": "{{ page.citation_publication_date }}",{% endif %}
-      "url": "{{ page.url | absolute_url }}"
+      {% if page.citation_publication_date %},"datePublished": {{ page.citation_publication_date | jsonify }}{% endif %}
+      {% if page.citation_language %},"inLanguage": {{ page.citation_language | jsonify }}{% endif %}
+      {% if page.book_abstract %},"abstract": {{ page.book_abstract | strip_html | normalize_whitespace | jsonify }}{% endif %}
+      {% if page.book_image %},"image": {{ page.book_image | absolute_url | jsonify }}{% endif %}
+      {% if page.book_pages %},"numberOfPages": {{ page.book_pages }}{% endif %}
+      {% if page.book_edition %},"bookEdition": {{ page.book_edition | jsonify }}{% endif %}
+      {% if page.book_google_url %},"sameAs": [{{ page.book_url | jsonify }}, {{ page.book_google_url | jsonify }}]
+      {% elsif page.book_url %},"sameAs": {{ page.book_url | jsonify }}{% endif %}
+      {% if page.book_doi %},"identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": {{ page.book_doi | jsonify }}
+      }{% endif %}
     }
     </script>
     {% endif %}

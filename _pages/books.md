@@ -4,6 +4,8 @@ title: Kitaplar
 permalink: /books/
 nav: true
 nav_order: 3
+description: Caner Erden'in yapay zeka, veri madenciliği, veri analizi ve üretim sistemleri alanlarındaki akademik kitapları ve editörlü eserleri.
+last_modified_at: 2026-07-23
 ---
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -13,7 +15,7 @@ nav_order: 3
             <img src="{{ '/assets/img/python-veri-madenciligi.jpg' | relative_url }}" class="card-img-top" alt="Python ile Veri Madenciliği" style="object-fit: contain; background: #f8f9fa; height: 350px; padding: 10px;">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Python ile Veri Madenciliği</h5>
-                <p class="card-text text-muted mb-4">Kodlab Yayın Dağıtım, 2024</p>
+                <p class="card-text text-muted mb-4">Kodlab Yayın Dağıtım, 2021</p>
                 <a href="{{ '/python-veri-madenciligi/' | relative_url }}" class="btn btn-outline-primary mt-auto">Detaylar</a>
             </div>
         </div>

@@ -4,6 +4,8 @@ title: Books
 permalink: /en/books/
 nav_en: true
 nav_order: 3
+description: Academic books and edited volumes by Caner Erden in artificial intelligence, data mining, data analysis, and manufacturing systems.
+last_modified_at: 2026-07-23
 ---
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -13,7 +15,7 @@ nav_order: 3
             <img src="{{ '/assets/img/python-veri-madenciligi.jpg' | relative_url }}" class="card-img-top" alt="Python ile Veri Madenciliği" style="object-fit: contain; background: #f8f9fa; height: 350px; padding: 10px;">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Data Mining with Python</h5>
-                <p class="card-text text-muted mb-4">Kodlab Yayın Dağıtım, 2024</p>
+                <p class="card-text text-muted mb-4">Kodlab Yayın Dağıtım, 2021</p>
                 <a href="{{ '/python-veri-madenciligi/' | relative_url }}" class="btn btn-outline-primary mt-auto">Details</a>
             </div>
         </div>

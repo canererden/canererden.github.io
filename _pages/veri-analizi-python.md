@@ -5,8 +5,15 @@ title: Veri Analizi için Python Kütüphaneleri
 description: Python ile Veri Analizi kitabı ve veri bilimcilere yönelik eğitim içerikleri.
 nav: false
 citation_title: Veri Analizi için Python Kütüphaneleri
-citation_author: Caner Erden
+citation_authors:
+  - Caner Erden
 citation_publication_date: 2023
+citation_publisher: Caner Erden
+citation_language: tr
+book_abstract: >-
+  Python ile veri analizi yapmak isteyenler için hazırlanan bu açık web kitabı; NumPy, Pandas, Matplotlib ve Scikit-Learn kullanarak sayısal veri işleme, veri dönüştürme, görselleştirme ve makine öğrenmesinin temellerini uygulamalarla açıklar.
+book_url: https://canererden.com/veri-analizi-python/intro.html
+last_modified_at: 2026-07-23
 ---
 
 <div class="row">
@@ -23,7 +30,7 @@ citation_publication_date: 2023
 
 <div class="row mt-4">
     <div class="col-12">
-        <h4>Book Description</h4>
+        <h2 class="citation_abstract">Özet</h2>
         <p>Bu kitap, Python programlama dili kullanarak veri analizi yapmak isteyen herkes için tasarlanmış bir kaynaktır. NumPy, Pandas ve Matplotlib kütüphanelerini kullanarak, temel veri analizi becerilerini kazanmanıza yardımcı olacak kapsamlı bir rehberdir.</p>
         <p>Kitap, Python programlama dilini bilmeyenlerin bile anlayabileceği şekilde yazılmıştır. Okuyuculara, veri analizi yapmak için gerekli olan temel Python becerilerini öğretecektir. Daha sonra, NumPy kütüphanesinin kullanımı ile sayısal verileri manipüle etmeyi öğreneceksiniz. Ardından, Pandas kütüphanesini kullanarak verileri işlemenin yanı sıra kesikli hale getirme, normalizasyon, standardizasyon ve one-hot encoding gibi dönüşümleri uygulayabileceksiniz. Son olarak, Matplotlib kütüphanesi ile verileri görselleştirecek ve grafikler oluşturacaksınız.</p>
         <p>Kitap, her bölümün sonunda uygulama örnekleri ve egzersizler içermektedir. Bu sayede okuyucular, öğrendiklerini pratik yaparak pekiştirebilirler.</p>

@@ -1,14 +1,26 @@
 ---
 layout: page
 permalink: /advances-intelligent-manufacturing/
-title: Advances in Intelligent Manufacturing and Service System Informatics
-description: Advances in Intelligent Manufacturing kitabı hakkında bilgiler.
+title: "Advances in Intelligent Manufacturing and Service System Informatics: Proceedings of IMSS 2023"
+description: Peer-reviewed proceedings of the 12th International Symposium on Intelligent Manufacturing and Service Systems (IMSS 2023).
 nav: false
-citation_title: Advances in Intelligent Manufacturing and Service System Informatics
-citation_author: Zekâi Şen, Özer Uygun, Caner Erden
+citation_title: "Advances in Intelligent Manufacturing and Service System Informatics: Proceedings of IMSS 2023"
+citation_authors:
+  - Zekâi Şen
+  - Özer Uygun
+  - Caner Erden
 citation_publication_date: 2024
 citation_isbn: 9789819960620
-citation_publisher: Springer
+citation_publisher: Springer Singapore
+citation_language: en
+book_abstract: >-
+  This volume comprises peer-reviewed proceedings of the 12th International Symposium on Intelligent Manufacturing and Service Systems. It presents recent advances in artificial intelligence for manufacturing and service systems, including machine learning, autonomous control, digital twins, robotics, cybersecurity, and human–AI interaction.
+book_image: /assets/img/advances-intelligent-manufacturing.jpg
+book_pages: 813
+book_edition: "1"
+book_url: https://link.springer.com/book/10.1007/978-981-99-6062-0
+book_doi: 10.1007/978-981-99-6062-0
+last_modified_at: 2026-07-23
 ---
 
 <div class="row">
@@ -31,7 +43,8 @@ citation_publisher: Springer
 
 <div class="row mt-4">
     <div class="col-12">
-        <h4>Book Description</h4>
+        <h2 class="citation_abstract">Abstract</h2>
+        <p>{{ page.book_abstract }}</p>
         <ul>
             <li>Covers latest research in technological advances in manufacturing engineering & service systems.</li>
             <li>Comprises select peer-reviewed proceedings of the conference IMSS 2023.</li>

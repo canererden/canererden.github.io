@@ -1,14 +1,23 @@
 ---
 layout: page
 permalink: /buyuk-dil-modellerinin-insasi/
-title: Büyük Dil Modellerinin (LLM) İnşası
-description: Büyük Dil Modellerinin İnşası (Building Large Language Models) kitabı ve ek kaynakları.
+title: "Büyük Dil Modellerinin (LLM) İnşası: 103 Kod Bloğu ve 8 Uygulamalı Notebook ile"
+description: Büyük dil modellerinin temellerini, dikkat mekanizmalarını, sıfırdan GPT geliştirmeyi, performans değerlendirmeyi ve ince ayarı uygulamalı olarak ele alan akademik kitap.
 nav: false
-citation_title: Büyük Dil Modellerinin (LLM) İnşası
-citation_author: Caner Erden
-citation_publication_date: 2026
+citation_title: "Büyük Dil Modellerinin (LLM) İnşası: 103 Kod Bloğu ve 8 Uygulamalı Notebook ile"
+citation_authors:
+  - Caner Erden
+citation_publication_date: 2026/04
 citation_isbn: 9786253818548
 citation_publisher: Seçkin Yayıncılık
+citation_language: tr
+book_abstract: >-
+  Yapay zekânın en heyecan verici alanlarından biri olan büyük dil modellerini hem kavramsal hem de uygulamalı yönleriyle ele alan bu kitap; LLM'lerin tarihsel gelişimini, temel çalışma prensiplerini, dikkat mekanizmalarını, sıfırdan GPT modeli oluşturmayı, performans değerlendirmeyi, ince ayarı ve komut mühendisliğini bütüncül bir çerçevede sunar.
+book_image: /assets/img/buyuk-dil-modellerinin-insasi.jpg
+book_pages: 304
+book_edition: "1"
+book_url: https://www.seckin.com.tr/kitap/buyuk-dil-modellerinin-llm-insasi-103-kod-blogu-ve-8-uygulamali-notebook-ile-caner-erden-s-p-511049326
+last_modified_at: 2026-07-23
 ---
 
 <div class="row">
@@ -26,14 +35,14 @@ citation_publisher: Seçkin Yayıncılık
         <p><strong>Dimensions:</strong> 16 x 24</p>
         
         <p>
-            <a href="https://www.seckin.com.tr/kitap/245833947" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">View / Purchase Book</a>
+            <a href="{{ page.book_url }}" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">Kitabı İncele / Satın Al</a>
         </p>
     </div>
 </div>
 
 <div class="row mt-4">
     <div class="col-12">
-        <h4>Book Description</h4>
+        <h2 class="citation_abstract">Özet</h2>
         <p>Yapay zekânın en heyecan verici alanlarından biri olan büyük dil modellerini (LLM) hem kavramsal hem de uygulamalı yönleriyle ele alan bu kitap, LLM'lerin tarihsel gelişiminden temel çalışma prensiplerine kadar geniş bir yelpazeyi ayrıntılı bir şekilde açıklar. Dikkat mekanizmaları, sıfırdan GPT modeli oluşturma, performans değerlendirme, ince ayar (fine-tuning) ve komut mühendisliği gibi kritik konuları bütüncül bir çerçevede sunar.</p>
         <p>Güçlü görsel anlatımı ve uygulama odaklı yapısıyla öne çıkan eser; 9 ana bölüm, 103 kod bloğu ve 8 uygulamalı notebook desteğiyle okuyucuya doğrudan uygulanabilir bir çalışma zemini sağlar. Yapay zekâ meraklılarından yazılım geliştiricilere kadar geniş bir kitleye hitap eden bu çalışma, büyük dil modellerini teoriden pratiğe taşıyan tam donanımlı bir rehber niteliğindedir.</p>
 

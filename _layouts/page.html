@@ -5,7 +5,16 @@ layout: default
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
+            <h1 class="post-title{% if page.citation_title %} citation_title{% endif %}">{{ page.citation_title | default: page.title }}</h1>
+            {% if page.citation_title %}
+              {% assign visible_authors = page.citation_authors %}{% unless visible_authors %}{% assign visible_authors = page.citation_author | split: ", " %}{% endunless %}
+              <h3 class="citation_author" style="font-size: 1.15rem; font-weight: 500;">
+                {% for author in visible_authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+              </h3>
+              <p class="citation_publication_date text-muted">
+                {% if page.citation_publisher %}{{ page.citation_publisher }} · {% endif %}{{ page.citation_publication_date }}{% if page.citation_isbn %} · ISBN {{ page.citation_isbn }}{% endif %}
+              </p>
+            {% endif %}
             <p class="post-description">{{ page.description }}</p>
           </header>
 
@@ -14,7 +23,8 @@ layout: default
 
             {% if page.citation_title %}
             <!-- COinS for Zotero/Mendeley Book Metadata -->
-            {% capture coins_title %}ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle={{ page.citation_title | url_encode }}{% if page.citation_author %}{% assign authors = page.citation_author | split: ", " %}{% for author in authors %}&rft.au={{ author | url_encode }}{% endfor %}{% endif %}{% if page.citation_publication_date %}&rft.date={{ page.citation_publication_date | url_encode }}{% endif %}{% if page.citation_publisher %}&rft.pub={{ page.citation_publisher | url_encode }}{% endif %}{% if page.citation_isbn %}&rft.isbn={{ page.citation_isbn | url_encode }}{% endif %}{% endcapture %}
+            {% assign coins_authors = page.citation_authors %}{% unless coins_authors %}{% assign coins_authors = page.citation_author | split: ", " %}{% endunless %}
+            {% capture coins_title %}ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle={{ page.citation_title | url_encode }}{% for author in coins_authors %}&rft.au={{ author | url_encode }}{% endfor %}{% if page.citation_publication_date %}&rft.date={{ page.citation_publication_date | url_encode }}{% endif %}{% if page.citation_publisher %}&rft.pub={{ page.citation_publisher | url_encode }}{% endif %}{% if page.citation_isbn %}&rft.isbn={{ page.citation_isbn | url_encode }}{% endif %}{% endcapture %}
             <span class="Z3988" title="{{ coins_title | escape }}"></span>
             {% endif %}
           </article>
