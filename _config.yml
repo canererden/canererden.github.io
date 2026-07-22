@@ -15,6 +15,7 @@ footer_text: >
 keywords: caner erden, machine learning, optimization, artificial intelligence, academic portfolio, ph.d., data science, veri bilimi, meta-heuristics, process planning, bilgisayar mühendisliği # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+timezone: Europe/Istanbul # keep publication dates consistent between local and GitHub Pages builds
 icon: ce_favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://canererden.com # the base hostname & protocol for your site
