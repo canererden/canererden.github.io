@@ -117,10 +117,15 @@
     </div>
 
     <!-- Journal/Book title and date -->
+    {%- capture entrytype -%}{%- endcapture -%}
+    {%- capture entrymonth -%}{%- endcapture -%}
+    {%- capture entryyear -%}{%- endcapture -%}
     {% if entry.type == "article" -%}
     {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
     {%- elsif entry.type == "inproceedings" -%}
     {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+    {%- elsif entry.type == "misc" and entry.note == "Preprint" -%}
+    {%- capture entrytype -%}<em>{{ entry.howpublished | default: "Preprint" }} (Preprint)</em>{%- endcapture -%}
     {%- else -%}
     {%- capture entrytype -%}{%- endcapture -%}
     {%- endif -%}
@@ -183,6 +188,9 @@
       {%- if entry.html %}
       <a href="{{ entry.html }}" class="pub-btn pub-btn-success" target="_blank"><i class="fas fa-link"></i> Web</a>
       {%- endif %}
+      {%- if entry.url and entry.doi == nil %}
+      <a href="{{ entry.url }}" class="pub-btn pub-btn-success" target="_blank"><i class="fas fa-link"></i> Web</a>
+      {%- endif %}
       {%- if entry.pdf %}
       {% if entry.pdf contains '://' -%}
       <a href="{{ entry.pdf }}" class="pub-btn pub-btn-danger" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
@@ -200,7 +208,12 @@
       <a href="{{ entry.code }}" class="pub-btn pub-btn-dark" target="_blank"><i class="fas fa-code"></i> Kod</a>
       {%- endif %}
       {%- if entry.doi %}
-      <a href="{{ entry.doi }}" class="pub-btn pub-btn-info" target="_blank"><i class="fas fa-barcode"></i> DOI</a>
+      {%- if entry.doi contains 'doi.org/' -%}
+      {%- assign doi_url = entry.doi -%}
+      {%- else -%}
+      {%- assign doi_url = entry.doi | prepend: 'https://doi.org/' -%}
+      {%- endif -%}
+      <a href="{{ doi_url }}" class="pub-btn pub-btn-info" target="_blank"><i class="fas fa-barcode"></i> DOI</a>
       {%- endif %}
       {%- if entry.video %}
       <a href="{{ entry.video }}" class="pub-btn pub-btn-danger" target="_blank"><i class="fas fa-video"></i> Video</a>
@@ -241,7 +254,7 @@
     <div class="bibtex hidden mt-3 p-4" style="background-color: var(--global-bg-color); border-radius: 0.5rem; border-left: 4px solid #6c757d; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;">
       <h6 style="font-weight: 700; margin-bottom: 0.75rem; font-family: 'Inter', sans-serif;"><i class="fas fa-quote-left"></i> APA Citation</h6>
       <div class="apa-citation mb-4" style="font-family: 'Lora', serif; font-size: 0.95rem; line-height: 1.6; color: var(--global-text-color); padding: 1rem; background-color: rgba(0,0,0,0.03); border-radius: 0.5rem; border: 1px solid rgba(0,0,0,0.05);">
-        {{ reference }}
+        {{ reference | replace: 'https://doi.org/https://doi.org/', 'https://doi.org/' | replace: 'https://doi.org/http://doi.org/', 'https://doi.org/' }}
       </div>
       <h6 style="font-weight: 700; margin-bottom: 0.75rem; font-family: 'Inter', sans-serif;"><i class="fas fa-code"></i> BibTeX</h6>
       <div style="font-family: 'Inter', sans-serif; font-size: 0.85rem; border-radius: 0.5rem; overflow: hidden; border: 1px solid rgba(0,0,0,0.05);">
@@ -250,13 +263,14 @@
     </div>
     
     <!-- Zotero & Mendeley & Google Scholar Metadata Integration -->
-    {% capture coins_title %}ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3A{% if entry.type == 'article' %}journal{% else %}book{% endif %}&amp;rft.genre={% if entry.type == 'article' %}article{% elsif entry.type == 'inproceedings' %}proceeding{% else %}book{% endif %}&amp;rft.title={{ entry.title | cgi_escape }}&amp;rft.date={{ entry.year }}{% if entry.journal %}&amp;rft.jtitle={{ entry.journal | cgi_escape }}{% endif %}{% if entry.booktitle %}&amp;rft.btitle={{ entry.booktitle | cgi_escape }}{% endif %}{% if entry.pages %}&amp;rft.pages={{ entry.pages | cgi_escape }}{% endif %}{% if entry.volume %}&amp;rft.volume={{ entry.volume | cgi_escape }}{% endif %}{% if entry.number %}&amp;rft.issue={{ entry.number | cgi_escape }}{% endif %}{% if entry.doi %}&amp;rft_id=info%3Adoi%2F{{ entry.doi | cgi_escape }}{% endif %}{% for author in entry.author_array %}&amp;rft.au={{ author.first | cgi_escape }}+{{ author.last | cgi_escape }}{% endfor %}{% endcapture %}
+    {% assign doi_value = entry.doi | remove: 'https://doi.org/' | remove: 'http://doi.org/' %}
+    {% capture coins_title %}ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3A{% if entry.type == 'article' %}journal{% else %}book{% endif %}&amp;rft.genre={% if entry.type == 'article' %}article{% elsif entry.type == 'inproceedings' %}proceeding{% elsif entry.type == 'misc' and entry.note == 'Preprint' %}preprint{% else %}book{% endif %}&amp;rft.title={{ entry.title | cgi_escape }}&amp;rft.date={{ entry.year }}{% if entry.journal %}&amp;rft.jtitle={{ entry.journal | cgi_escape }}{% endif %}{% if entry.booktitle %}&amp;rft.btitle={{ entry.booktitle | cgi_escape }}{% endif %}{% if entry.pages %}&amp;rft.pages={{ entry.pages | cgi_escape }}{% endif %}{% if entry.volume %}&amp;rft.volume={{ entry.volume | cgi_escape }}{% endif %}{% if entry.number %}&amp;rft.issue={{ entry.number | cgi_escape }}{% endif %}{% if entry.doi %}&amp;rft_id=info%3Adoi%2F{{ doi_value | cgi_escape }}{% endif %}{% for author in entry.author_array %}&amp;rft.au={{ author.first | cgi_escape }}+{{ author.last | cgi_escape }}{% endfor %}{% endcapture %}
     <span class="Z3988" title="{{ coins_title }}"></span>
     
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "{% if entry.type == 'article' %}ScholarlyArticle{% elsif entry.type == 'book' %}Book{% else %}Chapter{% endif %}",
+      "@type": "{% if entry.type == 'article' or entry.type == 'misc' and entry.note == 'Preprint' %}ScholarlyArticle{% elsif entry.type == 'book' %}Book{% else %}Chapter{% endif %}",
       "headline": {{ entry.title | jsonify }},
       "name": {{ entry.title | jsonify }},
       "author": [
@@ -281,7 +295,7 @@
       {% endif %}
       {% if entry.pages %}"pagination": {{ entry.pages | jsonify }},{% endif %}
       {% if entry.publisher %}"publisher": {"@type": "Organization", "name": {{ entry.publisher | jsonify }}},{% endif %}
-      {% if entry.doi %}"@id": "https://doi.org/{{ entry.doi }}",{% endif %}
+      {% if entry.doi %}"@id": "https://doi.org/{{ doi_value }}",{% endif %}
       {% if entry.url or entry.html or entry.pdf %}
       "url": {{ entry.url | default: entry.html | default: entry.pdf | jsonify }}
       {% else %}
