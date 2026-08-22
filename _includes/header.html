@@ -1,11 +1,21 @@
 
+    {%- assign is_en = false -%}
+    {%- if page.lang == 'en' or page.url == '/' or page.url contains '/en/' -%}
+      {%- assign is_en = true -%}
+    {%- endif -%}
+    {%- if is_en -%}
+      {%- assign language_home = '/' -%}
+    {%- else -%}
+      {%- assign language_home = '/tr/' -%}
+    {%- endif -%}
+
     <header>
 
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' and page.permalink != '/en/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% if page.permalink != '/' and page.permalink != '/tr/' -%}
+          <a class="navbar-brand title font-weight-lighter" href="{{ language_home | relative_url }}">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
@@ -37,30 +47,25 @@
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
-              {% assign is_en = false %}
-              {% if page.url contains '/en/' %}
-                {% assign is_en = true %}
-              {% endif %}
-
               {%- for site_page in site.pages -%}
-                {% if is_en and site_page.permalink == '/en/' %}
+                {% if is_en and site_page.permalink == '/' %}
                   {% assign about_title = site_page.title %}
-                {% elsif is_en == false and site_page.permalink == '/' %}
+                {% elsif is_en == false and site_page.permalink == '/tr/' %}
                   {% assign about_title = site_page.title %}
                 {% endif %}
               {% endfor %}
 
               <!-- About -->
-              <li class="nav-item {% if page.permalink == '/' or page.permalink == '/en/' %}active{% endif %}">
+              <li class="nav-item {% if page.permalink == '/' or page.permalink == '/tr/' %}active{% endif %}">
                 {%- if is_en -%}
-                <a class="nav-link" href="{{ '/en/' | relative_url }}">{{ about_title }}
-                  {%- if page.permalink == '/en/' -%}
+                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                  {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
                 {%- else -%}
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title | default: "Anasayfa" }}
-                  {%- if page.permalink == '/' -%}
+                <a class="nav-link" href="{{ '/tr/' | relative_url }}">{{ about_title | default: "Anasayfa" }}
+                  {%- if page.permalink == '/tr/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -162,7 +167,11 @@
                 }
               </style>
 
-              {% assign target_en_url = page.url | prepend: '/en' %}
+              {% if page.url == '/tr/' %}
+                {% assign target_en_url = '/' %}
+              {% else %}
+                {% assign target_en_url = page.url | prepend: '/en' %}
+              {% endif %}
               {% assign target_en_exists = false %}
               {% for p in site.pages %}
                 {% if p.url == target_en_url %}
@@ -171,8 +180,11 @@
                 {% endif %}
               {% endfor %}
 
-              {% assign target_tr_url = page.url | remove_first: '/en' %}
-              {% if target_tr_url == '' %}{% assign target_tr_url = '/' %}{% endif %}
+              {% if page.url == '/' %}
+                {% assign target_tr_url = '/tr/' %}
+              {% else %}
+                {% assign target_tr_url = page.url | remove_first: '/en' %}
+              {% endif %}
               {% assign target_tr_exists = false %}
               {% for p in site.pages %}
                 {% if p.url == target_tr_url %}
@@ -194,7 +206,7 @@
                     {%- elsif page.url contains '/publications/' -%}
                       <a class="premium-toggle-btn lang-toggle" href="{{ '/publications/' | relative_url }}" title="Türkçe">TR</a>
                     {%- else -%}
-                      <a class="premium-toggle-btn lang-toggle" href="{{ '/' | relative_url }}" title="Türkçe">TR</a>
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/tr/' | relative_url }}" title="Türkçe">TR</a>
                     {%- endif -%}
                   {%- endif -%}
                 {%- else -%}
@@ -202,13 +214,13 @@
                     <a class="premium-toggle-btn lang-toggle" href="{{ target_en_url | relative_url }}" title="English">EN</a>
                   {%- else -%}
                     {%- if page.url contains '/blog/' -%}
-                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/' | relative_url }}" title="English home">EN</a>
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/' | relative_url }}" title="English home">EN</a>
                     {%- elsif page.url contains '/teaching/' -%}
                       <a class="premium-toggle-btn lang-toggle" href="{{ '/en/teaching/' | relative_url }}" title="English">EN</a>
                     {%- elsif page.url contains '/publications/' -%}
                       <a class="premium-toggle-btn lang-toggle" href="{{ '/en/publications/' | relative_url }}" title="English">EN</a>
                     {%- else -%}
-                      <a class="premium-toggle-btn lang-toggle" href="{{ '/en/' | relative_url }}" title="English">EN</a>
+                      <a class="premium-toggle-btn lang-toggle" href="{{ '/' | relative_url }}" title="English">EN</a>
                     {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}

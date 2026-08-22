@@ -1,7 +1,10 @@
 ---
 layout: about
 title: Home
-permalink: /en/
+permalink: /
+lang: en
+redirect_from:
+  - /en/
 subtitle: <a href='https://cerden.subu.edu.tr/en/'>Affiliation</a>. Sakarya University of Applied Sciences, Faculty of Technology, Department of Computer Engineering.
 description: Personal and academic website of Assoc. Prof. Dr. Caner Erden from Sakarya University of Applied Sciences. Research in artificial intelligence, data science, and optimization.
 
