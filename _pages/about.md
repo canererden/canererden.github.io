@@ -39,4 +39,6 @@ Doktora derecemi, [Dr. H. İbrahim Demir](https://hidemir.sakarya.edu.tr/tr)'in 
 Modern hesaplamalı zorlukları aşmak için yenilikçi teknikler keşfetme konusunda derin bir tutkuya sahibim. Bu web sitesi; araştırmalarım, yayınlarım ve profesyonel projelerim için merkezi bir havuz görevi görmektedir. En güncel çalışmalarımı inceleyebilir veya veri bilimi ile makine öğrenmesi üzerine fikirlerimi paylaştığım blog yazılarımı okuyabilirsiniz.
 </div>
 
----
+{% include favorite_quote.html %}
+
+</div>

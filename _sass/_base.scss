@@ -187,6 +187,92 @@ blockquote {
   }
 }
 
+.favorite-quote {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: 2.5rem 0 0.5rem;
+  padding: clamp(1.6rem, 4vw, 2.5rem);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  background: linear-gradient(135deg, var(--global-card-bg-color) 0%, var(--global-bg-color) 100%);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: var(--global-theme-color);
+  }
+}
+
+.favorite-quote__mark {
+  position: absolute;
+  top: 1rem;
+  right: 1.35rem;
+  z-index: -1;
+  color: var(--global-theme-color);
+  font-size: clamp(3.5rem, 8vw, 5.75rem);
+  line-height: 1;
+  opacity: 0.1;
+}
+
+.favorite-quote__body {
+  max-width: 58rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+
+  p {
+    margin: 0;
+    color: var(--global-text-color);
+    font-family: "Lora", serif;
+    font-size: clamp(1.25rem, 2.6vw, 1.75rem);
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 1.55;
+  }
+}
+
+.favorite-quote__attribution {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  color: var(--global-text-color-light);
+  font-family: "Inter", sans-serif;
+  font-size: 0.82rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  span {
+    width: 2rem;
+    height: 2px;
+    background: var(--global-theme-color);
+  }
+
+  cite {
+    font-style: normal;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .favorite-quote {
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+  }
+
+  .favorite-quote__mark {
+    top: 0.75rem;
+    right: 0.9rem;
+  }
+}
+
 // Checklist
 
 ul.task-list {

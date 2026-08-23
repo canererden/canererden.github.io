@@ -41,4 +41,6 @@ I earned my Ph.D. in Industrial Engineering from Sakarya University under the su
 I am deeply passionate about exploring innovative techniques to address modern computational challenges. This website serves as a central repository for my research, publications, and professional projects. Please feel free to explore my latest work or read my blog where I share insights on data science and machine learning.
 </div>
 
+{% include favorite_quote.html %}
+
 </div>
