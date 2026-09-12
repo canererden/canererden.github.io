@@ -13,6 +13,8 @@ citation_publication_date: 2024
 citation_isbn: 9789819960620
 citation_publisher: Springer Singapore
 citation_language: en
+citation_type: Book
+citation_doi: 10.1007/978-981-99-6062-0
 book_abstract: >-
   This volume comprises peer-reviewed proceedings of the 12th International Symposium on Intelligent Manufacturing and Service Systems. It presents recent advances in artificial intelligence for manufacturing and service systems, including machine learning, autonomous control, digital twins, robotics, cybersecurity, and human–AI interaction.
 book_image: /assets/img/advances-intelligent-manufacturing.jpg

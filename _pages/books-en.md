@@ -42,7 +42,7 @@ last_modified_at: 2026-07-23
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Python Libraries for Data Analysis</h5>
                 <p class="card-text text-muted mb-4">Web Yayını, 2023</p>
-                <a href="{{ '/veri-analizi-python/' | relative_url }}" class="btn btn-outline-primary mt-auto">Details</a>
+                <a href="{{ '/kitaplar/veri-analizi-python/' | relative_url }}" class="btn btn-outline-primary mt-auto">Details</a>
             </div>
         </div>
     </div>

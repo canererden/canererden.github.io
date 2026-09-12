@@ -1824,3 +1824,51 @@ h2.year {
   font-weight: 600;
   letter-spacing: 0.02em;
 }
+
+/* -----------------------------------------------------------------------------
+ * 27. Lecture-note download card (also the Scholar full-text link)
+ * -------------------------------------------------------------------------- */
+
+.note-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--global-card-border-color);
+  border-radius: var(--radius);
+  background: var(--global-surface-color);
+
+  &__main {
+    flex: 1 1 320px;
+  }
+
+  &__title {
+    font-family: var(--font-sans);
+    font-size: var(--fs-base);
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+
+  &__meta {
+    font-family: var(--font-sans);
+    font-size: var(--fs-xs);
+    color: var(--global-text-color-light);
+    margin-bottom: 0;
+  }
+
+  &__abstract {
+    font-family: var(--font-serif);
+    font-size: var(--fs-sm);
+    line-height: var(--lh-normal);
+    color: var(--global-text-color-light);
+    margin: 0.75rem 0 0;
+    max-width: 62ch;
+  }
+
+  &__cta {
+    flex: 0 0 auto;
+  }
+}

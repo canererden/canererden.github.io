@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /veri-analizi-python/
+permalink: /kitaplar/veri-analizi-python/
 title: Veri Analizi için Python Kütüphaneleri
 description: Python ile Veri Analizi kitabı ve veri bilimcilere yönelik eğitim içerikleri.
 nav: false
@@ -8,6 +8,11 @@ citation_title: Veri Analizi için Python Kütüphaneleri
 citation_authors:
   - Caner Erden
 citation_publication_date: 2023
+citation_type: Book
+citation_keywords: "veri analizi; Python; NumPy; Pandas; Matplotlib; scikit-learn; makine öğrenmesi"
+citation_abstract_html_url: /kitaplar/veri-analizi-python/
+# Scholar tam metni PDF olarak istiyor. Jupyter Book PDF'i yayına alındığında:
+# citation_pdf_url: /veri-analizi-python/book.pdf
 citation_publisher: Caner Erden
 citation_language: tr
 book_abstract: >-

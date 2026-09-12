@@ -11,6 +11,7 @@ citation_publication_date: 2026/04
 citation_isbn: 9786253818548
 citation_publisher: Seçkin Yayıncılık
 citation_language: tr
+citation_type: Book
 book_abstract: >-
   Yapay zekânın en heyecan verici alanlarından biri olan büyük dil modellerini hem kavramsal hem de uygulamalı yönleriyle ele alan bu kitap; LLM'lerin tarihsel gelişimini, temel çalışma prensiplerini, dikkat mekanizmalarını, sıfırdan GPT modeli oluşturmayı, performans değerlendirmeyi, ince ayarı ve komut mühendisliğini bütüncül bir çerçevede sunar.
 book_image: /assets/img/buyuk-dil-modellerinin-insasi.jpg

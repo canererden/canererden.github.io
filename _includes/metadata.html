@@ -254,42 +254,84 @@
       }
     </script>
     {% endif %}
-    <!-- Book Metadata for Google Scholar, Zotero, etc. -->
+    <!-- ------------------------------------------------------------------
+         Scholarly metadata (Google Scholar Highwire Press tags, Dublin Core
+         and schema.org). Emitted for any page that sets `citation_title`.
+
+         Google Scholar indexes scholarly articles, technical reports, theses
+         and preprints - not book landing pages - and it needs a full-text PDF
+         it can fetch. Set `citation_pdf_url` to a searchable PDF under 5 MB on
+         this domain for a page you want Scholar to pick up.
+
+         Recognised front matter:
+           citation_title, citation_authors (list) or citation_author (string)
+           citation_publication_date, citation_language, citation_keywords
+           citation_pdf_url, citation_abstract_html_url, citation_doi
+           citation_type            Book | Report | Thesis | Article (default Book)
+           citation_isbn, citation_publisher                        (books)
+           citation_technical_report_institution,
+           citation_technical_report_number                         (reports)
+           citation_dissertation_institution                        (theses)
+           citation_journal_title, citation_volume, citation_issue,
+           citation_firstpage, citation_lastpage                    (articles)
+         --------------------------------------------------------------- -->
     {% if page.citation_title %}
-    {% assign book_authors = page.citation_authors %}
-    {% unless book_authors %}
-      {% assign book_authors = page.citation_author | split: ", " %}
-    {% endunless %}
-    <!-- Google Scholar Highwire Press Tags -->
+    {%- assign cite_authors = page.citation_authors -%}
+    {%- unless cite_authors -%}
+      {%- assign cite_authors = page.citation_author | split: ", " -%}
+    {%- endunless -%}
+    {%- assign cite_type = page.citation_type | default: "Book" -%}
+    {%- assign cite_abstract = page.citation_abstract | default: page.book_abstract -%}
+
+    <!-- Google Scholar (Highwire Press) -->
     <meta name="citation_title" content="{{ page.citation_title | escape }}">
-    {% for author in book_authors %}
-    <meta name="citation_author" content="{{ author }}">
-    {% endfor %}
+    {% for author in cite_authors -%}
+    <meta name="citation_author" content="{{ author | escape }}">
+    {% endfor -%}
     {% if page.citation_publication_date %}<meta name="citation_publication_date" content="{{ page.citation_publication_date }}">{% endif %}
-    {% if page.citation_isbn %}<meta name="citation_isbn" content="{{ page.citation_isbn }}">{% endif %}
-    {% if page.citation_publisher %}<meta name="citation_publisher" content="{{ page.citation_publisher }}">{% endif %}
     {% if page.citation_language %}<meta name="citation_language" content="{{ page.citation_language }}">{% endif %}
+    {% if page.citation_keywords %}<meta name="citation_keywords" content="{{ page.citation_keywords | escape }}">{% endif %}
+    {% if page.citation_doi %}<meta name="citation_doi" content="{{ page.citation_doi }}">{% endif %}
+    {% if page.citation_isbn %}<meta name="citation_isbn" content="{{ page.citation_isbn }}">{% endif %}
+    {% if page.citation_publisher %}<meta name="citation_publisher" content="{{ page.citation_publisher | escape }}">{% endif %}
+    {% if page.citation_technical_report_institution %}<meta name="citation_technical_report_institution" content="{{ page.citation_technical_report_institution | escape }}">{% endif %}
+    {% if page.citation_technical_report_number %}<meta name="citation_technical_report_number" content="{{ page.citation_technical_report_number | escape }}">{% endif %}
+    {% if page.citation_dissertation_institution %}<meta name="citation_dissertation_institution" content="{{ page.citation_dissertation_institution | escape }}">{% endif %}
+    {% if page.citation_journal_title %}<meta name="citation_journal_title" content="{{ page.citation_journal_title | escape }}">{% endif %}
+    {% if page.citation_volume %}<meta name="citation_volume" content="{{ page.citation_volume }}">{% endif %}
+    {% if page.citation_issue %}<meta name="citation_issue" content="{{ page.citation_issue }}">{% endif %}
+    {% if page.citation_firstpage %}<meta name="citation_firstpage" content="{{ page.citation_firstpage }}">{% endif %}
+    {% if page.citation_lastpage %}<meta name="citation_lastpage" content="{{ page.citation_lastpage }}">{% endif %}
+    {%- comment -%} Scholar needs the full text; the URL must be absolute. {%- endcomment -%}
+    {% if page.citation_pdf_url %}<meta name="citation_pdf_url" content="{{ page.citation_pdf_url | absolute_url }}">
+    <meta name="citation_fulltext_world_readable" content="">{% endif %}
+    {% if page.citation_abstract_html_url %}<meta name="citation_abstract_html_url" content="{{ page.citation_abstract_html_url | absolute_url }}">{% else %}<meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}">{% endif %}
 
-    <!-- Dublin Core Tags -->
+    <!-- Dublin Core -->
     <meta name="DC.title" content="{{ page.citation_title | escape }}">
-    {% for author in book_authors %}
-    <meta name="DC.creator" content="{{ author }}">
-    {% endfor %}
+    {% for author in cite_authors -%}
+    <meta name="DC.creator" content="{{ author | escape }}">
+    {% endfor -%}
     {% if page.citation_publication_date %}<meta name="DC.date" content="{{ page.citation_publication_date }}">{% endif %}
-    {% if page.citation_isbn %}<meta name="DC.identifier" content="urn:isbn:{{ page.citation_isbn }}">{% endif %}
-    {% if page.citation_publisher %}<meta name="DC.publisher" content="{{ page.citation_publisher }}">{% endif %}
+    {% if page.citation_isbn %}<meta name="DC.identifier" content="urn:isbn:{{ page.citation_isbn }}">{% elsif page.citation_doi %}<meta name="DC.identifier" content="doi:{{ page.citation_doi }}">{% endif %}
+    {% if page.citation_publisher %}<meta name="DC.publisher" content="{{ page.citation_publisher | escape }}">{% endif %}
     {% if page.citation_language %}<meta name="DC.language" content="{{ page.citation_language }}">{% endif %}
-    {% if page.book_abstract %}<meta name="DC.description" content="{{ page.book_abstract | strip_html | normalize_whitespace | escape }}">{% endif %}
-    <meta name="DC.type" content="Book">
+    {% if cite_abstract %}<meta name="DC.description" content="{{ cite_abstract | strip_html | normalize_whitespace | escape }}">{% endif %}
+    <meta name="DC.type" content="{% if cite_type == 'Book' %}Book{% elsif cite_type == 'Thesis' %}Thesis{% elsif cite_type == 'Article' %}Text{% else %}Report{% endif %}">
 
-    <!-- Schema.org Book -->
+    <!-- schema.org -->
+    {%- if cite_type == 'Book' -%}{%- assign schema_type = 'Book' -%}
+    {%- elsif cite_type == 'Thesis' -%}{%- assign schema_type = 'Thesis' -%}
+    {%- elsif cite_type == 'Article' -%}{%- assign schema_type = 'ScholarlyArticle' -%}
+    {%- else -%}{%- assign schema_type = 'Report' -%}{%- endif -%}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Book",
+      "@type": {{ schema_type | jsonify }},
       "name": {{ page.citation_title | jsonify }},
+      "headline": {{ page.citation_title | jsonify }},
       "author": [
-        {% for author in book_authors %}
+        {% for author in cite_authors %}
         {
           "@type": "Person",
           "name": {{ author | jsonify }}
@@ -299,24 +341,36 @@
       "url": {{ page.url | absolute_url | jsonify }},
       "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
       {% if page.citation_isbn %},"isbn": {{ page.citation_isbn | jsonify }}{% endif %}
+      {% if page.citation_keywords %},"keywords": {{ page.citation_keywords | jsonify }}{% endif %}
+      {% if page.citation_pdf_url %},"encoding": {
+        "@type": "MediaObject",
+        "encodingFormat": "application/pdf",
+        "contentUrl": {{ page.citation_pdf_url | absolute_url | jsonify }}
+      }{% endif %}
       {% if page.citation_publisher %}
       ,"publisher": {
         "@type": "Organization",
         "name": {{ page.citation_publisher | jsonify }}
       }
+      {% elsif page.citation_technical_report_institution %}
+      ,"publisher": {
+        "@type": "Organization",
+        "name": {{ page.citation_technical_report_institution | jsonify }}
+      }
       {% endif %}
       {% if page.citation_publication_date %},"datePublished": {{ page.citation_publication_date | jsonify }}{% endif %}
       {% if page.citation_language %},"inLanguage": {{ page.citation_language | jsonify }}{% endif %}
-      {% if page.book_abstract %},"abstract": {{ page.book_abstract | strip_html | normalize_whitespace | jsonify }}{% endif %}
+      {% if cite_abstract %},"abstract": {{ cite_abstract | strip_html | normalize_whitespace | jsonify }}{% endif %}
       {% if page.book_image %},"image": {{ page.book_image | absolute_url | jsonify }}{% endif %}
       {% if page.book_pages %},"numberOfPages": {{ page.book_pages }}{% endif %}
       {% if page.book_edition %},"bookEdition": {{ page.book_edition | jsonify }}{% endif %}
       {% if page.book_google_url %},"sameAs": [{{ page.book_url | jsonify }}, {{ page.book_google_url | jsonify }}]
       {% elsif page.book_url %},"sameAs": {{ page.book_url | jsonify }}{% endif %}
-      {% if page.book_doi %},"identifier": {
+      {% assign schema_doi = page.citation_doi | default: page.book_doi %}
+      {% if schema_doi %},"identifier": {
         "@type": "PropertyValue",
         "propertyID": "DOI",
-        "value": {{ page.book_doi | jsonify }}
+        "value": {{ schema_doi | jsonify }}
       }{% endif %}
     }
     </script>

@@ -30,6 +30,34 @@ layout: default
     {%- endif %}
   </header>
 
+  {%- comment -%}
+    Ders notu PDF'i varsa: Google Scholar tam metni bulabilsin diye künye ve
+    indirme bağlantısı sayfada görünür olmalı. Gerekli meta etiketleri
+    _includes/metadata.html tarafından citation_* front matter'ından üretilir.
+  {%- endcomment -%}
+  {%- if page.citation_pdf_url %}
+  <section class="note-card">
+    <div class="note-card__main">
+      <h2 class="note-card__title">{{ page.citation_title | default: page.title }}</h2>
+      <p class="note-card__meta">
+        {%- if page.citation_authors -%}
+          {%- for a in page.citation_authors -%}{{ a }}{%- unless forloop.last %}, {% endunless -%}{%- endfor -%}
+        {%- else -%}{{ site.first_name }} {{ site.last_name }}{%- endif -%}
+        {%- if page.citation_technical_report_institution %} · {{ page.citation_technical_report_institution }}{% endif -%}
+        {%- if page.citation_publication_date %} · {{ page.citation_publication_date }}{% endif -%}
+        {%- if page.citation_technical_report_number %} · {{ page.citation_technical_report_number }}{% endif -%}
+      </p>
+      {%- if page.citation_abstract %}
+      <p class="note-card__abstract">{{ page.citation_abstract }}</p>
+      {%- endif %}
+    </div>
+    <a class="btn-solid note-card__cta" href="{{ page.citation_pdf_url | relative_url }}">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i>
+      {% if is_en %}Download notes (PDF){% else %}Ders notları (PDF){% endif %}
+    </a>
+  </section>
+  {%- endif %}
+
   <article class="course-content prose">
     {{ content }}
   </article>

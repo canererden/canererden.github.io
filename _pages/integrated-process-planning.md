@@ -13,6 +13,8 @@ citation_publication_date: 2023/05
 citation_isbn: 9781003215295
 citation_publisher: CRC Press
 citation_language: en
+citation_type: Book
+citation_doi: 10.1201/9781003215295
 book_abstract: >-
   Traditionally, process planning, scheduling, and due-date assignment are handled sequentially and separately. This book integrates these manufacturing functions to improve resource utilization, reduce production costs, eliminate bottlenecks, resolve scheduling conflicts, and respond to irregular shop-floor disturbances.
 book_image: /assets/img/integrated-process-planning.jpg

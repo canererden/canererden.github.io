@@ -11,6 +11,7 @@ citation_publication_date: 2021
 citation_isbn: "9786257440172"
 citation_publisher: Kodlab Yayın Dağıtım
 citation_language: tr
+citation_type: Book
 book_abstract: >-
   Python programlama diliyle veri madenciliğini teorik ve uygulamalı olarak ele alan bu kitap; NumPy, Pandas, Matplotlib ve Scikit-Learn kütüphanelerinin yanı sıra regresyon, karar ağaçları, kümeleme ve birliktelik analizi yöntemlerini örnek kodlarla açıklar.
 book_image: /assets/img/python-veri-madenciligi.jpg
