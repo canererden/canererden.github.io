@@ -13,11 +13,11 @@ profile:
   image_circular: false
   address: Sakarya Uygulamalı Bilimler Üniversitesi<br>Teknoloji Fakültesi T3 Blok<br>Esentepe Kampüsü, Serdivan / Sakarya
 
-news: true
+news: false
 latest_posts: true
-selected_papers: true
-youtube: true
-social: true
+selected_papers: false
+youtube: false
+social: false
 ---
 
 <p class="lead-paragraph">

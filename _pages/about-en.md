@@ -15,11 +15,11 @@ profile:
   image_circular: false
   address: Sakarya University of Applied Sciences<br>Faculty of Technology, Block T3<br>Esentepe Campus, Serdivan / Sakarya, Türkiye
 
-news: true
+news: false
 latest_posts: true
-selected_papers: true
-youtube: true
-social: true
+selected_papers: false
+youtube: false
+social: false
 ---
 
 <p class="lead-paragraph">
