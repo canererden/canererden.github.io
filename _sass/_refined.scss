@@ -970,7 +970,11 @@ pre {
  * -------------------------------------------------------------------------- */
 
 .navbar-brand.social {
+  max-width: 100%;
+  white-space: normal;
+
   a {
+    display: inline-block;
     color: var(--global-text-color-light);
 
     &:hover {
