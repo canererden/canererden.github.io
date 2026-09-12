@@ -18,6 +18,35 @@ layout: default
             <p class="post-description">{{ page.description }}</p>
           </header>
 
+          {%- comment -%}
+            Tam metin PDF'i varsa künyeli indirme kartı. Google Scholar'ın
+            indeksleyebilmesi için tam metnin, citation etiketlerini taşıyan
+            sayfadan bağlantılı olması gerekir.
+          {%- endcomment -%}
+          {%- if page.citation_pdf_url %}
+          <section class="note-card">
+            {%- assign cite_by = page.citation_authors | join: ", " -%}
+            {%- unless cite_by != "" %}{% assign cite_by = site.first_name | append: " " | append: site.last_name %}{% endunless -%}
+            <div class="note-card__main">
+              {%- if page.citation_title and page.citation_title != page.title %}
+              <h2 class="note-card__title">{{ page.citation_title }}</h2>
+              {%- endif %}
+              <p class="note-card__meta">
+                {{ cite_by }}
+                {%- if page.citation_publisher and page.citation_publisher != cite_by %} · {{ page.citation_publisher }}{% endif -%}
+                {%- if page.citation_publication_date %} · {{ page.citation_publication_date }}{% endif -%}
+                {%- if page.citation_isbn %} · ISBN {{ page.citation_isbn }}{% endif -%}
+              </p>
+              {%- if page.citation_abstract %}
+              <p class="note-card__abstract">{{ page.citation_abstract }}</p>
+              {%- endif %}
+            </div>
+            <a class="btn-solid note-card__cta" href="{{ page.citation_pdf_url | relative_url }}">
+              <i class="fas fa-file-pdf" aria-hidden="true"></i> Tam metin (PDF)
+            </a>
+          </section>
+          {%- endif %}
+
           <article>
             {{ content }}
 

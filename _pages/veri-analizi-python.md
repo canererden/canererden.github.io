@@ -11,8 +11,9 @@ citation_publication_date: 2023
 citation_type: Book
 citation_keywords: "veri analizi; Python; NumPy; Pandas; Matplotlib; scikit-learn; makine öğrenmesi"
 citation_abstract_html_url: /kitaplar/veri-analizi-python/
-# Scholar tam metni PDF olarak istiyor. Jupyter Book PDF'i yayına alındığında:
-# citation_pdf_url: /veri-analizi-python/book.pdf
+citation_pdf_url: /assets/pdf/veri-analizi-python.pdf
+citation_abstract: >-
+  Python programlama dili kullanarak veri analizi yapmak isteyenler için hazırlanmış açık erişimli bir ders kitabı. NumPy ile çok boyutlu diziler, Pandas ile veri işleme ve dönüştürme, Matplotlib ile görselleştirme ve Scikit-Learn ile makine öğrenmesinin temelleri uygulamalı örneklerle ele alınır. Her bölüm çalıştırılabilir kod hücreleri ve alıştırmalar içerir.
 citation_publisher: Caner Erden
 citation_language: tr
 book_abstract: >-

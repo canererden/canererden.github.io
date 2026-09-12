@@ -37,12 +37,14 @@ layout: default
   {%- endcomment -%}
   {%- if page.citation_pdf_url %}
   <section class="note-card">
+    {%- assign cite_by = page.citation_authors | join: ", " -%}
+    {%- unless cite_by != "" %}{% assign cite_by = site.first_name | append: " " | append: site.last_name %}{% endunless -%}
     <div class="note-card__main">
-      <h2 class="note-card__title">{{ page.citation_title | default: page.title }}</h2>
+      {%- if page.citation_title and page.citation_title != page.title %}
+      <h2 class="note-card__title">{{ page.citation_title }}</h2>
+      {%- endif %}
       <p class="note-card__meta">
-        {%- if page.citation_authors -%}
-          {%- for a in page.citation_authors -%}{{ a }}{%- unless forloop.last %}, {% endunless -%}{%- endfor -%}
-        {%- else -%}{{ site.first_name }} {{ site.last_name }}{%- endif -%}
+        {{ cite_by }}
         {%- if page.citation_technical_report_institution %} · {{ page.citation_technical_report_institution }}{% endif -%}
         {%- if page.citation_publication_date %} · {{ page.citation_publication_date }}{% endif -%}
         {%- if page.citation_technical_report_number %} · {{ page.citation_technical_report_number }}{% endif -%}
