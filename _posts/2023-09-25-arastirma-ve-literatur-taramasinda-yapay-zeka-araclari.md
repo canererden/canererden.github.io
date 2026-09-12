@@ -3,20 +3,17 @@ layout: post
 title: 2- Araştırma ve Literatür Taramasında Kullanılabilecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
-permalink: 
 tags:
-  - blog
-  - yapay zeka
-  - akademik çalışma
-  - araçlar
-  - ai tools
-  - literatür tarama
-  - araştırma
-description: "Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardımcı olabilir. İhtiyaçlarınıza ve araştırma süreçlerinize bağlı olarak, bu araçl..."
+- yapay zeka
+- akademik çalışma
+- araçlar
+- yapay zeka araçları
+- literatür tarama
+- araştırma
+description: 'Literatür taraması ve araştırma sürecini hızlandıran yapay zekâ araçları: Elicit, Research Rabbit, Scite, Connected Papers ve benzeri platformların karşılaştırması.'
+categories:
+- Yapay Zekâ
 ---
-
-
-# Araştırma ve Literatür Tarama için Yapay Zeka Araçları
 
 Bu araçlar, araştırmacılara farklı ihtiyaçlarına uygun şekillerde yardımcı olabilir. İhtiyaçlarınıza ve araştırma süreçlerinize bağlı olarak, bu araçlardan bir veya birkaçını seçebilirsiniz. Bazı araçlar ücretsizken, bazıları ücretli olabilir. Bu nedenle, araçları kullanmadan önce fiyatlandırma politikalarını kontrol etmeniz önemlidir. Ayrıca, araçların sunduğu özellikleri ve kullanım kolaylığını değerlendirmek için deneme sürümlerini kullanabilirsiniz. 
 

@@ -3,16 +3,16 @@ layout: post
 title: 5- Kişiselleştirilmiş Öğrenme Deneyimi için Kullanılabiecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
-permalink: 
 tags:
-  - blog
-  - yapay zeka
-  - akademik çalışma
-  - araçlar
-  - ai tools
-  - literatür tarama
-  - kişiselleştirilmiş öğrenme
-description: "- [Kişiselleştirilmiş Öğrenme Deneyimi](#kişiselleştirilmiş-öğrenme-deneyimi)..."
+- yapay zeka
+- akademik çalışma
+- araçlar
+- yapay zeka araçları
+- literatür tarama
+- kişiselleştirilmiş öğrenme
+description: 'Kişiselleştirilmiş öğrenme deneyimi sunan yapay zekâ araçları: uyarlanabilir çalışma planları, soru üretimi ve birebir öğretici uygulamalar.'
+categories:
+- Yapay Zekâ
 ---
 
 ## İçerik

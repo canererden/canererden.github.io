@@ -5,6 +5,9 @@ layout: default
 {%- assign year = page.date | date: "%Y" -%}
 {%- assign tags = page.tags | join: "" -%}
 {%- assign categories = page.categories | join: "" -%}
+{%- assign lang = page.lang | default: 'tr' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign read_time = content | strip_html | number_of_words | divided_by: 180 | plus: 1 -%}
 
 {% if page._styles %}
 <!-- Page/Post style -->
@@ -13,91 +16,35 @@ layout: default
 </style>
 {% endif %}
 
-<style>
-  .post-content {
-    font-family: 'Lora', serif;
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: var(--global-text-color);
-    word-break: break-word;
-    overflow-wrap: break-word;
-  }
-  .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    color: var(--global-text-color);
-  }
-  .post-content pre,
-  .post-content table {
-    max-width: 100%;
-    overflow-x: auto;
-  }
-  .post-content p {
-    margin-bottom: 1.5rem;
-  }
-  .post-content img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1.5rem auto;
-    border-radius: 0.5rem;
-  }
-  .post-header {
-    margin: 0 0 2rem 0;
-  }
-  .post-title {
-    font-family: 'Inter', sans-serif;
-    font-size: 2.8rem;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    line-height: 1.2;
-    margin-bottom: 0.5rem;
-  }
-  .post-meta {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.95rem;
-  }
-</style>
-
-<style>
-  @media (min-width: 992px) {
-    .article-col {
-      border-right: 1px solid var(--global-divider-color);
-    }
-  }
-  /* Sidebar Typography */
-  .sticky-top .card-title, .sticky-top a {
-    font-family: 'Inter', sans-serif;
-  }
-</style>
-
 <div class="post">
   <div class="row">
-    <!-- Main Article Content -->
-    <div class="col-lg-9 pe-lg-5 article-col mb-5 mb-lg-0" style="padding-right: 4rem !important;">
+
+    <!-- Article -->
+    <div class="col-lg-8 article-col mb-5 mb-lg-0">
       <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta"><i class="fas fa-calendar-alt" style="color: var(--global-theme-color);"></i> {{ page.date | date: "%d.%m.%Y" }} &nbsp;&middot;&nbsp; <i class="fas fa-user-edit" style="color: var(--global-theme-color);"></i> {{ page.author | default: "Caner Erden" }}{%- if page.meta -%} &nbsp;&middot;&nbsp; {{ page.meta }}{%- endif -%}</p>
-        <div class="post-tags mt-3">
-          <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}" class="badge badge-pill badge-primary mr-1">
-            <i class="fas fa-calendar fa-sm"></i> {{ year }}
-          </a>
-          {%- if tags != "" %}
-            {% for tag in page.tags -%}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}" class="badge badge-pill badge-info mr-1">
-              {{ tag }}
-            </a>
-            {% endfor -%}
-          {% endif %}
+        <p class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>
+          <span aria-hidden="true">&middot;</span>
+          {{ page.author | default: "Caner Erden" }}
+          <span aria-hidden="true">&middot;</span>
+          {{ read_time }} {{ t.min_read }}
+          {%- if page.last_modified_at and page.last_modified_at != page.date %}
+          <span aria-hidden="true">&middot;</span>
+          {{ t.updated_on }}: {{ page.last_modified_at | date: "%d.%m.%Y" }}
+          {%- endif -%}
+        </p>
 
+        <div class="chip-row mt-3">
+          <a class="chip" href="{{ year | prepend: '/blog/' | relative_url }}">{{ year }}</a>
           {%- if categories != "" %}
             {% for category in page.categories -%}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}" class="badge badge-pill badge-secondary mr-1">
-              {{ category }}
-            </a>
+            <a class="chip chip--accent" href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+            {% endfor -%}
+          {% endif %}
+          {%- if tags != "" %}
+            {% for tag in page.tags -%}
+            <a class="chip" href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
             {% endfor -%}
           {% endif %}
         </div>
@@ -113,92 +60,71 @@ layout: default
         {%- endif %}
       {%- endif %}
 
-      {%- if site.disqus_shortname and page.disqus_comments -%}
-        {% include disqus.html %}
-      {%- endif %}
       {%- if site.giscus.repo and page.giscus_comments -%}
         {% include giscus.html %}
       {%- endif -%}
     </div>
-    
-    <!-- Sticky Right Sidebar -->
-    <div class="col-lg-3 mt-5 mt-lg-0">
-      <div style="position: sticky; top: 80px; max-height: calc(100vh - 100px); overflow-y: auto; z-index: 1; padding-right: 0.25rem;">
-        <!-- Categories Widget (Hidden if empty) -->
-        {% if site.categories.size > 0 %}
-        <div class="card shadow-sm mb-4" style="background-color: var(--global-card-bg-color); border-color: var(--global-divider-color); border-radius: 0.5rem;">
-          <div class="card-body">
-            <h5 class="card-title mb-3" style="font-weight: 700; color: var(--global-text-color);"><i class="fas fa-folder-open mr-2" style="color: var(--global-theme-color);"></i> Kategoriler</h5>
-            <div class="d-flex flex-wrap gap-2">
-              {% for category in site.categories %}
-                <a href="{{ category[0] | slugify | prepend: '/blog/category/' | relative_url }}" class="badge badge-pill badge-secondary mb-1 p-2" style="font-size: 0.85rem;">{{ category[0] }} ({{ category[1].size }})</a>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-        {% endif %}
-        
-        <!-- Recent Posts Widget -->
-        <div class="card shadow-sm mb-3" style="background-color: var(--global-card-bg-color); border-color: var(--global-divider-color); border-radius: 0.5rem;">
-          <div class="card-body py-3 px-3">
-            <h6 class="card-title mb-2" style="font-weight: 700; color: var(--global-text-color);"><i class="fas fa-newspaper mr-2" style="color: var(--global-theme-color);"></i> Son Yazılar</h6>
-            <ul class="list-unstyled mb-0">
-              {% for post in site.posts limit:3 %}
-              <li class="mb-2 pb-2 {% unless forloop.last %}border-bottom{% endunless %}" style="border-color: var(--global-divider-color) !important;">
-                <a href="{{ post.url | relative_url }}" class="text-decoration-none" style="color: var(--global-text-color); font-weight: 600; font-size: 0.85rem; line-height: 1.3;">{{ post.title }}</a>
-                <div class="text-muted mt-1" style="font-size: 0.75rem;"><i class="fas fa-clock"></i> {{ post.date | date: "%d.%m.%Y" }}</div>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        
-        <!-- Related Posts Widget -->
-        <div class="card shadow-sm mb-3" style="background-color: var(--global-card-bg-color); border-color: var(--global-divider-color); border-radius: 0.5rem;">
-          <div class="card-body py-3 px-3">
-            <h6 class="card-title mb-2" style="font-weight: 700; color: var(--global-text-color);"><i class="fas fa-thumbs-up mr-2" style="color: var(--global-theme-color);"></i> Ilginizi Çekebilecek Yazılar</h6>
-            <ul class="list-unstyled mb-0">
-              {% if page.tags.size > 0 %}
-                {% assign first_tag = page.tags[0] %}
-                {% if site.tags[first_tag] %}
-                  {% assign related_posts = site.tags[first_tag] | where_exp:"p","p.url != page.url" | sort:"date" | reverse %}
-                  {% for post in related_posts limit:5 %}
-                  <li class="mb-2 pb-2 {% unless forloop.last %}border-bottom{% endunless %}" style="border-color: var(--global-divider-color) !important;">
-                    <a href="{{ post.url | relative_url }}" class="text-decoration-none" style="color: var(--global-text-color); font-weight: 600; font-size: 0.85rem; line-height:1.3;">{{ post.title }}</a>
-                    <div class="text-muted mt-1" style="font-size:0.75rem;"><i class="fas fa-clock"></i> {{ post.date | date: "%d.%m.%Y" }}</div>
-                  </li>
-                  {% endfor %}
-                {% endif %}
-              {% endif %}
-            </ul>
-          </div>
-        </div>
-        <!-- Tags Widget -->
-        <div class="card shadow-sm mb-3" style="background-color: var(--global-card-bg-color); border-color: var(--global-divider-color); border-radius: 0.5rem;">
-          <div class="card-body py-3 px-3">
-            <h6 class="card-title mb-2" style="font-weight: 700; color: var(--global-text-color);"><i class="fas fa-tags mr-2" style="color: var(--global-theme-color);"></i> Etiketler</h6>
-            <div class="d-flex flex-wrap gap-2">
-              {% assign tag_limit = 10 %}
-              {% for tag in site.tags limit:tag_limit %}
-                <a href="{{ tag[0] | slugify | prepend: '/blog/tag/' | relative_url }}" class="badge badge-pill badge-info mb-1 p-2" style="font-size: 0.85rem;">{{ tag[0] }} ({{ tag[1].size }})</a>
-              {% endfor %}
-              
-              {% if site.tags.size > tag_limit %}
-              <div class="collapse w-100" id="collapseTags">
-                <div class="d-flex flex-wrap gap-2 mt-1">
-                {% for tag in site.tags offset:tag_limit %}
-                  <a href="{{ tag[0] | slugify | prepend: '/blog/tag/' | relative_url }}" class="badge badge-pill badge-info mb-1 p-2" style="font-size: 0.85rem;">{{ tag[0] }} ({{ tag[1].size }})</a>
+
+    <!-- Sidebar -->
+    <aside class="col-lg-4 post-sidebar">
+      <div class="post-sidebar__sticky">
+
+        <section class="side-card">
+          <h2 class="side-card__title">{{ t.latest_posts }}</h2>
+          <ul class="side-list">
+            {% for post in site.posts limit:4 %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        {% if page.tags.size > 0 %}
+          {% assign first_tag = page.tags[0] %}
+          {% if site.tags[first_tag] %}
+            {% assign related_posts = site.tags[first_tag] | where_exp:"p","p.url != page.url" | sort:"date" | reverse %}
+            {% if related_posts.size > 0 %}
+            <section class="side-card">
+              <h2 class="side-card__title">{% if lang == 'en' %}Related posts{% else %}İlginizi çekebilir{% endif %}</h2>
+              <ul class="side-list">
+                {% for post in related_posts limit:4 %}
+                <li>
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time>
+                </li>
                 {% endfor %}
-                </div>
-              </div>
-              <a class="w-100 text-center mt-2 text-muted" data-toggle="collapse" data-bs-toggle="collapse" href="#collapseTags" role="button" aria-expanded="false" aria-controls="collapseTags" style="font-size: 0.85rem; cursor: pointer; text-decoration: none;" onclick="this.style.display='none'">
-                <i class="fas fa-chevron-down"></i> Daha Fazla Göster
-              </a>
-              {% endif %}
-            </div>
+              </ul>
+            </section>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+
+        {% if site.categories.size > 0 %}
+        <section class="side-card">
+          <h2 class="side-card__title">{% if lang == 'en' %}Categories{% else %}Kategoriler{% endif %}</h2>
+          <div class="chip-row">
+            {% for category in site.categories %}
+              <a class="chip" href="{{ category[0] | slugify | prepend: '/blog/category/' | relative_url }}">{{ category[0] }} <span>{{ category[1].size }}</span></a>
+            {% endfor %}
           </div>
-        </div>
+        </section>
+        {% endif %}
+
+        {% if site.tags.size > 0 %}
+        <section class="side-card">
+          <h2 class="side-card__title">{% if lang == 'en' %}Tags{% else %}Etiketler{% endif %}</h2>
+          <div class="chip-row">
+            {% for tag in site.tags limit:14 %}
+              <a class="chip" href="{{ tag[0] | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></a>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+
       </div>
-    </div>
+    </aside>
+
   </div>
 </div>

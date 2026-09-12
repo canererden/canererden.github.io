@@ -22,7 +22,7 @@ google_class_code: sbljs4i
 
 <div class="row mb-5">
   <div class="col-12 col-md-4 text-center">
-    <div class="card premium-teaching-card border-0 shadow-sm mb-3">
+    <div class="course-card">
       <div class="card-body">
         <h5 class="card-title font-weight-bold text-primary">Ders Kodu & Bilgiler</h5>
         <p class="card-text mb-2"><span class="badge bg-primary text-white px-3 py-2">Bilgisayar Uygulamaları</span></p>

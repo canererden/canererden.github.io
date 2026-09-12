@@ -3,16 +3,15 @@ layout: post
 title: Akademik Yayınlarda ChatGPT Komutları
 date: 2023-07-31
 giscus_comments: true
-permalink: 
 tags:
-  - chatgpt
-  - akademik yayın
-  - prompt
-  - pratik kullanım
-description: "Bu blog yazısında akademik yayınlarda kullanılabilecek bazı ChatGPT komutlarını paylaşacağım...."
+- chatgpt
+- akademik yayın
+- prompt
+- pratik kullanım
+description: 'Akademik yayın sürecinin her aşamasında kullanabileceğiniz ChatGPT komut (prompt) örnekleri: literatür taraması, taslak yazımı, dil düzeltme ve hakem yanıtları.'
+categories:
+- Yapay Zekâ
 ---
-
-# Akademik Yayınlarda ChatGPT Komutları
 
 Bu blog yazısında akademik yayınlarda kullanılabilecek bazı ChatGPT komutlarını paylaşacağım.
 

@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "TÜBİTAK 2219 Doktora Sonrası Araştırma Bursu Süreci"
+title: TÜBİTAK 2219 Doktora Sonrası Araştırma Bursu Süreci
 date: 2024-07-29
 giscus_comments: true
 permalink: /2024/07/29/tubi-tak-2219-doktora-sonrasi-arastirma-bursu-sureci
 tags:
-  - blog
-description: "Herkese merhaba,..."
+- akademik çalışma
+description: TÜBİTAK 2219 Yurt Dışı Doktora Sonrası Araştırma Bursu başvuru sürecini, hazırladığım belgeleri ve Georgia Tech kabul aşamasını baştan sona anlatıyorum.
+categories:
+- Akademik Çalışma
 ---
 
 ![Image 2](https://miro.medium.com/v2/resize:fit:700/1*WuRArdT5_XZq-P8rilUOSA.png)

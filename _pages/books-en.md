@@ -12,7 +12,7 @@ last_modified_at: 2026-07-23
     <!-- Book 1 -->
     <div class="col">
         <div class="card h-100 hoverable">
-            <img src="{{ '/assets/img/python-veri-madenciligi.jpg' | relative_url }}" class="card-img-top" alt="Python ile Veri Madenciliği" style="object-fit: contain; background: #f8f9fa; height: 350px; padding: 10px;">
+            <img src="{{ '/assets/img/python-veri-madenciligi.jpg' | relative_url }}" class="card-img-top" alt="Python ile Veri Madenciliği" style="object-fit: contain; background: var(--global-surface-color); height: 350px; padding: 10px;">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Data Mining with Python</h5>
                 <p class="card-text text-muted mb-4">Kodlab Yayın Dağıtım, 2021</p>
@@ -24,7 +24,7 @@ last_modified_at: 2026-07-23
     <!-- Book 2 -->
     <div class="col">
         <div class="card h-100 hoverable">
-            <img src="{{ '/assets/img/buyuk-dil-modellerinin-insasi.jpg' | relative_url }}" class="card-img-top" alt="Büyük Dil Modellerinin İnşası" style="object-fit: contain; background: #f8f9fa; height: 350px; padding: 10px;">
+            <img src="{{ '/assets/img/buyuk-dil-modellerinin-insasi.jpg' | relative_url }}" class="card-img-top" alt="Büyük Dil Modellerinin İnşası" style="object-fit: contain; background: var(--global-surface-color); height: 350px; padding: 10px;">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Building Large Language Models (LLMs)</h5>
                 <p class="card-text text-muted mb-4">Seçkin Yayıncılık, 2026</p>
@@ -50,7 +50,7 @@ last_modified_at: 2026-07-23
     <!-- Book 4 -->
     <div class="col">
         <div class="card h-100 hoverable">
-            <img src="{{ '/assets/img/integrated-process-planning.jpg' | relative_url }}" class="card-img-top" alt="Integrated Process Planning, Scheduling, and Due-Date Assignment" style="object-fit: contain; background: #f8f9fa; height: 350px; padding: 10px;">
+            <img src="{{ '/assets/img/integrated-process-planning.jpg' | relative_url }}" class="card-img-top" alt="Integrated Process Planning, Scheduling, and Due-Date Assignment" style="object-fit: contain; background: var(--global-surface-color); height: 350px; padding: 10px;">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title" style="font-size: 1.1rem;">Integrated Process Planning, Scheduling, and Due-Date Assignment</h5>
                 <p class="card-text text-muted mb-4">CRC Press, 2023</p>
@@ -62,7 +62,7 @@ last_modified_at: 2026-07-23
     <!-- Book 5 -->
     <div class="col">
         <div class="card h-100 hoverable">
-            <img src="{{ '/assets/img/advances-intelligent-manufacturing.jpg' | relative_url }}" class="card-img-top" alt="Advances in Intelligent Manufacturing and Service System Informatics" style="object-fit: contain; background: #f8f9fa; height: 350px; padding: 10px;">
+            <img src="{{ '/assets/img/advances-intelligent-manufacturing.jpg' | relative_url }}" class="card-img-top" alt="Advances in Intelligent Manufacturing and Service System Informatics" style="object-fit: contain; background: var(--global-surface-color); height: 350px; padding: 10px;">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title" style="font-size: 1.1rem;">Advances in Intelligent Manufacturing and Service System Informatics</h5>
                 <p class="card-text text-muted mb-4">Springer, 2024</p>

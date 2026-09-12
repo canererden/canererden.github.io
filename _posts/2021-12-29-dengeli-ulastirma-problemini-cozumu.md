@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Dengeli Ulaştırma Problemini Çözümü"
+title: Dengeli Ulaştırma Problemini Çözümü
 date: 2021-12-29
 giscus_comments: true
 permalink: /2021/12/29/dengeli-ulastirma-problemini-cozumu
 tags:
-  - blog
-description: "Ulaştırma problemleri belirli sayıdaki kaynak noktasından belirli sayıdaki hedef noktasına en uygun maliyetle taşımanın nasıl yapılması gerektiği ile ..."
+- yöneylem araştırması
+description: Dengeli ulaştırma problemlerinin yapısı ve en düşük maliyetli taşıma planının adım adım nasıl kurulacağı; kuzeybatı köşesi, en küçük maliyet ve VAM yöntemleriyle çözüm.
+categories:
+- Yöneylem Araştırması
 ---
 
 Ulaştırma problemleri belirli sayıdaki kaynak noktasından belirli sayıdaki hedef noktasına en uygun maliyetle taşımanın nasıl yapılması gerektiği ile ilgili problemlerdir. Ulaştırma problemleri doğrusal programlama problemleri içerisinde ele alınır. Kendine özgü bir yapısı olduğu için ulaştırma problemlerini doğrusal programlama problemleri için kullanılan Simplex algoritması ile çözmek yerine daha pratik çözümler geliştirilmiştir. Bu çözümler iki aşamalıdır. Birinci aşamada olurlu bir başlangıç çözüm bulunur. Başlangıç çözümü için kuzeybatı köşe yöntemi, en küçük maliyetler yöntemi ve Vogel yaklaşım metodu yöntemi kullanılabilir. Başlangıç çözümü bulunan problem için en uygun çözüm atlama taşı yöntemi ile en uygun çözüm bulunabilir.

@@ -2,16 +2,16 @@
 layout: post
 title: Lisansüstü çalışmalarının olmazsa olmaz uygulamaları
 date: 2023-02-18
-permalink: 
 tags:
-  - blog
-  - verimlilik
-  - uygulama
-  - tools
-  - code
-  - optimization
-  - data-science
-description: "Bu yazıda akademik hayatta araştırma yaparken kullandığım dijital araçları listeleyeceğim. Listede kullandığım ve memnun olduğum uygulamalar bulunmakt..."
+- verimlilik
+- uygulama
+- tools
+- code
+- optimization
+- data-science
+description: 'Lisansüstü çalışmalar boyunca kullandığım ve memnun kaldığım dijital araçlar: kaynak yönetimi, not tutma, yazım, veri analizi ve görselleştirme için pratik bir liste.'
+categories:
+- Akademik Çalışma
 ---
 
 Bu yazıda akademik hayatta araştırma yaparken kullandığım dijital araçları listeleyeceğim. Listede kullandığım ve memnun olduğum uygulamalar bulunmakta. 

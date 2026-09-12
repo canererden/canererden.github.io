@@ -1,5 +1,7 @@
 ---
 ---
+{%- assign is_en = false -%}
+{%- if page.lang == 'en' or page.url contains '/en/' -%}{%- assign is_en = true -%}{%- endif -%}
 <!-- _layouts/bib.html -->
 <div class="row">
   <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
@@ -25,9 +27,9 @@
     {{reference}}
     {%- else %}
     <!-- Title -->
-    <div class="title" style="font-family: 'Inter', sans-serif; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem; line-height: 1.3;">{{entry.title}}</div>
+    <div class="title">{{entry.title}}</div>
     <!-- Author -->
-    <div class="author" style="font-family: 'Lora', serif; font-size: 1rem; color: var(--global-text-color);">
+    <div class="author">
       {% assign author_array_size = entry.author_array | size %}
 
       {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
@@ -136,47 +138,19 @@
     {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
     {%- endif -%}
     {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-    <div class="periodical" style="font-family: 'Lora', serif; font-size: 0.95rem; font-style: italic; color: var(--global-text-color); opacity: 0.8; margin-top: 0.25rem; margin-bottom: 0.75rem;">
+    <div class="periodical">
       {{ periodical | strip }}
     </div>
     {%- endif %}
 
-    <!-- Premium Links/Buttons -->
-    <style>
-      .pub-btn {
-        font-family: 'Inter', sans-serif;
-        font-weight: 600;
-        font-size: 0.85rem;
-        padding: 0.4rem 0.85rem;
-        border-radius: 2rem;
-        border: none;
-        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        margin-right: 0.4rem;
-        margin-bottom: 0.4rem;
-        text-decoration: none !important;
-      }
-      .pub-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        color: #fff !important;
-      }
-      .pub-btn-primary { background: rgba(29, 78, 216, 0.1); color: var(--global-text-color); border: 1px solid rgba(29, 78, 216, 0.3); }
-      .pub-btn-danger { background: rgba(220, 38, 38, 0.1); color: var(--global-text-color); border: 1px solid rgba(220, 38, 38, 0.3); }
-      .pub-btn-success { background: rgba(16, 185, 129, 0.1); color: var(--global-text-color); border: 1px solid rgba(16, 185, 129, 0.3); }
-      .pub-btn-info { background: rgba(14, 165, 233, 0.1); color: var(--global-text-color); border: 1px solid rgba(14, 165, 233, 0.3); }
-      .pub-btn-dark { background: rgba(100, 100, 100, 0.1); color: var(--global-text-color); border: 1px solid rgba(100, 100, 100, 0.3); }
-      .pub-btn-secondary { background: rgba(107, 114, 128, 0.1); color: var(--global-text-color); border: 1px solid rgba(107, 114, 128, 0.3); }
-    </style>
+    <!-- Links -->
     
     <div class="links mt-3 mb-2">
       {%- if entry.award %}
-      <span class="badge badge-warning text-dark" style="border-radius: 2rem; padding: 0.4rem 0.85rem;"><i class="fas fa-trophy"></i> {{ entry.award }}</span> <br>
+      <span class="pub-btn pub-btn--award"><i class="fas fa-trophy"></i> {{ entry.award }}</span> <br>
       {%- endif %}
       {%- if entry.abstract %}
-      <a class="abstract pub-btn pub-btn-secondary" role="button"><i class="fas fa-file-alt"></i> Özet</a>
+      <a class="abstract pub-btn pub-btn-secondary" role="button"><i class="fas fa-file-alt"></i> {% if is_en %}Abstract{% else %}Özet{% endif %}</a>
       {%- endif %}
       
       <!-- Show Cite/BibTeX button for all entries -->
@@ -199,13 +173,13 @@
       {%- endif %}
       {%- endif %}
       {%- if entry.supp %}
-      <a href="{{ entry.supp }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-paperclip"></i> Ekler</a>
+      <a href="{{ entry.supp }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-paperclip"></i> {% if is_en %}Supplement{% else %}Ekler{% endif %}</a>
       {%- endif %}
       {%- if entry.blog %}
       <a href="{{ entry.blog }}" class="pub-btn pub-btn-dark" target="_blank"><i class="fas fa-blog"></i> Blog</a>
       {%- endif %}
       {%- if entry.code %}
-      <a href="{{ entry.code }}" class="pub-btn pub-btn-dark" target="_blank"><i class="fas fa-code"></i> Kod</a>
+      <a href="{{ entry.code }}" class="pub-btn pub-btn-dark" target="_blank"><i class="fas fa-code"></i> {% if is_en %}Code{% else %}Kod{% endif %}</a>
       {%- endif %}
       {%- if entry.doi %}
       {%- if entry.doi contains 'doi.org/' -%}
@@ -219,10 +193,10 @@
       <a href="{{ entry.video }}" class="pub-btn pub-btn-danger" target="_blank"><i class="fas fa-video"></i> Video</a>
       {%- endif %}
       {%- if entry.presentation %}
-      <a href="{{ entry.presentation }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-desktop"></i> Sunum</a>
+      <a href="{{ entry.presentation }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-desktop"></i> {% if is_en %}Talk{% else %}Sunum{% endif %}</a>
       {%- endif %}
       {%- if entry.dataset %}
-      <a href="{{ entry.dataset }}" class="pub-btn pub-btn-primary" target="_blank"><i class="fas fa-database"></i> Veri Seti</a>
+      <a href="{{ entry.dataset }}" class="pub-btn pub-btn-primary" target="_blank"><i class="fas fa-database"></i> {% if is_en %}Dataset{% else %}Veri seti{% endif %}</a>
       {%- endif %}
       {%- if entry.poster %}
       {% if entry.poster contains '://' -%}
@@ -233,31 +207,31 @@
       {%- endif %}
       {%- if entry.slides %}
       {% if entry.slides contains '://' -%}
-      <a href="{{ entry.slides }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-file-powerpoint"></i> Slayt</a>
+      <a href="{{ entry.slides }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-file-powerpoint"></i> {% if is_en %}Slides{% else %}Slayt{% endif %}</a>
       {%- else -%}
-      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-file-powerpoint"></i> Slayt</a>
+      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="pub-btn pub-btn-secondary" target="_blank"><i class="fas fa-file-powerpoint"></i> {% if is_en %}Slides{% else %}Slayt{% endif %}</a>
       {%- endif %}
       {%- endif %}
     </div>
 
     {% if entry.abstract -%}
     <!-- Hidden abstract block -->
-    <div class="abstract hidden mt-3 p-4" style="background-color: var(--global-bg-color); border-radius: 0.5rem; border-left: 4px solid var(--global-theme-color); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;">
-      <h6 style="font-weight: 700; margin-bottom: 0.75rem; font-family: 'Inter', sans-serif;"><i class="fas fa-align-left"></i> Özet</h6>
-      <div style="font-family: 'Lora', serif; font-size: 0.95rem; line-height: 1.6; color: var(--global-text-color);">
+    <div class="abstract hidden bib-panel bib-panel--accent">
+      <h6 class="bib-panel__title"><i class="fas fa-align-left"></i> {% if is_en %}Abstract{% else %}Özet{% endif %}</h6>
+      <div class="bib-abstract">
         {{ entry.abstract }}
       </div>
     </div>
     {%- endif -%}
 
     <!-- Hidden bibtex block -->
-    <div class="bibtex hidden mt-3 p-4" style="background-color: var(--global-bg-color); border-radius: 0.5rem; border-left: 4px solid #6c757d; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;">
-      <h6 style="font-weight: 700; margin-bottom: 0.75rem; font-family: 'Inter', sans-serif;"><i class="fas fa-quote-left"></i> APA Citation</h6>
-      <div class="apa-citation mb-4" style="font-family: 'Lora', serif; font-size: 0.95rem; line-height: 1.6; color: var(--global-text-color); padding: 1rem; background-color: rgba(0,0,0,0.03); border-radius: 0.5rem; border: 1px solid rgba(0,0,0,0.05);">
+    <div class="bibtex hidden bib-panel">
+      <h6 class="bib-panel__title"><i class="fas fa-quote-left"></i> APA Citation</h6>
+      <div class="apa-citation mb-4">
         {{ reference | replace: 'https://doi.org/https://doi.org/', 'https://doi.org/' | replace: 'https://doi.org/http://doi.org/', 'https://doi.org/' }}
       </div>
-      <h6 style="font-weight: 700; margin-bottom: 0.75rem; font-family: 'Inter', sans-serif;"><i class="fas fa-code"></i> BibTeX</h6>
-      <div style="font-family: 'Inter', sans-serif; font-size: 0.85rem; border-radius: 0.5rem; overflow: hidden; border: 1px solid rgba(0,0,0,0.05);">
+      <h6 class="bib-panel__title"><i class="fas fa-code"></i> BibTeX</h6>
+      <div class="bib-bibtex-block">
         {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
       </div>
     </div>

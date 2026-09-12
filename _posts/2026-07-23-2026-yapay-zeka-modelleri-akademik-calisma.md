@@ -1,28 +1,27 @@
 ---
 layout: post
 lang: tr
-title: "2026'da Akademik Çalışmalar için Kişisel Yapay Zekâ Araştırma Ortamı"
-description: "VS Code ve Continue kullanarak güvenli, doğrulanabilir ve çok modelli bir akademik araştırma ortamının nasıl kurulacağını; model seçiminden kaynak doğrulamaya kadar adım adım açıklayan kapsamlı rehber."
+title: 2026'da Akademik Çalışmalar için Kişisel Yapay Zekâ Araştırma Ortamı
+description: VS Code ve Continue kullanarak güvenli, doğrulanabilir ve çok modelli bir akademik araştırma ortamının nasıl kurulacağını; model seçiminden kaynak doğrulamaya kadar adım adım açıklayan kapsamlı rehber.
 date: 2026-07-23 00:00:00 +0300
 last_modified_at: 2026-07-23 00:00:00 +0300
 author: Caner Erden
 categories:
-  - yapay zekâ
-  - akademik araştırma
+- Yapay Zekâ
 tags:
-  - VS Code
-  - Continue
-  - üretken yapay zekâ
-  - büyük dil modelleri
-  - araştırma etiği
-  - tekrarlanabilir araştırma
-keywords: "akademik yapay zekâ, VS Code Continue, kişisel yapay zekâ araştırma ortamı, çok modelli iş akışı, üretken yapay zekâ, LLM, araştırma etiği"
+- VS Code
+- Continue
+- üretken yapay zekâ
+- büyük dil modelleri
+- araştırma etiği
+- tekrarlanabilir araştırma
+keywords: akademik yapay zekâ, VS Code Continue, kişisel yapay zekâ araştırma ortamı, çok modelli iş akışı, üretken yapay zekâ, LLM, araştırma etiği
 permalink: /2026-yapay-zeka-modelleri-akademik-calisma/
 redirect_from:
-  - /blog/2024/2026-yapay-zeka-modelleri-akademik-calisma/
-  - /blog/2026/2026-yapay-zeka-modelleri-akademik-calisma/
-  - /personal-ai-research-environment/
-  - /blog/2024/personal-ai-research-environment/
+- /blog/2024/2026-yapay-zeka-modelleri-akademik-calisma/
+- /blog/2026/2026-yapay-zeka-modelleri-akademik-calisma/
+- /personal-ai-research-environment/
+- /blog/2024/personal-ai-research-environment/
 ---
 
 Üretken yapay zekâ araçları akademik çalışmayı hızlandırabilir; ancak hız tek başına bilimsel kalite anlamına gelmez. İyi tasarlanmış bir araştırma ortamı, yalnızca güçlü bir modele erişmekten ibaret değildir. Kaynakların izlenebilir olması, kodun sürüm kontrolünde tutulması, hassas verilerin korunması, model çıktılarının sınanması ve nihai kararların araştırmacı tarafından verilmesi gerekir.

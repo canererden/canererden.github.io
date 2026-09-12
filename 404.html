@@ -1,9 +1,18 @@
 ---
 layout: page
 permalink: /404.html
-title: "Page not found"
-description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
+title: "404"
+description: "Aradığınız sayfa bulunamadı — The page you are looking for was not found."
 ---
 
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="{{ site.baseurl }}/">home page</a>.</p>
+<div class="notfound">
+  <p class="lead-paragraph">Aradığınız sayfa taşınmış veya hiç var olmamış olabilir.</p>
+  <p class="text-muted">The page you are looking for may have moved, or may never have existed.</p>
+
+  <div class="chip-row mt-4">
+    <a class="btn-solid" href="{{ '/' | relative_url }}"><i class="fas fa-home" aria-hidden="true"></i> Anasayfa / Home</a>
+    <a class="btn-ghost" href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a class="btn-ghost" href="{{ '/publications/' | relative_url }}">Yayınlar</a>
+    <a class="btn-ghost" href="{{ '/en/publications/' | relative_url }}">Publications</a>
+  </div>
+</div>

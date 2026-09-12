@@ -3,17 +3,17 @@ layout: post
 title: 3- Belge Okuma ve Anlama için Kullanılabiecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
-permalink: 
 tags:
-  - blog
-  - yapay zeka
-  - akademik çalışma
-  - araçlar
-  - ai tools
-  - literatür tarama
-  - araştırma
-  - belge okuma
-description: "- [Belge Okuma ve Anlama](#belge-okuma-ve-anlama)..."
+- yapay zeka
+- akademik çalışma
+- araçlar
+- yapay zeka araçları
+- literatür tarama
+- araştırma
+- belge okuma
+description: 'PDF ve uzun belgeleri okuyup özetleyen yapay zekâ araçları: ChatPDF, Humata, Doclime ve benzeri platformların kullanım senaryoları.'
+categories:
+- Yapay Zekâ
 ---
 
 ## İçerik

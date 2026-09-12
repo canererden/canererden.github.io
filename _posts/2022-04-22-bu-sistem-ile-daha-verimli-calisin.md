@@ -3,14 +3,14 @@ layout: post
 title: Bu Sistem ile Daha Verimli Çalışın
 date: 2022-04-22
 giscus_comments: true
-permalink: 
 redirect_from: /bu-sistem-ile-daha-verimli-calisin/
 tags:
-  - blog
-  - verimlilik
-  - düzenli çalışma
-  - Johnny Decimal
-description: "Uzun zamandır kendime bir bilgi yönetim sistemi yapmak istiyordum. Daha önce kullandığım Notion uygulamasında yer yer sorunlar yaşadım. Örneğin, Notio..."
+- verimlilik
+- düzenli çalışma
+- Johnny Decimal
+description: 'Johnny.Decimal yöntemiyle kurduğum kişisel bilgi yönetim sistemi: dosyaları, notları ve projeleri numaralandırılmış bir yapıda düzenleyerek nasıl daha verimli çalıştığımı anlatıyorum.'
+categories:
+- Akademik Çalışma
 ---
 
 Uzun zamandır kendime bir bilgi yönetim sistemi yapmak istiyordum. Daha önce kullandığım Notion uygulamasında yer yer sorunlar yaşadım. Örneğin, Notion’da görseller Amazon Cloud sisteminde saklandığı için Notion ile metni dışarı aktardığımda görseller istediğim gibi gelmiyordu. Kopyalanan link olarak geliyordu. Yada Notion uygulamasının klasörleme veya kategorizasyon sistemine tam uyan bir yapısı olmadığı için yine istediğim özelliklere sahip olmadığını düşündüm. Başlamadan önce bu yöntemin özellikleri şu şekilde verilebilir;

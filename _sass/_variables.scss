@@ -1,58 +1,116 @@
 /*******************************************************************************
- * Variables used throughout the theme.
- * To adjust anything, simply edit the variables below and rebuild the theme.
+ * Design tokens.
+ * Palette: deep navy + neutral grey. Type: Inter (UI) + Lora (prose).
  ******************************************************************************/
 
 @use "sass:color";
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+// -----------------------------------------------------------------------------
+// Brand palette — deep navy
+// -----------------------------------------------------------------------------
+$navy-950: #0b1725 !default;
+$navy-900: #0f2033 !default;
+$navy-800: #14293f !default;
+$navy-700: #1a3654 !default;
+$navy-600: #1c3f68 !default; // primary accent (light theme)
+$navy-500: #2a5688 !default;
+$navy-400: #4d7cb0 !default;
+$navy-300: #8ab4e0 !default; // primary accent (dark theme)
+$navy-200: #b0cdec !default;
+$navy-100: #dbe7f4 !default;
+$navy-050: #f1f5fa !default;
 
-// Academic & AI Theme Colors (Deep Tech Blue)
-$theme-primary-light: #1D4ED8 !default; // Deep trustworthy tech blue
-$theme-hover-light: #1E3A8A !default; // Darker hover
-$theme-primary-dark: #0EA5E9 !default; // Bright electric tech cyan
-$theme-hover-dark: #38BDF8 !default; // Lighter hover
+// -----------------------------------------------------------------------------
+// Neutrals
+// -----------------------------------------------------------------------------
+$ink-900: #14181f !default; // body text, light theme
+$ink-700: #2b333d !default;
+$ink-500: #59636f !default; // muted text, light theme
+$ink-400: #8a939f !default;
+$ink-300: #c3c9d1 !default;
+$ink-200: #e2e6eb !default;
+$ink-100: #f1f3f6 !default;
+$ink-050: #f8f9fb !default; // surface, light theme
 
-$grey-color: #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
+$slate-950: #0c0f13 !default; // deepest surface, dark theme
+$slate-900: #0f1318 !default; // page background, dark theme
+$slate-850: #141920 !default;
+$slate-800: #171c23 !default; // card surface, dark theme
+$slate-700: #222933 !default;
+$slate-400: #98a2b0 !default; // muted text, dark theme
+$slate-200: #dce2ea !default; // body text, dark theme
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// Theme colors
+// -----------------------------------------------------------------------------
+// Accent / status colours (kept for callouts and legacy rules)
+// -----------------------------------------------------------------------------
+$red-color: #d64545 !default;
+$red-color-dark: #a32020 !default;
+$orange-color: #d98324 !default;
+$blue-color: $navy-600 !default;
+$blue-color-dark: $navy-800 !default;
+$cyan-color: #2698ba !default;
+$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
+$green-color: #2f855a !default;
+$green-color-lime: #b7d12a !default;
+$green-color-dark: #22633f !default;
+$green-color-light: #e6f4ec !default;
+$green-color-bright: #11d68b !default;
+$purple-color: #6b46c1 !default;
+$light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$pink-color: #d53f8c !default;
+$pink-color-light: #fce7f1 !default;
+$yellow-color: #d69e2e !default;
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$grey-color: $ink-500 !default;
+$grey-color-light: $ink-200;
+$grey-color-dark: $slate-900;
+$grey-900: $slate-800;
 
-// Font awesome location
+// Theme accents
+$theme-primary-light: $navy-600 !default;
+$theme-hover-light: $navy-800 !default;
+$theme-primary-dark: $navy-300 !default;
+$theme-hover-dark: $navy-200 !default;
+
+$code-bg-color-light: $ink-100;
+$code-bg-color-dark: $slate-850;
+
+// -----------------------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------------------
+$font-sans:
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif !default;
+$font-serif: "Lora", Georgia, "Times New Roman", serif !default;
+$font-mono:
+  "SFMono-Regular",
+  ui-monospace,
+  Menlo,
+  Consolas,
+  "Liberation Mono",
+  monospace !default;
+
+// -----------------------------------------------------------------------------
+// Icon font paths (required by the bundled icon partials)
+// -----------------------------------------------------------------------------
 $fa-font-path: "../webfonts";
-
-// Tabler icons location
 $ti-font-path: "../fonts";
 
-// Back To Top button config
+// -----------------------------------------------------------------------------
+// Back-to-top button
+// -----------------------------------------------------------------------------
 $back-to-top-z-index: 10;
-$back-to-top-bottom: 30px;
-$back-to-top-right: 30px;
+$back-to-top-bottom: 24px;
+$back-to-top-right: 24px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;

@@ -2,75 +2,105 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+{%- assign lang = page.lang | default: 'tr' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- if lang == 'en' -%}
+  {%- assign blog_url = '/blog/' -%}
+  {%- assign pubs_url = '/en/publications/' -%}
+{%- else -%}
+  {%- assign blog_url = '/blog/' -%}
+  {%- assign pubs_url = '/publications/' -%}
+{%- endif -%}
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+  <article>
+    {% if page.profile -%}
+    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+      {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+        {% if page.profile.image_circular %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+          {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
+        {% include figure.html path=profile_image_path class=profile_image_class alt=site.title -%}
+      {% endif -%}
+      {%- if page.profile.address %}
+      <div class="address">{{ page.profile.address }}</div>
+      {%- endif %}
+    </div>
+    {%- endif %}
 
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=site.title -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+    <div class="clearfix">
+      {{ content }}
+    </div>
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+    <!-- Selected publications -->
+    {% if page.selected_papers -%}
+    <section class="home-section">
+      <div class="section-heading">
+        <h2>{{ t.selected_publications }}</h2>
+        <a class="section-heading__link link-arrow" href="{{ pubs_url | relative_url }}">{{ t.all_publications }} <i class="fas fa-arrow-right"></i></a>
+      </div>
+      {%- include selected_papers.html %}
+    </section>
+    {%- endif %}
 
-          <!-- News -->
-          {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html %}
-          {%- endif %}
+    <!-- Latest posts -->
+    {% if page.latest_posts -%}
+    <section class="home-section">
+      <div class="section-heading">
+        <h2>{{ t.latest_posts }}</h2>
+        <a class="section-heading__link link-arrow" href="{{ blog_url | relative_url }}">{{ t.all_posts }} <i class="fas fa-arrow-right"></i></a>
+      </div>
+      {%- include latest_posts.html %}
+    </section>
+    {%- endif %}
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+    <!-- News -->
+    {% if page.news -%}
+    <section class="home-section">
+      <div class="section-heading">
+        <h2>{{ t.news }}</h2>
+      </div>
+      {%- include news.html %}
+    </section>
+    {%- endif %}
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
+    <!-- YouTube -->
+    {% if page.youtube and site.youtube_id -%}
+    <section class="home-section">
+      <div class="section-heading">
+        <h2>{{ t.youtube_title }}</h2>
+      </div>
+      <div class="channel-row">
+        <div>
+          <p class="channel-row__name">youtube.com/@{{ site.youtube_id }}</p>
+          <p class="channel-row__desc">{{ t.youtube_desc }}</p>
+        </div>
+        <a class="link-arrow" href="https://www.youtube.com/@{{ site.youtube_id }}" rel="noopener">{{ t.youtube_cta }} <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </section>
+    {%- endif %}
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
-        </article>
-
+    <!-- Social -->
+    {%- if page.social %}
+    <section class="home-section">
+      <div class="section-heading">
+        <h2>{{ t.connect }}</h2>
+      </div>
+      <div class="social">
+        <div class="contact-icons">{% include social.html %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    </section>
+    {%- endif %}
+  </article>
 </div>

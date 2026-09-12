@@ -3,18 +3,19 @@ layout: post
 title: Bibliyometrik Analiz Araçları
 date: 2023-06-01
 giscus_comments: true
-permalink: 
 tags:
-  - bibliyometrik
-  - akademik
-  - literatür
-  - tarama
-  - kaynak bulma
-  - bibliometrix
-  - vosviewer
-  - tools
-  - code
-description: "Konuya geçmeden önce bu blog yazısı ile birlikte hazırladığım videoya göz atmanızı öneririm...."
+- bibliyometrik
+- akademik
+- literatür
+- tarama
+- kaynak bulma
+- bibliometrix
+- vosviewer
+- tools
+- code
+description: 'Bibliyometrik analizde en çok kullanılan yazılımlar: Bibliometrix/Biblioshiny, VOSviewer, CiteSpace ve benzeri araçların güçlü yanları ve kullanım alanları.'
+categories:
+- Akademik Çalışma
 ---
 
 Konuya geçmeden önce bu blog yazısı ile birlikte hazırladığım videoya göz atmanızı öneririm.

@@ -1,0 +1,39 @@
+# UI strings. Look up with: site.data.i18n[lang].key
+en:
+  news: News
+  latest_posts: Latest posts
+  selected_publications: Selected publications
+  all_posts: All posts
+  all_publications: All publications
+  read_more: Read more
+  read_on_medium: Read on Medium
+  min_read: min read
+  youtube_title: On YouTube
+  youtube_desc: Video lectures and walkthroughs on artificial intelligence, data science and academic tooling.
+  youtube_cta: Visit the channel
+  research_areas: Research areas
+  blog_title: Blog
+  blog_desc: Notes on artificial intelligence, data science, optimisation and academic practice.
+  topics: Topics
+  published_on: Published on
+  updated_on: Updated on
+  connect: Elsewhere
+tr:
+  news: Haberler
+  latest_posts: Son yazılar
+  selected_publications: Seçili yayınlar
+  all_posts: Tüm yazılar
+  all_publications: Tüm yayınlar
+  read_more: Devamını oku
+  read_on_medium: Medium'da oku
+  min_read: dk okuma
+  youtube_title: YouTube'da
+  youtube_desc: Yapay zekâ, veri bilimi ve akademik araçlar üzerine ders ve uygulama videoları.
+  youtube_cta: Kanala git
+  research_areas: Araştırma alanları
+  blog_title: Blog
+  blog_desc: Yapay zekâ, veri bilimi, optimizasyon ve akademik pratik üzerine notlar.
+  topics: Konular
+  published_on: Yayın tarihi
+  updated_on: Güncelleme
+  connect: Diğer kanallar

@@ -1,20 +1,17 @@
 ---
 layout: post
 lang: en
-title: "Data Analysis on Turkey COVID19 Data using Artificial Neural Networks"
+title: Data Analysis on Turkey COVID19 Data using Artificial Neural Networks
 date: 2020-05-12
 giscus_comments: true
 permalink: /2020/05/12/data-analysis-on-turkey-covid19-data-using-artificial-neural-networks
 redirect_from: /makine-ogrenmesi-ile-covid19-turkiye-verileri-analizi/
 tags:
-  - blog
-description: "--..."
+- veri bilimi
+description: 'Türkiye''nin COVID-19 verilerinin yapay sinir ağları ile analiz edilmesi: vaka sayıları, iyileşme oranları ve model performansı üzerine uygulamalı bir çalışma.'
+categories:
+- Veri Bilimi
 ---
-
---
-
---
-
 
 ![Image 2](https://miro.medium.com/v2/resize:fit:700/1*uA-O-zEbUFGGjRgmibwYhw.jpeg)
 

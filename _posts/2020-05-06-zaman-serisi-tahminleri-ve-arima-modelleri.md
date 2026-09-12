@@ -6,10 +6,12 @@ giscus_comments: true
 permalink: /2020/05/06/zaman-serisi-tahminleri-ve-arima-modelleri
 redirect_from: /zaman-serisi-tahminleri-ve-arima-modelleri/
 tags:
-  - zaman serisi
-  - arima
-  - tahmin
-description: "Bu yazıda zaman serisi analizlerinde kullanılan tahmin çalışmalarından ve ARIMA modellerinden bahsedilecektir. Minitab üzerinde bir zaman serisi analizi uygulaması gerçekleştirilecektir."
+- zaman serisi
+- arima
+- tahmin
+description: Bu yazıda zaman serisi analizlerinde kullanılan tahmin çalışmalarından ve ARIMA modellerinden bahsedilecektir. Minitab üzerinde bir zaman serisi analizi uygulaması gerçekleştirilecektir.
+categories:
+- Veri Bilimi
 ---
 
 Bu yazıda zaman serisi analizlerinde kullanılan tahmin çalışmalarından ve ARIMA modellerinden bahsedilecektir. Minitab üzerinde bir zaman serisi analizi uygulaması gerçekleştirilecektir.

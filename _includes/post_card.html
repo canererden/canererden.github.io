@@ -1,0 +1,51 @@
+{%- comment -%}
+  Shared blog card.
+  Usage: {% include post_card.html post=post t=t %}
+{%- endcomment -%}
+{%- assign post = include.post -%}
+{%- assign t = include.t -%}
+
+{%- if post.external_source == blank -%}
+  {%- assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 -%}
+{%- else -%}
+  {%- assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 -%}
+{%- endif -%}
+
+{%- if post.redirect == blank -%}
+  {%- assign post_url = post.url | relative_url -%}
+  {%- assign is_external = false -%}
+{%- elsif post.redirect contains '://' -%}
+  {%- assign post_url = post.redirect -%}
+  {%- assign is_external = true -%}
+{%- else -%}
+  {%- assign post_url = post.redirect | relative_url -%}
+  {%- assign is_external = false -%}
+{%- endif -%}
+
+<article class="entry-card">
+  {% if post.thumbnail %}
+  <a class="entry-card__media" href="{{ post_url }}"{% if is_external %} target="_blank" rel="noopener"{% endif %}>
+    <img src="{{ post.thumbnail | relative_url }}" alt="" loading="lazy">
+  </a>
+  {% endif %}
+  <div class="entry-card__body">
+    {% if post.categories.size > 0 %}
+    <div class="entry-card__eyebrow">{{ post.categories | first }}</div>
+    {% endif %}
+    <h3 class="entry-card__title">
+      <a href="{{ post_url }}"{% if is_external %} target="_blank" rel="noopener"{% endif %}>{{ post.title }}</a>
+    </h3>
+    {% if post.description %}
+    <p class="entry-card__excerpt">{{ post.description | strip_html | truncate: 220 }}</p>
+    {% endif %}
+    <div class="entry-card__footer">
+      <span>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time>
+        <span aria-hidden="true"> &middot; </span>{{ read_time }} {{ t.min_read | default: 'dk okuma' }}
+      </span>
+      <a class="link-arrow" href="{{ post_url }}"{% if is_external %} target="_blank" rel="noopener"{% endif %}>
+        {% if is_external %}{{ t.read_on_medium | default: "Medium'da oku" }}{% else %}{{ t.read_more | default: 'Devamını oku' }}{% endif %} <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</article>

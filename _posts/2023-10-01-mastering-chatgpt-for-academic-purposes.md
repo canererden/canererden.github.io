@@ -1,13 +1,15 @@
 ---
 layout: post
 lang: en
-title: "Mastering ChatGPT for Academic Purposes"
+title: Mastering ChatGPT for Academic Purposes
 date: 2023-10-01
 giscus_comments: true
 permalink: /2023/10/01/mastering-chatgpt-for-academic-purposes
 tags:
-  - blog
-description: "In the field of academia, success has reached new heights with the help of artificial intelligence tools that students and academics can now utilize. ..."
+- yapay zekâ
+description: 'A practical guide to using ChatGPT for academic work: literature review, drafting, editing and prompt patterns that actually help researchers.'
+categories:
+- Yapay Zekâ
 ---
 
 In the field of academia, success has reached new heights with the help of artificial intelligence tools that students and academics can now utilize. In this blog post, I will attempt to compile artificial intelligence tools that can be used for academic purposes.

@@ -3,16 +3,16 @@ layout: post
 title: 2- Yazma ve Dilbilgisi Yardımcısı olarak Kullanılabilecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
-permalink: 
 tags:
-  - blog
-  - yapay zeka
-  - akademik çalışma
-  - araçlar
-  - ai tools
-  - yazma
-  - dilbilgisi yardımcısı
-description: "- [Yazma ve Dilbilgisi Yardımcıları](#yazma-ve-dilbilgisi-yardımcıları)..."
+- yapay zeka
+- akademik çalışma
+- araçlar
+- yapay zeka araçları
+- yazma
+- dilbilgisi yardımcısı
+description: 'Yazma ve dilbilgisi desteği sağlayan yapay zekâ araçları: Grammarly, DeepL Write, QuillBot ve akademik yazımda doğru kullanım biçimleri.'
+categories:
+- Yapay Zekâ
 ---
 
 ## İçerik

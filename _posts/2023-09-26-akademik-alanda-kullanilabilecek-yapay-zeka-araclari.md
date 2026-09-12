@@ -3,16 +3,15 @@ layout: post
 title: 1- Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
-permalink: 
 tags:
-  - blog
-  - yapay zeka
-  - akademik çalışma
-  - araçlar
-  - ai tools
-description: "Akademik alanda başarı, artık öğrencilerin ve akademisyenlerin kullanabileceği yapay zeka araçları sayesinde daha farklı bir noktaya geldi. Bu blog ya..."
+- yapay zeka
+- akademik çalışma
+- araçlar
+- yapay zeka araçları
+description: Akademisyenlerin ve öğrencilerin günlük işlerinde kullanabileceği yapay zekâ araçlarına genel bakış; serinin giriş yazısı.
+categories:
+- Yapay Zekâ
 ---
-# Akademik Alanda Kullanılabilecek Yapay Zeka Araçları
 
 Akademik alanda başarı, artık öğrencilerin ve akademisyenlerin kullanabileceği yapay zeka araçları sayesinde daha farklı bir noktaya geldi. Bu blog yazısında akademik amaçlarla kullanılabilecek yapay zeka araçlarını derlemeye çalışacağım.
 

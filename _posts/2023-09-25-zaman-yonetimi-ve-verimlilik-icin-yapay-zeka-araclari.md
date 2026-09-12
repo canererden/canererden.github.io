@@ -3,17 +3,17 @@ layout: post
 title: 4- Zaman Yönetimi ve Verimlilik için Kullanılabiecek Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
-permalink: 
 tags:
-  - blog
-  - yapay zeka
-  - akademik çalışma
-  - araçlar
-  - ai tools
-  - literatür tarama
-  - araştırma
-  - belge okuma
-description: "- [Zaman Yönetimi ve Verimlilik](#zaman-yönetimi-ve-verimlilik)..."
+- yapay zeka
+- akademik çalışma
+- araçlar
+- yapay zeka araçları
+- literatür tarama
+- araştırma
+- belge okuma
+description: 'Zaman yönetimi ve verimlilik için yapay zekâ araçları: toplantı özetleme, görev planlama ve odaklanma uygulamaları.'
+categories:
+- Yapay Zekâ
 ---
 
 ## İçerik

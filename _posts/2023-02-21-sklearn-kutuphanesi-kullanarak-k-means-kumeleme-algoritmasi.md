@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "Sklearn Kütüphanesi Kullanarak K-Means Kümeleme Algoritması"
+title: Sklearn Kütüphanesi Kullanarak K-Means Kümeleme Algoritması
 date: 2023-02-21
 giscus_comments: true
 permalink: /2023/02/21/sklearn-kutuphanesi-kullanarak-k-means-kumeleme-algoritmasi
 redirect_from: /sklearn-kutuphanesi-kullanarak-k-means-kumeleme-algoritmasi/
 tags:
-  - blog
-description: "Makine öğrenmesindeki öğrenmeler gözetimli, gözetimsiz ve takviyeli öğrenme olarak ayrılabilir. Gözetimli öğrenmede sınıflandırma ve regresyon çalışma..."
+- veri bilimi
+description: Gözetimsiz öğrenmenin temel yöntemlerinden K-Means kümeleme algoritmasının çalışma mantığı ve scikit-learn ile uçtan uca Python uygulaması.
+categories:
+- Veri Bilimi
 ---
 
 Makine öğrenmesindeki öğrenmeler gözetimli, gözetimsiz ve takviyeli öğrenme olarak ayrılabilir. Gözetimli öğrenmede sınıflandırma ve regresyon çalışmaları yer alır ve hedef değerleri algoritmaya verilerek makine öğrenmesi sağlanır. Gözetimsiz öğrenmede ise en sık çalışılan konu kümeleme çalışmasıdır. Gözetimsiz öğrenmede ayrıca özellik çıkarımı (Feature Extraction), birincil etken analizi (Principle Component Analysis), ya da aykırı veri analizi (Outlier Analysis) gibi çalışmalar bulunur. Bu yazıda gözetimsiz öğrenmedeki kümeleme çalışmalarına örnek olarak K-Means algoritması ve uygulaması gösterilecektir.

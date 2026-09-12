@@ -3,16 +3,17 @@ layout: post
 title: Bibliyometrik Analiz
 date: 2023-06-01
 giscus_comments: true
-permalink: 
 tags:
-  - bibliyometrik
-  - akademik
-  - literatür
-  - tarama
-  - kaynak bulma
-  - bibliometrix
-  - vosviewer
-description: "Bibliyometrik analiz, belirli bir alanda belirli bir dönemde ve belirli bir bölgede üretilen yayınların ve bu yayınlar arasındaki ilişkilerin sayısal ..."
+- bibliyometrik
+- akademik
+- literatür
+- tarama
+- kaynak bulma
+- bibliometrix
+- vosviewer
+description: Bibliyometrik analiz nedir, hangi sorulara yanıt verir ve bir alanın yayın haritasını çıkarmak için hangi ölçütler kullanılır? Yönteme kapsamlı bir giriş.
+categories:
+- Akademik Çalışma
 ---
 
 Bibliyometrik analiz, belirli bir alanda belirli bir dönemde ve belirli bir bölgede üretilen yayınların ve bu yayınlar arasındaki ilişkilerin sayısal olarak analiz edilmesini sağlayan bir yöntemdir. Bu analiz, bilimsel yayınların metrik verilerini kullanarak bilimsel araştırma alanlarını, yazarları, kurumları ve çalışmalar arasındaki ilişkileri anlamamızı sağlar. Bibliyometrik analiz, yayın veritabanlarından toplanan bibliyografik verileri kullanarak çeşitli analizler yapmayı içerir.

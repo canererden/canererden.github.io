@@ -3,16 +3,16 @@ layout: post
 title: 6- Diğer Yapay Zeka Araçları
 date: 2023-09-25
 giscus_comments: true
-permalink: 
 tags:
-  - blog
-  - yapay zeka
-  - akademik çalışma
-  - araçlar
-  - ai tools
-  - literatür tarama
-  - kişiselleştirilmiş öğrenme
-description: "- [Diğer Araçlar](#diğer-araçlar)..."
+- yapay zeka
+- akademik çalışma
+- araçlar
+- yapay zeka araçları
+- literatür tarama
+- kişiselleştirilmiş öğrenme
+description: Akademik iş akışının çeşitli noktalarında işe yarayan diğer yapay zekâ araçları; serinin son bölümü.
+categories:
+- Yapay Zekâ
 ---
 
 ## İçerik
