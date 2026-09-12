@@ -61,6 +61,47 @@ def get_bibtex_from_doi(doi):
     print(f"Failed to fetch BibTeX for DOI: {doi}")
     return None
 
+# Citation keys must be a single bare token. Crossref sometimes returns a key
+# built from the title, which then carries commas and spaces and produces an
+# entry that no BibTeX parser can read. Entries without a title or an author
+# are almost always bad metadata rather than a real publication, so they are
+# rejected instead of being appended to the bibliography.
+KEY_SAFE = re.compile(r"[^A-Za-z0-9_:\-.+/]")
+# The citation key runs from "@type{" up to the first real "field=" pair.
+FIRST_FIELD = re.compile(r"(\w+)\s*=\s*[{\"0-9]")
+
+
+def sanitise_entry(bibtex):
+    """Return (cleaned_entry, problem). problem is None when the entry is usable."""
+    match = re.match(r"@(\w+)\s*\{(.*)$", bibtex, re.S)
+    if not match:
+        return None, "not a BibTeX entry"
+    entry_type, rest = match.group(1), match.group(2)
+
+    field = FIRST_FIELD.search(rest)
+    if not field:
+        return None, "no fields in the record"
+
+    # Everything before the first field is the key, however many commas
+    # Crossref crammed into it.
+    key_region = rest[: field.start()].rstrip().rstrip(",")
+    body = rest[field.start():]
+
+    safe_key = KEY_SAFE.sub("_", key_region.strip()).rstrip("_")
+    safe_key = re.sub(r"_{2,}", "_", safe_key)
+    if not safe_key.strip("_"):
+        return None, "empty citation key"
+    if len(safe_key) > 60:
+        safe_key = safe_key[:60].rstrip("_")
+
+    if not re.search(r"\btitle\s*=", body, re.I):
+        return None, "no title field in the Crossref record"
+    if not re.search(r"\bauthor\s*=", body, re.I):
+        return None, "no author field in the Crossref record"
+
+    return f"@{entry_type}{{{safe_key}, {body}", None
+
+
 def main():
     print(f"Fetching existing DOIs from {BIB_FILE}...")
     existing_dois = get_existing_dois()
@@ -78,11 +119,24 @@ def main():
         return
 
     new_bibtex_entries = []
+    rejected = []
     for i, doi in enumerate(new_dois, 1):
         print(f"[{i}/{len(new_dois)}] Fetching BibTeX for {doi}...")
         bibtex = get_bibtex_from_doi(doi)
-        if bibtex:
-            new_bibtex_entries.append(bibtex.strip())
+        if not bibtex:
+            rejected.append((doi, "no BibTeX returned"))
+            continue
+        cleaned, problem = sanitise_entry(bibtex.strip())
+        if problem:
+            print(f"    skipped: {problem}")
+            rejected.append((doi, problem))
+            continue
+        new_bibtex_entries.append(cleaned)
+
+    if rejected:
+        print("\nThe following DOIs were skipped and need to be added by hand:")
+        for doi, why in rejected:
+            print(f"  {doi} - {why}")
 
     if new_bibtex_entries:
         print(f"Appending {len(new_bibtex_entries)} new entries to {BIB_FILE}...")
