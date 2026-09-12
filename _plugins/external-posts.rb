@@ -8,6 +8,8 @@ module ExternalPosts
     priority :high
 
     def generate(site)
+      normalise_title = ->(title) { title.to_s.unicode_normalize(:nfkc).downcase.gsub(/[^\p{L}\p{N}]/, '') }
+      known_titles = site.collections['posts'].docs.map { |doc| normalise_title.call(doc.data['title']) }
       Array(site.config['external_sources']).each do |src|
         Jekyll.logger.info "External posts:", "Fetching #{src['name']}"
 
@@ -24,6 +26,9 @@ module ExternalPosts
 
           feed.entries.each do |entry|
             next if entry.title.to_s.empty? || entry.url.to_s.empty?
+            title_key = normalise_title.call(entry.title)
+            next if known_titles.include?(title_key)
+            known_titles << title_key
 
             slug = entry.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
             path = site.in_source_dir("_posts/#{slug}.md")
